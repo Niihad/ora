@@ -20,7 +20,7 @@ export default function Team() {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="uppercase text-4xl font-bold p-3 "
+              className="uppercase text-4xl font-bold p-3"
             >
               Our team
             </motion.h3>
