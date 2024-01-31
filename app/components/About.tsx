@@ -6,7 +6,7 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
 
 export default function About() {
-  const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  const scrollAnimation = useMemo(() => getScrollAnimation("top"), []);
 
   return (
     <div className="bg-slate-50 py-24" id="about">
@@ -36,24 +36,19 @@ export default function About() {
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
               <motion.p variants={scrollAnimation}>
-                Dr. Sam Saleh is a world-renowned cosmetic dentist who is
-                licensed and practices in both Southern California and London.
-                He aims to provide exceptional dental work using state of the
-                art technology to bring out the best in every smile. Dr. Saleh
-                was educated at the prestigious King’s College of London where
-                he gained an acute eye for cosmetic dentistry. He is a pioneer
-                in No-Prep Veneers and Conservative facial aesthetic dentistry.
-                Dr. Saleh is former faculty at UCLA School of Dentistry and a
-                member of ADA and LADS. He was awarded one of America’s Best
-                Dentists with recognition in leadership of aesthetic dentistry.
+                Le cabinet dentaire ORA vous accueille à Differdange pour vous
+                proposer des soins dentaires de qualité. Notre but est de
+                s’adapter à vos besoins et de répondre à vos attentes.
               </motion.p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
               <motion.p variants={scrollAnimation}>
-                Dr Saleh has been featured in Allure, LA times , Hollywood
-                Reporter, Huffington Post, Wall Street Journal among other
-                national and international publications. He has made appearances
-                on CNN, The Doctors, Extra, KCal9 News and Tyra Banks Show.
+                Notre équipe pluri-disciplinaire est composée de médecins
+                dentistes de différentes spécialités. Tous les soins se font
+                directement au cabinet : visites de contrôle, soins
+                conservateurs, orthodontie ou même les chirurgies. Cela permet à
+                nos patients d’avoir accès en un seul lieu à un plateau
+                technique complet.
               </motion.p>
             </ScrollAnimationWrapper>
           </div>

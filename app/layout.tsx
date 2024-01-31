@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Layout/header";
@@ -6,8 +5,8 @@ import Folder from "./components/Layout/folder";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Ora",
+export const metadata = {
+  title: "Home",
   description: "Ora dental practice website",
 };
 

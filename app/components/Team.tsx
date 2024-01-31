@@ -8,7 +8,7 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
 
 export default function Team() {
-  const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  const scrollAnimation = useMemo(() => getScrollAnimation("top"), []);
 
   return (
     <div
@@ -44,7 +44,7 @@ export default function Team() {
                   },
                 }}
               >
-                <Link className="w-60 mx-auto " href="">
+                <Link className="w-60 mx-auto " href="/team">
                   <div className="h-60  relative">
                     <Image
                       src="/assets/profil1.jpg"

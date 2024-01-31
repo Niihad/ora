@@ -6,7 +6,7 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
 
 export default function Treatments() {
-  const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  const scrollAnimation = useMemo(() => getScrollAnimation("top"), []);
 
   return (
     <div className="py-24 bg-slate-200" id="treatments">

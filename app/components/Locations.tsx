@@ -6,7 +6,7 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import getScrollAnimation from "../utils/getScrollAnimation";
 
 export default function Locations() {
-  const scrollAnimation = useMemo(() => getScrollAnimation(), []);
+  const scrollAnimation = useMemo(() => getScrollAnimation("top"), []);
 
   return (
     <div
