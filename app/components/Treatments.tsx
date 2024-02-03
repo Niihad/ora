@@ -6,10 +6,10 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
 
 export default function Treatments() {
-  const scrollAnimation = useMemo(() => getScrollAnimation("top"), []);
+  const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   return (
-    <div className="py-24 bg-slate-200" id="treatments">
+    <div className="py-10 lg:py-24 bg-slate-200" id="treatments">
       <div className="mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">
           <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[680px]">
@@ -34,13 +34,11 @@ export default function Treatments() {
             </ScrollAnimationWrapper>
 
             <ScrollAnimationWrapper>
-              <motion.div variants={scrollAnimation}>
-                <button
-                  type="submit"
-                  className="rounded-[3px] bg-black px-7 py-1.5 text-sm font-semibold leading-7 text-white shadow-sm"
-                >
-                  WHAT TO EXPECT WHEN YOU VISIT
-                </button>
+              <motion.div
+                variants={scrollAnimation}
+                className="mx-auto flex justify-center text-align w-80 uppercase p-2 rounded-[3px] bg-black text-sm font-semibold leading-7 text-white shadow-sm"
+              >
+                <Link href="/treatments">WHAT TO EXPECT WHEN YOU VISIT</Link>
               </motion.div>
             </ScrollAnimationWrapper>
           </div>

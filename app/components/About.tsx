@@ -3,13 +3,12 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import Link from "next/link";
 
 export default function About() {
-  const scrollAnimation = useMemo(() => getScrollAnimation("top"), []);
+  const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   return (
-    <div className="bg-slate-50 py-24" id="about">
+    <div className="bg-slate-50 py-14 lg:py-24" id="about">
       <div className="mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">
           <ScrollAnimationWrapper>

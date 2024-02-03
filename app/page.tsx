@@ -12,7 +12,7 @@ import ScrollAnimationWrapper from "./components/Layout/ScrollAnimationWrapper";
 
 
 export default function Home() {
-  const scrollAnimation = useMemo(() => getScrollAnimation("top"), []);
+  const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   useEffect(() => {
     console.log("NIHAD");

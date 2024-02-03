@@ -6,12 +6,12 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import getScrollAnimation from "../utils/getScrollAnimation";
 
 export default function Locations() {
-  const scrollAnimation = useMemo(() => getScrollAnimation("top"), []);
+  const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   return (
     <div
-      className="bg-gradient-to-b from-slate-100 to-white p-10"
-      id="locations"
+      className="bg-gradient-to-b from-slate-100 to-white p-10 lg:py-14"
+      id="location"
     >
       <ScrollAnimationWrapper>
         <motion.h3

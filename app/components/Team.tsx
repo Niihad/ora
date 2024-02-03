@@ -6,13 +6,14 @@ import Image from "next/image";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
+import { getTeams } from "../data/data";
 
 export default function Team() {
-  const scrollAnimation = useMemo(() => getScrollAnimation("top"), []);
+  const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   return (
     <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-8"
+      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-10 lg:py-24"
       id="team"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
@@ -29,190 +30,51 @@ export default function Team() {
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center pb-14"
             >
               {`Let's choose the package that is best for you and explore it
-              happily and cheerfully.`} 
+              happily and cheerfully.`}
             </motion.p>
           </ScrollAnimationWrapper>
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 2xl:gap-x-36">
-            <ScrollAnimationWrapper className="flex justify-center">
-              <motion.div
-                variants={scrollAnimation}
-                className="flex flex-col justify-center items-center py-4 px-6 lg:px-12 xl:px-20"
-                whileHover={{
-                  scale: 1.1,
-                  transition: {
-                    duration: 0.2,
-                  },
-                }}
-              >
-                <Link className="w-60 mx-auto " href="/team">
-                  <div className="h-60  relative">
-                    <Image
-                      src="/assets/profil1.jpg"
-                      alt="Free Plan"
-                      width={250}
-                      height={0}
-                      className="rounded-full "
-                    />
-                  </div>
-                  <div className="relative">
-                    <div className="font-primary text-palette-primary text-lg pt-4 px-4 font-semibold">
-                      Dr. Ajdarpasic Mathilde
+            {getTeams.map((profil) => (
+              <ScrollAnimationWrapper className="flex justify-center" key={profil.lastname+profil.firstname}>
+                <motion.div
+                  variants={scrollAnimation}
+                  className="flex flex-col justify-center items-center py-4 px-6 lg:px-12 xl:px-20"
+                  whileHover={{
+                    scale: 1.1,
+                    transition: {
+                      duration: 0.2,
+                    },
+                  }}
+                >
+                  <Link
+                    className="w-60 mx-auto "
+                    href={(
+                      "/dr-" +
+                      profil.lastname +
+                      "-" +
+                      profil.firstname
+                    ).toLowerCase()}
+                  >
+                    <div className="h-60  relative">
+                      <Image
+                        src="/assets/profil1.jpg"
+                        alt="Free Plan"
+                        width={250}
+                        height={0}
+                        className="rounded-full "
+                      />
                     </div>
-                    <div>Médecin dentiste</div>
-                  </div>
-                </Link>
-              </motion.div>
-            </ScrollAnimationWrapper>
-            <ScrollAnimationWrapper className="flex justify-center">
-              <motion.div
-                variants={scrollAnimation}
-                className="flex flex-col justify-center items-center py-4 px-6 lg:px-12 xl:px-20"
-                whileHover={{
-                  scale: 1.1,
-                  transition: {
-                    duration: 0.2,
-                  },
-                }}
-              >
-                <Link className="w-60 mx-auto " href="">
-                  <div className="h-60  relative">
-                    <Image
-                      src="/assets/profil1.jpg"
-                      alt="Free Plan"
-                      width={250}
-                      height={0}
-                      className="rounded-full "
-                    />
-                  </div>
-                  <div className="relative">
-                    <div className="font-primary text-palette-primary text-lg pt-4 px-4 font-semibold">
-                      Dr. Ajdarpasic Mathilde
+                    <div className="relative">
+                      <div className="flex font-primary text-palette-primary text-lg pt-4 px-4 font-semibold justify-center">
+                        Dr. <p className="uppercase px-2">{profil.lastname}</p>
+                        <p>{profil.firstname}</p>
+                      </div>
+                      <div>{profil.speciality}</div>
                     </div>
-                    <div>Médecin dentiste</div>
-                  </div>
-                </Link>
-              </motion.div>
-            </ScrollAnimationWrapper>
-            <ScrollAnimationWrapper className="flex justify-center">
-              <motion.div
-                variants={scrollAnimation}
-                className="flex flex-col justify-center items-center py-4 px-6 lg:px-12 xl:px-20"
-                whileHover={{
-                  scale: 1.1,
-                  transition: {
-                    duration: 0.2,
-                  },
-                }}
-              >
-                <Link className="w-60 mx-auto " href="">
-                  <div className="h-60  relative">
-                    <Image
-                      src="/assets/profil1.jpg"
-                      alt="Free Plan"
-                      width={250}
-                      height={0}
-                      className="rounded-full "
-                    />
-                  </div>
-                  <div className="relative">
-                    <div className="font-primary text-palette-primary text-lg pt-4 px-4 font-semibold">
-                      Dr. Ajdarpasic Mathilde
-                    </div>
-                    <div>Médecin dentiste</div>
-                  </div>
-                </Link>
-              </motion.div>
-            </ScrollAnimationWrapper>
-            <ScrollAnimationWrapper className="flex justify-center">
-              <motion.div
-                variants={scrollAnimation}
-                className="flex flex-col justify-center items-center py-4 px-6 lg:px-12 xl:px-20"
-                whileHover={{
-                  scale: 1.1,
-                  transition: {
-                    duration: 0.2,
-                  },
-                }}
-              >
-                <Link className="w-60 mx-auto " href="">
-                  <div className="h-60  relative">
-                    <Image
-                      src="/assets/profil1.jpg"
-                      alt="Free Plan"
-                      width={250}
-                      height={0}
-                      className="rounded-full "
-                    />
-                  </div>
-                  <div className="relative">
-                    <div className="font-primary text-palette-primary text-lg pt-4 px-4 font-semibold">
-                      Dr. Ajdarpasic Mathilde
-                    </div>
-                    <div>Médecin dentiste</div>
-                  </div>
-                </Link>
-              </motion.div>
-            </ScrollAnimationWrapper>
-            <ScrollAnimationWrapper className="flex justify-center">
-              <motion.div
-                variants={scrollAnimation}
-                className="flex flex-col justify-center items-center py-4 px-6 lg:px-12 xl:px-20"
-                whileHover={{
-                  scale: 1.1,
-                  transition: {
-                    duration: 0.2,
-                  },
-                }}
-              >
-                <Link className="w-60 mx-auto " href="">
-                  <div className="h-60  relative">
-                    <Image
-                      src="/assets/profil1.jpg"
-                      alt="Free Plan"
-                      width={250}
-                      height={0}
-                      className="rounded-full "
-                    />
-                  </div>
-                  <div className="relative">
-                    <div className="font-primary text-palette-primary text-lg pt-4 px-4 font-semibold">
-                      Dr. Ajdarpasic Mathilde
-                    </div>
-                    <div>Médecin dentiste</div>
-                  </div>
-                </Link>
-              </motion.div>
-            </ScrollAnimationWrapper>
-            <ScrollAnimationWrapper className="flex justify-center">
-              <motion.div
-                variants={scrollAnimation}
-                className="flex flex-col justify-center items-center py-4 px-6 lg:px-12 xl:px-20"
-                whileHover={{
-                  scale: 1.1,
-                  transition: {
-                    duration: 0.2,
-                  },
-                }}
-              >
-                <Link className="w-60 mx-auto " href="">
-                  <div className="h-60  relative">
-                    <Image
-                      src="/assets/profil1.jpg"
-                      alt="Free Plan"
-                      width={250}
-                      height={0}
-                      className="rounded-full "
-                    />
-                  </div>
-                  <div className="relative">
-                    <div className="font-primary text-palette-primary text-lg pt-4 px-4 font-semibold">
-                      Dr. Ajdarpasic Mathilde
-                    </div>
-                    <div>Médecin dentiste</div>
-                  </div>
-                </Link>
-              </motion.div>
-            </ScrollAnimationWrapper>
+                  </Link>
+                </motion.div>
+              </ScrollAnimationWrapper>
+            ))}
           </div>
         </div>
       </div>

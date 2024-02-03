@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { Link as LinkScroll } from "react-scroll";
 import Link from "next/link";
+import { getNavigation } from "../data/data";
+import { usePathname } from "next/navigation";
 
 const headerNavLinks = [
   { offset: -60, title: "about" },
@@ -14,6 +16,7 @@ const headerNavLinks = [
 export default function MobileNav() {
   const [navShow, setNavShow] = useState(false);
   const [activeLink, setActiveLink] = useState("");
+  const pathname = usePathname();
 
   const onToggleNav = () => {
     setNavShow((status) => {
@@ -82,23 +85,34 @@ export default function MobileNav() {
           </button>
         </div>
         <nav className="fixed mt-8 h-full">
-          {headerNavLinks.map((link) => (
-            <div key={link.title} className="px-12 py-4">
-              <LinkScroll
-                activeClass="active"
-                to={link.title}
-                spy={true}
-                smooth={true}
-                duration={1000}
-                offset={link.offset}
-                onSetActive={() => {
-                  setActiveLink(link.title);
-                }}
-                className="text-2xl uppercase font-bold tracking-widest text-gray-900 dark:text-gray-100 hover:text-zinc-400 cursor-pointer"
-                onClick={onToggleNav}
-              >
-                {link.title}
-              </LinkScroll>
+          {getNavigation.map((link) => (
+            <div key={link.name} className="px-12 py-4">
+              {pathname === "/" ? (
+                <LinkScroll
+                  activeClass="active"
+                  to={link.name}
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                  offset={link.offset}
+                  onSetActive={() => {
+                    setActiveLink(link.name);
+                  }}
+                  className="text-2xl uppercase font-bold tracking-widest text-gray-900 dark:text-gray-100 hover:text-zinc-400 cursor-pointer"
+                  onClick={onToggleNav}
+                >
+                  {link.name}
+                </LinkScroll>
+              ) : (
+                <Link
+                  key={link.name}
+                  href={`/#${link.name}`}
+                  onClick={onToggleNav}
+                  className="text-2xl uppercase font-bold tracking-widest text-gray-900 dark:text-gray-100 hover:text-zinc-400 cursor-pointer"
+                >
+                  {link.name}
+                </Link>
+              )}
             </div>
           ))}
         </nav>
