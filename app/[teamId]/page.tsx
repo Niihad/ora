@@ -24,7 +24,7 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
   return (
     <div className="mt-auto py-24">
       {profil === undefined ? (
-        <div className="mt-auto">Oops! That page can't be found.</div>
+        <div className="mt-auto">Oops! That page can’t be found.</div>
       ) : (
         <div className="mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">

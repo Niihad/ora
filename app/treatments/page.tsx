@@ -44,9 +44,9 @@ export default function Treatments() {
             <ScrollAnimationWrapper>
               <motion.p variants={scrollAnimation}>
                 La dentisterie esthétique consiste à embellir et améliorer
-                l'apparence de vos dents. Elle comprend différents traitements
+                l’apparence de vos dents. Elle comprend différents traitements
                 comme le blanchiment, les facettes ou encore les couronnes pour
-                améliorer la forme, la couleur ou l'alignement de vos dents,
+                améliorer la forme, la couleur ou l’alignement de vos dents,
                 afin de rendre votre sourire plus esthétique et plus harmonieux.
               </motion.p>
             </ScrollAnimationWrapper>
