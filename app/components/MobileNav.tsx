@@ -6,13 +6,6 @@ import Link from "next/link";
 import { getNavigation } from "../data/data";
 import { usePathname } from "next/navigation";
 
-const headerNavLinks = [
-  { offset: -60, title: "about" },
-  { offset: -40, title: "treatments" },
-  { offset: -34, title: "team" },
-  { offset: -34, title: "locations" },
-];
-
 export default function MobileNav() {
   const [navShow, setNavShow] = useState(false);
   const [activeLink, setActiveLink] = useState("");
@@ -31,8 +24,8 @@ export default function MobileNav() {
 
   return (
     <>
-      <div className="fixed w-full z-20 bg-slate-50 shadow-md grid grid-cols-6 flex py-1 sm:hidden">
-        <div className="p-2 col-span-5">
+      <div className="fixed w-full h-[62px] z-20 bg-slate-50 shadow-md grid grid-cols-6 flex py-1 sm:hidden">
+        <div className="p-1 px-2 col-span-5">
           <h1 className="text-xl font-bold">Dr. Ajdarpasic Mathilde</h1>
           <div className="text-xs ml-20">
             <Link href="">Differdange</Link>
@@ -108,7 +101,7 @@ export default function MobileNav() {
                   key={link.name}
                   href={`/#${link.name}`}
                   onClick={onToggleNav}
-                  className="text-2xl uppercase font-bold tracking-widest text-gray-900 dark:text-gray-100 hover:text-zinc-400 cursor-pointer"
+                  className="text-2xl uppercase scroll-behavior font-bold tracking-widest text-gray-900 dark:text-gray-100 hover:text-zinc-400 cursor-pointer"
                 >
                   {link.name}
                 </Link>

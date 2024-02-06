@@ -1,8 +1,8 @@
 export const getNavigation = [
-  { name: "about", offset: -60 },
-  { name: "treatments", offset: -60 },
-  { name: "team", offset: -60 },
-  { name: "location", offset: -60 },
+  { name: "about", offset: -62 },
+  { name: "treatments", offset: -62 },
+  { name: "team", offset: -62 },
+  { name: "location", offset: -62 },
 ];
 
 export const getTeams = [

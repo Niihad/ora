@@ -13,7 +13,7 @@ export default function Team() {
 
   return (
     <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-10 lg:py-24"
+      className="bg-gray-300 w-full py-10 lg:py-24 "
       id="team"
     >
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">

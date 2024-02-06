@@ -19,9 +19,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <>
       <div className="relative">
-        <div className="relative overflow-hidden h-[77vh] contrast-[.60]">
+        <div className="h-[77vh] contrast-[.60]">
           <Image
             alt="London"
             src={"/assets/london.jpg"}
@@ -32,7 +32,6 @@ export default function Home() {
             style={{ objectFit: "cover" }}
           />
         </div>
-        {/*<div className={"bg-zinc-950/50 absolute w-full bottom-0 left-0 h-[78.5vh]"}></div>*/}
         <ScrollAnimationWrapper>
           <motion.div className="" variants={scrollAnimation}>
             <div className="bg-zinc-950/75 w-full absolute bottom-0 left-0 p-12 sm:w-[348px] uppercase text-white text-center">
@@ -50,6 +49,6 @@ export default function Home() {
       <Treatments />
       <Team />
       <Locations />
-    </div>
+    </>
   );
 }

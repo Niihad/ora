@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${inter.className} min-h-screen flex flex-col relative bg-gray-300`}>
+    <html lang="en" className="scroll-auto">
+      <body className={`${inter.className} min-h-screen flex flex-col relative bg-slate-50`}>
         <Header />
         {children}
         <Folder />

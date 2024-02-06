@@ -44,7 +44,7 @@ export default function Treatments() {
           </div>
           <div className="mx-auto flex flex-col gap-y-4 justify-center xl:max-w-2xl max-w-lg w-full px-8">
             <ScrollAnimationWrapper>
-              <motion.div className="" variants={scrollAnimation}>
+              <motion.div variants={scrollAnimation}>
                 <Image
                   src={"/assets/home-tooth.jpg"}
                   alt="Tooth"

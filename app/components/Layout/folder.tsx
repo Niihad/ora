@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Folder() {
   return (
-    <div className="mt-auto header uppercase text-center ">
+    <div className="uppercase text-center ">
       <div className="bg-black text-white p-5 px-6 ">
         <div className="text-2xl p-1 pb-4 text-zinc-400 pr-4">
           <Link href="">CONTACT US TO SCHEDULE AN APPOINTMENT</Link>

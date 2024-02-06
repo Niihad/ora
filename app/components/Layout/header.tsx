@@ -68,7 +68,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-slate-50">
+    <header className="bg-slate-50" id="header">
       <div className="header uppercase hidden sm:block">
         <div className="bg-black text-white p-2 px-6 ">
           <div className="flex gap-1 text-sm p-1 lg:justify-end justify-center text-zinc-400  pr-4">
@@ -90,7 +90,7 @@ export default function Header() {
           <ScrollAnimationWrapper>
             <motion.nav
               className={
-                "fixed w-full z-30 bg-slate-50 transition-all top-0 shadow-md pt-0"
+                "fixed w-full z-30 bg-slate-50 h-[62px] transition-all top-0 shadow-md pt-0"
               }
               initial={{ y: -135 }}
               animate="visible"

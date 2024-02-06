@@ -10,8 +10,8 @@ export default function Treatments() {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   return (
-    <div className="bg-slate-50 py-14 lg:py-24" id="about">
-      <div className="mx-auto px-6 lg:px-8">
+    <div className="bg-slate-200 py-14 py-24">
+      <div className="mx-auto px-6 lg:px-8 ">
         <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">
           <ScrollAnimationWrapper>
             <motion.div

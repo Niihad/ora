@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import getScrollAnimation from "../utils/getScrollAnimation";
@@ -21,12 +21,16 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
       val.firstname.toLowerCase() === decodeURI(info[2]).toLowerCase()
   );
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="mt-auto py-24">
+    <div className="mt-auto py-24 bg-gray-300">
       {profil === undefined ? (
         <div className="mt-auto">Oops! That page can’t be found.</div>
       ) : (
-        <div className="mx-auto px-6 lg:px-8">
+        <div className="mx-auto px-6 lg:px-8 bg-gray-300">
           <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">
             <ScrollAnimationWrapper>
               <motion.div
@@ -44,22 +48,22 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
             <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[800px]">
               <ScrollAnimationWrapper>
                 <motion.h1
-                  className="flex uppercase text-3xl font-bold p-3 justify-center"
+                  className="flex flex-wrap justify-center uppercase text-3xl font-bold p-3"
                   variants={scrollAnimationTop}
                 >
-                  Dr. <p className="px-2">{profil.lastname}</p>
-                  <p>{profil.firstname}</p>
+                  Dr. {profil.lastname}{" "}
+                  <p className="pl-2">{profil.firstname}</p>
                 </motion.h1>
               </ScrollAnimationWrapper>
               <ScrollAnimationWrapper>
-                <motion.p variants={scrollAnimationLeft}>
+                <motion.p variants={scrollAnimationBottom}>
                   Le cabinet dentaire ORA vous accueille à Differdange pour vous
                   proposer des soins dentaires de qualité. Notre but est de
                   s’adapter à vos besoins et de répondre à vos attentes.
                 </motion.p>
               </ScrollAnimationWrapper>
               <ScrollAnimationWrapper>
-                <motion.p variants={scrollAnimationLeft}>
+                <motion.p variants={scrollAnimationBottom}>
                   Notre équipe pluri-disciplinaire est composée de médecins
                   dentistes de différentes spécialités. Tous les soins se font
                   directement au cabinet : visites de contrôle, soins
@@ -73,9 +77,7 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
                   variants={scrollAnimationBottom}
                   className="mx-auto flex justify-center text-align w-72 uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
                 >
-                  <Link href="">
-                    Prendre rendez-vous
-                  </Link>
+                  <Link href="">Prendre rendez-vous</Link>
                 </motion.div>
               </ScrollAnimationWrapper>
             </div>
