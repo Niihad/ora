@@ -18,27 +18,20 @@ export default function Treatments() {
                 className="uppercase text-4xl font-bold p-3 "
                 variants={scrollAnimation}
               >
-                HIGH QUALITY FACIAL AESTHETIC DENTISTRY
+                DES TRAITEMENTS SUR MESURE
               </motion.h1>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
               <motion.p variants={scrollAnimation}>
-                {`"The key to a successful outcome is an understanding of the
-                patient's face. The shape, size and color of the teeth should
-                create an enhancement without being too overwhelming to result
-                in a distraction."`}
-              </motion.p>
-              <motion.p variants={scrollAnimation} className="mb-4">
-                - Dr Sam Saleh
+                {`"Des soins de qualité pour votre plus beau sourire."`}
               </motion.p>
             </ScrollAnimationWrapper>
-
             <ScrollAnimationWrapper>
               <motion.div
                 variants={scrollAnimation}
                 className="mx-auto flex justify-center text-align w-80 uppercase p-2 rounded-[3px] bg-black text-sm font-semibold leading-7 text-white shadow-sm"
               >
-                <Link href="/treatments">WHAT TO EXPECT WHEN YOU VISIT</Link>
+                <Link href="/treatments">Voir les traitements proposés</Link>
               </motion.div>
             </ScrollAnimationWrapper>
           </div>

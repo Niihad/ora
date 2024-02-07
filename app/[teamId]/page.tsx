@@ -1,87 +1,51 @@
 "use client";
 
-import { useMemo, useEffect } from "react";
-import { motion } from "framer-motion";
-import Image from "next/image";
-import getScrollAnimation from "../utils/getScrollAnimation";
-import ScrollAnimationWrapper from "../components/Layout/ScrollAnimationWrapper";
-import Link from "next/link";
+import { useEffect } from "react";
+import Card from "../components/Layout/Card";
 import { getTeams } from "../data/data";
 
 export default function TeamPage({ params }: { params: { teamId: string } }) {
-  const scrollAnimationTop = useMemo(() => getScrollAnimation("top"), []);
-  const scrollAnimationBottom = useMemo(() => getScrollAnimation("bottom"), []);
-  const scrollAnimationLeft = useMemo(() => getScrollAnimation("left"), []);
-  const scrollAnimationRight = useMemo(() => getScrollAnimation("right"), []);
+  interface Team {
+    name: string;
+    image: string;
+    speciality: string;
+  }
 
   const info: string[] = params.teamId.split("-");
+  info.shift();
   const profil = getTeams.find(
-    (val) =>
-      val.lastname.toLowerCase() === decodeURI(info[1]).toLowerCase() &&
-      val.firstname.toLowerCase() === decodeURI(info[2]).toLowerCase()
+    (val) => val.name.toLowerCase() === info.join(" ")
   );
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
+  const buildParams = (params: Team) => {
+    return [
+      { value: "Dr. " + params.name, show: "top" },
+      { value: params.image, show: "right" },
+      {
+        value:
+          "Le cabinet dentaire ORA vous accueille à Differdange pour vous proposer des soins dentaires de qualité. Notre but est de s’adapter à vos besoins et de répondre à vos attentes.",
+        show: "bottom",
+      },
+      {
+        value:
+          "Notre équipe pluri-disciplinaire est composée de médecins dentistes de différentes spécialités. Tous les soins se font directement au cabinet : visites de contrôle, soins conservateurs, orthodontie ou même les chirurgies. Cela permet à nos patients d’avoir accès en un seul lieu à un plateau technique complet.",
+        show: "bottom",
+      },
+      { value: "Prendre rendez-vous", show: "bottom" },
+    ];
+  };
+
   return (
-    <div className="mt-auto py-24 bg-gray-300">
+    <div className="bg-gray-300">
       {profil === undefined ? (
         <div className="mt-auto">Oops! That page can’t be found.</div>
       ) : (
-        <div className="mx-auto px-6 lg:px-8 bg-gray-300">
-          <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">
-            <ScrollAnimationWrapper>
-              <motion.div
-                className="mx-auto flex flex-col gap-y-4 justify-center xl:max-w-2xl max-w-lg w-full px-8"
-                variants={scrollAnimationRight}
-              >
-                <Image
-                  src={"/assets/profil1.jpg"}
-                  alt="Profil"
-                  width={600}
-                  height={0}
-                />
-              </motion.div>
-            </ScrollAnimationWrapper>
-            <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[800px]">
-              <ScrollAnimationWrapper>
-                <motion.h1
-                  className="flex flex-wrap justify-center uppercase text-3xl font-bold p-3"
-                  variants={scrollAnimationTop}
-                >
-                  Dr. {profil.lastname}{" "}
-                  <p className="pl-2">{profil.firstname}</p>
-                </motion.h1>
-              </ScrollAnimationWrapper>
-              <ScrollAnimationWrapper>
-                <motion.p variants={scrollAnimationBottom}>
-                  Le cabinet dentaire ORA vous accueille à Differdange pour vous
-                  proposer des soins dentaires de qualité. Notre but est de
-                  s’adapter à vos besoins et de répondre à vos attentes.
-                </motion.p>
-              </ScrollAnimationWrapper>
-              <ScrollAnimationWrapper>
-                <motion.p variants={scrollAnimationBottom}>
-                  Notre équipe pluri-disciplinaire est composée de médecins
-                  dentistes de différentes spécialités. Tous les soins se font
-                  directement au cabinet : visites de contrôle, soins
-                  conservateurs, orthodontie ou même les chirurgies. Cela permet
-                  à nos patients d’avoir accès en un seul lieu à un plateau
-                  technique complet.
-                </motion.p>
-              </ScrollAnimationWrapper>
-              <ScrollAnimationWrapper>
-                <motion.div
-                  variants={scrollAnimationBottom}
-                  className="mx-auto flex justify-center text-align w-72 uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
-                >
-                  <Link href="">Prendre rendez-vous</Link>
-                </motion.div>
-              </ScrollAnimationWrapper>
-            </div>
-          </div>
+        <div className={"py-14 lg:py-24"} id={profil.name} key={profil.name}>
+          <Card sens={"left"} params={buildParams(profil)} />
         </div>
       )}
     </div>

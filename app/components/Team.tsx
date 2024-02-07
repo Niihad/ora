@@ -11,11 +11,13 @@ import { getTeams } from "../data/data";
 export default function Team() {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
+  const getUrlName = (name: string) => {
+    const res = name.split(" ");
+    return `dr-${res[0]}-${res[1]}`;
+  };
+
   return (
-    <div
-      className="bg-gray-300 w-full py-10 lg:py-24 "
-      id="team"
-    >
+    <div className="bg-gray-300 w-full py-10 lg:py-24 " id="team">
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
           <ScrollAnimationWrapper>
@@ -35,7 +37,10 @@ export default function Team() {
           </ScrollAnimationWrapper>
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 2xl:gap-x-36">
             {getTeams.map((profil) => (
-              <ScrollAnimationWrapper className="flex justify-center" key={profil.lastname+profil.firstname}>
+              <ScrollAnimationWrapper
+                className="flex justify-center"
+                key={profil.name}
+              >
                 <motion.div
                   variants={scrollAnimation}
                   className="flex flex-col justify-center items-center py-4 px-6 lg:px-12 xl:px-20"
@@ -47,27 +52,21 @@ export default function Team() {
                   }}
                 >
                   <Link
-                    className="w-60 mx-auto "
-                    href={(
-                      "/dr-" +
-                      profil.lastname +
-                      "-" +
-                      profil.firstname
-                    ).toLowerCase()}
+                    className="w-60 mx-auto"
+                    href={getUrlName(profil.name).toLowerCase()}
                   >
-                    <div className="h-60  relative">
+                    <div className="h-60 relative">
                       <Image
                         src="/assets/profil1.jpg"
                         alt="Free Plan"
                         width={250}
                         height={0}
-                        className="rounded-full "
+                        className="rounded-full"
                       />
                     </div>
                     <div className="relative">
-                      <div className="flex font-primary text-palette-primary text-lg pt-4 px-4 font-semibold justify-center">
-                        Dr. <p className="uppercase px-2">{profil.lastname}</p>
-                        <p>{profil.firstname}</p>
+                      <div className="flex font-primary uppercase text-palette-primary text-lg pt-4 px-4 font-semibold justify-center">
+                        Dr. {profil.name}
                       </div>
                       <div>{profil.speciality}</div>
                     </div>
