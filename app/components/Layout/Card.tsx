@@ -16,6 +16,10 @@ interface Pair {
 }
 
 export default function Card({ sens, params }: Props) {
+  const ScrollSens = (sens: string) => {
+    return useMemo(() => getScrollAnimation(sens), [sens]);
+  };
+
   const Left = (params: Pair[]) => {
     return (
       <>
@@ -25,10 +29,7 @@ export default function Card({ sens, params }: Props) {
               <ScrollAnimationWrapper>
                 <motion.div
                   className="mx-auto flex flex-col gap-y-4 justify-center xl:max-w-2xl max-w-lg w-full px-8"
-                  variants={useMemo(
-                    () => getScrollAnimation(params[1].show),
-                    []
-                  )}
+                  variants={ScrollSens(params[1].show)}
                 >
                   <Image
                     src={params[1].value}
@@ -42,41 +43,25 @@ export default function Card({ sens, params }: Props) {
                 <ScrollAnimationWrapper>
                   <motion.h1
                     className="uppercase text-3xl font-bold p-3"
-                    variants={useMemo(
-                      () => getScrollAnimation(params[0].show),
-                      []
-                    )}
+                    variants={ScrollSens(params[0].show)}
                   >
                     {params[0].value}
                   </motion.h1>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
-                  <motion.p
-                    variants={useMemo(
-                      () => getScrollAnimation(params[2].show),
-                      []
-                    )}
-                  >
+                  <motion.p variants={ScrollSens(params[2].show)}>
                     {params[2].value}
                   </motion.p>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
-                  <motion.p
-                    variants={useMemo(
-                      () => getScrollAnimation(params[3].show),
-                      []
-                    )}
-                  >
+                  <motion.p variants={ScrollSens(params[3].show)}>
                     {params[3].value}
                   </motion.p>
                 </ScrollAnimationWrapper>
                 {params.length > 4 && (
                   <ScrollAnimationWrapper>
                     <motion.div
-                      variants={useMemo(
-                        () => getScrollAnimation(params[4].show),
-                        []
-                      )}
+                      variants={ScrollSens(params[4].show)}
                       className="mx-auto flex justify-center text-align w-72 uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
                     >
                       <Link href="">{params[4].value}</Link>
@@ -100,43 +85,27 @@ export default function Card({ sens, params }: Props) {
               <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[680px]">
                 <ScrollAnimationWrapper>
                   <motion.h1
-                    className="uppercase text-4xl font-bold p-3 "
-                    variants={useMemo(
-                      () => getScrollAnimation(params[0].show),
-                      []
-                    )}
+                    className="uppercase text-4xl font-bold p-3"
+                    variants={ScrollSens(params[0].show)}
                   >
                     {params[0].value}
                   </motion.h1>
                 </ScrollAnimationWrapper>
 
                 <ScrollAnimationWrapper>
-                  <motion.p
-                    variants={useMemo(
-                      () => getScrollAnimation(params[2].show),
-                      []
-                    )}
-                  >
+                  <motion.p variants={ScrollSens(params[2].show)}>
                     {params[2].value}
                   </motion.p>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
-                  <motion.p
-                    variants={useMemo(
-                      () => getScrollAnimation(params[3].show),
-                      []
-                    )}
-                  >
+                  <motion.p variants={ScrollSens(params[3].show)}>
                     {params[3].value}
                   </motion.p>
                 </ScrollAnimationWrapper>
                 {params.length > 4 && (
                   <ScrollAnimationWrapper>
                     <motion.div
-                      variants={useMemo(
-                        () => getScrollAnimation(params[4].show),
-                        []
-                      )}
+                      variants={ScrollSens(params[4].show)}
                       className="mx-auto flex justify-center text-align w-72 uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
                     >
                       <Link href="">{params[4].value}</Link>
@@ -146,12 +115,7 @@ export default function Card({ sens, params }: Props) {
               </div>
               <div className="mx-auto flex flex-col gap-y-4 justify-center xl:max-w-2xl max-w-lg w-full px-8">
                 <ScrollAnimationWrapper>
-                  <motion.div
-                    variants={useMemo(
-                      () => getScrollAnimation(params[1].show),
-                      []
-                    )}
-                  >
+                  <motion.div variants={ScrollSens(params[1].show)}>
                     <Image
                       src={params[1].value}
                       alt={params[0].value}
