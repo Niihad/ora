@@ -40,11 +40,11 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
       { value: params.image, show: "right" },
       {
         value: <ul className="text-left ml-10">{knowledge}</ul>,
-        show: "bottom",
+        show: "left",
       },
       {
         value: <ul className="text-left ml-10">{diplome}</ul>,
-        show: "bottom",
+        show: "left",
       },
       { value: "Prendre rendez-vous", show: "bottom" },
     ];
