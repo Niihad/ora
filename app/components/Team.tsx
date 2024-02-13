@@ -53,7 +53,7 @@ export default function Team() {
                 >
                   <Link
                     className="w-60 mx-auto"
-                    href={getUrlName(profil.name).toLowerCase()}
+                    href={profil.speciality !== "Assistante dentaire" ? getUrlName(profil.name).toLowerCase() : ""}
                   >
                     <div className="h-60 relative">
                       <Image

@@ -26,9 +26,9 @@ export default function MobileNav() {
     <>
       <div className="fixed w-full h-[62px] z-20 bg-slate-50 shadow-md grid grid-cols-6 flex py-1 sm:hidden">
         <div className="p-1 px-2 col-span-5">
-          <h1 className="text-xl font-bold">Dr. Ajdarpasic Mathilde</h1>
-          <div className="text-xs ml-20">
-            <Link href="">Differdange</Link>
+          <Link href="/" className="text-xl font-bold">Ora dental practice</Link>
+          <div className="text-xs ml-16">
+            <Link href="/">Differdange</Link>
           </div>
         </div>
         <div className="flex justify-end">

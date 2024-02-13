@@ -11,7 +11,7 @@ interface Props {
 }
 
 interface Pair {
-  value: string;
+  value: string|any;
   show: string;
 }
 
@@ -49,14 +49,14 @@ export default function Card({ sens, params }: Props) {
                   </motion.h1>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
-                  <motion.p variants={ScrollSens(params[2].show)}>
+                  <motion.div variants={ScrollSens(params[2].show)}>
                     {params[2].value}
-                  </motion.p>
+                  </motion.div>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
-                  <motion.p variants={ScrollSens(params[3].show)}>
+                  <motion.div variants={ScrollSens(params[3].show)}>
                     {params[3].value}
-                  </motion.p>
+                  </motion.div>
                 </ScrollAnimationWrapper>
                 {params.length > 4 && (
                   <ScrollAnimationWrapper>
@@ -65,6 +65,7 @@ export default function Card({ sens, params }: Props) {
                       className="mx-auto flex justify-center text-align w-72 uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
                     >
                       <Link href="">{params[4].value}</Link>
+                      
                     </motion.div>
                   </ScrollAnimationWrapper>
                 )}

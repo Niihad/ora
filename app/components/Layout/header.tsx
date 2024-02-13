@@ -73,14 +73,14 @@ export default function Header() {
         <div className="bg-black text-white p-2 px-6 ">
           <div className="flex gap-1 text-sm p-1 lg:justify-end justify-center text-zinc-400  pr-4">
             <p>locations:</p>
-            <Link href="">Differdange</Link>
-            <p>+1 310-273-0848</p>
+            <Link href="https://www.google.com/maps/dir//Centre+dentaire+differdange+65A+Av.+de+la+Libert%C3%A9+4601+Differdange+Luxembourg/@49.5263651,5.8900633,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x47eacb049c805e7b:0xee6cc48d7952f62e">Differdange</Link>
+            <p>+352 27 76 17 09</p>
           </div>
-          <h1 className="flex gap-2 text-4xl  p-3 justify-center font-bold">
-            Dr. Ajdarpasic Mathilde
-          </h1>
+          <Link href="/" className="flex gap-2 text-4xl  p-3 justify-center font-bold">
+            Ora dental practice
+          </Link>
           <div className="flex gap-4 pb-2 text-xs justify-center">
-            <Link href="">Differdange</Link>
+            <Link href="https://www.google.com/maps/dir//Centre+dentaire+differdange+65A+Av.+de+la+Libert%C3%A9+4601+Differdange+Luxembourg/@49.5263651,5.8900633,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x47eacb049c805e7b:0xee6cc48d7952f62e">Differdange</Link>
           </div>
         </div>
         <nav>

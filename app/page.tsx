@@ -10,13 +10,8 @@ import Locations from "./components/Locations";
 import getScrollAnimation from "./utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./components/Layout/ScrollAnimationWrapper";
 
-
 export default function Home() {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
-
-  useEffect(() => {
-    console.log("NIHAD");
-  }, []);
 
   return (
     <>
@@ -24,9 +19,9 @@ export default function Home() {
         <div className="h-[77vh] contrast-[.60]">
           <Image
             alt="London"
-            src={"/assets/london.jpg"}
+            src={"/assets/luxembourg.jpg"}
             quality={100}
-            priority 
+            priority
             fill
             sizes="100vw"
             style={{ objectFit: "cover" }}

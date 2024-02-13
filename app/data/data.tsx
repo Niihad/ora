@@ -10,36 +10,121 @@ export const getTeams = [
     name: "ajdarpasic Mathilde",
     image: "/assets/profil1.jpg",
     speciality: "Médecin dentiste",
+    knowledge: [
+      "Soins généralistes",
+      "Dentisterie esthétique",
+      "Dentisterie pédiatrique",
+      "Implantologie",
+    ],
+    diplome: [
+      "Diplôme de Docteur en chirurgie dentaire, Nancy ,",
+      "Diplôme Universitaire d’Implantologie, Evry,",
+      "Formation Invisalign, Paris,",
+      "Formation D-Esthetics (dentisterie ésthétique et minimalement invasive), Liège",
+    ],
   },
   {
     name: "ALTERMATT Ludovic",
     image: "/assets/profil1.jpg",
     speciality: "Médecin dentiste",
+    knowledge: [
+      "Soins généralistes",
+      "Dentisterie esthétique",
+      "Implantologie",
+      "Injections acide hyaluronique ",
+    ],
+    diplome: [
+      "Diplôme de Docteur en chirurgie dentaire, Nancy,",
+      "Certificat d’Université en implantologie orale, Liège ,",
+      "Formation clinique en implantologie :  Concept ALL ON 4/ NobelGuide de Paolo Malo, Lisbonne ,",
+      "Génération implant : Formation clinique avec travaux pratiques en implantologie, Nice,",
+      "NYU International Advanced Program : « Current Concepts in American Dentistry : Advances in Implantology and Oral Rehabilitation » New York,",
+      "Restaurations All Ceram (couronnes, bridge, facettes, onlay, inlay), Liège,",
+      "Formation Lumineers (facettes dentaires pelliculaires), Paris,",
+      "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris",
+    ],
   },
   {
     name: "LESDEL Alvin",
     image: "/assets/profil1.jpg",
     speciality: "Médecin dentiste",
+    knowledge: [
+      "Soins généralistes,",
+      "Dentisterie esthétique,",
+      "Dentisterie pédiatrique,",
+      "Implantologie,",
+      "Injections acide hyaluronique",
+    ],
+    diplome: [
+      "Diplôme de docteur en chirurgie dentaire, Nancy,",
+      "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris,",
+      "Cursus de Spécialisation à l’Implantologie orale, Paris,",
+      "Formation chirurgie implantaire guidée et flux numérique, Metz",
+    ],
   },
   {
     name: "ZEIDAN Alain",
     image: "/assets/profil1.jpg",
     speciality: "Orthodontiste",
+    knowledge: [
+      "Technique multiattache adultes et enfants (bagues),",
+      "Aligneurs transparents adultes et enfants (Invisalign)",
+    ],
+    diplome: [
+      "Diplôme de docteur en médecine dentaire,",
+      "Diplôme universitaire en chirurgie orthognatique, Université de Sorbonne Paris,",
+      "Master en orthopédie dento-maxillo-faciale ,",
+      "Certification de traitements orthodontiques par gouttières Invisalign",
+    ],
   },
   {
     name: "Hussein Agnès",
     image: "/assets/profil1.jpg",
     speciality: "Orthodontiste",
+    knowledge: [
+      "Technique multiattache adultes et enfants (bagues),",
+      "Aligneurs transparents adultes et enfants (Invisalign)",
+    ],
+    diplome: [
+      "Diplôme de docteur en médecine dentaire,",
+      "Diplôme universitaire en croissance cranio-faciale et orthopédie-dento-maxillo-faciale, Paris Descartes,",
+      "Certificat d'études supérieures de chirurgie dentaire, Paris Diderot,",
+      "Certification de traitements orthodontiques par gouttières Invisalign",
+    ],
   },
   {
     name: "FREMINET Gorian",
     image: "/assets/profil1.jpg",
     speciality: "Stomatologue",
+    knowledge: [
+      "Extraction des dents de sagesse,",
+      "Implantologie,",
+      "Chirurgies buccales,",
+      "Problèmes de mâchoires (ATM),",
+      "Dermatologie buccale",
+    ],
+    diplome: [],
   },
   {
     name: "MOUROT Clara",
     image: "/assets/profil1.jpg",
     speciality: "Endodontiste",
+    knowledge: ["Traitements de racines sous microscope opératoire"],
+    diplome: [],
+  },
+  {
+    name: "Gisela",
+    image: "/assets/profil1.jpg",
+    speciality: "Assistante dentaire",
+    knowledge: [],
+    diplome: [],
+  },
+  {
+    name: "Marlene",
+    image: "/assets/profil1.jpg",
+    speciality: "Assistante dentaire",
+    knowledge: [],
+    diplome: [],
   },
 ];
 
@@ -84,7 +169,8 @@ export const getTreatments = [
   {
     title: "Prothèses dentaires",
     image: "/assets/treatments/06.jpg",
-    question: "Les prothèses dentaires sont utilisées pour remplacer une ou plusieurs dents manquantes.",
+    question:
+      "Les prothèses dentaires sont utilisées pour remplacer une ou plusieurs dents manquantes.",
     description:
       "Elles peuvent être amovibles, comme un dentier partiel ou complet, ou fixées, comme un bridge ou une couronne. Ces prothèses sont conçues pour restaurer la fonction masticatoire et l'esthétique du sourire dans le but d’améliorer votre confort.",
   },
@@ -98,7 +184,8 @@ export const getTreatments = [
   {
     title: "Soin des gencives",
     image: "/assets/treatments/08.jpg",
-    question: "Vos gencives saignent ? Vos gencives se rétractent ? Vos dents bougent ? Vous souffrez peut-être d’une parodontite.",
+    question:
+      "Vos gencives saignent ? Vos gencives se rétractent ? Vos dents bougent ? Vous souffrez peut-être d’une parodontite.",
     description:
       "La parodontologie se concentre sur la santé des tissus soutenant les dents, comme les gencives et l’os autour des dents. Le but étant de maintenir ces tissus en bonne santé pour garder des dents solides et bien ancrées, et retrouver le plaisir d’une bouche saine et confortable.",
   },
@@ -132,5 +219,5 @@ export const getTreatments = [
       "Des injections d’acide hyaluronique peuvent être faites par nos médecins dentistes pour traiter et améliorer l'apparence de certaines zones autour de la bouche, comme les lèvres, les commissures des lèvres, les rides ou les plis autour de la bouche.",
     description:
       "Cela peut aider à restaurer ou à augmenter le volume, à lisser les rides ou à redessiner les contours pour obtenir un aspect plus jeune et plus esthétique, en harmonie avec votre sourire.",
-  }
+  },
 ];

@@ -45,7 +45,7 @@ export default function Locations() {
                     className="inset-0 opacity-1 contrast-75 rounded-xl"
                     title="map"
                     scrolling="no"
-                    src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+                    src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Centre dentaire differdange+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
                   ></iframe>
                 </motion.div>
               </ScrollAnimationWrapper>

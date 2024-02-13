@@ -15,21 +15,21 @@ export default function Treatments() {
           <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[680px]">
             <ScrollAnimationWrapper>
               <motion.h1
-                className="uppercase text-4xl font-bold p-3 "
+                className="uppercase text-4xl font-bold p-3"
                 variants={scrollAnimation}
               >
                 DES TRAITEMENTS SUR MESURE
               </motion.h1>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
-              <motion.p variants={scrollAnimation}>
+              <motion.p variants={scrollAnimation} className="lg:my-3">
                 {`"Des soins de qualité pour votre plus beau sourire."`}
               </motion.p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
               <motion.div
                 variants={scrollAnimation}
-                className="mx-auto flex justify-center text-align w-80 uppercase p-2 rounded-[3px] bg-black text-sm font-semibold leading-7 text-white shadow-sm"
+                className="mx-auto flex justify-center text-align w-80 uppercase p-2 rounded-[3px] bg-black text-sm font-semibold leading-7 text-white shadow-sm lg:mt-8 mt-4"
               >
                 <Link href="/treatments">Voir les traitements proposés</Link>
               </motion.div>
@@ -39,7 +39,7 @@ export default function Treatments() {
             <ScrollAnimationWrapper>
               <motion.div variants={scrollAnimation}>
                 <Image
-                  src={"/assets/home-tooth.jpg"}
+                  src={"/assets/treatments.jpg"}
                   alt="Tooth"
                   width={600}
                   height={0}
