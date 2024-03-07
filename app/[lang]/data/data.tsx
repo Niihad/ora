@@ -17,9 +17,9 @@ export const getTeams = [
       "Implantologie",
     ],
     diplome: [
-      "Diplôme de Docteur en chirurgie dentaire, Nancy ,",
-      "Diplôme Universitaire d'Implantologie, Evry,",
-      "Formation Invisalign, Paris,",
+      "Diplôme de Docteur en chirurgie dentaire, Nancy",
+      "Diplôme Universitaire d'Implantologie, Evry",
+      "Formation Invisalign, Paris",
       "Formation D-Esthetics (dentisterie ésthétique et minimalement invasive), Liège",
     ],
   },
