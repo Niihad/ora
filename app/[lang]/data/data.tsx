@@ -7,9 +7,9 @@ export const getNavigation = [
 
 export const getTeams = [
   {
-    name: "ajdarpasic Mathilde",
-    image: "/assets/profil1.jpg",
-    speciality: "Médecin dentiste",
+    name: "Dr ajdarpasic Mathilde",
+    image: "/assets/teams/Mathilde.jpg",
+    speciality: "Médecin-dentiste",
     knowledge: [
       "Soins généralistes",
       "Dentisterie esthétique",
@@ -18,15 +18,15 @@ export const getTeams = [
     ],
     diplome: [
       "Diplôme de Docteur en chirurgie dentaire, Nancy ,",
-      "Diplôme Universitaire d’Implantologie, Evry,",
+      "Diplôme Universitaire d'Implantologie, Evry,",
       "Formation Invisalign, Paris,",
       "Formation D-Esthetics (dentisterie ésthétique et minimalement invasive), Liège",
     ],
   },
   {
-    name: "ALTERMATT Ludovic",
-    image: "/assets/profil1.jpg",
-    speciality: "Médecin dentiste",
+    name: "Dr ALTERMATT Ludovic",
+    image: "/assets/teams/Alvin.jpg",
+    speciality: "Médecin-dentiste",
     knowledge: [
       "Soins généralistes",
       "Dentisterie esthétique",
@@ -34,20 +34,20 @@ export const getTeams = [
       "Injections acide hyaluronique ",
     ],
     diplome: [
-      "Diplôme de Docteur en chirurgie dentaire, Nancy,",
-      "Certificat d’Université en implantologie orale, Liège ,",
-      "Formation clinique en implantologie :  Concept ALL ON 4/ NobelGuide de Paolo Malo, Lisbonne ,",
-      "Génération implant : Formation clinique avec travaux pratiques en implantologie, Nice,",
-      "NYU International Advanced Program : « Current Concepts in American Dentistry : Advances in Implantology and Oral Rehabilitation » New York,",
-      "Restaurations All Ceram (couronnes, bridge, facettes, onlay, inlay), Liège,",
-      "Formation Lumineers (facettes dentaires pelliculaires), Paris,",
+      "Diplôme de Docteur en chirurgie dentaire, Nancy",
+      "Certificat d'Université en implantologie orale, Liège",
+      "Formation clinique en implantologie :  Concept ALL ON 4 - NobelGuide de Paolo Malo, Lisbonne",
+      "Génération implant : Formation clinique avec travaux pratiques en implantologie, Nice",
+      "NYU International Advanced Program : « Current Concepts in American Dentistry : Advances in Implantology and Oral Rehabilitation » New York",
+      "Restaurations All Ceram (couronnes, bridge, facettes, onlay, inlay), Liège",
+      "Formation Lumineers (facettes dentaires pelliculaires), Paris",
       "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris",
     ],
   },
   {
-    name: "LESDEL Alvin",
-    image: "/assets/profil1.jpg",
-    speciality: "Médecin dentiste",
+    name: "Dr LESDEL Alvin",
+    image: "/assets/teams/Alvin.jpg",
+    speciality: "Médecin-dentiste",
     knowledge: [
       "Soins généralistes,",
       "Dentisterie esthétique,",
@@ -63,8 +63,8 @@ export const getTeams = [
     ],
   },
   {
-    name: "ZEIDAN Alain",
-    image: "/assets/profil1.jpg",
+    name: "Dr ZEIDAN Alain",
+    image: "/assets/teams/Alain.jpg",
     speciality: "Orthodontiste",
     knowledge: [
       "Technique multiattache adultes et enfants (bagues),",
@@ -78,8 +78,8 @@ export const getTeams = [
     ],
   },
   {
-    name: "Hussein Agnès",
-    image: "/assets/profil1.jpg",
+    name: "Dr Hussein Agnès",
+    image: "/assets/teams/Agnes.jpg",
     speciality: "Orthodontiste",
     knowledge: [
       "Technique multiattache adultes et enfants (bagues),",
@@ -93,9 +93,9 @@ export const getTeams = [
     ],
   },
   {
-    name: "FREMINET Gorian",
-    image: "/assets/profil1.jpg",
-    speciality: "Stomatologue",
+    name: "Dr FREMINET Gorian",
+    image: "/assets/teams/Gorian.jpg",
+    speciality: "Chirurgie orale et implantologie",
     knowledge: [
       "Extraction des dents de sagesse,",
       "Implantologie,",
@@ -106,22 +106,25 @@ export const getTeams = [
     diplome: [],
   },
   {
-    name: "MOUROT Clara",
-    image: "/assets/profil1.jpg",
+    name: "Dr MOUROT Clara",
+    image: "/assets/teams/Clara.png",
     speciality: "Endodontiste",
     knowledge: ["Traitements de racines sous microscope opératoire"],
-    diplome: [],
+    diplome: [
+      "Diplôme de docteur en chirurgie dentaire, Nancy",
+      "Diplôme universitaire d'endodontie clinique et microscopie opératoire, Nancy",
+    ],
   },
   {
     name: "Gisela",
-    image: "/assets/profil1.jpg",
+    image: "/assets/teams/Gisela.jpg",
     speciality: "Assistante dentaire",
     knowledge: [],
     diplome: [],
   },
   {
     name: "Marlene",
-    image: "/assets/profil1.jpg",
+    image: "/assets/teams/Marlene.jpg",
     speciality: "Assistante dentaire",
     knowledge: [],
     diplome: [],
@@ -156,7 +159,7 @@ export const getTreatments = [
     image: "/assets/treatments/04.jpg",
     question: "Vous souhaitez améliorer l’alignement de vos dents ?",
     description:
-      "L'orthodontie vise à aligner et à corriger la position des dents et des mâchoires. Nos orthodontistes utilisent des appareils comme des bagues, des appareils amovibles ou des aligneurs transparents pour redresser les dents, corriger les problèmes d'occlusion et améliorer l'esthétique de votre sourire.",
+      "L'orthodontie vise à aligner et à corriger la position des dents et des mâchoires. Nos orthodontistes, le Dr Zeidan et le Dr Hussein, utilisent des appareils comme des bagues, des appareils amovibles ou des aligneurs transparents pour redresser les dents, corriger les problèmes d'occlusion et améliorer l'esthétique de votre sourire.",
   },
   {
     title: "Stomatologie",
@@ -164,7 +167,7 @@ export const getTreatments = [
     question:
       "La stomatologie se concentre sur les maladies et les traitements de toute la bouche : les dents, les gencives, la langue, la mâchoire et les tissus environnants.",
     description:
-      "Notre stomatologue traite une large gamme de problèmes tels que les extractions des dents de sagesse, les troubles de l'articulation temporo-mandibulaire, ainsi que les tumeurs ou les lésions de la bouche.",
+      "Notre stomatologue, le Dr Freminet, traite une large gamme de problèmes tels que les extractions des dents de sagesse, les troubles de l'articulation temporo-mandibulaire, ainsi que les tumeurs ou les lésions de la bouche.",
   },
   {
     title: "Prothèses dentaires",
@@ -216,7 +219,7 @@ export const getTreatments = [
     title: "Injections d’acide hyaluronique",
     image: "/assets/treatments/12.jpg",
     question:
-      "Des injections d’acide hyaluronique peuvent être faites par nos médecins dentistes pour traiter et améliorer l'apparence de certaines zones autour de la bouche, comme les lèvres, les commissures des lèvres, les rides ou les plis autour de la bouche.",
+      "Des injections d’acide hyaluronique peuvent être faites par nos médecins dentistes pour traiter et améliorer l'apparence de certaines zones autour de la bouche, comme les lèvres ou les rides autour de la bouche.",
     description:
       "Cela peut aider à restaurer ou à augmenter le volume, à lisser les rides ou à redessiner les contours pour obtenir un aspect plus jeune et plus esthétique, en harmonie avec votre sourire.",
   },

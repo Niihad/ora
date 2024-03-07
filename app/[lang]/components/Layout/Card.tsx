@@ -11,7 +11,7 @@ interface Props {
 }
 
 interface Pair {
-  value: string|any;
+  value: string | any;
   show: string;
 }
 
@@ -62,10 +62,11 @@ export default function Card({ sens, params }: Props) {
                   <ScrollAnimationWrapper>
                     <motion.div
                       variants={ScrollSens(params[4].show)}
-                      className="mx-auto flex justify-center text-align w-72 uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
+                      className="mx-auto flex justify-center text-align uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
                     >
-                      <Link href="">{params[4].value}</Link>
-                      
+                      <Link href="https://fr.doctena.lu/praticien/Dr_Ludovic_Altermatt-235034">
+                        {params[4].value}
+                      </Link>
                     </motion.div>
                   </ScrollAnimationWrapper>
                 )}
@@ -107,9 +108,11 @@ export default function Card({ sens, params }: Props) {
                   <ScrollAnimationWrapper>
                     <motion.div
                       variants={ScrollSens(params[4].show)}
-                      className="mx-auto flex justify-center text-align w-72 uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
+                      className="mx-auto flex justify-center text-align uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
                     >
-                      <Link href="">{params[4].value}</Link>
+                      <Link href="https://fr.doctena.lu/praticien/Dr_Ludovic_Altermatt-235034">
+                        {params[4].value}
+                      </Link>
                     </motion.div>
                   </ScrollAnimationWrapper>
                 )}
@@ -133,5 +136,9 @@ export default function Card({ sens, params }: Props) {
     );
   };
 
-  return <>{sens === "left" ? Left(params) : Right(params)}</>;
+  return (
+    <>
+      {sens === "left" ? Left(params) : Right(params)}
+    </>
+  );
 }

@@ -4,11 +4,11 @@ import Image from "next/image";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 
-export default function About() {
+export default function About({ page }: any) {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   return (
-    <div className="bg-slate-50 py-14 lg:py-24" id="about">
+    <div className="bg-neutral-100 py-14 lg:py-24" id="about">
       <div className="mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">
           <ScrollAnimationWrapper>
@@ -17,8 +17,8 @@ export default function About() {
               variants={scrollAnimation}
             >
               <Image
-                src={"/assets/cabinet.jpg"}
-                alt="Profil"
+                src={"/assets/cabinet.png"}
+                alt="cabinet"
                 width={600}
                 height={0}
               />
@@ -30,25 +30,19 @@ export default function About() {
                 className="uppercase text-3xl font-bold p-3"
                 variants={scrollAnimation}
               >
-                Ora dental practice
+                {page.about.title}
               </motion.h1>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
               <motion.p variants={scrollAnimation}>
-                Le cabinet dentaire ORA vous accueille à Differdange pour vous
-                proposer des soins dentaires de qualité. Notre but est de
-                s’adapter à vos besoins et de répondre à vos attentes.
+                {page.about.description}
               </motion.p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
-              <motion.p variants={scrollAnimation}>
-                Notre équipe pluri-disciplinaire est composée de médecins
-                dentistes de différentes spécialités. Tous les soins se font
-                directement au cabinet : visites de contrôle, soins
-                conservateurs, orthodontie ou même les chirurgies. Cela permet à
-                nos patients d’avoir accès en un seul lieu à un plateau
-                technique complet.
-              </motion.p>
+              <motion.p variants={scrollAnimation}>{page.about.more}</motion.p>
+            </ScrollAnimationWrapper>
+            <ScrollAnimationWrapper>
+              <motion.p variants={scrollAnimation}>{page.about.more2}</motion.p>
             </ScrollAnimationWrapper>
           </div>
         </div>

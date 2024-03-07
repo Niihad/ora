@@ -8,20 +8,17 @@ import { FaHome } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 
-export default function Locations() {
+export default function Locations({ page }: any) {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   return (
-    <div
-      className="bg-gradient-to-b from-slate-100 to-white p-10 lg:py-14"
-      id="location"
-    >
+    <div className="bg-white p-10 lg:py-14" id="contact">
       <ScrollAnimationWrapper>
         <motion.h3
           variants={scrollAnimation}
           className="uppercase text-4xl font-bold p-3 text-center justify-center "
         >
-          Location
+          Contact
         </motion.h3>
       </ScrollAnimationWrapper>
       <section className="text-gray-600 body-font relative">
@@ -69,23 +66,16 @@ export default function Locations() {
                 <p>contact@oradental.lu</p>
               </div>
 
-              <p className="mb-4">Parking privé réservé aux patients</p>
-
-              <p>Lundi 9h00 - 19h00</p>
-              <p>Mardi 9h00 - 19h00</p>
-              <p>Mercredi 9h00 - 18h00</p>
-              <p>Jeudi 9h00 - 18h00</p>
-              <p>Vendredi 9h00 - 19h00</p>
-              <p>Samedi 9h00 - 14h00</p>
-
-              <p className="relative mt-4">
-                En cas d’urgence, nous téléphoner directement. Nous mettrons
-                tout en œuvre pour vous recevoir et vous soulager le plus
-                rapidement possible dans la journée.
-              </p>
+              <p className="mb-4">{page.contact.title}</p>
+              {page.contact.time.map((value: any) => (
+                <p key={value.day}>{value.day}</p>
+              ))}
             </div>
           </div>
         </motion.div>
+        <p className="relative mt-4 text-center justify-center">
+        {page.contact.description}
+        </p>
       </section>
     </div>
   );

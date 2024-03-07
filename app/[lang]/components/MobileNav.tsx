@@ -3,13 +3,15 @@
 import { useState } from "react";
 import { Link as LinkScroll } from "react-scroll";
 import Link from "next/link";
-import { getNavigation } from "../data/data";
 import { usePathname } from "next/navigation";
+import { Locale } from "@/i18n/i18n-config";
+import { useDictionary } from "@/i18n/dictionary-provider";
 
-export default function MobileNav() {
+export default function MobileNav({ lang }: { lang: Locale }) {
   const [navShow, setNavShow] = useState(false);
   const [activeLink, setActiveLink] = useState("");
   const pathname = usePathname();
+  const header = useDictionary().header;
 
   const onToggleNav = () => {
     setNavShow((status) => {
@@ -24,9 +26,9 @@ export default function MobileNav() {
 
   return (
     <>
-      <div className="fixed w-full h-[62px] z-20 bg-slate-50 shadow-md grid grid-cols-6 flex py-1 sm:hidden">
+      <div className="fixed w-full h-[62px] z-20 bg-white shadow-md grid grid-cols-6 flex py-1 sm:hidden">
         <div className="p-1 px-2 col-span-5">
-          <Link href="/" className="text-xl font-bold">Ora dental practice</Link>
+          <Link href="/" className="text-xl font-bold">{header.title}</Link>
           <div className="text-xs ml-16">
             <Link href="/">Differdange</Link>
           </div>
@@ -53,7 +55,7 @@ export default function MobileNav() {
         </div>
       </div>
       <div
-        className={`fixed z-30 left-0 top-0 z-10 h-full w-full transform bg-white opacity-95 duration-300 ease-in-out dark:bg-gray-950 dark:opacity-[0.98] ${
+        className={`fixed z-30 left-0 top-0 z-10 h-full w-full transform bg-white opacity-95 duration-300 ease-in-out  ${
           navShow ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -67,7 +69,7 @@ export default function MobileNav() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="text-gray-900 dark:text-gray-100"
+              className="text-black "
             >
               <path
                 fillRule="evenodd"
@@ -78,30 +80,30 @@ export default function MobileNav() {
           </button>
         </div>
         <nav className="fixed mt-8 h-full">
-          {getNavigation.map((link) => (
+          {header.navigation.map((link: any) => (
             <div key={link.name} className="px-12 py-4">
               {pathname === "/" ? (
                 <LinkScroll
                   activeClass="active"
-                  to={link.name}
+                  to={link.id}
                   spy={true}
                   smooth={true}
                   duration={1000}
                   offset={link.offset}
                   onSetActive={() => {
-                    setActiveLink(link.name);
+                    setActiveLink(link.id);
                   }}
-                  className="text-2xl uppercase font-bold tracking-widest text-gray-900 dark:text-gray-100 hover:text-zinc-400 cursor-pointer"
+                  className="text-2xl uppercase font-bold tracking-widest text-black hover:text-zinc-400 cursor-pointer"
                   onClick={onToggleNav}
                 >
                   {link.name}
                 </LinkScroll>
               ) : (
                 <Link
-                  key={link.name}
-                  href={`/#${link.name}`}
+                  key={link.id}
+                  href={`/${lang}//#${link.id}`}
                   onClick={onToggleNav}
-                  className="text-2xl uppercase scroll-behavior font-bold tracking-widest text-gray-900 dark:text-gray-100 hover:text-zinc-400 cursor-pointer"
+                  className="text-2xl uppercase scroll-behavior font-bold tracking-widest text-neutral-900 hover:text-zinc-400 cursor-pointer"
                 >
                   {link.name}
                 </Link>

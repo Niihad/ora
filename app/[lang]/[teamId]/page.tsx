@@ -15,7 +15,7 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
   }
 
   const info: string[] = params.teamId.split("-");
-  info.shift();
+
   const profil = getTeams.find(
     (val) => val.name.toLowerCase() === decodeURI(info.join(" "))
   );
@@ -31,27 +31,27 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
       </li>
     ));
     const diplome = params.diplome.map((val, index) => (
-      <li key={index} className="list-[disc]">
+      <p key={index} className="list-[disc]">
         {val}
-      </li>
+      </p>
     ));
     return [
-      { value: "Dr. " + params.name, show: "top" },
+      { value: params.name, show: "top" },
       { value: params.image, show: "right" },
       {
         value: <ul className="text-left ml-10">{knowledge}</ul>,
         show: "left",
       },
       {
-        value: <ul className="text-left ml-10">{diplome}</ul>,
+        value: <div className="text-left ml-4">{diplome}</div>,
         show: "left",
       },
-      { value: "Prendre rendez-vous", show: "bottom" },
+      { value: params.name !== "Dr MOUROT Clara" ? "Prendre rendez-vous" : "Appeler pour prendre rendez-vous", show: "bottom" },
     ];
   };
 
   return (
-    <div className="bg-gray-300 ">
+    <div className="bg-neutral-200">
       {profil === undefined ? (
         <div className="flex justify-center"><div className="sm:text-3xl text-xl font-bold ">
           <div className="flex justify-center text-align my-10 mt-28"><FaRegSadTear size="200px" color="black" /></div>

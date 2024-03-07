@@ -21,16 +21,15 @@ export default function Treatments() {
   };
 
   const style = [
-    "bg-slate-200 py-14 lg:py-24",
-    "bg-slate-50 py-14 lg:py-24",
-    "bg-gray-300 py-14 lg:py-24",
+    "bg-white py-14 lg:py-24",
+    "bg-neutral-100 py-14 lg:py-24"
   ];
 
   return (
     <>
       {getTreatments.map((treatment, index) => (
         <div
-          className={style[index % 3]}
+          className={style[index % 2]}
           id={treatment.title}
           key={treatment.title}
         >

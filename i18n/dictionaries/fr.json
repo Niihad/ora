@@ -1,0 +1,47 @@
+{
+  "header": {
+    "navigation": [
+      { "id": "about", "name": "le cabinet", "offset": -62 },
+      { "id": "treatments", "name": "les traitements", "offset": -62 },
+      { "id": "team", "name": "l'equipe", "offset": -62 },
+      { "id": "contact", "name": "contact", "offset": -62 }
+    ],
+    "title": "Cabinet dentaire Ora"
+  },
+  "page": {
+    "title": "L'experience",
+    "description": "Regarder la video",
+    "about": {
+      "title": "Cabinet dentaire Ora",
+      "description": "Le nom \"Cabinet Dentaire ORA\" trouve son origine dans la passion de nos médecins dentistes pour la dentisterie et leur désir de créer un lieu accueillant et professionnel pour les patients.",
+      "more": "Le mot \"ORA\" a été choisi pour sa signification et sa sonorité agréable. En latin, \"Ora\" est associé au mot \"bouche\" ou \"parole\", le terme évoque également l'idée de santé, de bien-être et de beauté, ce qui correspond parfaitement à la mission du cabinet de fournir des soins dentaires de qualité pour améliorer la santé bucco-dentaire et la confiance en soi de chaque patient.",
+      "more2": "Ainsi, ce nom reflète à la fois le professionnalisme et la vision de nos médecins, tout en évoquant des notions de santé, de beauté et de confiance."
+    },
+    "treatments": {
+      "title": "Des traitements sur mesure",
+      "description": "\"Des soins de qualité pour votre plus beau sourire.\"",
+      "more": "Notre équipe pluridisciplinaire est composée de médecins dentistes qualifiés en différentes spécialités. Tous les soins se font directement au cabinet : visites de contrôle, soins conservateurs, orthodontie ou encore les chirurgies, afin de permettre à nos patients d'avoir accès en un seul lieu à un plateau technique complet.",
+      "more2": "Voir les traitements proposés"
+    },
+    "teams": {
+      "title": "Notre équipe",
+      "description": "\" Le chemin vers votre nouveau sourire débute ici \""
+    },
+    "contact": {
+      "title": "Parking privé réservé aux patients",
+      "time": [
+        { "day": "Lundi 9h00 - 19h00" },
+        { "day": "Mardi  9h00 - 19h00" },
+        { "day": "Mercredi  9h00 - 18h00" },
+        { "day": "Jeudi  9h00 - 18h00" },
+        { "day": "Vendredi  9h00 - 19h00" },
+        { "day": "Samedi  9h00 - 14h00" }
+      ],
+      "description": "En cas d'urgence, nous téléphoner directement. Nous mettrons tout en œuvre pour vous recevoir et vous soulager le plus rapidement possible dans la journée."
+    }
+  },
+  "folder": {
+    "title": "Prendre rendez-vous",
+    "description": "© COPYRIGHT 2024. tous droits reservés. cabinet dentaire ora"
+  }
+}

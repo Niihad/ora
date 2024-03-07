@@ -5,11 +5,11 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
 
-export default function Treatments() {
+export default function Treatments({ page }: any) {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   return (
-    <div className="py-10 lg:py-24 bg-slate-200" id="treatments">
+    <div className="py-10 lg:py-24 bg-white" id="treatments">
       <div className="mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">
           <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[680px]">
@@ -18,12 +18,17 @@ export default function Treatments() {
                 className="uppercase text-4xl font-bold p-3"
                 variants={scrollAnimation}
               >
-                DES TRAITEMENTS SUR MESURE
+                {page.treatments.title}
               </motion.h1>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
-              <motion.p variants={scrollAnimation} className="lg:my-3">
-                {`"Des soins de qualité pour votre plus beau sourire."`}
+              <motion.p variants={scrollAnimation} className="italic">
+              {page.treatments.description}
+              </motion.p>
+            </ScrollAnimationWrapper>
+            <ScrollAnimationWrapper>
+              <motion.p variants={scrollAnimation} className="">
+              {page.treatments.more}
               </motion.p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
@@ -31,7 +36,7 @@ export default function Treatments() {
                 variants={scrollAnimation}
                 className="mx-auto flex justify-center text-align w-80 uppercase p-2 rounded-[3px] bg-black text-sm font-semibold leading-7 text-white shadow-sm lg:mt-8 mt-4"
               >
-                <Link href="/treatments">Voir les traitements proposés</Link>
+                <Link href="/en/treatments">{page.treatments.more2}</Link>
               </motion.div>
             </ScrollAnimationWrapper>
           </div>

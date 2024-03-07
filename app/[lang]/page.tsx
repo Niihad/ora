@@ -1,17 +1,19 @@
 "use client";
 
-import { useMemo, useEffect } from "react";
+import { useMemo } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import About from "./components/About";
 import Treatments from "./components/Treatments";
 import Team from "./components/Team";
-import Locations from "./components/Locations";
+import Contact from "./components/Contact";
 import getScrollAnimation from "./utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./components/Layout/ScrollAnimationWrapper";
+import { useDictionary } from "@/i18n/dictionary-provider";
 
 export default function Home() {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
+  const page = useDictionary().page;
 
   return (
     <>
@@ -30,20 +32,20 @@ export default function Home() {
         <ScrollAnimationWrapper>
           <motion.div className="" variants={scrollAnimation}>
             <div className="bg-zinc-950/75 w-full absolute bottom-0 left-0 p-12 sm:w-[348px] uppercase text-white text-center">
-              <p className="text-3xl mb-4">The experience</p>
+              <p className="text-3xl mb-4">{page.title}</p>
               <div className="p-2 border-2 text-md cursor-pointer">
                 <motion.div className="" variants={scrollAnimation}>
-                  Watch the video
+                  {page.description}
                 </motion.div>
               </div>
             </div>
           </motion.div>
         </ScrollAnimationWrapper>
       </div>
-      <About />
-      <Treatments />
-      <Team />
-      <Locations />
+      <About page={page}/>
+      <Treatments page={page}/>
+      <Team page={page}/>
+      <Contact page={page}/>
     </>
   );
 }
