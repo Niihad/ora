@@ -20,13 +20,10 @@ export default function Treatments() {
     ];
   };
 
-  const style = [
-    "bg-white py-14 lg:py-24",
-    "bg-neutral-100 py-14 lg:py-24"
-  ];
+  const style = ["bg-white py-14 lg:py-24", "bg-neutral-100 py-14 lg:py-24"];
 
   return (
-    <>
+    <div className={"pt-10 sm:pt-0"}>
       {getTreatments.map((treatment, index) => (
         <div
           className={style[index % 2]}
@@ -39,6 +36,6 @@ export default function Treatments() {
           />
         </div>
       ))}
-    </>
+    </div>
   );
 }
