@@ -49,12 +49,12 @@ export default function Card({ sens, params }: Props) {
                   </motion.h1>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
-                  <motion.div variants={ScrollSens(params[2].show)}>
+                  <motion.div className="text-justify" variants={ScrollSens(params[2].show)}>
                     {params[2].value}
                   </motion.div>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
-                  <motion.div variants={ScrollSens(params[3].show)}>
+                  <motion.div className="text-justify" variants={ScrollSens(params[3].show)}>
                     {params[3].value}
                   </motion.div>
                 </ScrollAnimationWrapper>
@@ -95,12 +95,12 @@ export default function Card({ sens, params }: Props) {
                 </ScrollAnimationWrapper>
 
                 <ScrollAnimationWrapper>
-                  <motion.p variants={ScrollSens(params[2].show)}>
+                  <motion.p className="text-justify" variants={ScrollSens(params[2].show)}>
                     {params[2].value}
                   </motion.p>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
-                  <motion.p variants={ScrollSens(params[3].show)}>
+                  <motion.p className="text-justify" variants={ScrollSens(params[3].show)}>
                     {params[3].value}
                   </motion.p>
                 </ScrollAnimationWrapper>

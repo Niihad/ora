@@ -78,7 +78,7 @@ export default function Locations({ page }: any) {
             </div>
           </div>
         </motion.div>
-        <p className="relative mt-4 text-center justify-center">
+        <p className="relative mt-4 md:text-center justify-center text-justify">
           {page.contact.description}
         </p>
       </section>

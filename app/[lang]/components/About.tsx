@@ -10,7 +10,7 @@ export default function About({ page }: any) {
   return (
     <div className="bg-neutral-100 py-14 lg:py-24" id="about">
       <div className="mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-x-10 gap-y-16 text-center lg:grid-cols-2 items-center">
+        <div className="grid grid-cols-1 gap-x-10 gap-y-16 text-center lg:grid-cols-2 items-center ">
           <ScrollAnimationWrapper>
             <motion.div
               className="mx-auto flex flex-col justify-center xl:max-w-2xl max-w-lg w-full px-8"
@@ -24,25 +24,25 @@ export default function About({ page }: any) {
               />
             </motion.div>
           </ScrollAnimationWrapper>
-          <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[800px]">
+          <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[800px] ">
             <ScrollAnimationWrapper>
               <motion.h1
-                className="uppercase text-3xl font-bold p-3"
+                className="uppercase text-3xl font-bold p-3 "
                 variants={scrollAnimation}
               >
                 {page.about.title}
               </motion.h1>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
-              <motion.p variants={scrollAnimation}>
+              <motion.p variants={scrollAnimation} className="text-justify">
                 {page.about.description}
               </motion.p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
-              <motion.p variants={scrollAnimation}>{page.about.more}</motion.p>
+              <motion.p variants={scrollAnimation} className="text-justify">{page.about.more}</motion.p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
-              <motion.p variants={scrollAnimation}>{page.about.more2}</motion.p>
+              <motion.p variants={scrollAnimation} className="text-justify">{page.about.more2}</motion.p>
             </ScrollAnimationWrapper>
           </div>
         </div>

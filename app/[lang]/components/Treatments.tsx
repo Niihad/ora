@@ -27,7 +27,7 @@ export default function Treatments({ page, lang }: any) {
               </motion.p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
-              <motion.p variants={scrollAnimation} className="">
+              <motion.p variants={scrollAnimation} className="text-justify">
                 {page.treatments.more}
               </motion.p>
             </ScrollAnimationWrapper>
