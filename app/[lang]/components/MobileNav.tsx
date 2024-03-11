@@ -4,14 +4,23 @@ import { useState } from "react";
 import { Link as LinkScroll } from "react-scroll";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Locale } from "@/i18n/i18n-config";
 import { useDictionary } from "@/i18n/dictionary-provider";
+import Image from "next/image";
+import { Locale, i18n } from "@/i18n/i18n-config";
 
 export default function MobileNav({ lang }: { lang: Locale }) {
   const [navShow, setNavShow] = useState(false);
   const [activeLink, setActiveLink] = useState("");
   const pathname = usePathname();
   const header = useDictionary().header;
+  const { locales } = i18n;
+
+  const redirectedPathName = (locale: string) => {
+    if (!pathname) return '/'
+    const segments = pathname.split('/')
+    segments[1] = locale
+    return segments.join('/')
+  }
 
   const onToggleNav = () => {
     setNavShow((status) => {
@@ -27,13 +36,10 @@ export default function MobileNav({ lang }: { lang: Locale }) {
   return (
     <>
       <div className="fixed w-full h-[62px] z-20 bg-white shadow-md grid grid-cols-6 flex py-1 sm:hidden">
-        <div className="p-1 px-2 col-span-5">
-          <Link href="/" className="text-xl font-bold">{header.title}</Link>
-          <div className="text-xs ml-16">
-            <Link href="/">Differdange</Link>
-          </div>
+        <div className="p-3 col-span-5 text-center justify-center align-middle">
+          <Image src={"/assets/logo.jpg"} alt="Logo" width={250} height={0} />
         </div>
-        <div className="flex justify-end">
+        <div className="flex justify-end ">
           <button
             aria-label="Toggle Menu"
             onClick={onToggleNav}
@@ -55,13 +61,13 @@ export default function MobileNav({ lang }: { lang: Locale }) {
         </div>
       </div>
       <div
-        className={`fixed z-30 left-0 top-0 z-10 h-full w-full transform bg-white opacity-95 duration-300 ease-in-out  ${
+        className={`fixed z-30 left-0 top-0 h-full w-full transform bg-white opacity-95 duration-300 ease-in-out  ${
           navShow ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex justify-end">
+        <div className="flex p-4 pr-2 justify-end">
           <button
-            className="mr-8 mt-11 h-8 w-8"
+            className="h-8 w-8 z-20"
             aria-label="Toggle Menu"
             onClick={onToggleNav}
           >
@@ -79,7 +85,7 @@ export default function MobileNav({ lang }: { lang: Locale }) {
             </svg>
           </button>
         </div>
-        <nav className="fixed mt-8 h-full">
+        <nav className="fixed mt-8 h-full z-20">
           {header.navigation.map((link: any) => (
             <div key={link.name} className="px-12 py-4">
               {pathname === "/" ? (
@@ -111,6 +117,17 @@ export default function MobileNav({ lang }: { lang: Locale }) {
             </div>
           ))}
         </nav>
+        <div className="relative min-h-screen -top-20 w-full z-0">
+          <div className="absolute bottom-0 end-0 mr-2">
+            <div className="flex gap-2 text-sm p-1 justify-end text-black font-bold uppercase">
+              {[...locales].sort().map((locale) => (
+                <Link key={locale} href={redirectedPathName(locale)}>
+                  {locale}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

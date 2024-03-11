@@ -5,7 +5,7 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
 
-export default function Treatments({ page }: any) {
+export default function Treatments({ page, lang }: any) {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   return (
@@ -23,12 +23,12 @@ export default function Treatments({ page }: any) {
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
               <motion.p variants={scrollAnimation} className="italic">
-              {page.treatments.description}
+                {page.treatments.description}
               </motion.p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
               <motion.p variants={scrollAnimation} className="">
-              {page.treatments.more}
+                {page.treatments.more}
               </motion.p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
@@ -36,7 +36,9 @@ export default function Treatments({ page }: any) {
                 variants={scrollAnimation}
                 className="mx-auto flex justify-center text-align w-80 uppercase p-2 rounded-[3px] bg-black text-sm font-semibold leading-7 text-white shadow-sm lg:mt-8 mt-4"
               >
-                <Link href="/en/treatments">{page.treatments.more2}</Link>
+                <Link href={`/${lang}/treatments`}>
+                  {page.treatments.more2}
+                </Link>
               </motion.div>
             </ScrollAnimationWrapper>
           </div>

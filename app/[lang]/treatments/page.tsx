@@ -1,9 +1,10 @@
 "use client";
 
 import Card from "../components/Layout/Card";
-import { getTreatments } from "../data/data";
+import { useDictionary } from "@/i18n/dictionary-provider";
 
 export default function Treatments() {
+  const treatments = useDictionary().treatments;
   interface Treatment {
     title: string;
     image: string;
@@ -24,7 +25,7 @@ export default function Treatments() {
 
   return (
     <div className={"pt-10 sm:pt-0"}>
-      {getTreatments.map((treatment, index) => (
+      {treatments.map((treatment : Treatment, index: any) => (
         <div
           className={style[index % 2]}
           id={treatment.title}

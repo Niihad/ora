@@ -10,16 +10,16 @@ export default function About({ page }: any) {
   return (
     <div className="bg-neutral-100 py-14 lg:py-24" id="about">
       <div className="mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-x-10 gap-y-16 text-center lg:grid-cols-2 items-center">
           <ScrollAnimationWrapper>
             <motion.div
-              className="mx-auto flex flex-col gap-y-4 justify-center xl:max-w-2xl max-w-lg w-full px-8"
+              className="mx-auto flex flex-col justify-center xl:max-w-2xl max-w-lg w-full px-8"
               variants={scrollAnimation}
             >
               <Image
                 src={"/assets/cabinet.png"}
                 alt="cabinet"
-                width={600}
+                width={500}
                 height={0}
               />
             </motion.div>

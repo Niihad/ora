@@ -2,10 +2,11 @@
 
 import { useEffect } from "react";
 import Card from "../components/Layout/Card";
-import { getTeams } from "../data/data";
 import { FaRegSadTear } from "react-icons/fa";
+import { useDictionary } from "@/i18n/dictionary-provider";
 
 export default function TeamPage({ params }: { params: { teamId: string } }) {
+  const teams = useDictionary().teams;
   interface Team {
     name: string;
     image: string;
@@ -16,8 +17,8 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
 
   const info: string[] = params.teamId.split("-");
 
-  const profil = getTeams.find(
-    (val) => val.name.toLowerCase() === decodeURI(info.join(" "))
+  const profil = teams.find(
+    (val: Team) => val.name.toLowerCase() === decodeURI(info.join(" "))
   );
 
   useEffect(() => {
@@ -56,7 +57,7 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
         <div className="flex justify-center"><div className="sm:text-3xl text-xl font-bold ">
           <div className="flex justify-center text-align my-10 mt-28"><FaRegSadTear size="200px" color="black" /></div>
         
-        <h1 className="my-10 ">Oops! That page can't be found.</h1>
+        <h1 className="my-10">{"Oops! That page can't be found."}</h1>
       </div></div>
         
       ) : (

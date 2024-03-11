@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import MobileNav from "../MobileNav";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import { usePathname } from "next/navigation";
-import { Locale } from "@/i18n/i18n-config";
+import { Locale, i18n } from "@/i18n/i18n-config";
 import { useDictionary } from "@/i18n/dictionary-provider";
 import Image from "next/image";
 
@@ -16,6 +16,14 @@ export default function Header({ lang }: { lang: Locale }) {
   const [scrollActive, setScrollActive] = useState(false);
   const pathname = usePathname();
   const header = useDictionary().header;
+  const { locales } = i18n;
+
+  const redirectedPathName = (locale: string) => {
+    if (!pathname) return '/'
+    const segments = pathname.split('/')
+    segments[1] = locale
+    return segments.join('/')
+  }
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -74,22 +82,16 @@ export default function Header({ lang }: { lang: Locale }) {
     <header className="bg-neutral-100" id="header">
       <div className="header uppercase hidden sm:block">
         <div className="bg-white text-black p-2 px-6 ">
-          <div className="flex gap-1 text-sm p-1 lg:justify-end text-black  pr-4">
-            <Link href="https://www.google.com/maps/dir//Centre+dentaire+differdange+65A+Av.+de+la+Libert%C3%A9+4601+Differdange+Luxembourg/@49.5263651,5.8900633,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x47eacb049c805e7b:0xee6cc48d7952f62e">
-              FR LU EN PO
-            </Link>
+          <div className="flex gap-2 text-sm p-1 justify-end text-black font-bold">
+            {[...locales].sort().map((locale) => (
+              <Link key={locale} href={redirectedPathName(locale)}>
+                {locale}
+              </Link>
+            ))}
           </div>
-          <Link
-            href="/"
-            className="flex gap-2 text-4xl p-3 justify-center font-bold mb-6"
-          >
-            <Image
-              src={"/assets/logo.jpg"}
-              alt="Logo"
-              width={600}
-              height={0}
-            />
-          </Link>
+          <div className="flex gap-2 text-4xl p-3 justify-center font-bold mb-6">
+            <Image src={"/assets/logo.jpg"} alt="Logo" width={600} height={0} />
+          </div>
         </div>
         <nav>
           <NavBar />

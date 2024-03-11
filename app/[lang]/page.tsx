@@ -10,10 +10,16 @@ import Contact from "./components/Contact";
 import getScrollAnimation from "./utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./components/Layout/ScrollAnimationWrapper";
 import { useDictionary } from "@/i18n/dictionary-provider";
+import { Locale } from "@/i18n/i18n-config";
 
-export default function Home() {
+export default function Home({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
-  const page = useDictionary().page;
+  const dico = useDictionary();
+  const page = dico.page;
 
   return (
     <>
@@ -42,10 +48,10 @@ export default function Home() {
           </motion.div>
         </ScrollAnimationWrapper>
       </div>
-      <About page={page}/>
-      <Treatments page={page}/>
-      <Team page={page}/>
-      <Contact page={page}/>
+      <About page={page} />
+      <Treatments page={page} lang={lang}/>
+      <Team dico={dico} lang={lang}/>
+      <Contact page={page} />
     </>
   );
 }

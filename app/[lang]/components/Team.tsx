@@ -6,14 +6,13 @@ import Image from "next/image";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import Link from "next/link";
-import { getTeams } from "../data/data";
 
-export default function Team({ page }: any) {
+export default function Team({ dico, lang }: any) {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   const getUrlName = (name: string) => {
     const res = name.split(" ");
-    return `/en/${res[0]}-${res[1]}-${res[2]}`;
+    return `/${lang}/${res[0]}-${res[1]}-${res[2]}`;
   };
 
   return (
@@ -25,17 +24,17 @@ export default function Team({ page }: any) {
               variants={scrollAnimation}
               className="uppercase text-4xl font-bold p-3"
             >
-              {page.teams.title}
+              {dico.page.teams.title}
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="italic leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto mt-2 text-center pb-10"
             >
-              {page.teams.description}
+              {dico.page.teams.description}
             </motion.p>
           </ScrollAnimationWrapper>
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 2xl:gap-x-36">
-            {getTeams.map((profil) => (
+            {dico.teams.map((profil: any) => (
               <ScrollAnimationWrapper
                 className="flex justify-center"
                 key={profil.name}
@@ -58,7 +57,7 @@ export default function Team({ page }: any) {
                       <div className="h-80 relative">
                         <Image
                           src={profil.image}
-                          alt="Free Plan"
+                          alt="Profil"
                           width={250}
                           height={0}
                           className=""
@@ -76,7 +75,7 @@ export default function Team({ page }: any) {
                       <div className="h-80 relative">
                         <Image
                           src={profil.image}
-                          alt="Free Plan"
+                          alt="Profil"
                           width={250}
                           height={0}
                           className=""

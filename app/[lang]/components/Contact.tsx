@@ -51,7 +51,12 @@ export default function Locations({ page }: any) {
             <div className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
               <div className="flex mb-4">
                 <FaHome className="mr-2" size="24px" color="black" />
-                <p>65A avenue de la Liberté, 4601 Differdange</p>
+                <a
+                  target="_blank"
+                  href="https://www.google.com/maps/dir//Centre+dentaire+differdange+65A+Av.+de+la+Libert%C3%A9+4601+Differdange+Luxembourg/@49.5263651,5.8900633,15z/data=!4m5!4m4!1m0!1m2!1m1!1s0x47eacb049c805e7b:0xee6cc48d7952f62e"
+                >
+                  65A avenue de la Liberté, 4601 Differdange
+                </a>
               </div>
               <div className="flex ">
                 <FaPhone className="mr-2" size="20px" color="black" />
@@ -74,7 +79,7 @@ export default function Locations({ page }: any) {
           </div>
         </motion.div>
         <p className="relative mt-4 text-center justify-center">
-        {page.contact.description}
+          {page.contact.description}
         </p>
       </section>
     </div>

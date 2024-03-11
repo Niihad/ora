@@ -25,7 +25,7 @@ export default function Card({ sens, params }: Props) {
       <>
         {params.length > 0 && (
           <div className="mx-auto px-6 lg:px-8">
-            <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">
+            <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2 items-center">
               <ScrollAnimationWrapper>
                 <motion.div
                   className="mx-auto flex flex-col gap-y-4 justify-center xl:max-w-2xl max-w-lg w-full px-8"
