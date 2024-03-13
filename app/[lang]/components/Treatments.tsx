@@ -22,12 +22,12 @@ export default function Treatments({ page, lang }: any) {
               </motion.h1>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
-              <motion.p variants={scrollAnimation} className="italic">
+              <motion.p variants={scrollAnimation} className="italic pb-3">
                 {page.treatments.description}
               </motion.p>
             </ScrollAnimationWrapper>
             <ScrollAnimationWrapper>
-              <motion.p variants={scrollAnimation} className="text-justify">
+              <motion.p variants={scrollAnimation} className="text-justify ">
                 {page.treatments.more}
               </motion.p>
             </ScrollAnimationWrapper>
