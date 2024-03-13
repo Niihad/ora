@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { useEffect } from "react";
 import Card from "../components/Layout/Card";
 import { FaRegSadTear } from "react-icons/fa";
@@ -47,23 +48,34 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
         value: <div className="text-left ml-4">{diplome}</div>,
         show: "left",
       },
-      { value: params.name !== "Dr MOUROT Clara" ? "Prendre rendez-vous" : "Appeler pour prendre rendez-vous", show: "bottom" },
+      {
+        value:
+          params.name !== "Dr MOUROT Clara"
+            ? "Prendre rendez-vous"
+            : "Appeler pour prendre rendez-vous",
+        show: "bottom",
+      },
     ];
   };
 
   return (
-    <div className="pt-14 sm:pt-0">
-      {profil === undefined ? (
-        <div className="flex justify-center"><div className="sm:text-3xl text-xl font-bold ">
-        <div className="flex justify-center text-align my-10 mt-28"><FaRegSadTear size="200px" color="black" /></div>
-        <h1 className="my-10">{"Oops! That page can't be found."}</h1>
-      </div></div>
-        
-      ) : (
-        <div className={"py-14 lg:py-24"} id={profil.name} key={profil.name}>
-          <Card sens={"left"} params={buildParams(profil)} />
-        </div>
-      )}
-    </div>
+    <Suspense fallback={<p>Loading team...</p>}>
+      <div className="pt-14 sm:pt-0">
+        {profil === undefined ? (
+          <div className="flex justify-center">
+            <div className="sm:text-3xl text-xl font-bold ">
+              <div className="flex justify-center text-align my-10 mt-28">
+                <FaRegSadTear size="200px" color="black" />
+              </div>
+              <h1 className="my-10">{"Oops! That page can't be found."}</h1>
+            </div>
+          </div>
+        ) : (
+          <div className={"py-14 lg:py-24"} id={profil.name} key={profil.name}>
+            <Card sens={"left"} params={buildParams(profil)} />
+          </div>
+        )}
+      </div>
+    </Suspense>
   );
 }
