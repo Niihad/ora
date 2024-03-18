@@ -1,138 +1,138 @@
 {
   "header": {
     "navigation": [
-      { "id": "about", "name": "about", "offset": -62 },
+      { "id": "about", "name": "about us", "offset": -62 },
       { "id": "treatments", "name": "treatments", "offset": -62 },
       { "id": "team", "name": "team", "offset": -62 },
-      { "id": "contact", "name": "location", "offset": -62 }
+      { "id": "contact", "name": "contact", "offset": -62 }
     ],
-    "title": "Ora dental practice"
+    "title": "ORA DENTAL PRACTICE"
   },
   "page": {
     "title": "L'experience",
     "description": "Regarder la video",
     "about": {
-      "title": "Cabinet dentaire Ora",
-      "description": "Le nom \"Cabinet Dentaire ORA\" trouve son origine dans la passion de nos médecins dentistes pour la dentisterie et leur désir de créer un lieu accueillant et professionnel pour les patients.",
-      "more": "Le mot \"ORA\" a été choisi pour sa signification et sa sonorité agréable. En latin, \"Ora\" est associé au mot \"bouche\" ou \"parole\", le terme évoque également l'idée de santé, de bien-être et de beauté, ce qui correspond parfaitement à la mission du cabinet de fournir des soins dentaires de qualité pour améliorer la santé bucco-dentaire et la confiance en soi de chaque patient.",
-      "more2": "Ainsi, ce nom reflète à la fois le professionnalisme et la vision de nos médecins, tout en évoquant des notions de santé, de beauté et de confiance."
+      "title": "ORA DENTAL PRACTICE",
+      "description": "The name \"ORA\" comes from our passion for dentistry and our desire to create a welcoming and professional place for patients.",
+      "more": "The word \"ORA\" was chosen for its meaning and also for its pleasant sound. In Latin, \"Ora\" is associated with the words \"mouth\" or \"speech.\" The term also evokes the idea of health, well-being, and beauty, aligning perfectly with the clinic's mission to provide quality dental care to improve the oral health and confidence of each patient.",
+      "more2": "Thus, this name reflects both the professionalism and vision of our dentists, while also evoking concepts of health, beauty, and trust."
     },
     "treatments": {
-      "title": "Des traitements sur mesure",
-      "description": "\"Des soins de qualité pour votre plus beau sourire.\"",
-      "more": "Notre équipe pluridisciplinaire est composée de médecins dentistes qualifiés en différentes spécialités. Tous les soins se font directement au cabinet : visites de contrôle, soins conservateurs, orthodontie ou encore les chirurgies, afin de permettre à nos patients d'avoir accès en un seul lieu à un plateau technique complet.",
-      "more2": "Voir les traitements proposés"
+      "title": "CUSTOMIZED TREATMENTS",
+      "description": "\"Quality care for your finest smile \"",
+      "more": "Our multidisciplinary team includes qualified dentists specializing in various fields. All treatments are performed directly at the clinic, including check-ups, conservative care, orthodontics, or surgeries, providing our patients an access to a complete technical platform in one location.",
+      "more2": "See the treatments offered"
     },
     "teams": {
-      "title": "Notre équipe",
-      "description": "\" Le chemin vers votre nouveau sourire débute ici \""
+      "title": "Our team",
+      "description": "\" Your path to your new smile begins here \""
     },
     "contact": {
-      "title": "Parking privé réservé aux patients",
+      "title": "Private parking reserved for patients",
       "time": [
-        { "day": "Lundi 9h00 - 19h00" },
-        { "day": "Mardi  9h00 - 19h00" },
-        { "day": "Mercredi  9h00 - 18h00" },
-        { "day": "Jeudi  9h00 - 18h00" },
-        { "day": "Vendredi  9h00 - 19h00" },
-        { "day": "Samedi  9h00 - 14h00" }
+        { "day": "Monday 9am - 7pm" },
+        { "day": "Tuesday 9am - 7pm" },
+        { "day": "Wednesday 9am - 6pm" },
+        { "day": "Thursday 9am - 6pm" },
+        { "day": "Friday 9am - 7pm" },
+        { "day": "Saturday 9am - 2pm" }
       ],
-      "description": "En cas d'urgence, nous téléphoner directement. Nous mettrons tout en œuvre pour vous recevoir et vous soulager le plus rapidement possible dans la journée."
+      "description": "In case of emergency, please call us directly. We will make every effort to accommodate you and provide relief as quickly as possible within the same day."
     }
   },
   "folder": {
-    "title": "Schedule an appointment",
-    "description": "© COPYRIGHT 2024. All Rights Reserved. cabinet dentaire ora"
+    "title": "Book Your Appointment",
+    "description": "all rights reserved. ora dental practice"
   },
   "treatments": [
     {
-      "title": "Dentisterie esthétique",
+      "title": "COSMETIC DENTISTRY",
       "image": "/assets/treatments/01.jpg",
       "question":
-        "Vous souhaitez corriger des imperfections liées à votre sourire ?",
+        "Want to correct smile imperfections?",
       "description":
-        "La dentisterie esthétique consiste à embellir et améliorer l'apparence de vos dents. Elle comprend différents traitements comme le blanchiment, les facettes ou encore les couronnes pour améliorer la forme, la couleur ou l'alignement de vos dents, afin de rendre votre sourire plus esthétique et plus harmonieux."
+        "Cosmetic dentistry enhances the appearance of your teeth through treatments like whitening, veneers, and crowns, improving the shape, color, and alignment for a more aesthetic and harmonious smile."
     },
     {
-      "title": "Blanchiment dentaire",
+      "title": "TEETH WHITENING",
       "image": "/assets/treatments/02.jpg",
-      "question": "Vous souhaitez un sourire plus éclatant ?",
+      "question": "Wish for a brighter smile?",
       "description":
-        "Nous vous proposons un traitement simple et efficace, qui vous permettra de gagner une à plusieurs teintes. Ce traitement pourra être réalisé à la maison, à l’aide de gouttières réalisées sur mesure, ou directement dans notre cabinet en une seule séance."
+        "Our simple and effective treatment, using custom-made trays at home or a single-session in-office procedure, can brighten your teeth several shades."
     },
     {
-      "title": "Implantologie",
+      "title": "MPLANTOLOGY",
       "image": "/assets/treatments/03.jpg",
-      "question": "Vous souhaitez remplacer une ou plusieurs dents manquantes ?",
+      "question": "Need to replace missing teeth?",
       "description":
-        "L'implantologie consiste à remplacer les dents absentes par des \"racines\" artificielles en titane. Sur ces implants, on place ensuite des prothèses dentaires comme des couronnes, des bridges ou des prothèses amovibles afin de restaurer l'esthétique et la fonction des dents de manière durable."
+        "Implantology involves replacing missing teeth with artificial titanium “roots”, supporting dental prostheses such as crowns, bridges, or removable prostheses for long-term aesthetic and functional restoration."
     },
     {
-      "title": "Orthodontie",
+      "title": "ORTHODONTICS",
       "image": "/assets/treatments/04.jpg",
-      "question": "Vous souhaitez améliorer l'alignement de vos dents ?",
+      "question": "Seeking improved teeth alignment?",
       "description":
-        "L'orthodontie vise à aligner et à corriger la position des dents et des mâchoires. Nos orthodontistes, le Dr Zeidan et le Dr Hussein, utilisent des appareils comme des bagues, des appareils amovibles ou des aligneurs transparents pour redresser les dents, corriger les problèmes d'occlusion et améliorer l'esthétique de votre sourire."
+        "Orthodontics aligns and corrects teeth and jaw positions for children, adolescents, and adults. Our orthodontists, Dr. Zeidan and Dr. Hussein, use braces, removable devices, or transparent aligners to enhance smiles and correct occlusion issues."
     },
     {
-      "title": "Stomatologie",
+      "title": "ORAL SURGERY",
       "image": "/assets/treatments/05.jpg",
       "question":
-        "La stomatologie se concentre sur les maladies et les traitements de toute la bouche : les dents, les gencives, la langue, la mâchoire et les tissus environnants.",
+        "Stomatology focuses on diseases and treatments of the entire mouth, including extractions, temporomandibular joint disorders, tumors, or oral lesions.",
       "description":
-        "Notre stomatologue, le Dr Freminet, traite une large gamme de problèmes tels que les extractions des dents de sagesse, les troubles de l'articulation temporo-mandibulaire, ainsi que les tumeurs ou les lésions de la bouche."
+        "Dr. Freminet handles a wide range of oral issues."
     },
     {
-      "title": "Prothèses dentaires",
+      "title": "DENTAL PROSTHESES",
       "image": "/assets/treatments/06.jpg",
       "question":
-        "Les prothèses dentaires sont utilisées pour remplacer une ou plusieurs dents manquantes.",
+        "Dental prostheses replace missing teeth.",
       "description":
-        "Elles peuvent être amovibles, comme un dentier partiel ou complet, ou fixées, comme un bridge ou une couronne. Ces prothèses sont conçues pour restaurer la fonction masticatoire et l'esthétique du sourire dans le but d’améliorer votre confort."
+        "Either as removable options like partial or full dentures or fixed options like bridges or crowns. Such prostheses aim to restore masticatory function and smile aesthetics."
     },
     {
-      "title": "Soins conservateurs",
+      "title": "CONSERVATIVE CARE",
       "image": "/assets/treatments/07.jpg",
-      "question": "Vous souhaitez préserver une bonne santé bucco dentaire ?",
+      "question": "Looking to preserve your oral health?",
       "description":
-        "Il est essentiel d'opter pour des soins conservateurs tels que le détartrage, le traitement des caries et les restaurations. Ces soins jouent un rôle crucial dans la prévention et le traitement des problèmes dentaires afin de préserver vos dents le plus longtemps possible."
+        "Essential conservative treatments, such as scaling, cavity treatments, and restorations, play a crucial role in preventing and treating dental problems, preserving your teeth for as long as possible."
     },
     {
-      "title": "Soin des gencives",
+      "title": "GUM CARE",
       "image": "/assets/treatments/08.jpg",
       "question":
-        "Vos gencives saignent ? Vos gencives se rétractent ? Vos dents bougent ? Vous souffrez peut-être d’une parodontite.",
+        "Experiencing bleeding or receding gums?",
       "description":
-        "La parodontologie se concentre sur la santé des tissus soutenant les dents, comme les gencives et l’os autour des dents. Le but étant de maintenir ces tissus en bonne santé pour garder des dents solides et bien ancrées, et retrouver le plaisir d’une bouche saine et confortable."
+        "Periodontology focuses on the health of the tissues supporting the teeth, such as the gums and the bone around the teeth. The goal is to maintain these tissues in good health to keep the teeth strong and well-rooted, and to rediscover the pleasure of a healthy and comfortable mouth."
     },
     {
-      "title": "Endodontie",
+      "title": "Endodontics",
       "image": "/assets/treatments/09.jpg",
       "question":
-        "L'endodontie se concentre sur le traitement de l'intérieur de la dent.",
+        "Endodontics focuses on the internal treatment of the tooth.",
       "description":
-        "Lorsqu'une dent est gravement infectée ou endommagée, il est nécessaire d'effectuer un traitement de racine pour enlever la pulpe infectée, nettoyer l'intérieur de la dent, puis la refermer pour éviter l'infection et préserver la dent naturelle."
+        "When a tooth is infected or severely damaged, it is necessary to perform a root canal treatment to remove the infected pulp, clean the inside of the tooth, and then seal it to prevent infection and preserve the natural tooth. Dr. Mourot is specialized in endodontics. She treats infected or damaged teeth under a microscope to preserve your natural teeth."
     },
     {
-      "title": "Dentisterie pédiatrique",
+      "title": "PEDIATRIC DENTISTRY",
       "image": "/assets/treatments/10.jpg",
       "question":
-        "La pédodontie est une branche de la dentisterie qui se concentre sur les soins dentaires des enfants, offrant des traitements adaptés à leurs besoins spécifiques. Cela peut être des examens préventifs, des soins des dents de lait ou même des conseils sur l'hygiène bucco-dentaire pour les plus jeunes.",
+        "Pedodontics focuses on dental care for children, offering preventive exams, care for baby teeth, and oral hygiene advice for the younger ones.",
       "description":
         "Il est recommandé, à titre préventif, de les familiariser avec le cabinet dentaire dès leur plus jeune âge."
     },
     {
-      "title": "Occlusodontie",
+      "title": "OCCLUSODONTICS",
       "image": "/assets/treatments/11.jpg",
-      "question": "Vous avez des douleurs à la mâchoire ? Des claquements ?",
+      "question": "Facing jaw pain or clicking?",
       "description":
-        "L'occlusodontie se concentre sur l'étude de l'occlusion, c'est-à-dire la manière dont les dents supérieures et inférieures s'emboîtent quand la bouche est fermée. Elle consiste à comprendre et à corriger les problèmes liés à l'articulation temporo-mandibulaire pour améliorer le confort, la fonction masticatoire et réduire les tensions musculaires au niveau de la mâchoire."
+        "Occlusodontics studies how upper and lower teeth fit when the mouth is closed. It aims to understand and correct temporomandibular joint issues in order to improved comfort, chewing function, and reduced jaw muscle tension."
     },
     {
-      "title": "Injections d'acide hyaluronique",
+      "title": "HYALURONIC ACID INJECTIONS",
       "image": "/assets/treatments/12.jpg",
       "question":
-        "Des injections d'acide hyaluronique peuvent être faites par nos médecins dentistes pour traiter et améliorer l'apparence de certaines zones autour de la bouche, comme les lèvres ou les rides autour de la bouche.",
+        "Our dentists offer dermal fillers to enhance the appearance of areas around the mouth, addressing lips, wrinkles, or folds, for a more youthful and aesthetic look in harmony with your smile.",
       "description":
         "Cela peut aider à restaurer ou à augmenter le volume, à lisser les rides ou à redessiner les contours pour obtenir un aspect plus jeune et plus esthétique, en harmonie avec votre sourire."
     }
@@ -141,12 +141,12 @@
     {
       "name": "Dr ajdarpasic Mathilde",
       "image": "/assets/teams/Mathilde.jpg",
-      "speciality": "Médecin-dentiste",
+      "speciality": "Dentist",
       "knowledge": [
-        "Soins généralistes",
-        "Dentisterie esthétique",
-        "Dentisterie pédiatrique",
-        "Implantologie"
+        "General Dentistry",
+        "Aesthetic Dentistry",
+        "Pediatric Dentistry",
+        "Implantology"
       ],
       "diplome": [
         "Diplôme de Docteur en chirurgie dentaire, Nancy",
@@ -158,12 +158,12 @@
     {
       "name": "Dr ALTERMATT Ludovic",
       "image": "/assets/teams/Alvin.jpg",
-      "speciality": "Médecin-dentiste",
+      "speciality": "Dentist",
       "knowledge": [
-        "Soins généralistes",
-        "Dentisterie esthétique",
-        "Implantologie",
-        "Injections acide hyaluronique "
+        "General Dentistry",
+        "Aesthetic Dentistry",
+        "Implantology",
+        "Hyaluronic Acid Injections"
       ],
       "diplome": [
         "Diplôme de Docteur en chirurgie dentaire, Nancy",
@@ -181,26 +181,26 @@
       "image": "/assets/teams/Alvin.jpg",
       "speciality": "Médecin-dentiste",
       "knowledge": [
-        "Soins généralistes,",
-        "Dentisterie esthétique,",
-        "Dentisterie pédiatrique,",
-        "Implantologie,",
-        "Injections acide hyaluronique"
+        "General Dentistry",
+        "Aesthetic Dentistry",
+        "Pediatric Dentistry",
+        "Implantology,",
+        "Hyaluronic Acid Injections"
       ],
       "diplome": [
         "Diplôme de docteur en chirurgie dentaire, Nancy,",
         "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris,",
-        "Cursus de Spécialisation à l’Implantologie orale, Paris,",
+        "Cursus de Spécialisation à l'Implantologie orale, Paris,",
         "Formation chirurgie implantaire guidée et flux numérique, Metz"
       ]
     },
     {
       "name": "Dr ZEIDAN Alain",
       "image": "/assets/teams/Alain.jpg",
-      "speciality": "Orthodontiste",
+      "speciality": "Orthodontist",
       "knowledge": [
-        "Technique multiattache adultes et enfants (bagues),",
-        "Aligneurs transparents adultes et enfants (Invisalign)"
+        "Multi-bracket Technique (adults and children)",
+        "Transparent Aligners (Invisalign)"
       ],
       "diplome": [
         "Diplôme de docteur en médecine dentaire,",
@@ -212,10 +212,10 @@
     {
       "name": "Dr Hussein Agnès",
       "image": "/assets/teams/Agnes.jpg",
-      "speciality": "Orthodontiste",
+      "speciality": "Orthodontist",
       "knowledge": [
-        "Technique multiattache adultes et enfants (bagues),",
-        "Aligneurs transparents adultes et enfants (Invisalign)"
+        "Multi-bracket Technique (adults and children),",
+        "Transparent Aligners (Invisalign)"
       ],
       "diplome": [
         "Diplôme de docteur en médecine dentaire,",
@@ -227,21 +227,21 @@
     {
       "name": "Dr FREMINET Gorian",
       "image": "/assets/teams/Gorian.jpg",
-      "speciality": "Chirurgie orale et implantologie",
+      "speciality": "Stomatologist",
       "knowledge": [
-        "Extraction des dents de sagesse,",
-        "Implantologie,",
-        "Chirurgies buccales,",
-        "Problèmes de mâchoires (ATM),",
-        "Dermatologie buccale"
+        "Wisdom Teeth Extraction",
+        "Oral Surgeries",
+        "TMJ Problems",
+        "Oral Dermatology",
+        "Implantology"
       ],
       "diplome": []
     },
     {
       "name": "Dr MOUROT Clara",
-      "image": "/assets/teams/Clara.jpeg",
-      "speciality": "Endodontiste",
-      "knowledge": ["Traitements de racines sous microscope opératoire"],
+      "image": "/assets/teams/Clara.png",
+      "speciality": "Endodontist",
+      "knowledge": ["Microscopic Root Canal Treatments"],
       "diplome": [
         "Diplôme de docteur en chirurgie dentaire, Nancy",
         "Diplôme universitaire d'endodontie clinique et microscopie opératoire, Nancy"
@@ -250,14 +250,14 @@
     {
       "name": "Gisela",
       "image": "/assets/teams/Gisela.jpg",
-      "speciality": "Assistante dentaire",
+      "speciality": "Dental Assistant",
       "knowledge": [],
       "diplome": []
     },
     {
       "name": "Marlene",
       "image": "/assets/teams/Marlene.jpg",
-      "speciality": "Assistante dentaire",
+      "speciality": "Dental Assistant",
       "knowledge": [],
       "diplome": []
     }

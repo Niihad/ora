@@ -1,0 +1,264 @@
+{
+  "header": {
+    "navigation": [
+      { "id": "about", "name": "Gabinete", "offset": -62 },
+      { "id": "treatments", "name": "TRATAMENTOS", "offset": -62 },
+      { "id": "team", "name": "EQUIPE", "offset": -62 },
+      { "id": "contact", "name": "contato", "offset": -62 }
+    ],
+    "title": "Gabinete Dentário ORA"
+  },
+  "page": {
+    "title": "Experiência",
+    "description": "Ver o vídeo",
+    "about": {
+      "title": "Cabinet dentaire Ora",
+      "description": "O nome \"ORA\" tem sua origem na paixão dos nossos dentistas pela odontologia e no desejo de criar um lugar acolhedor e profissional para os pacientes.",
+      "more": "A palavra \"ORA\" foi escolhida por seu significado e sonoridade agradável. Em latim, \"Ora\" está associada às palavras \"boca\" ou \"fala\". O termo também evoca a ideia de saúde, bem-estar e beleza, alinhando-se perfeitamente com a missão da clínica de fornecer cuidados odontológicos de qualidade para melhorar a saúde bucal e a confiança de cada paciente.",
+      "more2": "Assim, esse nome reflete tanto o profissionalismo quanto a visão dos nossos dentistas, ao mesmo tempo em que evoca conceitos de saúde, beleza e confiança."
+    },
+    "treatments": {
+      "title": "TRATAMENTOS PERSONALIZADOS",
+      "description": "\"Cuidados de qualidade para o seu sorriso mais bonito\"",
+      "more": "A nossa equipa multidisciplinar é composta por dentistas qualificados em diversas especialidades. Todos os tratamentos são realizados diretamente no gabinete, incluindo check-ups, cuidados conservadores, ortodontia e cirurgias, proporcionando aos nossos pacientes acesso a uma plataforma técnica abrangente num único local.",
+      "more2": "Veja os tratamentos oferecidos"
+    },
+    "teams": {
+      "title": "A EQUIPE",
+      "description": "\" O caminho para o seu novo sorriso começa aqui \""
+    },
+    "contact": {
+      "title": "Estacionamento privado reservado para pacientes",
+      "time": [
+        { "day": "Segunda-feira 9:00 - 19:00" },
+        { "day": "Terça-feira 9:00 - 19:00" },
+        { "day": "Quarta-feira 9:00 - 18:00" },
+        { "day": "Quinta-feira 9:00 - 18:00" },
+        { "day": "Sexta-feira 9:00 - 19:00" },
+        { "day": "Sábado 9:00 - 14:00" }
+      ],
+      "description": "Em caso de emergência, ligue-nos diretamente. Faremos tudo ao nosso alcance para recebê-lo e aliviar o mais rápido possível durante o dia."
+    }
+  },
+  "folder": {
+    "title": "Marcar Consulta",
+    "description": "todos os direitos reservados. clinica odontológica ora"
+  },
+  "treatments": [
+    {
+      "title": "DENTISTERIA ESTÉTICA",
+      "image": "/assets/treatments/01.jpg",
+      "question":
+        "Quer corrigir imperfeições no sorriso?",
+      "description":
+        "A dentisteria estética melhora a aparência dos seus dentes através de tratamentos como clareamento, facetas e coroas, melhorando a forma, cor e alinhamento para um sorriso mais estético e harmonioso."
+    },
+    {
+      "title": "BRANQUEAMENTO DENTÁRIO",
+      "image": "/assets/treatments/02.jpg",
+      "question": "Deseja um sorriso mais brilhante?",
+      "description":
+        "O nosso tratamento simples e eficaz, utilizando moldeiras feitas à medida em casa ou um procedimento em consultório numa única sessão, pode clarear os seus dentes em várias tonalidades."
+    },
+    {
+      "title": "IMPLANTOLOGIA",
+      "image": "/assets/treatments/03.jpg",
+      "question": "Necessita de substituir dentes em falta?",
+      "description":"A implantologia envolve a substituição de dentes em falta por “raízes” artificiais de titânio, suportando próteses dentárias como coroas, pontes ou próteses removíveis para uma restauração estética e funcional duradoura."
+    },
+    {
+      "title": "ORTODONTIA",
+      "image": "/assets/treatments/04.jpg",
+      "question": "Procurando melhorar o alinhamento dos dentes?",
+      "description":
+        "A ortodontia alinha e corrige a posição dos dentes e mandíbulas em crianças, adolescentes e adultos. Os nossos ortodontistas utilizam aparelhos fixos, dispositivos removíveis ou alinhadores transparentes para endireitar os dentes, corrigir problemas de oclusão e melhorar a estética do seu sorriso, ou do seu filho."
+    },
+    {
+      "title": "CIRURGIA ORAL",
+      "image": "/assets/treatments/05.jpg",
+      "question":
+        "A estomatologia concentra-se em doenças e tratamentos de toda a boca, incluindo extrações, distúrbios da articulação temporomandibular, tumores e lesões orais.",
+      "description":
+        "O Dr. Freminet trata uma ampla gama de problemas orais."
+    },
+    {
+      "title": "PRÓTESES DENTÁRIAS",
+      "image": "/assets/treatments/06.jpg",
+      "question":
+        "As próteses dentárias substituem dentes em falta, podendo ser removíveis, como dentaduras parciais ou totais, ou fixas, como pontes ou coroas.",
+      "description":
+        "Estas próteses são concebidas para restaurar a função mastigatória e a estética do sorriso, com o objetivo de melhorar o seu conforto."
+    },
+    {
+      "title": "CUIDADOS CONSERVADORES",
+      "image": "/assets/treatments/07.jpg",
+      "question": "Deseja preservar uma boa saúde bucal?",
+      "description":
+        "Tratamentos conservadores essenciais, como a remoção de tártaro, tratamento de cáries e restaurações, desempenham um papel crucial na prevenção e tratamento de problemas dentários para preservar os seus dentes o máximo possível."
+    },
+    {
+      "title": "CUIDADO DAS GENGIVAS",
+      "image": "/assets/treatments/08.jpg",
+      "question":
+        "As suas gengivas estão a sangrar? Estão a retrair-se? Os seus dentes estão a mexer? Pode estar a sofrer de periodontite.",
+      "description":
+        "A periodontologia foca-se na saúde dos tecidos que suportam os dentes, como as gengivas e o osso ao redor dos dentes. O objetivo é manter estes tecidos saudáveis para preservar dentes fortes e bem ancorados, recuperando o prazer de uma boca saudável e confortável."
+    },
+    {
+      "title": "ENDODONTIA",
+      "image": "/assets/treatments/09.jpg",
+      "question":
+        "A endodontia concentra-se no tratamento do interior do dente.",
+      "description":
+        "Quando um dente está infetado ou gravemente danificado, é necessário realizar um tratamento de canal para remover a polpa infetada, limpar o interior do dente e fechá-lo para evitar infeções e preservar o dente natural. A Dra. Mourot especializou-se nesta disciplina e realiza os tratamentos sob microscópio."
+    },
+    {
+      "title": "DENTISTERIA PEDIÁTRICA",
+      "image": "/assets/treatments/10.jpg",
+      "question":
+        "A pedodontia é uma vertente da odontologia que se concentra nos cuidados dentários das crianças, oferecendo exames preventivos, cuidados com os dentes de leite e conselhos de higiene bucal para os mais jovens.",
+      "description":
+        "Il est recommandé, à titre préventif, de les familiariser avec le cabinet dentaire dès leur plus jeune âge."
+    },
+    {
+      "title": "OCLUSODONTIA",
+      "image": "/assets/treatments/11.jpg",
+      "question": "Tem dores na mandíbula? Ouve estalos?",
+      "description":
+        "A oclusodontia estuda como os dentes superior e inferior se encaixam quando a boca está fechada. Visa compreender e corrigir problemas relacionados com a articulação temporomandibular para melhorar o conforto, a função mastigatória e reduzir as tensões musculares na mandíbula."
+    },
+    {
+      "title": "INJEÇÕES DE ÁCIDO HIALURÓNICO",
+      "image": "/assets/treatments/12.jpg",
+      "question":
+        "Os nossos dentistas realizam injeções de ácido hialurónico para tratar e melhorar a aparência de certas áreas ao redor da boca, como os lábios, os cantos dos lábios, as rugas ou os sulcos ao redor da boca.",
+      "description":
+        "Isso pode ajudar a restaurar ou aumentar o volume, suavizar rugas ou redesenhar os contornos para obter um visual mais jovem e estético, em harmonia com o seu sorriso."
+    }
+  ],
+  "teams": [
+    {
+      "name": "Dra. ajdarpasic Mathilde",
+      "image": "/assets/teams/Mathilde.jpg",
+      "speciality": "Dentista",
+      "knowledge": [
+        "Medicina Dentária Geral",
+        "Dentisteria Estética",
+        "Dentisteria Pediátrica",
+        "Implantologia"
+      ],
+      "diplome": [
+        "Diplôme de Docteur en chirurgie dentaire, Nancy",
+        "Diplôme Universitaire d'Implantologie, Evry",
+        "Formation Invisalign, Paris",
+        "Formation D-Esthetics (dentisterie ésthétique et minimalement invasive), Liège"
+      ]
+    },
+    {
+      "name": "Dr ALTERMATT Ludovic",
+      "image": "/assets/teams/Alvin.jpg",
+      "speciality": "Dentista",
+      "knowledge": [
+        "Medicina Dentária Geral",
+        "Dentisteria Estética",
+        "Implantologia",
+        "Injeções de Ácido Hialurónico"
+      ],
+      "diplome": [
+        "Diplôme de Docteur en chirurgie dentaire, Nancy",
+        "Certificat d'Université en implantologie orale, Liège",
+        "Formation clinique en implantologie :  Concept ALL ON 4 - NobelGuide de Paolo Malo, Lisbonne",
+        "Génération implant : Formation clinique avec travaux pratiques en implantologie, Nice",
+        "NYU International Advanced Program : « Current Concepts in American Dentistry : Advances in Implantology and Oral Rehabilitation » New York",
+        "Restaurations All Ceram (couronnes, bridge, facettes, onlay, inlay), Liège",
+        "Formation Lumineers (facettes dentaires pelliculaires), Paris",
+        "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris"
+      ]
+    },
+    {
+      "name": "Dr LESDEL Alvin",
+      "image": "/assets/teams/Alvin.jpg",
+      "speciality": "Dentista",
+      "knowledge": [
+        "Medicina Dentária Geral",
+        "Dentisteria Estética",
+        "Dentisteria Pediátrica",
+        "Implantologia",
+        "Injeções de Ácido Hialurónico"
+      ],
+      "diplome": [
+        "Diplôme de docteur en chirurgie dentaire, Nancy,",
+        "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris,",
+        "Cursus de Spécialisation à l'Implantologie orale, Paris,",
+        "Formation chirurgie implantaire guidée et flux numérique, Metz"
+      ]
+    },
+    {
+      "name": "Dr ZEIDAN Alain",
+      "image": "/assets/teams/Alain.jpg",
+      "speciality": "Ortodontista",
+      "knowledge": [
+        "Técnica multi-adesiva para adultos e crianças (aparelhos)",
+        " Alinhadores transparentes para adultos e crianças (Invisalign)"
+      ],
+      "diplome": [
+        "Diplôme de docteur en médecine dentaire,",
+        "Diplôme universitaire en chirurgie orthognatique, Université de Sorbonne Paris,",
+        "Master en orthopédie dento-maxillo-faciale ,",
+        "Certification de traitements orthodontiques par gouttières Invisalign"
+      ]
+    },
+    {
+      "name": "Dra Hussein Agnès",
+      "image": "/assets/teams/Agnes.jpg",
+      "speciality": "Ortodontista",
+      "knowledge": [
+        "Técnica multi-adesiva para adultos e crianças (aparelhos)",
+        "Alinhadores transparentes para adultos e crianças (Invisalign)"
+      ],
+      "diplome": [
+        "Diplôme de docteur en médecine dentaire,",
+        "Diplôme universitaire en croissance cranio-faciale et orthopédie-dento-maxillo-faciale, Paris Descartes,",
+        "Certificat d'études supérieures de chirurgie dentaire, Paris Diderot,",
+        "Certification de traitements orthodontiques par gouttières Invisalign"
+      ]
+    },
+    {
+      "name": "Dr FREMINET Gorian",
+      "image": "/assets/teams/Gorian.jpg",
+      "speciality": "Estomatologista",
+      "knowledge": [
+        "Extração de dentes do siso",
+        "Cirurgias orais",
+        "Problemas de ATM",
+        "Dermatologia oral",
+        "Implantologia"
+      ],
+      "diplome": []
+    },
+    {
+      "name": "Dr MOUROT Clara",
+      "image": "/assets/teams/Clara.png",
+      "speciality": "Endodontista",
+      "knowledge": ["Ligue para marcar consulta"],
+      "diplome": [
+        "Diplôme de docteur en chirurgie dentaire, Nancy",
+        "Diplôme universitaire d'endodontie clinique et microscopie opératoire, Nancy"
+      ]
+    },
+    {
+      "name": "Gisela",
+      "image": "/assets/teams/Gisela.jpg",
+      "speciality": "Assistente Dentária",
+      "knowledge": [],
+      "diplome": []
+    },
+    {
+      "name": "Marlene",
+      "image": "/assets/teams/Marlene.jpg",
+      "speciality": "Assistente Dentária",
+      "knowledge": [],
+      "diplome": []
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "header": {
+    "navigation": [
+      { "id": "about", "name": "CABINET  ", "offset": -62 },
+      { "id": "treatments", "name": "BEHANDLUNGEN", "offset": -62 },
+      { "id": "team", "name": "TEAM ", "offset": -62 },
+      { "id": "contact", "name": "KONTAKT", "offset": -62 }
+    ],
+    "title": "Praxis Zänndokter ORA"
+  },
+  "page": {
+    "title": "D’ERFAHRUNG",
+    "description": "Video kucken",
+    "about": {
+      "title": "Praxis Zänndokter ORA",
+      "description": "Den Numm \"Praxis Zänndokter ORA\" fënnt säin Ursprong an der Leidenschaft vun eise Zänndokter fir d‘Zänn an hire Wonsch, eng aluedendend an professionell Plaz fir d'Patienten ze schafen.",
+      "more": "Den Numm \"ORA\" gouf fir seng Bedeitung an säin angenehme Klang ausgesicht. Op Latäin ass \"Ora\" mat dem Wuert \"Mond\" oder \"Schwätz\" assoziiert. De Begreif erënnert och un d'Iddie vun Gesondheet, Wuelbefannen an Schéinheet, wat perfekt zur Mission vum Kabinet passt, déi esougenannte zahnmedezinesch Versuergunge vu gudder Qualitéit unzebidden, fir d'Bucco-Dentalgesondheet an d'Selbstvertrauen vum eenzele Patient ze verbesseren.",
+      "more2": "Deen Numm spiggelt sowuel de Professionalismus wéi d'Visioun vun eisen Zahnmedeziner an erënnert un d’Konzepter vu Gesondheet, Schéinheet an Vertrauen."
+    },
+    "treatments": {
+      "title": "Moossgemaach BEHANDLUNGEN",
+      "description": "\"Qualitativ Behandlungen fir ärt schéinste Laachen\"",
+      "more": "Eis multidisziplinär Equipe besteet aus qualifizéierten Zänndokteren déi a verschiddene Beräicher spezialiséiert sinn. All Behandlungen ginn direkt an der Praxis gemaach: Kontrollvisiten, erhalend Behandlungen, Kieferorthopädie oder och Chirurgie, fir eise Patienten ze erlaben, zougang op e komplette technesche Plateau op enger eenzeger Plaz ze hunn.",
+      "more2": "Behandlungen kucken"
+    },
+    "teams": {
+      "title": "TEAM",
+      "description": "\"De Wee zu Ärem neien Laachen fänkt hei u \""
+    },
+    "contact": {
+      "title": "Privat Parkplaze fir Patienten reservéiert",
+      "time": [
+        { "day": "Méinden 9:00 - 19:00" },
+        { "day": "Dënschden 9:00 - 19:00" },
+        { "day": "Mëttwoch 9:00 - 18:00" },
+        { "day": "Donneschden 9:00 - 18:00" },
+        { "day": "Freiden 9:00 - 19:00" },
+        { "day": "Samschden 9:00 - 14:00" }
+      ],
+      "description": "An engem Noutfall, rufft eis direkt un. Mir ginn eist Bescht, Iech esou séier wei méiglech am Laf vum Dag ze empfänken an ze hëllefen."
+    }
+  },
+  "folder": {
+    "title": "Book Your Appointment",
+    "description": "tous droits reservés. cabinet dentaire ora"
+  },
+  "treatments": [
+    {
+      "title": "sÄthetesch Behandlung",
+      "image": "/assets/treatments/01.jpg",
+      "question": "Dir wëllt Mängel un ärem Laachen korrigéieren?",
+      "description": "Ästhetesch Zänndokterie besteet doran, äert Laachen ze verschéinern an ze verbesseren. Si ëmfaasst verschidden Behandlungen wéi Zänn bleechen, Facetten oder och Krounen, fir d’Form, d’Faarf oder d’Alignement vun ären Zänn ze verbesseren, fir äert Lächelen méi ästhetesch a harmonesch ze maachen."
+    },
+    {
+      "title": "Zänn bleechen",
+      "image": "/assets/treatments/02.jpg",
+      "question": "Dir wëllt e méi hellt Laachen?",
+      "description": "Mir proposéieren Iech eng einfach an effektiv Behandlung, déi Iech et erméiglecht, fir eng bis e puer Nuancen ze gewannen. Dës Behandlung kann doheem mat Hëllef vu perséinlech ugepassten Gouttièren gemaach ginn oder direkt an eiser Praxis an enger eenzeger Behandlung."
+    },
+    {
+      "title": "Implantologie",
+      "image": "/assets/treatments/03.jpg",
+      "question": "Dir wëllt een oder méi Zänn ersetzen?",
+      "description":
+        "Implantologie besteet doran, déi feelend Zänn mat kënschtlëschen „Titanwuerzelen“ ze ersetzen. Op dësen Implantater ginn dann Prothesen wéi Krounen, Bridges oder auszéibar Prothesen fir d‘Ästhetik an d’Funktioun vun den Zänn op enger dauerhafter Manéier nees hiergestallt."
+    },
+    {
+      "title": "Kieferorthopädie",
+      "image": "/assets/treatments/04.jpg",
+      "question": "Dir wëllt d’Alignement vu ären Zänn verbesseren?",
+      "description":
+        "Kieferorthopädie huet Zil, d‘Positioun vun den Zänn an de Kieferen ze verbesseren an z‘alignéieren, bei Kanner, Jugendlechen oder Erwuessene. Eis Kieferorthopäden, den Dr. Zeidan an den Dr. Hussein, benotzen Apparater wéi d‘Zahnspang, Zahnspangen déi een eraushuele kann oder transparent Zahnspangen, fir d’Zänn ze richten, Okklusiounsproblemer ze verbesseren an fir d‘Ästhetik vun Ärem oder Ärem Kand sengem Laachen ze verbesseren."
+    },
+    {
+      "title": "Stomatologie",
+      "image": "/assets/treatments/05.jpg",
+      "question":
+        "Stomatologie konzentréiert sech op d‘Krankheeten an d’Behandlungen vum ganzen Mond: de Zänn, d‘Zännfleesch, d’Sprooch, de Kiefer an d’Umgebungsgeweber.",
+      "description":
+        "Eisen Stomatolog, den Dr. Freminet, behandelt eng breed Palette vu Problemer wéi d’Extraktioun vun den Wéisheetszänn, d’Trouble mam „temporo-mandibulaire“ Gelenk, sou wéi d’Tumoren oder Läsionen am Mond."
+    },
+    {
+      "title": "Prothesen",
+      "image": "/assets/treatments/06.jpg",
+      "question":
+        "D‘Zahnprothesen ginn benotzt fir een oder méi Zänn ze ersetzen.",
+      "description":
+        "Se kënnen eraushuelbar sinn, wéi e partiellt oder komplett Gebëss, oder fest, wéi eng Bréck oder eng Kroun. Dës Prothesen si konzipéiert fir d’Kaufonktioun ze restauréieren an d‘Ästhetik vum Laachen ze verbesseren, mam Zil Äre Komfort z‘optiméieren."
+    },
+    {
+      "title": "Erhalend Behandlungen",
+      "image": "/assets/treatments/07.jpg",
+      "question": "Dir wëllt eng gutt Bucco-Dentalgesondheet erhalen?",
+      "description":
+        "Et ass wesentlech, op erhalend Behandlungen ze setzen wéi Zännbelag eweghuelen, d‘Behandlung vu Karies an Restauratiounen. Dës Behandlungen spillen eng entscheedend Roll an der Präventioun an der Behandlung vu Zännproblemer, fir är Zänn esou laang ewei méiglech ze erhalen."
+    },
+    {
+      "title": "Zännfleeschbehandlungen",
+      "image": "/assets/treatments/08.jpg",
+      "question":
+        "Blutt ärt Zännfleesch? Zitt Ärt Zännfleesch sech zréck? Beweegen sech Är Zänn? Dir kéint eventuell un enger Parodontitis leiden.",
+      "description":
+        "D’Parodontologie konzentréiert sech op d’Gesondheet vun de Geweber déi d’Zänn ënnerstëtzen, wéi d‘Zännflesch an d’Knochen ëm Zänn. D’Zil ass dës Geweber an gudder Gesondheet ze erhalen, fir stark a fest verankert Zänn ze bewahren fir de Komfort vun engem gesonde Mond ze erliewen."
+    },
+    {
+      "title": "Endodontie",
+      "image": "/assets/treatments/09.jpg",
+      "question":
+        "D’Endodontie konzentréiert sech op d’Traitement vum banneschten vun den Zänn.",
+      "description":
+        "Wann en Zant infizéiert oder staark beschiedegt ass, ass et néideg eng Wurzelbehandlung ze maachen, fir déi infizéiert Pulp fortzehuelen, den Inhalt vum Zant ze botzen an den Zant erëm ze verschléissen, fir den natirleche Zant ze erhalen. Den Dr. Mourot huet sech op dës Disziplin spezialiséiert an féiert Är Behandlungen ënner engem Mikroskop duerch."
+    },
+    {
+      "title": "Pédiatresch Zänndokterie",
+      "image": "/assets/treatments/10.jpg",
+      "question":
+        "Pédiatresch Zänndokterie ass en Zweig vun der Zänndokterie, dee sech op d’Zahnbehandlungen vu Kanner konzentréiert an op hir spezifeschen Bedierfnisser ugepasst ass. Dëst kann präventiv Examen, Behandlungen vu de Mëllechzänn oder och Rotschléi fir d‘Bucco-Dentalhygiène vu de Kanner sinn.",
+      "description":
+        "Et ass recommandéiert, als präventiv Moossnam, si schonn ab jonkem Alter, mat engem Zänndokterskabinet vetraut ze maachen."
+    },
+    {
+      "title": "Occlusodontie",
+      "image": "/assets/treatments/11.jpg",
+      "question": "Hutt Dir Péng am Kiefer? Héiert Dir en klacken?",
+      "description":
+        "D‘Occlusodontie konzentréiert sech op d’studéiere vun der Occlusion, dat heescht, wéi déi iwescht Zänn an déi ënnescht zesumme passen, wann de Mond zou ass. Et geet dorëms, d’Problemer mam „temporo-mandibulaire“ Gelenk ze verstoen an ze korrigéieren, fir de Komfort, d’Kaufunktipub an d’Reduktioun vun den muskulären Spannungen am Kiefer ze verbesseren."
+    },
+    {
+      "title": "Injektioune mat Hyaluronsäure",
+      "image": "/assets/treatments/12.jpg",
+      "question":
+        "Injektioune mat Hyaluronsäure kënnen vun eisen Zänndokteren gemaach ginn, fir besonnesch Partien ëm de Mond ze behandelen an ze verschéineren, wéi d‘Lëpsen, d’Nasolabial Falen oder d’Falen ronderëm de Mond.",
+      "description":
+        "Dat kann hëllefen, de Volumen ze erhalen oder ze erhéijen, d‘Falen ze glätten oder d’Kontouren nees hierzwsteklen, fir e mei jonken a ästhetesche Look, an Harmonie mat ärem Laachen, ze erreechen."
+    }
+  ],
+  "teams": [
+    {
+      "name": "Dr ajdarpasic Mathilde",
+      "image": "/assets/teams/Mathilde.jpg",
+      "speciality": "Zänndokter",
+      "knowledge": [
+        "Generell Behandlungen",
+        "Ästhetesch Zänndokterie",
+        "Pédiatresch Zänndokterie",
+        "Implantologie"
+      ],
+      "diplome": [
+        "Diplôme de Docteur en chirurgie dentaire, Nancy",
+        "Diplôme Universitaire d'Implantologie, Evry",
+        "Formation Invisalign, Paris",
+        "Formation D-Esthetics (dentisterie ésthétique et minimalement invasive), Liège"
+      ]
+    },
+    {
+      "name": "Dr ALTERMATT Ludovic",
+      "image": "/assets/teams/Alvin.jpg",
+      "speciality": "Zänndokter",
+      "knowledge": [
+        "Generell Behandlungen",
+        "Ästhetesch Zänndokterie",
+        "Implantologie",
+        "Injektioune mat Hyaluronsäure"
+      ],
+      "diplome": [
+        "Diplôme de Docteur en chirurgie dentaire, Nancy",
+        "Certificat d'Université en implantologie orale, Liège",
+        "Formation clinique en implantologie :  Concept ALL ON 4 - NobelGuide de Paolo Malo, Lisbonne",
+        "Génération implant : Formation clinique avec travaux pratiques en implantologie, Nice",
+        "NYU International Advanced Program : « Current Concepts in American Dentistry : Advances in Implantology and Oral Rehabilitation » New York",
+        "Restaurations All Ceram (couronnes, bridge, facettes, onlay, inlay), Liège",
+        "Formation Lumineers (facettes dentaires pelliculaires), Paris",
+        "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris"
+      ]
+    },
+    {
+      "name": "Dr LESDEL Alvin",
+      "image": "/assets/teams/Alvin.jpg",
+      "speciality": "Zänndokter",
+      "knowledge": [
+        "Generell Behandlungen",
+        "Ästhetesch Zänndokterie",
+        "Pédiatresch Zänndokterie",
+        "Implantologie,",
+        "Injektioune mat Hyaluronsäure"
+      ],
+      "diplome": [
+        "Diplôme de docteur en chirurgie dentaire, Nancy,",
+        "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris,",
+        "Cursus de Spécialisation à l'Implantologie orale, Paris,",
+        "Formation chirurgie implantaire guidée et flux numérique, Metz"
+      ]
+    },
+    {
+      "name": "Dr ZEIDAN Alain",
+      "image": "/assets/teams/Alain.jpg",
+      "speciality": "Kieferorthopäde",
+      "knowledge": [
+        "Technik fir d’Korrektuoun vu de Zänn bei Erwuessenen an Kanner",
+        "Transparent Zahnspangen fir Erwuessene an Kanner (Invisalign)"
+      ],
+      "diplome": [
+        "Diplôme de docteur en médecine dentaire,",
+        "Diplôme universitaire en chirurgie orthognatique, Université de Sorbonne Paris,",
+        "Master en orthopédie dento-maxillo-faciale ,",
+        "Certification de traitements orthodontiques par gouttières Invisalign"
+      ]
+    },
+    {
+      "name": "Dr Hussein Agnès",
+      "image": "/assets/teams/Agnes.jpg",
+      "speciality": "Kieferorthopädin",
+      "knowledge": [
+        "Technik fir d’Korrektioun vu de Zänn bei Erwuessenen an Kanner",
+        "Transparent Zahnspangen fir Erwuessene an Kanner (Invisalign)"
+      ],
+      "diplome": [
+        "Diplôme de docteur en médecine dentaire,",
+        "Diplôme universitaire en croissance cranio-faciale et orthopédie-dento-maxillo-faciale, Paris Descartes,",
+        "Certificat d'études supérieures de chirurgie dentaire, Paris Diderot,",
+        "Certification de traitements orthodontiques par gouttières Invisalign"
+      ]
+    },
+    {
+      "name": "Dr FREMINET Gorian",
+      "image": "/assets/teams/Gorian.jpg",
+      "speciality": "Stomatolog",
+      "knowledge": [
+        "Extraktioun vun den Weisheetszänn",
+        "Mondchirurgie",
+        "Kierferproblemer (ATM)",
+        "Monddermatologie",
+        "Implantologie"
+      ],
+      "diplome": []
+    },
+    {
+      "name": "Dr MOUROT Clara",
+      "image": "/assets/teams/Clara.png",
+      "speciality": "Endodontistin",
+      "knowledge": ["Behandlungen vun den Wuerzelen ënnert engem opérativen Mikroskop"],
+      "diplome": [
+        "Diplôme de docteur en chirurgie dentaire, Nancy",
+        "Diplôme universitaire d'endodontie clinique et microscopie opératoire, Nancy"
+      ]
+    },
+    {
+      "name": "Gisela",
+      "image": "/assets/teams/Gisela.jpg",
+      "speciality": "Zänndokter-Assistentin",
+      "knowledge": [],
+      "diplome": []
+    },
+    {
+      "name": "Marlene",
+      "image": "/assets/teams/Marlene.jpg",
+      "speciality": "Zänndokter-Assistentin",
+      "knowledge": [],
+      "diplome": []
+    }
+  ]
+}
