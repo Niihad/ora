@@ -19,11 +19,11 @@ export default function Header({ lang }: { lang: Locale }) {
   const { locales } = i18n;
 
   const redirectedPathName = (locale: string) => {
-    if (!pathname) return '/'
-    const segments = pathname.split('/')
-    segments[1] = locale
-    return segments.join('/')
-  }
+    if (!pathname) return "/";
+    const segments = pathname.split("/");
+    segments[1] = locale;
+    return segments.join("/");
+  };
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -82,15 +82,21 @@ export default function Header({ lang }: { lang: Locale }) {
     <header className="bg-neutral-100" id="header">
       <div className="header uppercase hidden sm:block">
         <div className="bg-white text-black p-2 px-6 ">
-          <div className="flex gap-2 text-sm p-1 justify-end text-black font-bold">
-            {[...locales].sort().map((locale) => (
+          <div className="flex gap-3 text-sm p-1 justify-end text-black font-bold">
+            {[...locales].map((locale) => (
               <Link key={locale} href={redirectedPathName(locale)}>
                 {locale}
               </Link>
             ))}
           </div>
           <div className="flex gap-2 text-4xl p-3 justify-center font-bold mb-6">
-            <Image src={"/assets/logo.jpg"} alt="Logo" width={600} height={0} />
+            <Image
+              src={"/assets/logo.jpg"}
+              alt="Logo"
+              width={0}
+              height={0}
+              className="w-[600px] h-auto"
+            />
           </div>
         </div>
         <nav>

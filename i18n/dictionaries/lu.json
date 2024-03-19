@@ -136,7 +136,7 @@
   ],
   "teams": [
     {
-      "name": "Dr ajdarpasic Mathilde",
+      "name": "Dr Mathilde AJDARPASIC",
       "image": "/assets/teams/Mathilde.jpg",
       "speciality": "Zänndokter",
       "knowledge": [
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "name": "Dr ALTERMATT Ludovic",
+      "name": "Dr Ludovic ALTERMATT",
       "image": "/assets/teams/Alvin.jpg",
       "speciality": "Zänndokter",
       "knowledge": [
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "name": "Dr LESDEL Alvin",
+      "name": "Dr Alvin LESDEL",
       "image": "/assets/teams/Alvin.jpg",
       "speciality": "Zänndokter",
       "knowledge": [
@@ -192,7 +192,7 @@
       ]
     },
     {
-      "name": "Dr ZEIDAN Alain",
+      "name": "Dr Alain ZEIDAN",
       "image": "/assets/teams/Alain.jpg",
       "speciality": "Kieferorthopäde",
       "knowledge": [
@@ -207,7 +207,7 @@
       ]
     },
     {
-      "name": "Dr Hussein Agnès",
+      "name": "Dr Agnès HUSSEIN",
       "image": "/assets/teams/Agnes.jpg",
       "speciality": "Kieferorthopädin",
       "knowledge": [
@@ -222,7 +222,7 @@
       ]
     },
     {
-      "name": "Dr FREMINET Gorian",
+      "name": "Dr Gorian FREMINET",
       "image": "/assets/teams/Gorian.jpg",
       "speciality": "Stomatolog",
       "knowledge": [
@@ -232,11 +232,33 @@
         "Monddermatologie",
         "Implantologie"
       ],
-      "diplome": []
+      "diplome": [
+        "Diplôme d’Etudes Supérieures en Chirurgie Buccale, Nancy",
+        "Diplôme d’université de formation permanente en chirurgie faciale : option chirurgie buccale, Nancy",
+        "Diplôme d’université de dermatologie et vénéréologie de la muqueuse buccale, Paris",
+        "Diplôme d’université de chirurgie buccale et d’implantologie orale, Dijon",
+        "Diplôme Interuniversitaire Lasers et Médecine, Bordeaux",
+        "Diplôme Universitaire d’Imagerie ORL et Cervico-faciale, Paris",
+        "Diplôme Universitaire de chirurgie reconstructrice pré et péri implantaire orale, Paris",
+        "Diplôme Universitaire d’identification en odontologie médico-légale, Nancy",
+        "Diplôme Universitaire de Droit Médical, Paris",
+        "Post graduate Parodontology et Implantology, New York University",
+        "Attestation Universitaire d’Implantologie, Paris",
+        "Certificat d’expertise judiciaire, Aix",
+        "Diplôme universitaire Odontologie et Posturo-Ostéopathie, Bordeaux",
+        "Formations en parodontologie chirurgicale et bactérienne ",
+        "Cycle de formation en implantologie ADd Vision, Metz",
+        "Formations du Docteur Paolo Malo, Clinica Malo à Lisbonne",
+        "Formations à l’utilisation des lasers en odontologie (Laser Lokki, laser Kavo, laser Kaelux)",
+        "Formation à l’utilisation de la sédation intra veineuse en odontologie",
+        "Formatons à l’injection et aux prélevements intra veineux et PRF, Paris",
+        "Formations des professionnels de santé à l’hypnose, Paris",
+        "Formation à l’Orthokinésie, Lyon"
+]
     },
     {
-      "name": "Dr MOUROT Clara",
-      "image": "/assets/teams/Clara.png",
+      "name": "Dr Clara MOUROT",
+      "image": "/assets/teams/Clara.jpeg",
       "speciality": "Endodontistin",
       "knowledge": ["Behandlungen vun den Wuerzelen ënnert engem opérativen Mikroskop"],
       "diplome": [

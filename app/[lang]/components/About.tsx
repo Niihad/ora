@@ -18,9 +18,10 @@ export default function About({ page }: any) {
             >
               <Image
                 src={"/assets/cabinet.png"}
-                alt="cabinet"
+                alt="cabinet" 
                 width={500}
                 height={0}
+                className="w-auto h-auto"
               />
             </motion.div>
           </ScrollAnimationWrapper>

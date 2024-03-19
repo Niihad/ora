@@ -50,6 +50,7 @@ export default function Treatments({ page, lang }: any) {
                   alt="Tooth"
                   width={600}
                   height={0}
+                  className="w-auto h-auto"
                 />
               </motion.div>
             </ScrollAnimationWrapper>

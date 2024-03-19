@@ -24,7 +24,7 @@ export default function Home({
   return (
     <>
       <div className="relative">
-        <div className="h-[77vh] contrast-[.60]">
+        <div className="h-[77vh] contrast-[.60] relative">
           <Image
             alt="London"
             src={"/assets/luxembourg.jpg"}

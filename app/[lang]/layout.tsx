@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import localFont from "next/font/local"
 import "./globals.css";
 import { Locale, i18n } from "@/i18n/i18n-config";
 import Header from "./components/Layout/header";
@@ -7,6 +8,7 @@ import { getDictionary } from "@/i18n/dictionary";
 import DictionaryProvider from "@/i18n/dictionary-provider";
 
 const inter = Inter({ subsets: ["latin"] });
+const myFont = localFont({ src: "../fonts/NexaBook.otf" });
 
 export const metadata = {
   title: "Home",
@@ -29,7 +31,7 @@ export default async function RootLayout({
   return (
     <html lang={params.lang} className="scroll-auto">
       <body
-        className={`${inter.className} min-h-screen flex flex-col relative bg-white`}
+        className={`${myFont.className} min-h-screen flex flex-col relative bg-white`}
       >
         <DictionaryProvider dictionary={dictionary}>
           <Header lang={params.lang}/>

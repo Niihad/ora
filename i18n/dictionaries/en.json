@@ -48,98 +48,79 @@
     {
       "title": "COSMETIC DENTISTRY",
       "image": "/assets/treatments/01.jpg",
-      "question":
-        "Want to correct smile imperfections?",
-      "description":
-        "Cosmetic dentistry enhances the appearance of your teeth through treatments like whitening, veneers, and crowns, improving the shape, color, and alignment for a more aesthetic and harmonious smile."
+      "question": "Want to correct smile imperfections?",
+      "description": "Cosmetic dentistry enhances the appearance of your teeth through treatments like whitening, veneers, and crowns, improving the shape, color, and alignment for a more aesthetic and harmonious smile."
     },
     {
       "title": "TEETH WHITENING",
       "image": "/assets/treatments/02.jpg",
       "question": "Wish for a brighter smile?",
-      "description":
-        "Our simple and effective treatment, using custom-made trays at home or a single-session in-office procedure, can brighten your teeth several shades."
+      "description": "Our simple and effective treatment, using custom-made trays at home or a single-session in-office procedure, can brighten your teeth several shades."
     },
     {
       "title": "MPLANTOLOGY",
       "image": "/assets/treatments/03.jpg",
       "question": "Need to replace missing teeth?",
-      "description":
-        "Implantology involves replacing missing teeth with artificial titanium “roots”, supporting dental prostheses such as crowns, bridges, or removable prostheses for long-term aesthetic and functional restoration."
+      "description": "Implantology involves replacing missing teeth with artificial titanium “roots”, supporting dental prostheses such as crowns, bridges, or removable prostheses for long-term aesthetic and functional restoration."
     },
     {
       "title": "ORTHODONTICS",
       "image": "/assets/treatments/04.jpg",
       "question": "Seeking improved teeth alignment?",
-      "description":
-        "Orthodontics aligns and corrects teeth and jaw positions for children, adolescents, and adults. Our orthodontists, Dr. Zeidan and Dr. Hussein, use braces, removable devices, or transparent aligners to enhance smiles and correct occlusion issues."
+      "description": "Orthodontics aligns and corrects teeth and jaw positions for children, adolescents, and adults. Our orthodontists, Dr. Zeidan and Dr. Hussein, use braces, removable devices, or transparent aligners to enhance smiles and correct occlusion issues."
     },
     {
       "title": "ORAL SURGERY",
       "image": "/assets/treatments/05.jpg",
-      "question":
-        "Stomatology focuses on diseases and treatments of the entire mouth, including extractions, temporomandibular joint disorders, tumors, or oral lesions.",
-      "description":
-        "Dr. Freminet handles a wide range of oral issues."
+      "question": "Stomatology focuses on diseases and treatments of the entire mouth, including extractions, temporomandibular joint disorders, tumors, or oral lesions.",
+      "description": "Dr. Freminet handles a wide range of oral issues."
     },
     {
       "title": "DENTAL PROSTHESES",
       "image": "/assets/treatments/06.jpg",
-      "question":
-        "Dental prostheses replace missing teeth.",
-      "description":
-        "Either as removable options like partial or full dentures or fixed options like bridges or crowns. Such prostheses aim to restore masticatory function and smile aesthetics."
+      "question": "Dental prostheses replace missing teeth.",
+      "description": "Either as removable options like partial or full dentures or fixed options like bridges or crowns. Such prostheses aim to restore masticatory function and smile aesthetics."
     },
     {
       "title": "CONSERVATIVE CARE",
       "image": "/assets/treatments/07.jpg",
       "question": "Looking to preserve your oral health?",
-      "description":
-        "Essential conservative treatments, such as scaling, cavity treatments, and restorations, play a crucial role in preventing and treating dental problems, preserving your teeth for as long as possible."
+      "description": "Essential conservative treatments, such as scaling, cavity treatments, and restorations, play a crucial role in preventing and treating dental problems, preserving your teeth for as long as possible."
     },
     {
       "title": "GUM CARE",
       "image": "/assets/treatments/08.jpg",
-      "question":
-        "Experiencing bleeding or receding gums?",
-      "description":
-        "Periodontology focuses on the health of the tissues supporting the teeth, such as the gums and the bone around the teeth. The goal is to maintain these tissues in good health to keep the teeth strong and well-rooted, and to rediscover the pleasure of a healthy and comfortable mouth."
+      "question": "Experiencing bleeding or receding gums?",
+      "description": "Periodontology focuses on the health of the tissues supporting the teeth, such as the gums and the bone around the teeth. The goal is to maintain these tissues in good health to keep the teeth strong and well-rooted, and to rediscover the pleasure of a healthy and comfortable mouth."
     },
     {
       "title": "Endodontics",
       "image": "/assets/treatments/09.jpg",
-      "question":
-        "Endodontics focuses on the internal treatment of the tooth.",
-      "description":
-        "When a tooth is infected or severely damaged, it is necessary to perform a root canal treatment to remove the infected pulp, clean the inside of the tooth, and then seal it to prevent infection and preserve the natural tooth. Dr. Mourot is specialized in endodontics. She treats infected or damaged teeth under a microscope to preserve your natural teeth."
+      "question": "Endodontics focuses on the internal treatment of the tooth.",
+      "description": "When a tooth is infected or severely damaged, it is necessary to perform a root canal treatment to remove the infected pulp, clean the inside of the tooth, and then seal it to prevent infection and preserve the natural tooth. Dr. Mourot is specialized in endodontics. She treats infected or damaged teeth under a microscope to preserve your natural teeth."
     },
     {
       "title": "PEDIATRIC DENTISTRY",
       "image": "/assets/treatments/10.jpg",
-      "question":
-        "Pedodontics focuses on dental care for children, offering preventive exams, care for baby teeth, and oral hygiene advice for the younger ones.",
-      "description":
-        "Il est recommandé, à titre préventif, de les familiariser avec le cabinet dentaire dès leur plus jeune âge."
+      "question": "Pedodontics focuses on dental care for children, offering preventive exams, care for baby teeth, and oral hygiene advice for the younger ones.",
+      "description": "Il est recommandé, à titre préventif, de les familiariser avec le cabinet dentaire dès leur plus jeune âge."
     },
     {
       "title": "OCCLUSODONTICS",
       "image": "/assets/treatments/11.jpg",
       "question": "Facing jaw pain or clicking?",
-      "description":
-        "Occlusodontics studies how upper and lower teeth fit when the mouth is closed. It aims to understand and correct temporomandibular joint issues in order to improved comfort, chewing function, and reduced jaw muscle tension."
+      "description": "Occlusodontics studies how upper and lower teeth fit when the mouth is closed. It aims to understand and correct temporomandibular joint issues in order to improved comfort, chewing function, and reduced jaw muscle tension."
     },
     {
       "title": "HYALURONIC ACID INJECTIONS",
       "image": "/assets/treatments/12.jpg",
-      "question":
-        "Our dentists offer dermal fillers to enhance the appearance of areas around the mouth, addressing lips, wrinkles, or folds, for a more youthful and aesthetic look in harmony with your smile.",
-      "description":
-        "Cela peut aider à restaurer ou à augmenter le volume, à lisser les rides ou à redessiner les contours pour obtenir un aspect plus jeune et plus esthétique, en harmonie avec votre sourire."
+      "question": "Our dentists offer dermal fillers to enhance the appearance of areas around the mouth, addressing lips, wrinkles, or folds, for a more youthful and aesthetic look in harmony with your smile.",
+      "description": "Cela peut aider à restaurer ou à augmenter le volume, à lisser les rides ou à redessiner les contours pour obtenir un aspect plus jeune et plus esthétique, en harmonie avec votre sourire."
     }
   ],
   "teams": [
     {
-      "name": "Dr ajdarpasic Mathilde",
+      "name": "Dr Mathilde AJDARPASIC",
       "image": "/assets/teams/Mathilde.jpg",
       "speciality": "Dentist",
       "knowledge": [
@@ -156,7 +137,7 @@
       ]
     },
     {
-      "name": "Dr ALTERMATT Ludovic",
+      "name": "Dr Ludovic ALTERMATT",
       "image": "/assets/teams/Alvin.jpg",
       "speciality": "Dentist",
       "knowledge": [
@@ -177,7 +158,7 @@
       ]
     },
     {
-      "name": "Dr LESDEL Alvin",
+      "name": "Dr Alvin LESDEL",
       "image": "/assets/teams/Alvin.jpg",
       "speciality": "Médecin-dentiste",
       "knowledge": [
@@ -195,7 +176,7 @@
       ]
     },
     {
-      "name": "Dr ZEIDAN Alain",
+      "name": "Dr Alain ZEIDAN",
       "image": "/assets/teams/Alain.jpg",
       "speciality": "Orthodontist",
       "knowledge": [
@@ -210,7 +191,7 @@
       ]
     },
     {
-      "name": "Dr Hussein Agnès",
+      "name": "Dr Agnès HUSSEIN",
       "image": "/assets/teams/Agnes.jpg",
       "speciality": "Orthodontist",
       "knowledge": [
@@ -225,7 +206,7 @@
       ]
     },
     {
-      "name": "Dr FREMINET Gorian",
+      "name": "Dr Gorian FREMINET",
       "image": "/assets/teams/Gorian.jpg",
       "speciality": "Stomatologist",
       "knowledge": [
@@ -235,11 +216,33 @@
         "Oral Dermatology",
         "Implantology"
       ],
-      "diplome": []
+      "diplome": [
+        "Diplôme d’Etudes Supérieures en Chirurgie Buccale, Nancy",
+        "Diplôme d’université de formation permanente en chirurgie faciale : option chirurgie buccale, Nancy",
+        "Diplôme d’université de dermatologie et vénéréologie de la muqueuse buccale, Paris",
+        "Diplôme d’université de chirurgie buccale et d’implantologie orale, Dijon",
+        "Diplôme Interuniversitaire Lasers et Médecine, Bordeaux",
+        "Diplôme Universitaire d’Imagerie ORL et Cervico-faciale, Paris",
+        "Diplôme Universitaire de chirurgie reconstructrice pré et péri implantaire orale, Paris",
+        "Diplôme Universitaire d’identification en odontologie médico-légale, Nancy",
+        "Diplôme Universitaire de Droit Médical, Paris",
+        "Post graduate Parodontology et Implantology, New York University",
+        "Attestation Universitaire d’Implantologie, Paris",
+        "Certificat d’expertise judiciaire, Aix",
+        "Diplôme universitaire Odontologie et Posturo-Ostéopathie, Bordeaux",
+        "Formations en parodontologie chirurgicale et bactérienne ",
+        "Cycle de formation en implantologie ADd Vision, Metz",
+        "Formations du Docteur Paolo Malo, Clinica Malo à Lisbonne",
+        "Formations à l’utilisation des lasers en odontologie (Laser Lokki, laser Kavo, laser Kaelux)",
+        "Formation à l’utilisation de la sédation intra veineuse en odontologie",
+        "Formatons à l’injection et aux prélevements intra veineux et PRF, Paris",
+        "Formations des professionnels de santé à l’hypnose, Paris",
+        "Formation à l’Orthokinésie, Lyon"
+      ]
     },
     {
-      "name": "Dr MOUROT Clara",
-      "image": "/assets/teams/Clara.png",
+      "name": "Dr Clara MOUROT",
+      "image": "/assets/teams/Clara.jpeg",
       "speciality": "Endodontist",
       "knowledge": ["Microscopic Root Canal Treatments"],
       "diplome": [

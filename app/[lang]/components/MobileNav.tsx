@@ -16,11 +16,11 @@ export default function MobileNav({ lang }: { lang: Locale }) {
   const { locales } = i18n;
 
   const redirectedPathName = (locale: string) => {
-    if (!pathname) return '/'
-    const segments = pathname.split('/')
-    segments[1] = locale
-    return segments.join('/')
-  }
+    if (!pathname) return "/";
+    const segments = pathname.split("/");
+    segments[1] = locale;
+    return segments.join("/");
+  };
 
   const onToggleNav = () => {
     setNavShow((status) => {
@@ -37,7 +37,13 @@ export default function MobileNav({ lang }: { lang: Locale }) {
     <>
       <div className="fixed w-full h-[62px] z-20 bg-white shadow-md grid grid-cols-6 flex py-1 sm:hidden">
         <div className="p-3 col-span-5 text-center justify-center align-middle">
-          <Image src={"/assets/logo.jpg"} alt="Logo" width={250} height={0} />
+          <Image
+            src={"/assets/logo.jpg"}
+            alt="Logo"
+            width={0}
+            height={0}
+            className="w-[250px] h-auto"
+          />
         </div>
         <div className="flex justify-end ">
           <button
@@ -65,7 +71,14 @@ export default function MobileNav({ lang }: { lang: Locale }) {
           navShow ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex p-4 pr-2 justify-end">
+        <div className="flex p-4 pr-2 justify-between">
+          <div className="flex gap-3 text-sm p-1 justify-end text-black font-bold uppercase">
+            {[...locales].map((locale) => (
+              <Link key={locale} href={redirectedPathName(locale)}>
+                {locale}
+              </Link>
+            ))}
+          </div>
           <button
             className="h-8 w-8 z-20"
             aria-label="Toggle Menu"
@@ -117,17 +130,6 @@ export default function MobileNav({ lang }: { lang: Locale }) {
             </div>
           ))}
         </nav>
-        <div className="relative min-h-screen -top-20 w-full z-0">
-          <div className="absolute bottom-0 end-0 mr-2">
-            <div className="flex gap-2 text-sm p-1 justify-end text-black font-bold uppercase">
-              {[...locales].sort().map((locale) => (
-                <Link key={locale} href={redirectedPathName(locale)}>
-                  {locale}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );

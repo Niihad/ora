@@ -36,6 +36,7 @@ export default function Card({ sens, params }: Props) {
                     alt={params[0].value}
                     width={600}
                     height={0}
+                    className="w-auto h-auto"
                   />
                 </motion.div>
               </ScrollAnimationWrapper>
@@ -125,6 +126,7 @@ export default function Card({ sens, params }: Props) {
                       alt={params[0].value}
                       width={600}
                       height={0}
+                      className="w-auto h-auto"
                     />
                   </motion.div>
                 </ScrollAnimationWrapper>

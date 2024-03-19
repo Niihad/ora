@@ -4,7 +4,7 @@
       { "id": "about", "name": "Gabinete", "offset": -62 },
       { "id": "treatments", "name": "TRATAMENTOS", "offset": -62 },
       { "id": "team", "name": "EQUIPE", "offset": -62 },
-      { "id": "contact", "name": "contato", "offset": -62 }
+      { "id": "contact", "name": "contacto", "offset": -62 }
     ],
     "title": "Gabinete Dentário ORA"
   },
@@ -24,7 +24,7 @@
       "more2": "Veja os tratamentos oferecidos"
     },
     "teams": {
-      "title": "A EQUIPE",
+      "title": "A EQUIPA",
       "description": "\" O caminho para o seu novo sorriso começa aqui \""
     },
     "contact": {
@@ -63,7 +63,7 @@
     {
       "title": "IMPLANTOLOGIA",
       "image": "/assets/treatments/03.jpg",
-      "question": "Necessita de substituir dentes em falta?",
+      "question": "Necessita de substituir dentes?",
       "description":"A implantologia envolve a substituição de dentes em falta por “raízes” artificiais de titânio, suportando próteses dentárias como coroas, pontes ou próteses removíveis para uma restauração estética e funcional duradoura."
     },
     {
@@ -85,7 +85,7 @@
       "title": "PRÓTESES DENTÁRIAS",
       "image": "/assets/treatments/06.jpg",
       "question":
-        "As próteses dentárias substituem dentes em falta, podendo ser removíveis, como dentaduras parciais ou totais, ou fixas, como pontes ou coroas.",
+        "As próteses dentárias substituem dentes, podendo ser removíveis, como dentaduras parciais ou totais, ou fixas, como pontes ou coroas.",
       "description":
         "Estas próteses são concebidas para restaurar a função mastigatória e a estética do sorriso, com o objetivo de melhorar o seu conforto."
     },
@@ -138,7 +138,7 @@
   ],
   "teams": [
     {
-      "name": "Dra. ajdarpasic Mathilde",
+      "name": "Dra. Mathilde AJDARPASIC",
       "image": "/assets/teams/Mathilde.jpg",
       "speciality": "Dentista",
       "knowledge": [
@@ -155,7 +155,7 @@
       ]
     },
     {
-      "name": "Dr ALTERMATT Ludovic",
+      "name": "Dr Ludovic ALTERMATT",
       "image": "/assets/teams/Alvin.jpg",
       "speciality": "Dentista",
       "knowledge": [
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "name": "Dr LESDEL Alvin",
+      "name": "Dr Alvin LESDEL",
       "image": "/assets/teams/Alvin.jpg",
       "speciality": "Dentista",
       "knowledge": [
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "name": "Dr ZEIDAN Alain",
+      "name": "Dr Alain ZEIDAN",
       "image": "/assets/teams/Alain.jpg",
       "speciality": "Ortodontista",
       "knowledge": [
@@ -209,7 +209,7 @@
       ]
     },
     {
-      "name": "Dra Hussein Agnès",
+      "name": "Dra Agnès HUSSEIN",
       "image": "/assets/teams/Agnes.jpg",
       "speciality": "Ortodontista",
       "knowledge": [
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "name": "Dr FREMINET Gorian",
+      "name": "Dr Gorian FREMINET",
       "image": "/assets/teams/Gorian.jpg",
       "speciality": "Estomatologista",
       "knowledge": [
@@ -234,11 +234,33 @@
         "Dermatologia oral",
         "Implantologia"
       ],
-      "diplome": []
+      "diplome": [
+        "Diplôme d’Etudes Supérieures en Chirurgie Buccale, Nancy",
+        "Diplôme d’université de formation permanente en chirurgie faciale : option chirurgie buccale, Nancy",
+        "Diplôme d’université de dermatologie et vénéréologie de la muqueuse buccale, Paris",
+        "Diplôme d’université de chirurgie buccale et d’implantologie orale, Dijon",
+        "Diplôme Interuniversitaire Lasers et Médecine, Bordeaux",
+        "Diplôme Universitaire d’Imagerie ORL et Cervico-faciale, Paris",
+        "Diplôme Universitaire de chirurgie reconstructrice pré et péri implantaire orale, Paris",
+        "Diplôme Universitaire d’identification en odontologie médico-légale, Nancy",
+        "Diplôme Universitaire de Droit Médical, Paris",
+        "Post graduate Parodontology et Implantology, New York University",
+        "Attestation Universitaire d’Implantologie, Paris",
+        "Certificat d’expertise judiciaire, Aix",
+        "Diplôme universitaire Odontologie et Posturo-Ostéopathie, Bordeaux",
+        "Formations en parodontologie chirurgicale et bactérienne ",
+        "Cycle de formation en implantologie ADd Vision, Metz",
+        "Formations du Docteur Paolo Malo, Clinica Malo à Lisbonne",
+        "Formations à l’utilisation des lasers en odontologie (Laser Lokki, laser Kavo, laser Kaelux)",
+        "Formation à l’utilisation de la sédation intra veineuse en odontologie",
+        "Formatons à l’injection et aux prélevements intra veineux et PRF, Paris",
+        "Formations des professionnels de santé à l’hypnose, Paris",
+        "Formation à l’Orthokinésie, Lyon"
+]
     },
     {
-      "name": "Dr MOUROT Clara",
-      "image": "/assets/teams/Clara.png",
+      "name": "Dr Clara MOUROT",
+      "image": "/assets/teams/Clara.jpeg",
       "speciality": "Endodontista",
       "knowledge": ["Ligue para marcar consulta"],
       "diplome": [
