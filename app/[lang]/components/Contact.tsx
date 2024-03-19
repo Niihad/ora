@@ -58,9 +58,9 @@ export default function Locations({ page }: any) {
                   65A avenue de la Liberté, 4601 Differdange
                 </a>
               </div>
-              <div className="flex ">
+              <div className="flex">
                 <FaPhone className="mr-2" size="20px" color="black" />
-                <p>+352 27 76 17 09</p>
+                <a href={"tel:+352 27 76 17 09"}>+352 27 76 17 09</a>
               </div>
               <div className="flex my-4">
                 <MdOutlineAlternateEmail
@@ -68,7 +68,7 @@ export default function Locations({ page }: any) {
                   size="24px"
                   color="black"
                 />
-                <p>contact@oradental.lu</p>
+                <a href={"mailto:contact@oradental.lu"}>contact@oradental.lu</a>
               </div>
 
               <p className="mb-4">{page.contact.title}</p>
