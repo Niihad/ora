@@ -27,7 +27,7 @@ export default function Folder({ lang }: { lang: Locale }) {
           <Image
             src={"/assets/folder.jpg"}
             alt="folder"
-            width={0}
+            width={400}
             height={0}
             className="max-w-sm w-auto h-auto"
           />

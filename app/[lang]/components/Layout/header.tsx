@@ -95,7 +95,7 @@ export default function Header({ lang }: { lang: Locale }) {
               alt="Logo"
               width={600}
               height={0}
-              className=" h-auto max-w-xl"
+              className="h-auto max-w-xl"
             />
           </div>
         </div>
