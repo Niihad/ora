@@ -31,7 +31,7 @@ export default async function RootLayout({
   return (
     <html lang={params.lang} className="scroll-auto">
       <body
-        className={`${myFont.className} min-h-screen flex flex-col relative bg-white`}
+        className={`${myFont.className} min-h-screen flex flex-col relative bg-white overflow-x-hidden`}
       >
         <DictionaryProvider dictionary={dictionary}>
           <Header lang={params.lang}/>
