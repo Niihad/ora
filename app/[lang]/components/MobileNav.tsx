@@ -36,11 +36,11 @@ export default function MobileNav({ lang }: { lang: Locale }) {
   return (
     <>
       <div className="fixed w-full h-[62px] z-20 bg-white shadow-md grid grid-cols-6 flex py-1 sm:hidden">
-        <div className="p-3 col-span-5 text-center justify-center align-middle">
+        <div className="flex m-3 col-span-5">
           <Image
             src={"/assets/logo.jpg"}
             alt="Logo"
-            width={0}
+            width={250}
             height={0}
             className="w-[250px] h-auto"
           />

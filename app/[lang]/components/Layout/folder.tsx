@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Folder({ lang }: { lang: Locale }) {
   const folder = useDictionary().folder;
   return (
-    <div className="uppercase text-center text-white ">
+    <div className="uppercase text-center text-white">
       <div className="bg-black p-3 ">
         <div className="text-2xl p-1 font-bold">
           <a
@@ -19,17 +19,17 @@ export default function Folder({ lang }: { lang: Locale }) {
           </a>
         </div>
       </div>
-      <div className="bg-white pb-5 text-black ">
+      <div className="bg-white pb-5 text-black">
         <Link
           href={`/${lang}`}
-          className="flex gap-2 text-3xl p-3 justify-center font-bold bg-white"
+          className="flex justify-center text-3xl p-3 font-bold"
         >
           <Image
             src={"/assets/folder.jpg"}
             alt="folder"
             width={0}
             height={0}
-            className="w-[400px] h-auto"
+            className="max-w-sm w-auto h-auto"
           />
         </Link>
         <a

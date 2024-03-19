@@ -89,13 +89,13 @@ export default function Header({ lang }: { lang: Locale }) {
               </Link>
             ))}
           </div>
-          <div className="flex gap-2 text-4xl p-3 justify-center font-bold mb-6">
+          <div className="flex justify-center gap-2 text-4xl p-3 font-bold mb-6">
             <Image
               src={"/assets/logo.jpg"}
               alt="Logo"
-              width={0}
+              width={600}
               height={0}
-              className="w-[600px] h-auto"
+              className=" h-auto max-w-xl"
             />
           </div>
         </div>
