@@ -24,7 +24,7 @@ export default function Treatments() {
   const style = ["bg-white py-14 lg:py-24", "bg-neutral-100 py-14 lg:py-24"];
 
   return (
-    <div className={"pt-10 sm:pt-0"}>
+    <div className={"overflow-x-hidden pt-10 sm:pt-0"}>
       {treatments.map((treatment : Treatment, index: any) => (
         <div
           className={style[index % 2]}
