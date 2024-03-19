@@ -50,7 +50,7 @@ export default function Team({ dico, lang }: any) {
                   }}
                 >
                   {profil.knowledge.length > 0 && profil.diplome.length > 0 ? (
-                    <Link
+                    <a
                       className="w-60 mx-auto"
                       href={getUrlName(profil.name).toLowerCase()}
                     >
@@ -69,7 +69,7 @@ export default function Team({ dico, lang }: any) {
                         </div>
                         <div>{profil.speciality}</div>
                       </div>
-                    </Link>
+                    </a>
                   ) : (
                     <div className="w-60 mx-auto">
                       <div className="h-80 relative">

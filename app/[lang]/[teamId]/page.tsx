@@ -5,8 +5,12 @@ import { useEffect } from "react";
 import Card from "../components/Layout/Card";
 import { FaRegSadTear } from "react-icons/fa";
 import { useDictionary } from "@/i18n/dictionary-provider";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export default function TeamPage({ params }: { params: { teamId: string } }) {
+  const pathname = usePathname();
+  const lang = pathname.split("/")[1];
   const teams = useDictionary().teams;
   interface Team {
     name: string;
@@ -14,6 +18,7 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
     speciality: string;
     knowledge: string[];
     diplome: string[];
+    doctena: string;
   }
 
   const info: string[] = params.teamId.split("-");
@@ -49,17 +54,14 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
         show: "left",
       },
       {
-        value:
-          params.name !== "Dr MOUROT Clara"
-            ? "Prendre rendez-vous"
-            : "Appeler pour prendre rendez-vous",
+        value: params.doctena === "" ? "Appeler pour prendre rendez-vous" : "",
         show: "bottom",
       },
     ];
   };
 
   return (
-    <Suspense fallback={<p>Loading team...</p>}>
+    <>
       <div className="pt-14 sm:pt-0">
         {profil === undefined ? (
           <div className="flex justify-center">
@@ -71,11 +73,29 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
             </div>
           </div>
         ) : (
-          <div className={"py-14 lg:py-24"} id={profil.name} key={profil.name}>
-            <Card sens={"left"} params={buildParams(profil)} />
-          </div>
+          <>
+            <Suspense fallback={<p>Loading team...</p>}>
+              <div
+                className={"py-14 lg:py-24"}
+                id={profil.name}
+                key={profil.name}
+              >
+                <Card sens={"left"} params={buildParams(profil)} />
+              </div>
+            </Suspense>
+            {profil.doctena !== "" && (
+              <section
+                data-toggle="doc-calendar"
+                data-picture="1"
+                data-doctor-eid={profil.doctena}
+                data-language={lang}
+              >
+                {" "}
+              </section>
+            )}
+          </>
         )}
       </div>
-    </Suspense>
+    </>
   );
 }

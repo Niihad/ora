@@ -48,97 +48,79 @@
     {
       "title": "DENTISTERIA ESTÉTICA",
       "image": "/assets/treatments/01.jpg",
-      "question":
-        "Quer corrigir imperfeições no sorriso?",
-      "description":
-        "A dentisteria estética melhora a aparência dos seus dentes através de tratamentos como clareamento, facetas e coroas, melhorando a forma, cor e alinhamento para um sorriso mais estético e harmonioso."
+      "question": "Quer corrigir imperfeições no sorriso?",
+      "description": "A dentisteria estética melhora a aparência dos seus dentes através de tratamentos como clareamento, facetas e coroas, melhorando a forma, cor e alinhamento para um sorriso mais estético e harmonioso."
     },
     {
       "title": "BRANQUEAMENTO DENTÁRIO",
       "image": "/assets/treatments/02.jpg",
       "question": "Deseja um sorriso mais brilhante?",
-      "description":
-        "O nosso tratamento simples e eficaz, utilizando moldeiras feitas à medida em casa ou um procedimento em consultório numa única sessão, pode clarear os seus dentes em várias tonalidades."
+      "description": "O nosso tratamento simples e eficaz, utilizando moldeiras feitas à medida em casa ou um procedimento em consultório numa única sessão, pode clarear os seus dentes em várias tonalidades."
     },
     {
       "title": "IMPLANTOLOGIA",
       "image": "/assets/treatments/03.jpg",
       "question": "Necessita de substituir dentes?",
-      "description":"A implantologia envolve a substituição de dentes em falta por “raízes” artificiais de titânio, suportando próteses dentárias como coroas, pontes ou próteses removíveis para uma restauração estética e funcional duradoura."
+      "description": "A implantologia envolve a substituição de dentes em falta por “raízes” artificiais de titânio, suportando próteses dentárias como coroas, pontes ou próteses removíveis para uma restauração estética e funcional duradoura."
     },
     {
       "title": "ORTODONTIA",
       "image": "/assets/treatments/04.jpg",
       "question": "Procurando melhorar o alinhamento dos dentes?",
-      "description":
-        "A ortodontia alinha e corrige a posição dos dentes e mandíbulas em crianças, adolescentes e adultos. Os nossos ortodontistas utilizam aparelhos fixos, dispositivos removíveis ou alinhadores transparentes para endireitar os dentes, corrigir problemas de oclusão e melhorar a estética do seu sorriso, ou do seu filho."
+      "description": "A ortodontia alinha e corrige a posição dos dentes e mandíbulas em crianças, adolescentes e adultos. Os nossos ortodontistas utilizam aparelhos fixos, dispositivos removíveis ou alinhadores transparentes para endireitar os dentes, corrigir problemas de oclusão e melhorar a estética do seu sorriso, ou do seu filho."
     },
     {
       "title": "CIRURGIA ORAL",
       "image": "/assets/treatments/05.jpg",
-      "question":
-        "A estomatologia concentra-se em doenças e tratamentos de toda a boca, incluindo extrações, distúrbios da articulação temporomandibular, tumores e lesões orais.",
-      "description":
-        "O Dr. Freminet trata uma ampla gama de problemas orais."
+      "question": "A estomatologia concentra-se em doenças e tratamentos de toda a boca, incluindo extrações, distúrbios da articulação temporomandibular, tumores e lesões orais.",
+      "description": "O Dr. Freminet trata uma ampla gama de problemas orais."
     },
     {
       "title": "PRÓTESES DENTÁRIAS",
       "image": "/assets/treatments/06.jpg",
-      "question":
-        "As próteses dentárias substituem dentes, podendo ser removíveis, como dentaduras parciais ou totais, ou fixas, como pontes ou coroas.",
-      "description":
-        "Estas próteses são concebidas para restaurar a função mastigatória e a estética do sorriso, com o objetivo de melhorar o seu conforto."
+      "question": "As próteses dentárias substituem dentes, podendo ser removíveis, como dentaduras parciais ou totais, ou fixas, como pontes ou coroas.",
+      "description": "Estas próteses são concebidas para restaurar a função mastigatória e a estética do sorriso, com o objetivo de melhorar o seu conforto."
     },
     {
       "title": "CUIDADOS CONSERVADORES",
       "image": "/assets/treatments/07.jpg",
       "question": "Deseja preservar uma boa saúde bucal?",
-      "description":
-        "Tratamentos conservadores essenciais, como a remoção de tártaro, tratamento de cáries e restaurações, desempenham um papel crucial na prevenção e tratamento de problemas dentários para preservar os seus dentes o máximo possível."
+      "description": "Tratamentos conservadores essenciais, como a remoção de tártaro, tratamento de cáries e restaurações, desempenham um papel crucial na prevenção e tratamento de problemas dentários para preservar os seus dentes o máximo possível."
     },
     {
       "title": "CUIDADO DAS GENGIVAS",
       "image": "/assets/treatments/08.jpg",
-      "question":
-        "As suas gengivas estão a sangrar? Estão a retrair-se? Os seus dentes estão a mexer? Pode estar a sofrer de periodontite.",
-      "description":
-        "A periodontologia foca-se na saúde dos tecidos que suportam os dentes, como as gengivas e o osso ao redor dos dentes. O objetivo é manter estes tecidos saudáveis para preservar dentes fortes e bem ancorados, recuperando o prazer de uma boca saudável e confortável."
+      "question": "As suas gengivas estão a sangrar? Estão a retrair-se? Os seus dentes estão a mexer? Pode estar a sofrer de periodontite.",
+      "description": "A periodontologia foca-se na saúde dos tecidos que suportam os dentes, como as gengivas e o osso ao redor dos dentes. O objetivo é manter estes tecidos saudáveis para preservar dentes fortes e bem ancorados, recuperando o prazer de uma boca saudável e confortável."
     },
     {
       "title": "ENDODONTIA",
       "image": "/assets/treatments/09.jpg",
-      "question":
-        "A endodontia concentra-se no tratamento do interior do dente.",
-      "description":
-        "Quando um dente está infetado ou gravemente danificado, é necessário realizar um tratamento de canal para remover a polpa infetada, limpar o interior do dente e fechá-lo para evitar infeções e preservar o dente natural. A Dra. Mourot especializou-se nesta disciplina e realiza os tratamentos sob microscópio."
+      "question": "A endodontia concentra-se no tratamento do interior do dente.",
+      "description": "Quando um dente está infetado ou gravemente danificado, é necessário realizar um tratamento de canal para remover a polpa infetada, limpar o interior do dente e fechá-lo para evitar infeções e preservar o dente natural. A Dra. Mourot especializou-se nesta disciplina e realiza os tratamentos sob microscópio."
     },
     {
       "title": "DENTISTERIA PEDIÁTRICA",
       "image": "/assets/treatments/10.jpg",
-      "question":
-        "A pedodontia é uma vertente da odontologia que se concentra nos cuidados dentários das crianças, oferecendo exames preventivos, cuidados com os dentes de leite e conselhos de higiene bucal para os mais jovens.",
-      "description":
-        "Il est recommandé, à titre préventif, de les familiariser avec le cabinet dentaire dès leur plus jeune âge."
+      "question": "A pedodontia é uma vertente da odontologia que se concentra nos cuidados dentários das crianças, oferecendo exames preventivos, cuidados com os dentes de leite e conselhos de higiene bucal para os mais jovens.",
+      "description": "Il est recommandé, à titre préventif, de les familiariser avec le cabinet dentaire dès leur plus jeune âge."
     },
     {
       "title": "OCLUSODONTIA",
       "image": "/assets/treatments/11.jpg",
       "question": "Tem dores na mandíbula? Ouve estalos?",
-      "description":
-        "A oclusodontia estuda como os dentes superior e inferior se encaixam quando a boca está fechada. Visa compreender e corrigir problemas relacionados com a articulação temporomandibular para melhorar o conforto, a função mastigatória e reduzir as tensões musculares na mandíbula."
+      "description": "A oclusodontia estuda como os dentes superior e inferior se encaixam quando a boca está fechada. Visa compreender e corrigir problemas relacionados com a articulação temporomandibular para melhorar o conforto, a função mastigatória e reduzir as tensões musculares na mandíbula."
     },
     {
       "title": "INJEÇÕES DE ÁCIDO HIALURÓNICO",
       "image": "/assets/treatments/12.jpg",
-      "question":
-        "Os nossos dentistas realizam injeções de ácido hialurónico para tratar e melhorar a aparência de certas áreas ao redor da boca, como os lábios, os cantos dos lábios, as rugas ou os sulcos ao redor da boca.",
-      "description":
-        "Isso pode ajudar a restaurar ou aumentar o volume, suavizar rugas ou redesenhar os contornos para obter um visual mais jovem e estético, em harmonia com o seu sorriso."
+      "question": "Os nossos dentistas realizam injeções de ácido hialurónico para tratar e melhorar a aparência de certas áreas ao redor da boca, como os lábios, os cantos dos lábios, as rugas ou os sulcos ao redor da boca.",
+      "description": "Isso pode ajudar a restaurar ou aumentar o volume, suavizar rugas ou redesenhar os contornos para obter um visual mais jovem e estético, em harmonia com o seu sorriso."
     }
   ],
   "teams": [
     {
-      "name": "Dra. Mathilde AJDARPASIC",
+      "name": "Dr Mathilde AJDARPASIC",
       "image": "/assets/teams/Mathilde.jpg",
       "speciality": "Dentista",
       "knowledge": [
@@ -152,7 +134,8 @@
         "Diplôme Universitaire d'Implantologie, Evry",
         "Formation Invisalign, Paris",
         "Formation D-Esthetics (dentisterie ésthétique et minimalement invasive), Liège"
-      ]
+      ],
+      "doctena": "64ce6334-7efa-4c5a-accf-30cf237508eb"
     },
     {
       "name": "Dr Ludovic ALTERMATT",
@@ -173,7 +156,8 @@
         "Restaurations All Ceram (couronnes, bridge, facettes, onlay, inlay), Liège",
         "Formation Lumineers (facettes dentaires pelliculaires), Paris",
         "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris"
-      ]
+      ],
+      "doctena": "ec66ea67-55e9-4d98-ac40-b8786503ebe1"
     },
     {
       "name": "Dr Alvin LESDEL",
@@ -191,7 +175,8 @@
         "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris,",
         "Cursus de Spécialisation à l'Implantologie orale, Paris,",
         "Formation chirurgie implantaire guidée et flux numérique, Metz"
-      ]
+      ],
+      "doctena": "f692a149-1cf6-4b74-be41-de0029c7ba11"
     },
     {
       "name": "Dr Alain ZEIDAN",
@@ -206,10 +191,11 @@
         "Diplôme universitaire en chirurgie orthognatique, Université de Sorbonne Paris,",
         "Master en orthopédie dento-maxillo-faciale ,",
         "Certification de traitements orthodontiques par gouttières Invisalign"
-      ]
+      ],
+      "doctena": "88bbda27-e0f0-4fc6-9ca9-a206fb8efcfb"
     },
     {
-      "name": "Dra Agnès HUSSEIN",
+      "name": "Dr Agnès HUSSEIN",
       "image": "/assets/teams/Agnes.jpg",
       "speciality": "Ortodontista",
       "knowledge": [
@@ -221,7 +207,8 @@
         "Diplôme universitaire en croissance cranio-faciale et orthopédie-dento-maxillo-faciale, Paris Descartes,",
         "Certificat d'études supérieures de chirurgie dentaire, Paris Diderot,",
         "Certification de traitements orthodontiques par gouttières Invisalign"
-      ]
+      ],
+      "doctena": "1f186d61-a4b9-4259-8b47-67722408cbb0"
     },
     {
       "name": "Dr Gorian FREMINET",
@@ -256,7 +243,8 @@
         "Formatons à l’injection et aux prélevements intra veineux et PRF, Paris",
         "Formations des professionnels de santé à l’hypnose, Paris",
         "Formation à l’Orthokinésie, Lyon"
-]
+      ],
+      "doctena": "e22ce825-6981-413d-9c57-852ab779c140"
     },
     {
       "name": "Dr Clara MOUROT",
@@ -266,21 +254,24 @@
       "diplome": [
         "Diplôme de docteur en chirurgie dentaire, Nancy",
         "Diplôme universitaire d'endodontie clinique et microscopie opératoire, Nancy"
-      ]
+      ],
+      "doctena": ""
     },
     {
       "name": "Gisela",
       "image": "/assets/teams/Gisela.jpg",
       "speciality": "Assistente Dentária",
       "knowledge": [],
-      "diplome": []
+      "diplome": [],
+      "doctena": ""
     },
     {
       "name": "Marlene",
       "image": "/assets/teams/Marlene.jpg",
       "speciality": "Assistente Dentária",
       "knowledge": [],
-      "diplome": []
+      "diplome": [],
+      "doctena": ""
     }
   ]
 }

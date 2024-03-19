@@ -20,6 +20,8 @@ export default function Card({ sens, params }: Props) {
     return useMemo(() => getScrollAnimation(sens), [sens]);
   };
 
+  console.log(params)
+
   const Left = (params: Pair[]) => {
     return (
       <>
@@ -50,27 +52,32 @@ export default function Card({ sens, params }: Props) {
                   </motion.h1>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
-                  <motion.div className="text-justify" variants={ScrollSens(params[2].show)}>
+                  <motion.div
+                    className="text-justify"
+                    variants={ScrollSens(params[2].show)}
+                  >
                     {params[2].value}
                   </motion.div>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
-                  <motion.div className="text-justify" variants={ScrollSens(params[3].show)}>
+                  <motion.div
+                    className="text-justify"
+                    variants={ScrollSens(params[3].show)}
+                  >
                     {params[3].value}
                   </motion.div>
                 </ScrollAnimationWrapper>
-                {params.length > 4 && (
-                  <ScrollAnimationWrapper>
-                    <motion.div
-                      variants={ScrollSens(params[4].show)}
-                      className="mx-auto flex justify-center text-align uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
-                    >
-                      <Link href="https://fr.doctena.lu/praticien/Dr_Ludovic_Altermatt-235034">
-                        {params[4].value}
-                      </Link>
-                    </motion.div>
-                  </ScrollAnimationWrapper>
-                )}
+                {params.length > 4 &&
+                  params[4].value === "Appeler pour prendre rendez-vous" && (
+                    <ScrollAnimationWrapper>
+                      <motion.div
+                        variants={ScrollSens(params[4].show)}
+                        className="mx-auto flex justify-center text-align uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
+                      >
+                        <a href={"tel:+352 27 76 17 09"}>{params[4].value}</a>
+                      </motion.div>
+                    </ScrollAnimationWrapper>
+                  )}
               </div>
             </div>
           </div>
@@ -96,12 +103,18 @@ export default function Card({ sens, params }: Props) {
                 </ScrollAnimationWrapper>
 
                 <ScrollAnimationWrapper>
-                  <motion.p className="text-justify" variants={ScrollSens(params[2].show)}>
+                  <motion.p
+                    className="text-justify"
+                    variants={ScrollSens(params[2].show)}
+                  >
                     {params[2].value}
                   </motion.p>
                 </ScrollAnimationWrapper>
                 <ScrollAnimationWrapper>
-                  <motion.p className="text-justify" variants={ScrollSens(params[3].show)}>
+                  <motion.p
+                    className="text-justify"
+                    variants={ScrollSens(params[3].show)}
+                  >
                     {params[3].value}
                   </motion.p>
                 </ScrollAnimationWrapper>
@@ -138,9 +151,5 @@ export default function Card({ sens, params }: Props) {
     );
   };
 
-  return (
-    <>
-      {sens === "left" ? Left(params) : Right(params)}
-    </>
-  );
+  return <>{sens === "left" ? Left(params) : Right(params)}</>;
 }

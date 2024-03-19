@@ -134,7 +134,8 @@
         "Diplôme Universitaire d'Implantologie, Evry",
         "Formation Invisalign, Paris",
         "Formation D-Esthetics (dentisterie ésthétique et minimalement invasive), Liège"
-      ]
+      ],
+      "doctena": "64ce6334-7efa-4c5a-accf-30cf237508eb"
     },
     {
       "name": "Dr Ludovic ALTERMATT",
@@ -155,7 +156,8 @@
         "Restaurations All Ceram (couronnes, bridge, facettes, onlay, inlay), Liège",
         "Formation Lumineers (facettes dentaires pelliculaires), Paris",
         "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris"
-      ]
+      ],
+      "doctena": "ec66ea67-55e9-4d98-ac40-b8786503ebe1"
     },
     {
       "name": "Dr Alvin LESDEL",
@@ -173,7 +175,8 @@
         "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris,",
         "Cursus de Spécialisation à l'Implantologie orale, Paris,",
         "Formation chirurgie implantaire guidée et flux numérique, Metz"
-      ]
+      ],
+      "doctena": "f692a149-1cf6-4b74-be41-de0029c7ba11"
     },
     {
       "name": "Dr Alain ZEIDAN",
@@ -188,7 +191,8 @@
         "Diplôme universitaire en chirurgie orthognatique, Université de Sorbonne Paris,",
         "Master en orthopédie dento-maxillo-faciale ,",
         "Certification de traitements orthodontiques par gouttières Invisalign"
-      ]
+      ],
+      "doctena": "88bbda27-e0f0-4fc6-9ca9-a206fb8efcfb"
     },
     {
       "name": "Dr Agnès HUSSEIN",
@@ -203,7 +207,8 @@
         "Diplôme universitaire en croissance cranio-faciale et orthopédie-dento-maxillo-faciale, Paris Descartes,",
         "Certificat d'études supérieures de chirurgie dentaire, Paris Diderot,",
         "Certification de traitements orthodontiques par gouttières Invisalign"
-      ]
+      ],
+      "doctena": "1f186d61-a4b9-4259-8b47-67722408cbb0"
     },
     {
       "name": "Dr Gorian FREMINET",
@@ -238,7 +243,8 @@
         "Formatons à l’injection et aux prélevements intra veineux et PRF, Paris",
         "Formations des professionnels de santé à l’hypnose, Paris",
         "Formation à l’Orthokinésie, Lyon"
-      ]
+      ],
+      "doctena": "e22ce825-6981-413d-9c57-852ab779c140"
     },
     {
       "name": "Dr Clara MOUROT",
@@ -248,21 +254,24 @@
       "diplome": [
         "Diplôme de docteur en chirurgie dentaire, Nancy",
         "Diplôme universitaire d'endodontie clinique et microscopie opératoire, Nancy"
-      ]
+      ],
+      "doctena": ""
     },
     {
       "name": "Gisela",
       "image": "/assets/teams/Gisela.jpg",
       "speciality": "Dental Assistant",
       "knowledge": [],
-      "diplome": []
+      "diplome": [],
+      "doctena": ""
     },
     {
       "name": "Marlene",
       "image": "/assets/teams/Marlene.jpg",
       "speciality": "Dental Assistant",
       "knowledge": [],
-      "diplome": []
+      "diplome": [],
+      "doctena": ""
     }
   ]
 }

@@ -6,6 +6,7 @@ import Header from "./components/Layout/header";
 import Folder from "./components/Layout/folder";
 import { getDictionary } from "@/i18n/dictionary";
 import DictionaryProvider from "@/i18n/dictionary-provider";
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ["latin"] });
 const myFont = localFont({ src: "../fonts/NexaBook.otf" });
@@ -38,6 +39,7 @@ export default async function RootLayout({
           {children}
           <Folder lang={params.lang}/>
         </DictionaryProvider>
+        <Script src="https://api.doctena.lu/js/widgetBooking/calendar/build.php"></Script>
       </body>
     </html>
   );
