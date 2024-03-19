@@ -49,7 +49,7 @@ export default function Team({ dico, lang }: any) {
                     },
                   }}
                 >
-                  {profil.speciality !== "Assistante dentaire" ? (
+                  {profil.knowledge.length > 0 && profil.diplome.length > 0 ? (
                     <Link
                       className="w-60 mx-auto"
                       href={getUrlName(profil.name).toLowerCase()}
@@ -57,7 +57,7 @@ export default function Team({ dico, lang }: any) {
                       <div className="h-80 relative">
                         <Image
                           src={profil.image}
-                          alt="Profil"
+                          alt={profil.name}
                           width={250}
                           height={0}
                           className=""
@@ -75,7 +75,7 @@ export default function Team({ dico, lang }: any) {
                       <div className="h-80 relative">
                         <Image
                           src={profil.image}
-                          alt="Profil"
+                          alt={profil.name}
                           width={250}
                           height={0}
                           className=""
