@@ -6,7 +6,6 @@ import Card from "../components/Layout/Card";
 import { FaRegSadTear } from "react-icons/fa";
 import { useDictionary } from "@/i18n/dictionary-provider";
 import { usePathname } from "next/navigation";
-import Link from "next/link";
 
 export default function TeamPage({ params }: { params: { teamId: string } }) {
   const pathname = usePathname();

@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
-import Link from "next/link";
 
 export default function Team({ dico, lang }: any) {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);

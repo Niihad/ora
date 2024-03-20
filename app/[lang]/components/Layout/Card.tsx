@@ -20,8 +20,6 @@ export default function Card({ sens, params }: Props) {
     return useMemo(() => getScrollAnimation(sens), [sens]);
   };
 
-  console.log(params)
-
   const Left = (params: Pair[]) => {
     return (
       <>
