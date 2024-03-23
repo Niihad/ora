@@ -28,7 +28,7 @@ export default function About({ page }: any) {
           <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[800px] ">
             <ScrollAnimationWrapper>
               <motion.h1
-                className="uppercase text-3xl font-bold p-3 "
+                className="uppercase text-2xl sm:text-3xl font-bold p-3 "
                 variants={scrollAnimation}
               >
                 {page.about.title}

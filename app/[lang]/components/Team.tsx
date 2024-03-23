@@ -21,7 +21,7 @@ export default function Team({ dico, lang }: any) {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="uppercase text-4xl font-bold p-3"
+              className="uppercase text-2xl sm:text-3xl font-bold p-3"
             >
               {dico.page.teams.title}
             </motion.h3>
