@@ -21,7 +21,7 @@ export default function Treatments() {
     ];
   };
 
-  const style = ["bg-white py-14 lg:py-24 ", "bg-neutral-100 py-14 lg:py-24 "];
+  const style = ["bg-white py-14 lg:py-24 overflow-x-hidden ", "bg-neutral-100 py-14 lg:py-24 overflow-x-hidden "];
 
   return (
     <div className={"pt-10 sm:pt-0 "}>
