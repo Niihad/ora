@@ -60,8 +60,7 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
   };
 
   return (
-    <>
-      <div className="pt-14 sm:pt-0">
+      <div className="pt-14 sm:pt-0 overflow-x-hidden">
         {profil === undefined ? (
           <div className="flex justify-center">
             <div className="sm:text-3xl text-xl font-bold ">
@@ -95,6 +94,5 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
           </>
         )}
       </div>
-    </>
   );
 }
