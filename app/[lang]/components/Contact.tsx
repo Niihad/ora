@@ -16,7 +16,7 @@ export default function Locations({ page }: any) {
       <ScrollAnimationWrapper>
         <motion.h3
           variants={scrollAnimation}
-          className="uppercase text-4xl font-bold p-3 text-center justify-center "
+          className="uppercase text-2xl sm:text-3xl font-bold p-3 text-center justify-center "
         >
           Contact
         </motion.h3>
