@@ -60,7 +60,7 @@ export default function TeamPage() {
   };
 
   return (
-      <div className="pt-14 sm:pt-0 overflow-x-hidden">
+      <div className="pt-14 sm:pt-0 ">
         {profil === undefined ? (
           <div className="flex justify-center">
             <div className="sm:text-3xl text-xl font-bold ">
