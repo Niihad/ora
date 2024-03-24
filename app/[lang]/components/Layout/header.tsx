@@ -96,6 +96,7 @@ export default function Header({ lang }: { lang: Locale }) {
               width={600}
               height={0}
               className="h-auto max-w-xl"
+              priority={true}
             />
           </div>
         </div>

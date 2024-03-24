@@ -36,6 +36,7 @@ export default function Card({ sens, params }: Props) {
                     alt={params[0].value}
                     width={600}
                     height={0}
+                    priority={true} 
                     className="w-auto h-auto"
                   />
                 </motion.div>
@@ -66,7 +67,7 @@ export default function Card({ sens, params }: Props) {
                   </motion.div>
                 </ScrollAnimationWrapper>
                 {params.length > 4 &&
-                  params[4].value === "Appeler pour prendre rendez-vous" && (
+                  params[4].value !== "" && (
                     <ScrollAnimationWrapper>
                       <motion.div
                         variants={ScrollSens(params[4].show)}
@@ -137,6 +138,7 @@ export default function Card({ sens, params }: Props) {
                       alt={params[0].value}
                       width={600}
                       height={0}
+                      priority={true} 
                       className="w-auto h-auto"
                     />
                   </motion.div>

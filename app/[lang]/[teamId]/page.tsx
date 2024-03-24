@@ -7,9 +7,10 @@ import { FaRegSadTear } from "react-icons/fa";
 import { useDictionary } from "@/i18n/dictionary-provider";
 import { usePathname } from "next/navigation";
 
-export default function TeamPage({ params }: { params: { teamId: string } }) {
+export default function TeamPage() {
   const pathname = usePathname();
   const lang = pathname.split("/")[1];
+  const info: string[] = pathname.split("/")[2].split("-");
   const teams = useDictionary().teams;
   interface Team {
     name: string;
@@ -18,12 +19,11 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
     knowledge: string[];
     diplome: string[];
     doctena: string;
+    call?: string
   }
 
-  const info: string[] = params.teamId.split("-");
-
   const profil = teams.find(
-    (val: Team) => val.name.toLowerCase() === decodeURI(info.join(" "))
+    (val: Team) => val.name.toLowerCase().split(" ").slice(1).join(" ") === decodeURI(info.slice(1).join(" "))
   );
 
   useEffect(() => {
@@ -53,7 +53,7 @@ export default function TeamPage({ params }: { params: { teamId: string } }) {
         show: "left",
       },
       {
-        value: params.doctena === "" ? "Appeler pour prendre rendez-vous" : "",
+        value: params.doctena === "" ? params.call : "",
         show: "bottom",
       },
     ];
