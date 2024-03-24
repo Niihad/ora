@@ -9,8 +9,8 @@
     "title": "ORA DENTAL PRACTICE"
   },
   "page": {
-    "title": "L'experience",
-    "description": "Regarder la video",
+    "title": "THE EXPERIENCE",
+    "description": "WATCH THE VIDEO",
     "about": {
       "title": "ORA DENTAL PRACTICE",
       "description": "The name \"ORA\" comes from our passion for dentistry and our desire to create a welcoming and professional place for patients.",
@@ -19,13 +19,13 @@
     },
     "treatments": {
       "title": "CUSTOMIZED TREATMENTS",
-      "description": "\"Quality care for your finest smile \"",
+      "description": "\"Quality care for your finest smile"\",
       "more": "Our multidisciplinary team includes qualified dentists specializing in various fields. All treatments are performed directly at the clinic, including check-ups, conservative care, orthodontics, or surgeries, providing our patients an access to a complete technical platform in one location.",
       "more2": "See the treatments offered"
     },
     "teams": {
       "title": "Our team",
-      "description": "\" Your path to your new smile begins here \""
+      "description": "\"Your path to your new smile begins here\""
     },
     "contact": {
       "title": "Private parking reserved for patients",
@@ -58,7 +58,7 @@
       "description": "Our simple and effective treatment, using custom-made trays at home or a single-session in-office procedure, can brighten your teeth several shades."
     },
     {
-      "title": "MPLANTOLOGY",
+      "title": "IMPLANTOLOGY",
       "image": "/assets/treatments/03.jpg",
       "question": "Need to replace missing teeth?",
       "description": "Implantology involves replacing missing teeth with artificial titanium “roots”, supporting dental prostheses such as crowns, bridges, or removable prostheses for long-term aesthetic and functional restoration."
@@ -103,7 +103,6 @@
       "title": "PEDIATRIC DENTISTRY",
       "image": "/assets/treatments/10.jpg",
       "question": "Pedodontics focuses on dental care for children, offering preventive exams, care for baby teeth, and oral hygiene advice for the younger ones.",
-      "description": "Il est recommandé, à titre préventif, de les familiariser avec le cabinet dentaire dès leur plus jeune âge."
     },
     {
       "title": "OCCLUSODONTICS",
@@ -120,7 +119,7 @@
   ],
   "teams": [
     {
-      "name": "Dr Mathilde AJDARPASIC",
+      "name": "Dr. Mathilde AJDARPASIC",
       "image": "/assets/teams/Mathilde.jpg",
       "speciality": "Dentist",
       "knowledge": [
@@ -138,7 +137,7 @@
       "doctena": "64ce6334-7efa-4c5a-accf-30cf237508eb"
     },
     {
-      "name": "Dr Ludovic ALTERMATT",
+      "name": "Dr. Ludovic ALTERMATT",
       "image": "/assets/teams/Ludovic.jpg",
       "speciality": "Dentist",
       "knowledge": [
@@ -160,26 +159,26 @@
       "doctena": "ec66ea67-55e9-4d98-ac40-b8786503ebe1"
     },
     {
-      "name": "Dr Alvin LESDEL",
+      "name": "Dr. Alvin LESDEL",
       "image": "/assets/teams/Alvin.jpg",
-      "speciality": "Médecin-dentiste",
+      "speciality": "Dentist",
       "knowledge": [
         "General Dentistry",
         "Aesthetic Dentistry",
         "Pediatric Dentistry",
-        "Implantology,",
+        "Implantology",
         "Hyaluronic Acid Injections"
       ],
       "diplome": [
-        "Diplôme de docteur en chirurgie dentaire, Nancy,",
-        "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris,",
-        "Cursus de Spécialisation à l'Implantologie orale, Paris,",
+        "Diplôme de docteur en chirurgie dentaire, Nancy",
+        "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris",
+        "Cursus de Spécialisation à l'Implantologie orale, Paris",
         "Formation chirurgie implantaire guidée et flux numérique, Metz"
       ],
       "doctena": "f692a149-1cf6-4b74-be41-de0029c7ba11"
     },
     {
-      "name": "Dr Alain ZEIDAN",
+      "name": "Dr. Alain ZEIDAN",
       "image": "/assets/teams/Alain.jpg",
       "speciality": "Orthodontist",
       "knowledge": [
@@ -187,31 +186,31 @@
         "Transparent Aligners (Invisalign)"
       ],
       "diplome": [
-        "Diplôme de docteur en médecine dentaire,",
-        "Diplôme universitaire en chirurgie orthognatique, Université de Sorbonne Paris,",
-        "Master en orthopédie dento-maxillo-faciale ,",
+        "Diplôme de docteur en médecine dentaire",
+        "Diplôme universitaire en chirurgie orthognatique, Université de Sorbonne Paris",
+        "Master en orthopédie dento-maxillo-faciale",
         "Certification de traitements orthodontiques par gouttières Invisalign"
       ],
       "doctena": "88bbda27-e0f0-4fc6-9ca9-a206fb8efcfb"
     },
     {
-      "name": "Dr Agnès HUSSEIN",
+      "name": "Dr. Agnès HUSSEIN",
       "image": "/assets/teams/Agnes.jpg",
       "speciality": "Orthodontist",
       "knowledge": [
-        "Multi-bracket Technique (adults and children),",
+        "Multi-bracket Technique (adults and children)",
         "Transparent Aligners (Invisalign)"
       ],
       "diplome": [
-        "Diplôme de docteur en médecine dentaire,",
-        "Diplôme universitaire en croissance cranio-faciale et orthopédie-dento-maxillo-faciale, Paris Descartes,",
-        "Certificat d'études supérieures de chirurgie dentaire, Paris Diderot,",
+        "Diplôme de docteur en médecine dentaire",
+        "Diplôme universitaire en croissance cranio-faciale et orthopédie-dento-maxillo-faciale, Paris Descartes",
+        "Certificat d'études supérieures de chirurgie dentaire, Paris Diderot",
         "Certification de traitements orthodontiques par gouttières Invisalign"
       ],
       "doctena": "1f186d61-a4b9-4259-8b47-67722408cbb0"
     },
     {
-      "name": "Dr Gorian FREMINET",
+      "name": "Dr. Gorian FREMINET",
       "image": "/assets/teams/Gorian.jpg",
       "speciality": "Stomatologist",
       "knowledge": [
@@ -222,23 +221,21 @@
         "Implantology"
       ],
       "diplome": [
+        "Diplôme de Docteur en Chirurgie Dentaire, Nancy",
         "Diplôme d’Etudes Supérieures en Chirurgie Buccale, Nancy",
         "Diplôme d’université de formation permanente en chirurgie faciale : option chirurgie buccale, Nancy",
-        "Diplôme d’université de dermatologie et vénéréologie de la muqueuse buccale, Paris",
+        "Diplôme d’université de dermatologie de la muqueuse buccale, Paris",
         "Diplôme d’université de chirurgie buccale et d’implantologie orale, Dijon",
         "Diplôme Interuniversitaire Lasers et Médecine, Bordeaux",
         "Diplôme Universitaire d’Imagerie ORL et Cervico-faciale, Paris",
-        "Diplôme Universitaire de chirurgie reconstructrice pré et péri implantaire orale, Paris",
+        "Diplôme Universitaire de chirurgie reconstructrice pré/péri implanter, Paris",
         "Diplôme Universitaire d’identification en odontologie médico-légale, Nancy",
-        "Diplôme Universitaire de Droit Médical, Paris",
         "Post graduate Parodontology et Implantology, New York University",
         "Attestation Universitaire d’Implantologie, Paris",
-        "Certificat d’expertise judiciaire, Aix",
         "Diplôme universitaire Odontologie et Posturo-Ostéopathie, Bordeaux",
         "Formations en parodontologie chirurgicale et bactérienne ",
         "Cycle de formation en implantologie ADd Vision, Metz",
         "Formations du Docteur Paolo Malo, Clinica Malo à Lisbonne",
-        "Formations à l’utilisation des lasers en odontologie (Laser Lokki, laser Kavo, laser Kaelux)",
         "Formation à l’utilisation de la sédation intra veineuse en odontologie",
         "Formatons à l’injection et aux prélevements intra veineux et PRF, Paris",
         "Formations des professionnels de santé à l’hypnose, Paris",
@@ -247,7 +244,7 @@
       "doctena": "e22ce825-6981-413d-9c57-852ab779c140"
     },
     {
-      "name": "Dr Clara MOUROT",
+      "name": "Dr. Clara MOUROT",
       "image": "/assets/teams/Clara.jpeg",
       "speciality": "Endodontist",
       "knowledge": ["Microscopic Root Canal Treatments"],

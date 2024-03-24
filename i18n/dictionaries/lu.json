@@ -25,7 +25,7 @@
     },
     "teams": {
       "title": "TEAM",
-      "description": "\"De Wee zu Ärem neien Laachen fänkt hei u \""
+      "description": "\"De Wee zu Ärem neien Laachen fänkt hei u\""
     },
     "contact": {
       "title": "Privat Parkplaze fir Patienten reservéiert",
@@ -41,7 +41,7 @@
     }
   },
   "folder": {
-    "title": "Book Your Appointment",
+    "title": "RDV MAACHEN",
     "description": "tous droits reservés. cabinet dentaire ora"
   },
   "treatments": [
@@ -167,13 +167,13 @@
         "Generell Behandlungen",
         "Ästhetesch Zänndokterie",
         "Pédiatresch Zänndokterie",
-        "Implantologie,",
+        "Implantologie",
         "Injektioune mat Hyaluronsäure"
       ],
       "diplome": [
-        "Diplôme de docteur en chirurgie dentaire, Nancy,",
-        "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris,",
-        "Cursus de Spécialisation à l'Implantologie orale, Paris,",
+        "Diplôme de docteur en chirurgie dentaire, Nancy",
+        "Formation sur les Injections d'Acide Hyaluronique : comblement de la zone péri buccale, IFCP Paris",
+        "Cursus de Spécialisation à l'Implantologie orale, Paris",
         "Formation chirurgie implantaire guidée et flux numérique, Metz"
       ],
       "doctena": "f692a149-1cf6-4b74-be41-de0029c7ba11"
@@ -187,9 +187,9 @@
         "Transparent Zahnspangen fir Erwuessene an Kanner (Invisalign)"
       ],
       "diplome": [
-        "Diplôme de docteur en médecine dentaire,",
-        "Diplôme universitaire en chirurgie orthognatique, Université de Sorbonne Paris,",
-        "Master en orthopédie dento-maxillo-faciale ,",
+        "Diplôme de docteur en médecine dentaire",
+        "Diplôme universitaire en chirurgie orthognatique, Université de Sorbonne Paris",
+        "Master en orthopédie dento-maxillo-faciale ",
         "Certification de traitements orthodontiques par gouttières Invisalign"
       ],
       "doctena": "88bbda27-e0f0-4fc6-9ca9-a206fb8efcfb"
@@ -203,9 +203,9 @@
         "Transparent Zahnspangen fir Erwuessene an Kanner (Invisalign)"
       ],
       "diplome": [
-        "Diplôme de docteur en médecine dentaire,",
-        "Diplôme universitaire en croissance cranio-faciale et orthopédie-dento-maxillo-faciale, Paris Descartes,",
-        "Certificat d'études supérieures de chirurgie dentaire, Paris Diderot,",
+        "Diplôme de docteur en médecine dentaire",
+        "Diplôme universitaire en croissance cranio-faciale et orthopédie-dento-maxillo-faciale, Paris Descartes",
+        "Certificat d'études supérieures de chirurgie dentaire, Paris Diderot",
         "Certification de traitements orthodontiques par gouttières Invisalign"
       ],
       "doctena": "1f186d61-a4b9-4259-8b47-67722408cbb0"
@@ -222,23 +222,21 @@
         "Implantologie"
       ],
       "diplome": [
+        "Diplôme de Docteur en Chirurgie Dentaire, Nancy",
         "Diplôme d’Etudes Supérieures en Chirurgie Buccale, Nancy",
         "Diplôme d’université de formation permanente en chirurgie faciale : option chirurgie buccale, Nancy",
-        "Diplôme d’université de dermatologie et vénéréologie de la muqueuse buccale, Paris",
+        "Diplôme d’université de dermatologie de la muqueuse buccale, Paris",
         "Diplôme d’université de chirurgie buccale et d’implantologie orale, Dijon",
         "Diplôme Interuniversitaire Lasers et Médecine, Bordeaux",
         "Diplôme Universitaire d’Imagerie ORL et Cervico-faciale, Paris",
-        "Diplôme Universitaire de chirurgie reconstructrice pré et péri implantaire orale, Paris",
+        "Diplôme Universitaire de chirurgie reconstructrice pré/péri implanter, Paris",
         "Diplôme Universitaire d’identification en odontologie médico-légale, Nancy",
-        "Diplôme Universitaire de Droit Médical, Paris",
         "Post graduate Parodontology et Implantology, New York University",
         "Attestation Universitaire d’Implantologie, Paris",
-        "Certificat d’expertise judiciaire, Aix",
         "Diplôme universitaire Odontologie et Posturo-Ostéopathie, Bordeaux",
         "Formations en parodontologie chirurgicale et bactérienne ",
         "Cycle de formation en implantologie ADd Vision, Metz",
         "Formations du Docteur Paolo Malo, Clinica Malo à Lisbonne",
-        "Formations à l’utilisation des lasers en odontologie (Laser Lokki, laser Kavo, laser Kaelux)",
         "Formation à l’utilisation de la sédation intra veineuse en odontologie",
         "Formatons à l’injection et aux prélevements intra veineux et PRF, Paris",
         "Formations des professionnels de santé à l’hypnose, Paris",
