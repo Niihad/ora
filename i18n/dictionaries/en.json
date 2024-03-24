@@ -19,7 +19,7 @@
     },
     "treatments": {
       "title": "CUSTOMIZED TREATMENTS",
-      "description": "\"Quality care for your finest smile"\",
+      "description": "\"Quality care for your finest smile\"",
       "more": "Our multidisciplinary team includes qualified dentists specializing in various fields. All treatments are performed directly at the clinic, including check-ups, conservative care, orthodontics, or surgeries, providing our patients an access to a complete technical platform in one location.",
       "more2": "See the treatments offered"
     },
@@ -103,6 +103,7 @@
       "title": "PEDIATRIC DENTISTRY",
       "image": "/assets/treatments/10.jpg",
       "question": "Pedodontics focuses on dental care for children, offering preventive exams, care for baby teeth, and oral hygiene advice for the younger ones.",
+      "description": ""
     },
     {
       "title": "OCCLUSODONTICS",
@@ -272,3 +273,4 @@
     }
   ]
 }
+
