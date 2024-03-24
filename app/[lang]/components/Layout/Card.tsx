@@ -36,7 +36,6 @@ export default function Card({ sens, params }: Props) {
                     alt={params[0].value}
                     width={600}
                     height={0}
-                    priority={true} 
                     className="w-auto h-auto"
                   />
                 </motion.div>
@@ -138,7 +137,6 @@ export default function Card({ sens, params }: Props) {
                       alt={params[0].value}
                       width={600}
                       height={0}
-                      priority={true} 
                       className="w-auto h-auto"
                     />
                   </motion.div>
