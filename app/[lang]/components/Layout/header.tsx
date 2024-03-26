@@ -89,7 +89,10 @@ export default function Header({ lang }: { lang: Locale }) {
               </Link>
             ))}
           </div>
-          <div className="flex justify-center gap-2 text-4xl p-3 font-bold mb-6">
+          <Link
+            href={`/${lang}`}
+            className="flex justify-center gap-2 text-4xl p-3 font-bold mb-6"
+          >
             <Image
               src={"/assets/logo.jpg"}
               alt="Logo"
@@ -97,7 +100,7 @@ export default function Header({ lang }: { lang: Locale }) {
               height={0}
               className="h-auto max-w-xl"
             />
-          </div>
+          </Link>
         </div>
         <nav>
           <NavBar />

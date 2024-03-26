@@ -13,6 +13,7 @@ export default function Folder({ lang }: { lang: Locale }) {
         <div className="text-2xl p-1 font-bold">
           <a
             target="_blank"
+            className="focus:bg-black"
             href="https://www.doctena.lu/fr/cabinet/differdange/centre-dentaire-de-differdange-281260"
           >
             {folder.title}

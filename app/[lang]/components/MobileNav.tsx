@@ -36,7 +36,7 @@ export default function MobileNav({ lang }: { lang: Locale }) {
   return (
     <>
       <div className="fixed w-full h-[62px] z-20 bg-white shadow-md grid grid-cols-6 flex py-1 sm:hidden">
-        <div className="flex m-3 col-span-5">
+        <Link href={`/${lang}`} className="flex m-3 col-span-5">
           <Image
             src={"/assets/logo.jpg"}
             alt="Logo"
@@ -44,7 +44,7 @@ export default function MobileNav({ lang }: { lang: Locale }) {
             height={0}
             className="w-[250px] h-auto"
           />
-        </div>
+        </Link>
         <div className="flex justify-end ">
           <button
             aria-label="Toggle Menu"
