@@ -28,7 +28,8 @@
       "description": "\"Your path to your new smile begins here\""
     },
     "contact": {
-      "title": "Private parking reserved for patients",
+      "title": "contact",
+      "description": "Private parking reserved for patients",
       "time": [
         { "day": "Monday 9am - 7pm" },
         { "day": "Tuesday 9am - 7pm" },
@@ -37,7 +38,7 @@
         { "day": "Friday 9am - 7pm" },
         { "day": "Saturday 9am - 2pm" }
       ],
-      "description": "In case of emergency, please call us directly. We will make every effort to accommodate you and provide relief as quickly as possible within the same day."
+      "more": "In case of emergency, please call us directly. We will make every effort to accommodate you and provide relief as quickly as possible within the same day."
     }
   },
   "folder": {

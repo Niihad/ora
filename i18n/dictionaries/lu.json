@@ -28,7 +28,8 @@
       "description": "\"De Wee zu Ärem neien Laachen fänkt hei u\""
     },
     "contact": {
-      "title": "Privat Parkplaze fir Patienten reservéiert",
+      "title": "KONTAKT",
+      "description": "Privat Parkplaze fir Patienten reservéiert",
       "time": [
         { "day": "Méinden 9:00 - 19:00" },
         { "day": "Dënschden 9:00 - 19:00" },
@@ -37,7 +38,7 @@
         { "day": "Freiden 9:00 - 19:00" },
         { "day": "Samschden 9:00 - 14:00" }
       ],
-      "description": "An engem Noutfall, rufft eis direkt un. Mir ginn eist Bescht, Iech esou séier wei méiglech am Laf vum Dag ze empfänken an ze hëllefen."
+      "more": "An engem Noutfall, rufft eis direkt un. Mir ginn eist Bescht, Iech esou séier wei méiglech am Laf vum Dag ze empfänken an ze hëllefen."
     }
   },
   "folder": {

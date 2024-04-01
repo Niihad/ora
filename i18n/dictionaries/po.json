@@ -28,7 +28,8 @@
       "description": "\" O caminho para o seu novo sorriso começa aqui \""
     },
     "contact": {
-      "title": "Estacionamento privado reservado para pacientes",
+      "title": "contacto",
+      "description": "Estacionamento privado reservado para pacientes",
       "time": [
         { "day": "Segunda-feira 9:00 - 19:00" },
         { "day": "Terça-feira 9:00 - 19:00" },
@@ -37,7 +38,7 @@
         { "day": "Sexta-feira 9:00 - 19:00" },
         { "day": "Sábado 9:00 - 14:00" }
       ],
-      "description": "Em caso de emergência, ligue-nos diretamente. Faremos tudo ao nosso alcance para recebê-lo e aliviar o mais rápido possível durante o dia."
+      "more": "Em caso de emergência, ligue-nos diretamente. Faremos tudo ao nosso alcance para recebê-lo e aliviar o mais rápido possível durante o dia."
     }
   },
   "folder": {

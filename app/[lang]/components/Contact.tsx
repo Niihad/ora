@@ -18,7 +18,7 @@ export default function Locations({ page }: any) {
           variants={scrollAnimation}
           className="uppercase text-2xl sm:text-3xl font-bold p-3 text-center justify-center "
         >
-          Contact
+          {page.contact.title}
         </motion.h3>
       </ScrollAnimationWrapper>
       <section className="text-gray-600 body-font relative">
@@ -71,7 +71,7 @@ export default function Locations({ page }: any) {
                 <a href={"mailto:contact@oradental.lu"}>contact@oradental.lu</a>
               </div>
 
-              <p className="mb-4">{page.contact.title}</p>
+              <p className="mb-4">{page.contact.description}</p>
               {page.contact.time.map((value: any) => (
                 <p key={value.day}>{value.day}</p>
               ))}
@@ -79,7 +79,7 @@ export default function Locations({ page }: any) {
           </div>
         </motion.div>
         <p className="relative mt-4 md:text-center justify-center text-justify">
-          {page.contact.description}
+          {page.contact.more}
         </p>
       </section>
     </div>

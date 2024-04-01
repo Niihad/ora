@@ -28,7 +28,8 @@
       "description": "\"Le chemin vers votre nouveau sourire débute ici\""
     },
     "contact": {
-      "title": "Parking privé réservé aux patients",
+      "title": "contact",
+      "description": "Parking privé réservé aux patients",
       "time": [
         { "day": "Lundi 9h00 - 19h00" },
         { "day": "Mardi  9h00 - 19h00" },
@@ -37,7 +38,7 @@
         { "day": "Vendredi  9h00 - 19h00" },
         { "day": "Samedi  9h00 - 14h00" }
       ],
-      "description": "En cas d'urgence, nous téléphoner directement. Nous mettrons tout en œuvre pour vous recevoir et vous soulager le plus rapidement possible dans la journée."
+      "more": "En cas d'urgence, nous téléphoner directement. Nous mettrons tout en œuvre pour vous recevoir et vous soulager le plus rapidement possible dans la journée."
     }
   },
   "folder": {
