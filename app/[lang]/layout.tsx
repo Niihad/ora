@@ -1,4 +1,3 @@
-import { Inter } from "next/font/google";
 import localFont from "next/font/local"
 import "./globals.css";
 import { Locale, i18n } from "@/i18n/i18n-config";
@@ -8,7 +7,6 @@ import { getDictionary } from "@/i18n/dictionary";
 import DictionaryProvider from "@/i18n/dictionary-provider";
 import Script from 'next/script'
 
-const inter = Inter({ subsets: ["latin"] });
 const myFont = localFont({ src: "../fonts/NexaBook.otf" });
 
 export const metadata = {
