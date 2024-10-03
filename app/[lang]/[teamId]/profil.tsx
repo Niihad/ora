@@ -13,8 +13,6 @@ interface Profil {
 }
 
 export default function Profil({ params }: { params: { lang: Locale, teamId: string } }) {
-
-  console.log(params)
   const {lang, teamId} = params;
   const info: string[] = teamId.split("-");
   const teams = useDictionary().teams;
@@ -31,7 +29,7 @@ export default function Profil({ params }: { params: { lang: Locale, teamId: str
 
   const profil = teams.find(
     (val: Team) =>
-      val.name.toLowerCase().split(" ").slice(1).join(" ") ===
+      val.name.toLowerCase().split(" ").length > 1 && val.name.toLowerCase().split(" ").slice(1).join(" ") ===
       decodeURI(info.slice(1).join(" "))
   );
 
