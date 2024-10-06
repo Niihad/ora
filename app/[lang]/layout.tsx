@@ -10,7 +10,7 @@ import Script from 'next/script'
 const myFont = localFont({ src: "../fonts/NexaBook.otf" });
 
 export const metadata = {
-  title: "Home",
+  title: "Cabinet dentaire Ora differdange - Dentiste-Médecin",
   description: "Ora dental practice website",
 };
 
