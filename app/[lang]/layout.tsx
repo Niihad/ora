@@ -10,8 +10,11 @@ import Script from 'next/script'
 const myFont = localFont({ src: "../fonts/NexaBook.otf" });
 
 export const metadata = {
-  title: "Cabinet dentaire Ora differdange - Dentiste-Médecin",
+  title: "Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange",
   description: "Ora dental practice website",
+  icons: {
+    icon: '/assets/icon.jpg', 
+  },
 };
 
 export async function generateStaticParams() {
