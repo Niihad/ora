@@ -15,6 +15,9 @@ export const metadata = {
   icons: {
     icon: "/assets/icon.jpg",
   },
+  openGraph: {
+    siteName: 'Cabinet dentaire ORA',
+  },
 };
 
 export async function generateStaticParams() {
