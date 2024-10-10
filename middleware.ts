@@ -23,10 +23,11 @@ export function middleware(request: NextRequest) {
   const pathnameIsMissingLocale = i18n.locales.every(
     locale => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   )
-  const pathnameIsRobots = pathname !== `/robots.txt`;
+  const exception = ["/robots.txt", "/sitemap.xml"]
+  const pathnameException = exception.some((except) => except === pathname);
 
   // Redirect if there is no locale
-  if (pathnameIsMissingLocale && pathnameIsRobots) {
+  if (pathnameIsMissingLocale && !pathnameException) {
     const locale = getLocale(request)
     return NextResponse.redirect(
       new URL(

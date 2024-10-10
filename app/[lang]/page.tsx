@@ -11,6 +11,7 @@ import getScrollAnimation from "./utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./components/Layout/ScrollAnimationWrapper";
 import { useDictionary } from "@/i18n/dictionary-provider";
 import { Locale } from "@/i18n/i18n-config";
+import Sitemap from "../sitemap";
 
 export default function Home({
   params: { lang },
