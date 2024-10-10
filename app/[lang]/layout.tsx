@@ -17,6 +17,7 @@ export const metadata = {
   },
   openGraph: {
     siteName: 'Cabinet dentaire ORA',
+    images: '/assets/cabinet.png',
   },
 };
 
