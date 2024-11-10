@@ -32,7 +32,7 @@ export default function Folder({ lang }: { lang: Locale }) {
     <div className="uppercase text-center text-white" id="folder">
       <div
         className={`bg-black p-3 bottom-0 lg:relative ${
-          isSticky ? "fixed m-3 w-[calc(100vw-2.5rem)]" : "relative"
+          isSticky ? "fixed m-3 w-[calc(100vw-1.5rem)]" : "relative"
         }`}
       >
         <div className="sm:text-xl md:text-2xl text-md p-1 font-bold">
