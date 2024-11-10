@@ -40,9 +40,9 @@ export default function Home({
           <motion.div className="" variants={scrollAnimation}>
             <div className="bg-zinc-950/75 w-full absolute bottom-0 left-0 p-12 sm:w-[348px] uppercase text-white text-center">
               <p className="text-3xl mb-4">{page.title}</p>
-              <div className="p-2 border-2 text-md cursor-pointer">
-                <motion.div className="" variants={scrollAnimation}>
-                  {page.description}
+              <div className="p-2 border-2 text-md ">
+                <motion.div className="p-3" variants={scrollAnimation}>
+                  {}
                 </motion.div>
               </div>
             </div>

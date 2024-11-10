@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { useDictionary } from "@/i18n/dictionary-provider";
 import { Locale } from "@/i18n/i18n-config";
 import Link from "next/link";
@@ -7,10 +8,34 @@ import Image from "next/image";
 
 export default function Folder({ lang }: { lang: Locale }) {
   const folder = useDictionary().folder;
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const targetDiv = document.getElementById("folder");
+
+      if (targetDiv) {
+        const rect = targetDiv.getBoundingClientRect();
+        // Vérifie si on est en bas de la page ou dans la div cible
+        if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+          setIsSticky(false);
+        } else {
+          setIsSticky(true);
+        }
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="uppercase text-center text-white">
-      <div className="bg-black p-3 ">
-        <div className="text-2xl p-1 font-bold">
+    <div className="uppercase text-center text-white" id="folder">
+      <div
+        className={`bg-black p-3 bottom-0 w-full lg:relative ${
+          isSticky ? "fixed" : "relative"
+        }`}
+      >
+        <div className="sm:text-xl md:text-2xl text-md p-1 font-bold">
           <a
             target="_blank"
             className="focus:bg-black"
