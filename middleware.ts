@@ -23,7 +23,7 @@ export function middleware(request: NextRequest) {
   const pathnameIsMissingLocale = i18n.locales.every(
     locale => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
   )
-  const exception = ["/robots.txt", "/sitemap.xml"]
+  const exception = ["/robots.txt", "/sitemap.xml", "/assets/icon.png", "/assets/cabinet.png"]
   const pathnameException = exception.some((except) => except === pathname);
 
   // Redirect if there is no locale
