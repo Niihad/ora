@@ -13,7 +13,7 @@ export const metadata = {
   title: "Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange",
   description: "Ora dental practice website",
   icons: {
-    icon: "/assets/icon.jpg",
+    icon: "/assets/icon.png",
   },
   openGraph: {
     siteName: 'Cabinet dentaire ORA',
