@@ -13,11 +13,11 @@ export const metadata = {
   title: "Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange",
   description: "Ora dental practice website",
   icons: {
-    icon: "/assets/icon.png",
+    icon: "https://www.oradental.lu/assets/icon.png",
   },
   openGraph: {
     siteName: 'Cabinet dentaire ORA',
-    images: '/assets/cabinet.png',
+    images: 'https://www.oradental.lu/assets/cabinet.png',
   },
 };
 
