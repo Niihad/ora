@@ -10,13 +10,14 @@ import Script from "next/script";
 const myFont = localFont({ src: "../fonts/NexaBook.otf" });
 
 export const metadata = {
-  title: "Cabinet dentaire ORA ",
+  title: "Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange",
   description: "Ora dental practice website",
   icons: {
     icon: "https://www.oradental.lu/assets/icon.png",
   },
   openGraph: {
-    siteName: 'Cabinet dentaire ORA',
+    type: "website",
+    site_name: 'Cabinet dentaire ORA',
     images: 'https://www.oradental.lu/assets/cabinet.png',
   },
 };
