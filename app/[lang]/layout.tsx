@@ -16,8 +16,9 @@ export const metadata = {
     icon: "https://www.oradental.lu/assets/icon.png",
   },
   openGraph: {
+    title: "Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange",
     type: "website",
-    site_name: 'Cabinet dentaire ORA',
+    siteName: 'Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange',
     images: 'https://www.oradental.lu/assets/cabinet.png',
   },
 };
