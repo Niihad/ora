@@ -3,7 +3,7 @@ import { MetadataRoute } from 'next';
 export default function sitemap(): MetadataRoute.Sitemap {
 
     const url = "https://www.oradental.lu";
-    const members = ["dr-mathilde-ajdarpasic","dr-ludovic-altermatt","dr-alvin-lesdel","dr-alain-zeidan","dr-agnès-hussein","dr-gorian-freminet","dr-clara-mourot"];
+    const members = ["dr-mathilde-ajdarpasic","dr-alvin-lesdel","dr-alain-zeidan","dr-agnès-hussein","dr-gorian-freminet","dr-clara-mourot"];
     const site = [{
         url: url+'/fr',
         lastModified: new Date(),
