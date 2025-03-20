@@ -231,6 +231,14 @@
       "call": "Appeler pour prendre rendez-vous"
     },
     {
+      "name": "Filipa ABREU",
+      "image": "/assets/teams/Filipa.jpeg",
+      "speciality": "Médecin Esthétique",
+      "knowledge": [],
+      "diplome": [],
+      "doctena": ""
+    },
+    {
       "name": "Gisela",
       "image": "/assets/teams/Gisela.jpg",
       "speciality": "Assistante dentaire",

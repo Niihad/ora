@@ -231,6 +231,14 @@
       "call": "Call to Book your appointment"
     },
     {
+      "name": "Filipa ABREU",
+      "image": "/assets/teams/Filipa.jpeg",
+      "speciality": "Aesthetic Doctor",
+      "knowledge": [],
+      "diplome": [],
+      "doctena": ""
+    },
+    {
       "name": "Gisela",
       "image": "/assets/teams/Gisela.jpg",
       "speciality": "Dental Assistant",
