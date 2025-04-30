@@ -1,10 +1,20 @@
 {
   "header": {
     "navigation": [
-      { "id": "about", "name": "Gabinete", "offset": -62 },
-      { "id": "treatments", "name": "TRATAMENTOS", "offset": -62 },
-      { "id": "team", "name": "EQUIPA", "offset": -62 },
-      { "id": "contact", "name": "contacto", "offset": -62 }
+      { "id": "about", "name": "Gabinete", "offset": -62, "sub": [] },
+      { "id": "treatments", "name": "TRATAMENTOS", "offset": -62, "sub": [] },
+      {
+        "id": "aesthetic",
+        "name": "medecine esthetique",
+        "offset": -62,
+        "sub": [
+          { "id": "face", "name": "visage" },
+          { "id": "body", "name": "corps" },
+          { "id": "price", "name": "tarif" }
+        ]
+      },
+      { "id": "team", "name": "EQUIPA", "offset": -62, "sub": [] },
+      { "id": "contact", "name": "contacto", "offset": -62, "sub": [] }
     ],
     "title": "Gabinete Dentário ORA"
   },
@@ -22,6 +32,13 @@
       "description": "\"Cuidados de qualidade para o seu sorriso mais bonito\"",
       "more": "A nossa equipa multidisciplinar é composta por dentistas qualificados em diversas especialidades. Todos os tratamentos são realizados diretamente no gabinete, incluindo check-ups, cuidados conservadores, ortodontia e cirurgias, proporcionando aos nossos pacientes acesso a uma plataforma técnica abrangente num único local.",
       "more2": "Veja os tratamentos oferecidos"
+    },
+    "aesthetic": {
+      "title": "Médecine Esthétique",
+      "description": "Nouveauté chez ORA Differdange ! La médecine esthétique s'invite dans votre cabinet dentaire Sublimez votre sourire... et plus encore !",
+      "more": "Retrouvez une peau lumineuse, un visage reposé et un corps tonique grâce à des traitements personnalisés et non invasifs.",
+      "more2": "Des soins sur-mesure pour sublimer votre beauté naturelle, en toute sécurité.",
+      "more3": "EN SAVOIR PLUS"
     },
     "teams": {
       "title": "EQUIPA",
@@ -49,76 +66,393 @@
     {
       "title": "DENTISTERIA ESTÉTICA",
       "image": "/assets/treatments/01.jpg",
-      "question": "Quer corrigir imperfeições no sorriso?",
-      "description": "A dentisteria estética melhora a aparência dos seus dentes através de tratamentos como clareamento, facetas e coroas, melhorando a forma, cor e alinhamento para um sorriso mais estético e harmonioso."
+      "text": [
+        "Quer corrigir imperfeições no sorriso?",
+        "A dentisteria estética melhora a aparência dos seus dentes através de tratamentos como clareamento, facetas e coroas, melhorando a forma, cor e alinhamento para um sorriso mais estético e harmonioso."
+      ]
     },
     {
       "title": "BRANQUEAMENTO DENTÁRIO",
       "image": "/assets/treatments/02.jpg",
-      "question": "Deseja um sorriso mais brilhante?",
-      "description": "O nosso tratamento simples e eficaz, utilizando moldeiras feitas à medida em casa ou um procedimento em consultório numa única sessão, pode clarear os seus dentes em várias tonalidades."
+      "text": [
+        "Deseja um sorriso mais brilhante?",
+        "O nosso tratamento simples e eficaz, utilizando moldeiras feitas à medida em casa ou um procedimento em consultório numa única sessão, pode clarear os seus dentes em várias tonalidades."
+      ]
     },
     {
       "title": "IMPLANTOLOGIA",
       "image": "/assets/treatments/03.jpg",
-      "question": "Necessita de substituir dentes?",
-      "description": "A implantologia envolve a substituição de dentes em falta por “raízes” artificiais de titânio, suportando próteses dentárias como coroas, pontes ou próteses removíveis para uma restauração estética e funcional duradoura."
+      "text": [
+        "Necessita de substituir dentes?",
+        "A implantologia envolve a substituição de dentes em falta por “raízes” artificiais de titânio, suportando próteses dentárias como coroas, pontes ou próteses removíveis para uma restauração estética e funcional duradoura."
+      ]
     },
     {
       "title": "ORTODONTIA",
       "image": "/assets/treatments/04.jpg",
-      "question": "Procurando melhorar o alinhamento dos dentes?",
-      "description": "A ortodontia alinha e corrige a posição dos dentes e mandíbulas em crianças, adolescentes e adultos. Os nossos ortodontistas utilizam aparelhos fixos, dispositivos removíveis ou alinhadores transparentes para endireitar os dentes, corrigir problemas de oclusão e melhorar a estética do seu sorriso, ou do seu filho."
+      "text": [
+        "Procurando melhorar o alinhamento dos dentes?",
+        "A ortodontia alinha e corrige a posição dos dentes e mandíbulas em crianças, adolescentes e adultos. Os nossos ortodontistas utilizam aparelhos fixos, dispositivos removíveis ou alinhadores transparentes para endireitar os dentes, corrigir problemas de oclusão e melhorar a estética do seu sorriso, ou do seu filho."
+      ]
     },
     {
       "title": "CIRURGIA ORAL",
       "image": "/assets/treatments/05.jpg",
-      "question": "A estomatologia concentra-se em doenças e tratamentos de toda a boca, incluindo extrações, distúrbios da articulação temporomandibular, tumores e lesões orais.",
-      "description": "O Dr. Freminet trata uma ampla gama de problemas orais."
+      "text": [
+        "A estomatologia concentra-se em doenças e tratamentos de toda a boca, incluindo extrações, distúrbios da articulação temporomandibular, tumores e lesões orais.",
+        "O Dr. Freminet trata uma ampla gama de problemas orais."
+      ]
     },
     {
       "title": "PRÓTESES DENTÁRIAS",
       "image": "/assets/treatments/06.jpg",
-      "question": "As próteses dentárias substituem dentes, podendo ser removíveis, como dentaduras parciais ou totais, ou fixas, como pontes ou coroas.",
-      "description": "Estas próteses são concebidas para restaurar a função mastigatória e a estética do sorriso, com o objetivo de melhorar o seu conforto."
+      "text": [
+        "As próteses dentárias substituem dentes, podendo ser removíveis, como dentaduras parciais ou totais, ou fixas, como pontes ou coroas.",
+        "Estas próteses são concebidas para restaurar a função mastigatória e a estética do sorriso, com o objetivo de melhorar o seu conforto."
+      ]
     },
     {
       "title": "CUIDADOS CONSERVADORES",
       "image": "/assets/treatments/07.jpg",
-      "question": "Deseja preservar uma boa saúde bucal?",
-      "description": "Tratamentos conservadores essenciais, como a remoção de tártaro, tratamento de cáries e restaurações, desempenham um papel crucial na prevenção e tratamento de problemas dentários para preservar os seus dentes o máximo possível."
+      "text": [
+        "Deseja preservar uma boa saúde bucal?",
+        "Tratamentos conservadores essenciais, como a remoção de tártaro, tratamento de cáries e restaurações, desempenham um papel crucial na prevenção e tratamento de problemas dentários para preservar os seus dentes o máximo possível."
+      ]
     },
     {
       "title": "CUIDADO DAS GENGIVAS",
       "image": "/assets/treatments/08.jpg",
-      "question": "As suas gengivas estão a sangrar? Estão a retrair-se? Os seus dentes estão a mexer? Pode estar a sofrer de periodontite.",
-      "description": "A periodontologia foca-se na saúde dos tecidos que suportam os dentes, como as gengivas e o osso ao redor dos dentes. O objetivo é manter estes tecidos saudáveis para preservar dentes fortes e bem ancorados, recuperando o prazer de uma boca saudável e confortável."
+      "text": [
+        "As suas gengivas estão a sangrar? Estão a retrair-se? Os seus dentes estão a mexer? Pode estar a sofrer de periodontite.",
+        "A periodontologia foca-se na saúde dos tecidos que suportam os dentes, como as gengivas e o osso ao redor dos dentes. O objetivo é manter estes tecidos saudáveis para preservar dentes fortes e bem ancorados, recuperando o prazer de uma boca saudável e confortável."
+      ]
     },
     {
       "title": "ENDODONTIA",
       "image": "/assets/treatments/09.jpg",
-      "question": "A endodontia concentra-se no tratamento do interior do dente.",
-      "description": "Quando um dente está infetado ou gravemente danificado, é necessário realizar um tratamento de canal para remover a polpa infetada, limpar o interior do dente e fechá-lo para evitar infeções e preservar o dente natural. A Dra. Mourot especializou-se nesta disciplina e realiza os tratamentos sob microscópio."
+      "text": [
+        "A endodontia concentra-se no tratamento do interior do dente.",
+        "Quando um dente está infetado ou gravemente danificado, é necessário realizar um tratamento de canal para remover a polpa infetada, limpar o interior do dente e fechá-lo para evitar infeções e preservar o dente natural. A Dra. Mourot especializou-se nesta disciplina e realiza os tratamentos sob microscópio."
+      ]
     },
     {
       "title": "DENTISTERIA PEDIÁTRICA",
       "image": "/assets/treatments/10.jpg",
-      "question": "A pedodontia é uma vertente da odontologia que se concentra nos cuidados dentários das crianças, oferecendo exames preventivos, cuidados com os dentes de leite e conselhos de higiene bucal para os mais jovens.",
-      "description": ""
+      "text": [
+        "A pedodontia é uma vertente da odontologia que se concentra nos cuidados dentários das crianças, oferecendo exames preventivos, cuidados com os dentes de leite e conselhos de higiene bucal para os mais jovens."
+      ]
     },
     {
       "title": "OCLUSODONTIA",
       "image": "/assets/treatments/11.jpg",
-      "question": "Tem dores na mandíbula? Ouve estalos?",
-      "description": "A oclusodontia estuda como os dentes superior e inferior se encaixam quando a boca está fechada. Visa compreender e corrigir problemas relacionados com a articulação temporomandibular para melhorar o conforto, a função mastigatória e reduzir as tensões musculares na mandíbula."
+      "text": [
+        "Tem dores na mandíbula? Ouve estalos?",
+        "A oclusodontia estuda como os dentes superior e inferior se encaixam quando a boca está fechada. Visa compreender e corrigir problemas relacionados com a articulação temporomandibular para melhorar o conforto, a função mastigatória e reduzir as tensões musculares na mandíbula."
+      ]
     },
     {
       "title": "INJEÇÕES DE ÁCIDO HIALURÓNICO",
       "image": "/assets/treatments/12.jpg",
-      "question": "Os nossos dentistas realizam injeções de ácido hialurónico para tratar e melhorar a aparência de certas áreas ao redor da boca, como os lábios, os cantos dos lábios, as rugas ou os sulcos ao redor da boca.",
-      "description": "Isso pode ajudar a restaurar ou aumentar o volume, suavizar rugas ou redesenhar os contornos para obter um visual mais jovem e estético, em harmonia com o seu sorriso."
+      "text": [
+        "Os nossos dentistas realizam injeções de ácido hialurónico para tratar e melhorar a aparência de certas áreas ao redor da boca, como os lábios, os cantos dos lábios, as rugas ou os sulcos ao redor da boca.",
+        "Isso pode ajudar a restaurar ou aumentar o volume, suavizar rugas ou redesenhar os contornos para obter um visual mais jovem e estético, em harmonia com o seu sorriso."
+      ]
     }
   ],
+  "aesthetic": {
+    "title": "Chez ORA, nous allions expertise médicale et sens de l’esthétique pour proposer des traitements innovants et naturels, adaptés à chaque morphologie. ",
+    "description": "Que vous souhaitiez rafraîchir votre regard, lisser votre peau ou redéfinir votre silhouette, notre approche est toujours douce, précise et respectueuse de votre beauté.",
+    "more": "Pourquoi nous choisir ?",
+    "more2": [
+      "Médecin formée et expérimentée",
+      "Produits de haute qualité et certifiés",
+      "Résultats naturels, respect du visage",
+      "Consultations personnalisées"
+    ],
+    "more3": "Prenez rendez-vous pour une consultation personnalisée et découvrez le soin qui vous correspond.",
+    "doctena": "Demander un rendez-vous",
+    "categories": [
+      {
+        "title": "visage",
+        "image": "/assets/treatments/01.jpg",
+        "link": "face"
+      },
+      {
+        "title": "corps",
+        "image": "/assets/treatments/01.jpg",
+        "link": "body"
+      },
+      {
+        "title": "tarifs",
+        "image": "/assets/treatments/01.jpg",
+        "link": "price"
+      }
+    ],
+    "face": [
+      {
+        "title": "Diagnostic Skincare Sur-Mesure",
+        "image": "/assets/aesthetic/22.jpg",
+        "text": [
+          "Envie d'une peau éclatante et parfaitement adaptée à vos besoins ? Grâce à un diagnostic de peau précis et approfondi, nous identifions les besoins réels de votre épiderme : hydratation, éclat, anti-âge, correction d'imperfections… Chaque détail est pris en compte.",
+          "À partir de cette analyse, le Dr établit une routine skincare 100 % personnalisée, en sélectionnant des actifs ciblés et des soins adaptés à votre peau.",
+          "Offrez à votre visage ce qu'il mérite vraiment : une beauté sur-mesure, pour révéler l'éclat naturel de votre peau au quotidien. Une approche intelligente, sur-mesure et résolument moderne."
+        ]
+      },
+      {
+        "title": "BOTOX",
+        "image": "/assets/aesthetic/03.jpg",
+        "text": [
+          "Le Botox est l’un des traitements les plus efficaces pour lisser les rides d’expression, notamment au niveau du front, de la glabelle et du contour des yeux. Il détend les muscles responsables des contractions, tout en préservant la mobilité naturelle du visage",
+          "Il est aussi utilisé pour traiter le bruxisme (grincement des dents) en relaxant les muscles de la mâchoire, réduisant ainsi douleurs et tensions.",
+          "Une solution rapide, sécurisée et sans éviction sociale, pour un visage reposé et une qualité de vie améliorée."
+        ]
+      },
+      {
+        "title": "ACIDE HYALURONIQUE",
+        "image": "/assets/aesthetic/04.jpg",
+        "text": [
+          "L’acide hyaluronique est une molécule naturellement présente dans la peau, utilisée pour restaurer les volumes, hydrater en profondeur et lisser les rides. Grâce à des injections ciblées, il redessine les contours du visage, repulpe les lèvres ou les pommettes, et apporte un éclat immédiat. Le résultat est naturel et harmonieux. ",
+          "Ce traitement s’adapte à chaque visage et à chaque besoin, pour sublimer sans figer les expressions."
+        ]
+      },
+      {
+        "title": "CORRECTION DES CERNES",
+        "image": "/assets/aesthetic/05.jpg",
+        "text": [
+          "Les cernes creux ou colorés peuvent donner un air fatigué, même après une bonne nuit de sommeil. L’injection d’acide hyaluronique dans cette zone permet de combler les creux, d’atténuer les ombres et d’illuminer le regard.",
+          "Ce traitement, délicat et précis, redonne fraîcheur et vitalité au visage tout en respectant ses traits. Le résultat est immédiat, naturel et durable."
+        ]
+      },
+      {
+        "title": "RHINOPLASTIE MÉDICALE",
+        "image": "/assets/aesthetic/06.jpg",
+        "text": [
+          "La rhinoplastie médicale est une alternative non invasive à la chirurgie du nez. Grâce à des injections d’acide hyaluronique, il est possible de corriger une bosse, relever la pointe ou harmoniser le profil sans anesthésie ni opération. ",
+          "Le traitement est rapide, quasi indolore, et le résultat visible immédiatement. Une solution idéale pour améliorer l’esthétique du nez de manière douce et réversible."
+        ]
+      },
+      {
+        "title": "BIOSTIMULATEURS DE COLLAGÈNE",
+        "image": "/assets/aesthetic/07.jpg",
+        "text": [
+          "À partir de 30 ans, la production de collagène diminue, entraînant un relâchement cutané. Les biostimulateurs agissent en profondeur pour relancer cette production naturelle. Injectés sous la peau, ils renforcent la structure cutanée, améliorent la fermeté et la qualité de la peau sur le long terme.",
+          "C’est un traitement qui offre des résultats progressifs et durables, tout en préservant un aspect totalement naturel."
+        ]
+      },
+      {
+        "title": "FILS TENSEURS",
+        "image": "/assets/aesthetic/08.jpg",
+        "text": [
+          "Les fils tenseurs en PDO (polydioxanone) permettent de lifter les traits du visage sans chirurgie. Ils sont insérés sous la peau pour redessiner l’ovale du visage, rehausser les pommettes ou lisser le cou. En plus de leur effet immédiat, ils stimulent la production de collagène pour un résultat progressif et durable. ",
+          "Un traitement sûr, efficace et discret, pour retrouver une peau plus ferme et un visage visiblement rajeuni."
+        ]
+      },
+      {
+        "title": "TRAITEMENT DU DOUBLE MENTON",
+        "image": "/assets/aesthetic/09.jpg",
+        "text": [
+          "Le double menton est souvent une zone difficile à affiner, même avec une bonne hygiène de vie. Grâce à des injections spécifiques (type acide désoxycholique), il est possible de réduire les cellules graisseuses localisées sous le menton. ",
+          "Ce traitement non chirurgical améliore nettement le profil et redéfinit l’ovale du visage, sans cicatrices ni éviction sociale. Idéal pour un résultat naturel et harmonieux."
+        ]
+      },
+      {
+        "title": "PEELING",
+        "image": "/assets/aesthetic/10.jpg",
+        "text": [
+          "Le peeling consiste à appliquer une solution exfoliante pour éliminer les cellules mortes, stimuler le renouvellement cellulaire et uniformiser le teint. ",
+          "Il peut être doux ou plus profond selon les besoins : éclat, taches pigmentaires, acné, ridules… Il laisse la peau plus lisse, plus lumineuse et visiblement plus jeune. Une cure de jouvence pour la peau, adaptée à chaque type de peau."
+        ]
+      },
+      {
+        "title": "MÉSOTHÉRAPIE ",
+        "image": "/assets/aesthetic/11.jpg",
+        "text": [
+          "La mésothérapie est une technique de revitalisation cutanée qui consiste à injecter dans le derme un cocktail de vitamines, minéraux et acide hyaluronique. Elle améliore l’hydratation, la tonicité et l’éclat de la peau. ",
+          "C’est un soin préventif et correctif contre les signes de fatigue et de vieillissement. Parfait pour redonner vie aux peaux ternes, stressées ou déshydratées."
+        ]
+      },
+      {
+        "title": "SKINBOOSTER",
+        "image": "/assets/aesthetic/12.jpg",
+        "text": [
+          "Les skinboosters sont des micro-injections d’acide hyaluronique très fluide, conçues pour hydrater la peau en profondeur sans créer de volume. Ils améliorent l’élasticité, la fermeté et la texture de la peau, tout en stimulant le collagène.",
+          "Ce traitement est idéal pour les zones fines comme le visage, le cou, le décolleté ou les mains. Résultat : une peau repulpée, lissée, éclatante de santé."
+        ]
+      },
+      {
+        "title": "PRP",
+        "image": "/assets/aesthetic/13.jpg",
+        "text": [
+          "Offrez à votre peau et à vos cheveux la puissance de votre propre corps.",
+          "Le PRP utilise votre plasma enrichi en facteurs de croissance pour stimuler naturellement la régénération cellulaire, booster la production de collagène et revitaliser les tissus en profondeur.",
+          "Pour la peau, il estompe rides, cernes et imperfections, révélant un teint plus lisse et lumineux.",
+          "Pour les cheveux, il freine la chute, densifie et renforce la fibre capillaire.",
+          "Un traitement 100 % naturel, innovant et sans risque, pour un coup d’éclat durable et une beauté authentique, de l’intérieur vers l’extérieur."
+        ]
+      },
+      {
+        "title": "MICRONEEDLING",
+        "image": "/assets/aesthetic/14.jpg",
+        "text": [
+          "Le microneedling utilise un stylo muni de micro-aiguilles pour créer des micro-perforations à la surface de la peau. Ce processus stimule la production de collagène et permet une meilleure pénétration des principes actifs. ",
+          "Il améliore l’aspect des cicatrices, des pores dilatés, des ridules et du teint irrégulier. Un soin efficace, naturel et peu invasif pour régénérer la peau en douceur."
+        ]
+      }
+    ],
+    "body": [
+      {
+        "title": "ACIDE HYALURONIQUE",
+        "image": "/assets/aesthetic/15.jpg",
+        "text": [
+          "Sublimez votre silhouette grâce aux bienfaits de l’acide hyaluronique pour le corps. Il hydrate en profondeur, améliore la qualité de la peau et redonne du galbe aux zones fragilisées comme le cou, le décolleté, les mains… et même vos fesses et vos abdos",
+          "Utilisé en body contouring, il permet de redessiner subtilement les courbes, rehausser les fesses, combler les creux et mettre en valeur la définition naturelle des abdominaux.",
+          "Offrez à votre corps un raffermissement visible, une peau plus lisse et une silhouette élégamment sculptée, sans chirurgie lourde."
+        ]
+      },
+      {
+        "title": "BIOSTIMULATEURS DE COLLAGÈNE",
+        "image": "/assets/aesthetic/16.jpg",
+        "text": [
+          "Les injections de collagène sont une solution efficace pour raffermir les zones du corps sujettes au relâchement cutané, comme les bras, l’intérieur des cuisses ou le ventre. En stimulant la production naturelle de collagène, ce traitement améliore la tonicité de la peau et prévient le vieillissement cutané.",
+          "Il est également utilisé en complément d’autres soins esthétiques pour renforcer la structure et la qualité des tissus, avec un résultat progressif, naturel et durable."
+        ]
+      },
+      {
+        "title": "FILS TENSEURS",
+        "image": "/assets/aesthetic/17.jpg",
+        "text": [
+          "Les fils tenseurs peuvent être appliqués sur le corps pour redéfinir certaines zones comme les bras, les cuisses, l’abdomen ou les genoux. Ils offrent un effet liftant immédiat, tout en stimulant la production de collagène pour une amélioration continue dans les mois qui suivent.",
+          "Cette technique est idéale pour traiter un relâchement modéré sans passer par la chirurgie. Résultat : une peau visiblement plus ferme, plus tonique et un corps redessiné en douceur."
+        ]
+      },
+      {
+        "title": "TRAITEMENT ANTI-CELLULITE",
+        "image": "/assets/aesthetic/19.jpg",
+        "text": [
+          "La cellulite concerne toutes les morphologies et peut être difficile à éliminer malgré une bonne hygiène de vie. Grâce à des techniques de médecine esthétique combinant mésothérapie, drainage et principes actifs lipolytiques, il est possible de lisser l’aspect peau d’orange et d’améliorer la texture cutanée.",
+          "Ce traitement cible la rétention d’eau, les amas graisseux et la microcirculation. Il redonne une peau plus lisse, plus ferme et plus homogène."
+        ]
+      },
+      {
+        "title": "INTRALIPOTHERAPIE",
+        "image": "/assets/aesthetic/19.jpg",
+        "text": [
+          "L’intralipothérapie est une technique d’injections destinée à réduire les amas graisseux localisés, résistants au sport et aux régimes. Elle agit directement sur les cellules adipeuses pour les détruire progressivement.",
+          "Particulièrement efficace sur les hanches, l’abdomen, les bras ou les genou,  ce traitement non chirurgical permet de redessiner la silhouette de manière harmonieuse, sans anesthésie ni convalescence. Une solution ciblée pour affiner et sculpter."
+        ]
+      },
+      {
+        "title": "MESOTHERAPIE",
+        "image": "/assets/aesthetic/20.jpg",
+        "text": [
+          "La mésothérapie pour le corps consiste à injecter localement des actifs drainants, lipolytiques et raffermissants. Elle est particulièrement efficace pour traiter la cellulite, la rétention d’eau ou le relâchement cutané.",
+          "Cette technique améliore la microcirculation, stimule la peau en profondeur et redonne tonicité et élasticité aux tissus. Adaptée à différentes zones du corps, elle permet d’obtenir une peau plus lisse, plus souple et visiblement plus tonique."
+        ]
+      }
+    ],
+    "price": {
+      "title": "tarifs",
+      "info": "Consultation d'évaluation 50",
+      "categories": [
+        {
+          "title": "visage",
+          "item": [
+            {
+              "title": "Diagnostic skincare sur-mesure",
+              "price": "50"
+            },
+            {
+              "title": "Botox",
+              "price": "350"
+            },
+            {
+              "title": "Acide hyaluronique lèvres",
+              "price": "350"
+            },
+            {
+              "title": "Acide hyaluronique pour les autres zones du visage (première seringue)",
+              "price": "300"
+            },
+            {
+              "title": "Acide hyaluronique pour les autres zones du visage (seringues suivantes)",
+              "price": "275"
+            },
+            {
+              "title": "Correction des Cernes",
+              "price": "400"
+            },
+            {
+              "title": "Rhinoplastie médicale",
+              "price": "400"
+            },
+            {
+              "title": "Biostimulateur de collagène visage ou cou (par seringue)",
+              "price": "600"
+            },
+            {
+              "title": "PRP (par séance)",
+              "price": "350"
+            },
+            {
+              "title": "Skinbooster (par séance)",
+              "price": "275"
+            },
+            {
+              "title": "Microneedling avec PDRN (par séance)",
+              "price": "200"
+            },
+            {
+              "title": "Peeling (à partir de)",
+              "price": "175"
+            },
+            {
+              "title": "Réduction du double menton par lipolyse (à partir de)",
+              "price": "700"
+            },
+            {
+              "title": "Mésothérapie (à partir de)",
+              "price": "150"
+            },
+            {
+              "title": "Fils tenseurs (prix sur demande)",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "title": "corps",
+          "item": [
+            {
+              "title": "Acide Hyaluronique (par seringue)",
+              "price": "850"
+            },
+            {
+              "title": "Biostimulateurs de collagène fessiers, abdomen ou cuisses (par seringue)",
+              "price": "850"
+            },
+            {
+              "title": "Mésothérapie (à partir de)",
+              "price": "150"
+            },
+            {
+              "title": "Traitement anti-cellulite (à partir de)",
+              "price": "150"
+            },
+            {
+              "title": "Intralipothérapie (à partir de)",
+              "price": "200"
+            },
+            {
+              "title": "Fils tenseurs (prix sur demande)",
+              "price": ""
+            }
+          ]
+        }
+      ],
+      "info2": "Les actes à visée esthétique ne sont pas pris en charge par la CNS",
+      "doctena": "Demander un rendez-vous"
+    }
+  },
   "teams": [
     {
       "name": "Dra. Mathilde AJDARPASIC",

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Link as LinkScroll } from "react-scroll";
 import { motion } from "framer-motion";
-import MobileNav from "../MobileNav";
+import MobileNav from "./MobileNav";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import { usePathname } from "next/navigation";
 import { Locale, i18n } from "@/i18n/i18n-config";
@@ -35,7 +35,7 @@ export default function Header({ lang }: { lang: Locale }) {
     return (
       <>
         {header.navigation.map((nav: any) =>
-          pathname === "/" ? (
+          pathname === `/${lang}` ? (
             <LinkScroll
               key={nav.id}
               activeClass="active"
@@ -48,10 +48,10 @@ export default function Header({ lang }: { lang: Locale }) {
                 setActiveLink(nav.id);
               }}
               className={
-                "xl:text-2xl md:text-xl sm:block cursor-pointer" +
+                "xl:text-2xl md:text-xl sm:text-sm sm:block cursor-pointer" +
                 (activeLink === nav.id
-                  ? " text-neutral-500"
-                  : " text-black hover:text-neutral-500 ")
+                  ? " text-neutral-400"
+                  : " text-black hover:text-neutral-400")
               }
             >
               {nav.name}
@@ -64,10 +64,10 @@ export default function Header({ lang }: { lang: Locale }) {
                 setActiveLink(nav.id);
               }}
               className={
-                "xl:text-2xl md:text-xl sm:block cursor-pointer" +
+                "xl:text-2xl md:text-xl sm:text-sm sm:block cursor-pointer" +
                 (activeLink === nav.id
-                  ? " text-neutral-500"
-                  : " text-black hover:text-neutral-500 ")
+                  ? " text-neutral-400"
+                  : " text-black hover:text-neutral-400 ")
               }
             >
               {nav.name}
@@ -109,7 +109,7 @@ export default function Header({ lang }: { lang: Locale }) {
           <ScrollAnimationWrapper>
             <motion.nav
               className={
-                "fixed w-full z-30 bg-slate-50 h-[62px] transition-all top-0 shadow-md pt-0"
+                "fixed w-full z-30 bg-slate-50 transition-all top-0 shadow-md pt-0"
               }
               initial={{ y: -135 }}
               animate="visible"

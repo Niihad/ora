@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import getScrollAnimation from "../utils/getScrollAnimation";
-import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import Link from "next/link";
 
 export default function Treatments({ page, lang }: any) {
@@ -10,7 +10,7 @@ export default function Treatments({ page, lang }: any) {
 
   return (
     <div className="py-10 lg:py-24 bg-white" id="treatments">
-      <div className="mx-auto px-6 lg:px-8">
+      <div className="max-w-screen-2xl mx-auto ">
         <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">
           <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[680px]">
             <ScrollAnimationWrapper>

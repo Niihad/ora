@@ -8,9 +8,10 @@ import Treatments from "./components/Treatments";
 import Team from "./components/Team";
 import Contact from "./components/Contact";
 import getScrollAnimation from "./utils/getScrollAnimation";
-import ScrollAnimationWrapper from "./components/Layout/ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "./components/ScrollAnimationWrapper";
 import { useDictionary } from "@/i18n/dictionary-provider";
 import { Locale } from "@/i18n/i18n-config";
+import Aesthetic from "./components/Aesthetic";
 
 export default function Home({
   params: { lang },
@@ -23,7 +24,7 @@ export default function Home({
 
   return (
     <>
-      <div className="relative">
+      <div className="relative pt-10 sm:pt-0">
         <div className="h-[77vh] contrast-[.60] relative">
           <Image
             alt="London"
@@ -50,6 +51,7 @@ export default function Home({
       </div>
       <About page={page} />
       <Treatments page={page} lang={lang}/>
+      <Aesthetic page={page} lang={lang}/>
       <Team dico={dico} lang={lang}/>
       <Contact page={page} />
     </>

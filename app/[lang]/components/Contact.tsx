@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import { motion } from "framer-motion";
-import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import { FaHome } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
@@ -12,7 +12,7 @@ export default function Locations({ page }: any) {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
   return (
-    <div className="bg-white p-10 lg:py-14" id="contact">
+    <div className="bg-neutral-100 p-10 lg:py-14" id="contact">
       <ScrollAnimationWrapper>
         <motion.h3
           variants={scrollAnimation}

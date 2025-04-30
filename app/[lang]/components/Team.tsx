@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import getScrollAnimation from "../utils/getScrollAnimation";
-import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
+import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 
 export default function Team({ dico, lang }: any) {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
@@ -15,8 +15,8 @@ export default function Team({ dico, lang }: any) {
   };
 
   return (
-    <div className="bg-neutral-100 w-full py-10 lg:py-24 " id="team">
-      <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
+    <div className="bg-white w-full py-10 lg:py-14 " id="team">
+      <div className="max-w-screen-2xl px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
           <ScrollAnimationWrapper>
             <motion.h3

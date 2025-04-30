@@ -21,6 +21,11 @@ export default function MobileNav({ lang }: { lang: Locale }) {
     segments[1] = locale;
     return segments.join("/");
   };
+  
+  const handleClick = (param: string) => {
+    onToggleNav();
+    setActiveLink(param);
+  };
 
   const onToggleNav = () => {
     setNavShow((status) => {
@@ -34,7 +39,7 @@ export default function MobileNav({ lang }: { lang: Locale }) {
   };
 
   return (
-    <>
+    <div className="mb-14 sm:mb-0">
       <div className="fixed w-full h-[62px] z-20 bg-white shadow-md grid grid-cols-6 flex py-1 sm:hidden">
         <Link href={`/${lang}`} className="flex m-3 col-span-5">
           <Image
@@ -99,38 +104,102 @@ export default function MobileNav({ lang }: { lang: Locale }) {
           </button>
         </div>
         <nav className="fixed mt-8 h-full z-20">
-          {header.navigation.map((link: any) => (
+          {header.navigation.map((link) => (
             <div key={link.name} className="px-12 py-4">
-              {pathname === "/" ? (
-                <LinkScroll
-                  activeClass="active"
-                  to={link.id}
-                  spy={true}
-                  smooth={true}
-                  duration={1000}
-                  offset={link.offset}
-                  onSetActive={() => {
-                    setActiveLink(link.id);
-                  }}
-                  className="text-2xl uppercase font-bold tracking-widest text-black hover:text-zinc-400 cursor-pointer"
-                  onClick={onToggleNav}
-                >
-                  {link.name}
-                </LinkScroll>
+              {pathname === `/${lang}` ? (
+                <>
+                  <LinkScroll
+                    activeClass="active"
+                    to={link.id}
+                    spy={true}
+                    smooth={true}
+                    duration={1000}
+                    offset={link.offset}
+                    onSetActive={() => {
+                      setActiveLink(link.id);
+                    }}
+                    className={
+                      "text-2xl uppercase font-bold tracking-widest cursor-pointer" +
+                      (activeLink === link.id
+                        ? " text-neutral-400"
+                        : " text-black hover:text-neutral-400")
+                    }
+                    onClick={onToggleNav}
+                  >
+                    {link.name}
+                  </LinkScroll>
+                  {link.sub && (
+                    <>
+                      <ol className="space-y-2 text-xl pl-2 pt-2 list-disc list-inside">
+                        {link.sub.map((sublink) => (
+                          <li key={sublink.name}>
+                            <Link
+                              key={sublink.id}
+                              href={`/${lang}/${link.id}/${sublink.id}`}
+                              onClick={() => {
+                                handleClick(sublink.id);
+                              }}
+                              className={
+                                "uppercase scroll-behavior font-bold tracking-widest cursor-pointer" +
+                                (activeLink === sublink.id
+                                  ? " text-neutral-400"
+                                  : " text-black hover:text-neutral-400 ")
+                              }
+                            >
+                              {sublink.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ol>
+                    </>
+                  )}
+                </>
               ) : (
-                <Link
-                  key={link.id}
-                  href={`/${lang}//#${link.id}`}
-                  onClick={onToggleNav}
-                  className="text-2xl uppercase scroll-behavior font-bold tracking-widest text-neutral-900 hover:text-zinc-400 cursor-pointer"
-                >
-                  {link.name}
-                </Link>
+                <>
+                  <Link
+                    key={link.id}
+                    href={`/${lang}//#${link.id}`}
+                    onClick={onToggleNav}
+                    className={
+                      "text-2xl uppercase scroll-behavior font-bold tracking-widest cursor-pointer" +
+                      (activeLink === link.id
+                        ? " text-neutral-400"
+                        : " text-black hover:text-neutral-400 ")
+                    }
+                  >
+                    {link.name}
+                  </Link>
+                  {link.sub && (
+                    <>
+                      <ol className="space-y-2 text-xl pl-2 pt-2 list-disc list-inside">
+                        {link.sub.map((sublink) => (
+                          <li key={sublink.name}>
+                            <Link
+                              key={sublink.id}
+                              href={`/${lang}/${link.id}/${sublink.id}`}
+                              onClick={() => {
+                                handleClick(sublink.id);
+                              }}
+                              className={
+                                "uppercase scroll-behavior font-bold tracking-widest cursor-pointer" +
+                                (activeLink === sublink.id
+                                  ? " text-neutral-400"
+                                  : " text-black hover:text-neutral-400 ")
+                              }
+                            >
+                              {sublink.name}
+                            </Link>
+                          </li>
+                        ))}
+                      </ol>
+                    </>
+                  )}
+                </>
               )}
             </div>
           ))}
         </nav>
       </div>
-    </>
+    </div>
   );
 }

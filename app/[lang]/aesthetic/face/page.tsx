@@ -1,10 +1,10 @@
 "use client";
 
-import Card from "../components/Card";
+import Card from "../../components/Card";
 import { useDictionary } from "@/i18n/dictionary-provider";
 
-export default function Treatments() {
-  const treatments = useDictionary().treatments;
+export default function Face() {
+  const treatments = useDictionary().aesthetic.face;
   interface Treatment {
     title: string;
     image: string;
@@ -37,7 +37,7 @@ export default function Treatments() {
         >
           <div className={"max-w-screen-2xl mx-auto"}>
             <Card
-            key={index}
+              key={treatment.title}
               sens={index % 2 ? "left" : "right"}
               params={buildParams(treatment, index % 2 ? "right" : "left")}
             />

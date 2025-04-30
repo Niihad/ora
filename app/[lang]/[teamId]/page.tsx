@@ -21,5 +21,5 @@ export async function generateStaticParams({
 }
 
 export default function Page({ params }: { params: { lang: Locale, teamId: string } }) {
-  return <Profil params={params}/>;
+  return <Profil key={params.teamId} params={params}/>;
 }
