@@ -58,7 +58,7 @@ export default function Card({ sens, params }: Props) {
       const text = params
         .filter((param: Pair) => !param.buttom)
         .map((param: Pair) => (
-          <ScrollAnimationWrapper>
+          <ScrollAnimationWrapper key={param.value}>
             <motion.div
               key={param.value}
               className="text-justify"
