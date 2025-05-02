@@ -26,7 +26,7 @@ export default function Card({ sens, params }: Props) {
     return (
       <ScrollAnimationWrapper>
         <motion.div
-          className="mx-auto flex flex-col justify-center align-center text-center xl:max-w-2xl max-w-lg w-full px-4"
+          className="mx-auto flex flex-col justify-center align-center text-center xl:max-w-2xl max-w-lg w-full"
           variants={ScrollSens(param.show)}
         >
           <Image
