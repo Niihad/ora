@@ -3,8 +3,9 @@
 import { Suspense } from "react";
 import { useEffect } from "react";
 import { Locale } from "@/i18n/i18n-config";
-import Card from "../components/Card";
+import Card from "../../components/Card";
 import { useDictionary } from "@/i18n/dictionary-provider";
+import { notFound } from "next/navigation";
 
 interface Profil {
   lang: Locale;
@@ -79,31 +80,29 @@ export default function Profil({
     return res;
   };
 
+  if (!profil) {
+    notFound();
+  }
+
   return (
     <div className="pt-4 pb-4 sm:pt-0 overflow-x-hidden">
-      {profil && (
-        <div className="max-w-screen-2xl mx-auto ">
-          <Suspense fallback={<p>Loading team...</p>}>
-            <div
-              className={"py-14 lg:py-24"}
-              id={profil.name}
-              key={profil.name}
-            >
-              <Card key={teamId} sens={"left"} params={buildParams(profil)} />
-            </div>
-          </Suspense>
-          {profil.doctena !== "" && (
-            <section
-              data-toggle="doc-calendar"
-              data-picture="1"
-              data-doctor-eid={profil.doctena}
-              data-language={lang}
-            >
-              {" "}
-            </section>
-          )}
-        </div>
-      )}
+      <div className="max-w-screen-2xl mx-auto ">
+        <Suspense fallback={<p>Loading team...</p>}>
+          <div className={"py-14 lg:py-24"} id={profil.name} key={profil.name}>
+            <Card key={teamId} sens={"left"} params={buildParams(profil)} />
+          </div>
+        </Suspense>
+        {profil.doctena !== "" && (
+          <section
+            data-toggle="doc-calendar"
+            data-picture="1"
+            data-doctor-eid={profil.doctena}
+            data-language={lang}
+          >
+            {""}
+          </section>
+        )}
+      </div>
     </div>
   );
 }

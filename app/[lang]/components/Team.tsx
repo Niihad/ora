@@ -11,7 +11,7 @@ export default function Team({ dico, lang }: any) {
 
   const getUrlName = (name: string) => {
     const res = name.split(" ");
-    return `/${lang}/dr-${res[1]}-${res[2]}`;
+    return `/${lang}/teams/dr-${res[1]}-${res[2]}`;
   };
 
   return (

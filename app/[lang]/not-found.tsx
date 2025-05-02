@@ -1,8 +1,7 @@
 import { FaRegSadTear } from "react-icons/fa";
 
-export default function NotFound() {
+export default async function NotFound() {
   const notFound = "That page can't be found.";
-
   return (
     <div className="max-w-screen-2xl mx-auto flex justify-center">
       <div className="sm:text-3xl text-xl font-bold ">
