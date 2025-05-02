@@ -11,14 +11,8 @@ interface AestheticLayoutProps {
 }
 
 export default function AestheticLayout({ children }: AestheticLayoutProps) {
-  const pathname = usePathname().replace(/^\/[a-z]{2}(?=\/)/, '');
+  const pathname = usePathname().replace(/^\/[a-z]{2}(?=\/)/, "");
   const aesthetic = useDictionary().aesthetic;
- 
-  const menuItems = [
-    { label: "Face", path: "/aesthetic/face" },
-    { label: "Body", path: "/aesthetic/body" },
-    { label: "Price", path: "/aesthetic/price" },
-  ];
 
   return (
     <div>
@@ -29,7 +23,7 @@ export default function AestheticLayout({ children }: AestheticLayoutProps) {
             href={`/aesthetic/${category.link}`}
             className={`uppercase font-bold px-4 pt-0 ${
               pathname === `/aesthetic/${category.link}`
-                ? "text-neutral-400" 
+                ? "text-neutral-400"
                 : "text-black hover:text-neutral-400"
             }`}
           >

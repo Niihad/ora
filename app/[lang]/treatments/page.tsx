@@ -1,9 +1,11 @@
 "use client";
 
+import { Locale } from "@/i18n/i18n-config";
 import Card from "../components/Card";
+
 import { useDictionary } from "@/i18n/dictionary-provider";
 
-export default function Treatments() {
+export default function Treatments(lang: Locale) {
   const treatments = useDictionary().treatments;
   interface Treatment {
     title: string;
@@ -35,9 +37,9 @@ export default function Treatments() {
           id={treatment.title}
           key={treatment.title}
         >
-          <div className={"max-w-screen-2xl mx-auto"}>
+          <div className={"max-w-screen-2xl mx-auto px-4"}>
             <Card
-            key={index}
+              key={index}
               sens={index % 2 ? "left" : "right"}
               params={buildParams(treatment, index % 2 ? "right" : "left")}
             />

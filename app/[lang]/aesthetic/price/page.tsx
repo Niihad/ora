@@ -51,7 +51,7 @@ export default function Price() {
       <ScrollAnimationWrapper>
         <div className="w-full left-0 font-bold uppercase p-8">
           <motion.div
-            className="text-xl sm:text-2xl"
+            className="text-md sm:text-xl md:text-2xl"
             variants={scrollAnimation}
           >
             {prices.info+" €"}

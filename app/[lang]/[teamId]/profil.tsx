@@ -4,7 +4,6 @@ import { Suspense } from "react";
 import { useEffect } from "react";
 import { Locale } from "@/i18n/i18n-config";
 import Card from "../components/Card";
-import { FaRegSadTear } from "react-icons/fa";
 import { useDictionary } from "@/i18n/dictionary-provider";
 
 interface Profil {
@@ -34,7 +33,7 @@ export default function Profil({
   interface Pair {
     value: string | any;
     show: string;
-    buttom?: boolean;
+    tel?: string;
   }
 
   const profil = teams.find(
@@ -75,23 +74,14 @@ export default function Profil({
       res.push({
         value: params.call,
         show: "bottom",
-        buttom: true,
+        tel: "tel:+352 27 76 17 09",
       });
     return res;
   };
 
   return (
     <div className="pt-4 pb-4 sm:pt-0 overflow-x-hidden">
-      {profil === undefined ? (
-        <div className="max-w-screen-2xl mx-auto flex justify-center">
-          <div className="sm:text-3xl text-xl font-bold ">
-            <div className="flex justify-center text-align my-10 mt-28">
-              <FaRegSadTear size="200px" color="black" />
-            </div>
-            <h1 className="my-10">{"Oops! That page can't be found."}</h1>
-          </div>
-        </div>
-      ) : (
+      {profil && (
         <div className="max-w-screen-2xl mx-auto ">
           <Suspense fallback={<p>Loading team...</p>}>
             <div
@@ -99,7 +89,7 @@ export default function Profil({
               id={profil.name}
               key={profil.name}
             >
-              <Card sens={"left"} params={buildParams(profil)} />
+              <Card key={teamId} sens={"left"} params={buildParams(profil)} />
             </div>
           </Suspense>
           {profil.doctena !== "" && (

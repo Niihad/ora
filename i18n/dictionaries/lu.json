@@ -7,11 +7,7 @@
         "id": "aesthetic",
         "name": "medecine esthetique",
         "offset": -62,
-        "sub": [
-          { "id": "face", "name": "visage" },
-          { "id": "body", "name": "corps" },
-          { "id": "price", "name": "tarif" }
-        ]
+        "sub": []
       },
       { "id": "team", "name": "TEAM ", "offset": -62, "sub": [] },
       { "id": "contact", "name": "KONTAKT", "offset": -62, "sub": [] }
@@ -23,22 +19,32 @@
     "description": "Video kucken",
     "about": {
       "title": "Praxis Zänndokter ORA",
-      "description": "Den Numm \"Praxis Zänndokter ORA\" fënnt säin Ursprong an der Leidenschaft vun eise Zänndokter fir d‘Zänn an hire Wonsch, eng aluedendend an professionell Plaz fir d'Patienten ze schafen.",
-      "more": "Den Numm ora gouf fir seng Bedeitung an säin angenehme Klang ausgesicht. Op Latäin ass ORA mat dem Wuert \"Mond\" oder \"Schwätz\" assoziiert. De Begreif erënnert och un d'Iddie vun Gesondheet, Wuelbefannen an Schéinheet, wat perfekt zur Mission vum Kabinet passt, déi esougenannte zahnmedezinesch Versuergunge vu gudder Qualitéit unzebidden, fir d'Bucco-Dentalgesondheet an d'Selbstvertrauen vum eenzele Patient ze verbesseren.",
-      "more2": "Deen Numm spiggelt sowuel de Professionalismus wéi d'Visioun vun eisen Zahnmedeziner an erënnert un d’Konzepter vu Gesondheet, Schéinheet an Vertrauen."
+      "image": "/assets/cabinet.png",
+      "text": [
+        "Den Numm \"Praxis Zänndokter ORA\" fënnt säin Ursprong an der Leidenschaft vun eise Zänndokter fir d‘Zänn an hire Wonsch, eng aluedendend an professionell Plaz fir d'Patienten ze schafen.",
+        "Den Numm ora gouf fir seng Bedeitung an säin angenehme Klang ausgesicht. Op Latäin ass ORA mat dem Wuert \"Mond\" oder \"Schwätz\" assoziiert. De Begreif erënnert och un d'Iddie vun Gesondheet, Wuelbefannen an Schéinheet, wat perfekt zur Mission vum Kabinet passt, déi esougenannte zahnmedezinesch Versuergunge vu gudder Qualitéit unzebidden, fir d'Bucco-Dentalgesondheet an d'Selbstvertrauen vum eenzele Patient ze verbesseren.",
+        "Deen Numm spiggelt sowuel de Professionalismus wéi d'Visioun vun eisen Zahnmedeziner an erënnert un d’Konzepter vu Gesondheet, Schéinheet an Vertrauen."
+      ]
     },
     "treatments": {
       "title": "Moossgemaach BEHANDLUNGEN",
-      "description": "\"Qualitativ Behandlungen fir ärt schéinste Laachen\"",
-      "more": "Eis multidisziplinär Equipe besteet aus qualifizéierten Zänndokteren déi a verschiddene Beräicher spezialiséiert sinn. All Behandlungen ginn direkt an der Praxis gemaach: Kontrollvisiten, erhalend Behandlungen, Kieferorthopädie oder och Chirurgie, fir eise Patienten ze erlaben, zougang op e komplette technesche Plateau op enger eenzeger Plaz ze hunn.",
-      "more2": "Behandlungen kucken"
+      "image": "/assets/treatments.jpg",
+      "text": [
+        "\"Qualitativ Behandlungen fir ärt schéinste Laachen\"",
+        "Eis multidisziplinär Equipe besteet aus qualifizéierten Zänndokteren déi a verschiddene Beräicher spezialiséiert sinn. All Behandlungen ginn direkt an der Praxis gemaach: Kontrollvisiten, erhalend Behandlungen, Kieferorthopädie oder och Chirurgie, fir eise Patienten ze erlaben, zougang op e komplette technesche Plateau op enger eenzeger Plaz ze hunn.",
+        "Behandlungen kucken"
+      ],
+      "link": "Behandlungen kucken"
     },
     "aesthetic": {
       "title": "Médecine Esthétique",
-      "description": "Nouveauté chez ORA Differdange ! La médecine esthétique s'invite dans votre cabinet dentaire Sublimez votre sourire... et plus encore !",
-      "more": "Retrouvez une peau lumineuse, un visage reposé et un corps tonique grâce à des traitements personnalisés et non invasifs.",
-      "more2": "Des soins sur-mesure pour sublimer votre beauté naturelle, en toute sécurité.",
-      "more3": "EN SAVOIR PLUS"
+      "image": "/assets/aesthetic/01.jpg",
+      "text": [
+        "Nouveauté chez ORA Differdange ! La médecine esthétique s'invite dans votre cabinet dentaire. Sublimez votre sourire... et plus encore !",
+        "Retrouvez une peau lumineuse, un visage reposé et un corps tonique grâce à des traitements personnalisés et non invasifs.",
+        "Des soins sur-mesure pour sublimer votre beauté naturelle, en toute sécurité."
+      ],
+      "link": "en savoir plus"
     },
     "teams": {
       "title": "TEAM",
@@ -328,7 +334,7 @@
       },
       {
         "title": "TRAITEMENT ANTI-CELLULITE",
-        "image": "/assets/aesthetic/19.jpg",
+        "image": "/assets/aesthetic/18.jpg",
         "text": [
           "La cellulite concerne toutes les morphologies et peut être difficile à éliminer malgré une bonne hygiène de vie. Grâce à des techniques de médecine esthétique combinant mésothérapie, drainage et principes actifs lipolytiques, il est possible de lisser l’aspect peau d’orange et d’améliorer la texture cutanée.",
           "Ce traitement cible la rétention d’eau, les amas graisseux et la microcirculation. Il redonne une peau plus lisse, plus ferme et plus homogène."
@@ -591,5 +597,6 @@
       "diplome": [],
       "doctena": ""
     }
-  ]
+  ],
+  "notFound": "Cette page est introuvable."
 }

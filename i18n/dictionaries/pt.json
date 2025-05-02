@@ -7,11 +7,7 @@
         "id": "aesthetic",
         "name": "medecine esthetique",
         "offset": -62,
-        "sub": [
-          { "id": "face", "name": "visage" },
-          { "id": "body", "name": "corps" },
-          { "id": "price", "name": "tarif" }
-        ]
+        "sub": []
       },
       { "id": "team", "name": "EQUIPA", "offset": -62, "sub": [] },
       { "id": "contact", "name": "contacto", "offset": -62, "sub": [] }
@@ -23,22 +19,32 @@
     "description": "Ver o vídeo",
     "about": {
       "title": "Gabinete Dentário ORA",
-      "description": "O nome \"ORA\" tem sua origem na paixão dos nossos dentistas pela odontologia e no desejo de criar um lugar acolhedor e profissional para os pacientes.",
-      "more": "A palavra ora foi escolhida por seu significado e sonoridade agradável. Em latim, ORA está associada às palavras \"boca\" ou \"fala\". O termo também evoca a ideia de saúde, bem-estar e beleza, alinhando-se perfeitamente com a missão da clínica de fornecer cuidados odontológicos de qualidade para melhorar a saúde bucal e a confiança de cada paciente.",
-      "more2": "Assim, esse nome reflete tanto o profissionalismo quanto a visão dos nossos dentistas, ao mesmo tempo em que evoca conceitos de saúde, beleza e confiança."
+      "image": "/assets/cabinet.png",
+      "text": [
+        "O nome \"ORA\" tem sua origem na paixão dos nossos dentistas pela odontologia e no desejo de criar um lugar acolhedor e profissional para os pacientes.",
+        "A palavra ora foi escolhida por seu significado e sonoridade agradável. Em latim, ORA está associada às palavras \"boca\" ou \"fala\". O termo também evoca a ideia de saúde, bem-estar e beleza, alinhando-se perfeitamente com a missão da clínica de fornecer cuidados odontológicos de qualidade para melhorar a saúde bucal e a confiança de cada paciente.",
+        "Assim, esse nome reflete tanto o profissionalismo quanto a visão dos nossos dentistas, ao mesmo tempo em que evoca conceitos de saúde, beleza e confiança."
+      ]
     },
     "treatments": {
       "title": "TRATAMENTOS PERSONALIZADOS",
-      "description": "\"Cuidados de qualidade para o seu sorriso mais bonito\"",
-      "more": "A nossa equipa multidisciplinar é composta por dentistas qualificados em diversas especialidades. Todos os tratamentos são realizados diretamente no gabinete, incluindo check-ups, cuidados conservadores, ortodontia e cirurgias, proporcionando aos nossos pacientes acesso a uma plataforma técnica abrangente num único local.",
-      "more2": "Veja os tratamentos oferecidos"
+      "image": "/assets/treatments.jpg",
+      "text": [
+        "\"Cuidados de qualidade para o seu sorriso mais bonito\"",
+        "A nossa equipa multidisciplinar é composta por dentistas qualificados em diversas especialidades. Todos os tratamentos são realizados diretamente no gabinete, incluindo check-ups, cuidados conservadores, ortodontia e cirurgias, proporcionando aos nossos pacientes acesso a uma plataforma técnica abrangente num único local.",
+        "Veja os tratamentos oferecidos"
+      ],
+      "link": "Veja os tratamentos oferecidos"
     },
     "aesthetic": {
       "title": "Médecine Esthétique",
-      "description": "Nouveauté chez ORA Differdange ! La médecine esthétique s'invite dans votre cabinet dentaire Sublimez votre sourire... et plus encore !",
-      "more": "Retrouvez une peau lumineuse, un visage reposé et un corps tonique grâce à des traitements personnalisés et non invasifs.",
-      "more2": "Des soins sur-mesure pour sublimer votre beauté naturelle, en toute sécurité.",
-      "more3": "EN SAVOIR PLUS"
+      "image": "/assets/aesthetic/01.jpg",
+      "text": [
+        "Nouveauté chez ORA Differdange ! La médecine esthétique s'invite dans votre cabinet dentaire. Sublimez votre sourire... et plus encore !",
+        "Retrouvez une peau lumineuse, un visage reposé et un corps tonique grâce à des traitements personnalisés et non invasifs.",
+        "Des soins sur-mesure pour sublimer votre beauté naturelle, en toute sécurité."
+      ],
+      "link": "en savoir plus"
     },
     "teams": {
       "title": "EQUIPA",
@@ -327,7 +333,7 @@
       },
       {
         "title": "TRAITEMENT ANTI-CELLULITE",
-        "image": "/assets/aesthetic/19.jpg",
+        "image": "/assets/aesthetic/18.jpg",
         "text": [
           "La cellulite concerne toutes les morphologies et peut être difficile à éliminer malgré une bonne hygiène de vie. Grâce à des techniques de médecine esthétique combinant mésothérapie, drainage et principes actifs lipolytiques, il est possible de lisser l’aspect peau d’orange et d’améliorer la texture cutanée.",
           "Ce traitement cible la rétention d’eau, les amas graisseux et la microcirculation. Il redonne une peau plus lisse, plus ferme et plus homogène."
@@ -588,5 +594,6 @@
       "diplome": [],
       "doctena": ""
     }
-  ]
+  ],
+  "notFound": "Cette page est introuvable."
 }

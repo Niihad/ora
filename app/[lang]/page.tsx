@@ -49,9 +49,9 @@ export default function Home({
           </motion.div>
         </ScrollAnimationWrapper>
       </div>
-      <About page={page} />
-      <Treatments page={page} lang={lang}/>
-      <Aesthetic page={page} lang={lang}/>
+      <About page={page.about} />
+      <Treatments page={page.treatments} lang={lang}/>
+      <Aesthetic page={page.aesthetic} lang={lang}/>
       <Team dico={dico} lang={lang}/>
       <Contact page={page} />
     </>

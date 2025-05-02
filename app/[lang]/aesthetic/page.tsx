@@ -57,67 +57,15 @@ export default function Aesthetic() {
 
   return (
     <div className="" id="aesthetic">
-      <div className="bg-white py-6 sm:py-10 md:py-14 lg:py-18 2xl:py-24">
-        <div className="max-w-screen-2xl mx-auto px-6 lg:px-8 ">
-          <div className="mx-auto grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2 pb-12">
-            <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[680px]">
-              <ScrollAnimationWrapper>
-                <motion.p variants={ScrollSens("top")} className="text-justify">
-                  {aesthetic.title}
-                </motion.p>
-              </ScrollAnimationWrapper>
-              <ScrollAnimationWrapper>
-                <motion.p variants={ScrollSens("top")} className="text-justify">
-                  {aesthetic.description}
-                </motion.p>
-              </ScrollAnimationWrapper>
-              <ScrollAnimationWrapper>
-                <motion.p
-                  variants={ScrollSens("right")}
-                  className="font-bold text-justify "
-                >
-                  {aesthetic.more}
-                </motion.p>
-              </ScrollAnimationWrapper>
-              <ol className="pl-2 list-disc list-inside">
-                {aesthetic.more2.map((reason: any) => (
-                  <ScrollAnimationWrapper key={reason}>
-                    <motion.li
-                      variants={ScrollSens("right")}
-                      className="text-justify "
-                    >
-                      {reason}
-                    </motion.li>
-                  </ScrollAnimationWrapper>
-                ))}
-              </ol>
-              <ScrollAnimationWrapper>
-                <motion.p
-                  variants={ScrollSens("bottom")}
-                  className="text-justify "
-                >
-                  {aesthetic.more3}
-                </motion.p>
-              </ScrollAnimationWrapper>
+      <div className="py-10 lg:py-24 bg-white">
+        <div className="max-w-screen-2xl mx-auto px-4">
+          <div className="no-scrollbar overflow-y-auto mx-auto px-6 lg:px-8">
+            <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2 items-center">
               <ScrollAnimationWrapper>
                 <motion.div
-                  variants={ScrollSens("bottom")}
-                  className="mx-auto flex justify-center text-align w-80 uppercase p-2 rounded-[3px] bg-black text-sm font-semibold leading-7 text-white shadow-sm lg:mt-8 mt-4"
+                  variants={ScrollSens("left")}
+                  className="mx-auto flex flex-col justify-center align-center text-center xl:max-w-2xl max-w-lg w-full px-4"
                 >
-                  <Link
-                    target="_blank"
-                    href={
-                      "https://www.doctena.lu/fr/cabinet/differdange/centre-dentaire-de-differdange-281260"
-                    }
-                  >
-                    {aesthetic.doctena}
-                  </Link>
-                </motion.div>
-              </ScrollAnimationWrapper>
-            </div>
-            <div className="mx-auto flex flex-col gap-y-4 justify-center xl:max-w-2xl max-w-lg w-full px-8">
-              <ScrollAnimationWrapper>
-                <motion.div variants={ScrollSens("left")}>
                   <Image
                     src={"/assets/aesthetic/02.jpeg"}
                     alt="Tooth"
@@ -127,21 +75,85 @@ export default function Aesthetic() {
                   />
                 </motion.div>
               </ScrollAnimationWrapper>
+
+              <div className="mx-auto flex flex-col gap-y-4 justify-center max-w-[800px]">
+                <ScrollAnimationWrapper>
+                  <motion.p
+                    variants={ScrollSens("top")}
+                    className="text-justify"
+                  >
+                    {aesthetic.title}
+                  </motion.p>
+                </ScrollAnimationWrapper>
+                <ScrollAnimationWrapper>
+                  <motion.p
+                    variants={ScrollSens("top")}
+                    className="text-justify"
+                  >
+                    {aesthetic.description}
+                  </motion.p>
+                </ScrollAnimationWrapper>
+                <ScrollAnimationWrapper>
+                  <motion.p
+                    variants={ScrollSens("right")}
+                    className="font-bold text-justify "
+                  >
+                    {aesthetic.more}
+                  </motion.p>
+                </ScrollAnimationWrapper>
+                <ol className="pl-2 list-disc list-inside">
+                  {aesthetic.more2.map((reason: any) => (
+                    <ScrollAnimationWrapper key={reason}>
+                      <motion.li
+                        variants={ScrollSens("right")}
+                        className="text-justify "
+                      >
+                        {reason}
+                      </motion.li>
+                    </ScrollAnimationWrapper>
+                  ))}
+                </ol>
+                <ScrollAnimationWrapper>
+                  <motion.p
+                    variants={ScrollSens("bottom")}
+                    className="text-justify "
+                  >
+                    {aesthetic.more3}
+                  </motion.p>
+                </ScrollAnimationWrapper>
+                <ScrollAnimationWrapper>
+                  <motion.div
+                    variants={ScrollSens("bottom")}
+                    className="mx-auto flex justify-center text-align w-80 uppercase p-2 rounded-[3px] bg-black text-sm font-semibold leading-7 text-white shadow-sm lg:mt-8 mt-4"
+                  >
+                    <Link
+                      target="_blank"
+                      href={
+                        "https://www.doctena.lu/fr/cabinet/differdange/centre-dentaire-de-differdange-281260"
+                      }
+                    >
+                      {aesthetic.doctena}
+                    </Link>
+                  </motion.div>
+                </ScrollAnimationWrapper>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div className="bg-neutral-100 mx-auto p-20 lg:px-8">
         <div className="max-w-screen-2xl mx-auto grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2">
-          {aesthetic.categories.filter((category) => category.link !=="price").map((category, index) =>
-            buildSelect(
-              category.title,
-              category.link,
-              index % 2 ? "left" : "right",
-              category.image,
-              index % 2 ? "bg-blue-200" : "bg-red-200"
-            )
-          )}
+          {aesthetic.categories
+            .filter((category) => category.link !== "price")
+            .map((category, index) =>
+              buildSelect(
+                category.title,
+                category.link,
+                index % 2 ? "left" : "right",
+                category.image,
+                index % 2 ? "bg-blue-200" : "bg-red-200"
+              )
+            )}
         </div>
       </div>
     </div>

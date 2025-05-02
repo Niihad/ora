@@ -35,7 +35,7 @@ export default function Face() {
           id={treatment.title}
           key={treatment.title}
         >
-          <div className={"max-w-screen-2xl mx-auto"}>
+          <div className={"max-w-screen-2xl mx-auto px-4"}>
             <Card
               key={treatment.title}
               sens={index % 2 ? "left" : "right"}

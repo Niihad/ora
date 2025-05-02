@@ -7,11 +7,7 @@
         "id": "aesthetic",
         "name": "medecine esthetique",
         "offset": -62,
-        "sub": [
-          { "id": "face", "name": "visage" },
-          { "id": "body", "name": "corps" },
-          { "id": "price", "name": "tarif" }
-        ]
+        "sub": []
       },
       { "id": "team", "name": "team", "offset": -62, "sub": [] },
       { "id": "contact", "name": "contact", "offset": -62, "sub": [] }
@@ -23,22 +19,32 @@
     "description": "WATCH THE VIDEO",
     "about": {
       "title": "ORA DENTAL PRACTICE",
-      "description": "The name \"ORA\" comes from our passion for dentistry and our desire to create a welcoming and professional place for patients.",
-      "more": "The word ora was chosen for its meaning and also for its pleasant sound. In Latin, ORA is associated with the words \"mouth\" or \"speech.\" The term also evokes the idea of health, well-being, and beauty, aligning perfectly with the clinic's mission to provide quality dental care to improve the oral health and confidence of each patient.",
-      "more2": "Thus, this name reflects both the professionalism and vision of our dentists, while also evoking concepts of health, beauty, and trust."
+      "image": "/assets/cabinet.png",
+      "text": [
+        "The name \"ORA\" comes from our passion for dentistry and our desire to create a welcoming and professional place for patients.",
+        "The word ora was chosen for its meaning and also for its pleasant sound. In Latin, ORA is associated with the words \"mouth\" or \"speech.\" The term also evokes the idea of health, well-being, and beauty, aligning perfectly with the clinic's mission to provide quality dental care to improve the oral health and confidence of each patient.",
+        "Thus, this name reflects both the professionalism and vision of our dentists, while also evoking concepts of health, beauty, and trust."
+      ]
     },
     "treatments": {
       "title": "CUSTOMIZED TREATMENTS",
-      "description": "\"Quality care for your finest smile\"",
-      "more": "Our multidisciplinary team includes qualified dentists specializing in various fields. All treatments are performed directly at the clinic, including check-ups, conservative care, orthodontics, or surgeries, providing our patients an access to a complete technical platform in one location.",
-      "more2": "See the treatments offered"
+      "image": "/assets/treatments.jpg",
+      "text": [
+        "\"Quality care for your finest smile\"",
+        "Our multidisciplinary team includes qualified dentists specializing in various fields. All treatments are performed directly at the clinic, including check-ups, conservative care, orthodontics, or surgeries, providing our patients an access to a complete technical platform in one location.",
+        "See the treatments offered"
+      ],
+      "link": "See the treatments offered"
     },
     "aesthetic": {
       "title": "Médecine Esthétique",
-      "description": "Nouveauté chez ORA Differdange ! La médecine esthétique s'invite dans votre cabinet dentaire Sublimez votre sourire... et plus encore !",
-      "more": "Retrouvez une peau lumineuse, un visage reposé et un corps tonique grâce à des traitements personnalisés et non invasifs.",
-      "more2": "Des soins sur-mesure pour sublimer votre beauté naturelle, en toute sécurité.",
-      "more3": "EN SAVOIR PLUS"
+      "image": "/assets/aesthetic/01.jpg",
+      "text": [
+        "Nouveauté chez ORA Differdange ! La médecine esthétique s'invite dans votre cabinet dentaire. Sublimez votre sourire... et plus encore !",
+        "Retrouvez une peau lumineuse, un visage reposé et un corps tonique grâce à des traitements personnalisés et non invasifs.",
+        "Des soins sur-mesure pour sublimer votre beauté naturelle, en toute sécurité."
+      ],
+      "link": "en savoir plus"
     },
     "teams": {
       "title": "Our team",
@@ -326,7 +332,7 @@
       },
       {
         "title": "TRAITEMENT ANTI-CELLULITE",
-        "image": "/assets/aesthetic/19.jpg",
+        "image": "/assets/aesthetic/18.jpg",
         "text": [
           "La cellulite concerne toutes les morphologies et peut être difficile à éliminer malgré une bonne hygiène de vie. Grâce à des techniques de médecine esthétique combinant mésothérapie, drainage et principes actifs lipolytiques, il est possible de lisser l’aspect peau d’orange et d’améliorer la texture cutanée.",
           "Ce traitement cible la rétention d’eau, les amas graisseux et la microcirculation. Il redonne une peau plus lisse, plus ferme et plus homogène."
@@ -587,5 +593,6 @@
       "diplome": [],
       "doctena": ""
     }
-  ]
+  ],
+  "notFound": "That page can't be found."
 }

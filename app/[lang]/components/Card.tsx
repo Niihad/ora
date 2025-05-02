@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
+import Link from "next/link";
 
 interface Props {
   sens: string;
@@ -12,7 +13,8 @@ interface Props {
 interface Pair {
   value: string | any;
   show: string;
-  buttom?: boolean;
+  tel?: string;
+  link?: string;
 }
 
 export default function Card({ sens, params }: Props) {
@@ -24,7 +26,7 @@ export default function Card({ sens, params }: Props) {
     return (
       <ScrollAnimationWrapper>
         <motion.div
-          className="mx-auto flex flex-col gap-y-4 justify-center xl:max-w-2xl max-w-lg w-full px-8"
+          className="mx-auto flex flex-col justify-center align-center text-center xl:max-w-2xl max-w-lg w-full px-4"
           variants={ScrollSens(param.show)}
         >
           <Image
@@ -54,42 +56,47 @@ export default function Card({ sens, params }: Props) {
   };
 
   const BuildText = (params: Pair[]) => {
+    let text: any = [];
     if (params.length > 0) {
-      const text = params
-        .filter((param: Pair) => !param.buttom)
-        .map((param: Pair) => (
-          <ScrollAnimationWrapper key={param.value}>
-            <motion.div
-              key={param.value}
-              className="text-justify"
-              variants={ScrollSens(param.show)}
-            >
-              {param.value}
-            </motion.div>
-          </ScrollAnimationWrapper>
-        ));
-      const buttom = params.filter((param: Pair) => param.buttom);
-      if (buttom.length > 0) {
-        const textButtom = buttom.map((param: Pair) => (
-          <ScrollAnimationWrapper key={param.value}>
-            <motion.div
-              key={param.value}
-              variants={ScrollSens(param.show)}
-              className="mx-auto flex justify-center text-align uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
-            >
-              <a href={"tel:+352 27 76 17 09"}>{param.value}</a>
-            </motion.div>
-          </ScrollAnimationWrapper>
-        ));
-        return (
-          <>
-            {text}
-            {textButtom}
-          </>
-        );
+      for (const pair of params) {
+        if (!pair.tel && !pair.link) {
+          text.push(
+            <ScrollAnimationWrapper key={pair.value}>
+              <motion.div
+                key={pair.value}
+                className="text-justify"
+                variants={ScrollSens(pair.show)}
+              >
+                {pair.value}
+              </motion.div>
+            </ScrollAnimationWrapper>
+          );
+        } else if (pair.tel) {
+          text.push(
+            <ScrollAnimationWrapper key={pair.tel}>
+              <motion.div
+                variants={ScrollSens(pair.show)}
+                className="mx-auto flex justify-center text-align uppercase p-3 rounded-[3px] bg-black mt-10 text-md font-semibold leading-7 text-white shadow-sm"
+              >
+                <a href={pair.tel}>{pair.value}</a>
+              </motion.div>
+            </ScrollAnimationWrapper>
+          );
+        } else if (pair.link) {
+          text.push(
+            <ScrollAnimationWrapper key={pair.link}>
+              <motion.div
+                variants={ScrollSens(pair.show)}
+                className="mx-auto flex justify-center text-align w-80 uppercase p-2 rounded-[3px] bg-black text-sm font-semibold leading-7 text-white shadow-sm lg:mt-8 mt-4"
+              >
+                <Link href={pair.link}>{pair.value}</Link>
+              </motion.div>
+            </ScrollAnimationWrapper>
+          );
+        }
       }
-      return text;
     }
+    return text;
   };
 
   const Left = (params: Pair[]) => {
@@ -120,7 +127,7 @@ export default function Card({ sens, params }: Props) {
                 {BuildTitle(params[0])}
                 {params.length > 2 && BuildText(params.slice(2))}
               </div>
-              <div className="mx-auto flex flex-col gap-y-4 justify-center xl:max-w-2xl max-w-lg w-full px-8">
+              <div className="flex flex-col justify-center">
                 {BuildImage(params[1], params[0].value)}
               </div>
             </div>
