@@ -68,7 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       }]
       const listMenbers = members.map((menber) =>
         ({
-            url: url+'/fr/'+menber,
+            url: url+'/fr/teams/'+menber,
             lastModified: new Date(),
             alternates: {
               languages: {
