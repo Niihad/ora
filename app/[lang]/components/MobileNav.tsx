@@ -128,7 +128,7 @@ export default function MobileNav({ lang }: { lang: Locale }) {
                   >
                     {link.name}
                   </LinkScroll>
-                  {link.sub && (
+                  {/*link.sub.length > 0 && (
                     <>
                       <ol className="space-y-2 text-xl pl-2 pt-2 list-disc list-inside">
                         {link.sub.map((sublink) => (
@@ -152,7 +152,7 @@ export default function MobileNav({ lang }: { lang: Locale }) {
                         ))}
                       </ol>
                     </>
-                  )}
+                  )*/}
                 </>
               ) : (
                 <>
@@ -169,7 +169,7 @@ export default function MobileNav({ lang }: { lang: Locale }) {
                   >
                     {link.name}
                   </Link>
-                  {link.sub && (
+                  {/*link.sub && (
                     <>
                       <ol className="space-y-2 text-xl pl-2 pt-2 list-disc list-inside">
                         {link.sub.map((sublink) => (
@@ -193,7 +193,7 @@ export default function MobileNav({ lang }: { lang: Locale }) {
                         ))}
                       </ol>
                     </>
-                  )}
+                  )*/}
                 </>
               )}
             </div>

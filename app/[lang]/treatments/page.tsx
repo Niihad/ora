@@ -1,11 +1,10 @@
 "use client";
 
-import { Locale } from "@/i18n/i18n-config";
 import Card from "../components/Card";
 
 import { useDictionary } from "@/i18n/dictionary-provider";
 
-export default function Treatments(lang: Locale) {
+export default function Treatments() {
   const treatments = useDictionary().treatments;
   interface Treatment {
     title: string;
