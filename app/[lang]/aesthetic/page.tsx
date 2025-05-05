@@ -59,7 +59,7 @@ export default function Aesthetic() {
     <div className="" id="aesthetic">
       <div className="py-10 lg:py-24 bg-white">
         <div className="max-w-screen-2xl mx-auto px-4">
-          <div className="no-scrollbar overflow-y-auto mx-auto px-6 lg:px-8">
+          <div className="no-scrollbar overflow-y-auto mx-auto px-4">
             <div className="grid grid-cols-1 gap-x-24 gap-y-16 text-center lg:grid-cols-2 items-center">
               <ScrollAnimationWrapper>
                 <motion.div
