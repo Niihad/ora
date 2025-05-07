@@ -151,7 +151,7 @@ export default function Aesthetic() {
                 category.link,
                 index % 2 ? "left" : "right",
                 category.image,
-                index % 2 ? "bg-blue-200" : "bg-red-200"
+                index % 2 ? "bg-neutral-400" : "bg-neutral-400"
               )
             )}
         </div>

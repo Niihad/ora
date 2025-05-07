@@ -180,17 +180,17 @@
     "categories": [
       {
         "title": "visage",
-        "image": "/assets/treatments/01.jpg",
+        "image": "/assets/aesthetic/23.jpg",
         "link": "face"
       },
       {
         "title": "corps",
-        "image": "/assets/treatments/01.jpg",
+        "image": "/assets/aesthetic/24.jpg",
         "link": "body"
       },
       {
         "title": "tarifs",
-        "image": "/assets/treatments/01.jpg",
+        "image": "/assets/aesthetic/24.jpg",
         "link": "price"
       }
     ],
