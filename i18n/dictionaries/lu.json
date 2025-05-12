@@ -156,14 +156,6 @@
         "Hutt Dir Péng am Kiefer? Héiert Dir en klacken?",
         "D‘Occlusodontie konzentréiert sech op d’studéiere vun der Occlusion, dat heescht, wéi déi iwescht Zänn an déi ënnescht zesumme passen, wann de Mond zou ass. Et geet dorëms, d’Problemer mam „temporo-mandibulaire“ Gelenk ze verstoen an ze korrigéieren, fir de Komfort, d’Kaufunktipub an d’Reduktioun vun den muskulären Spannungen am Kiefer ze verbesseren."
       ]
-    },
-    {
-      "title": "Injektioune mat Hyaluronsäure",
-      "image": "/assets/treatments/12.jpg",
-      "text": [
-        "Injektioune mat Hyaluronsäure kënnen vun eisen Zänndokteren gemaach ginn, fir besonnesch Partien ëm de Mond ze behandelen an ze verschéineren, wéi d‘Lëpsen, d’Nasolabial Falen oder d’Falen ronderëm de Mond.",
-        "Dat kann hëllefen, de Volumen ze erhalen oder ze erhéijen, d‘Falen ze glätten oder d’Kontouren nees hierzwsteklen, fir e mei jonken a ästhetesche Look, an Harmonie mat ärem Laachen, ze erreechen."
-      ]
     }
   ],
   "aesthetic": {
@@ -574,12 +566,15 @@
       "call": "Um rendez-vous unzeruffen"
     },
     {
-      "name": "Filipa ABREU",
+      "name": "Dr Filipa ABREU",
       "image": "/assets/teams/Filipa.jpeg",
       "speciality": "Schönheitsmediziner",
       "knowledge": [],
-      "diplome": [],
-      "doctena": ""
+      "diplome": [
+        "Diplôme de Médecine Générale et Familiale, Portugal",
+        "Diplôme de spécialisation en médecine esthétique, Madrid "
+      ],
+      "doctena": "63c15599-59a9-4855-b28e-c7fd2cbb2671"
     },
     {
       "name": "Gisela",

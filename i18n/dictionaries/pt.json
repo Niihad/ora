@@ -155,14 +155,6 @@
         "Tem dores na mandíbula? Ouve estalos?",
         "A oclusodontia estuda como os dentes superior e inferior se encaixam quando a boca está fechada. Visa compreender e corrigir problemas relacionados com a articulação temporomandibular para melhorar o conforto, a função mastigatória e reduzir as tensões musculares na mandíbula."
       ]
-    },
-    {
-      "title": "INJEÇÕES DE ÁCIDO HIALURÓNICO",
-      "image": "/assets/treatments/12.jpg",
-      "text": [
-        "Os nossos dentistas realizam injeções de ácido hialurónico para tratar e melhorar a aparência de certas áreas ao redor da boca, como os lábios, os cantos dos lábios, as rugas ou os sulcos ao redor da boca.",
-        "Isso pode ajudar a restaurar ou aumentar o volume, suavizar rugas ou redesenhar os contornos para obter um visual mais jovem e estético, em harmonia com o seu sorriso."
-      ]
     }
   ],
   "aesthetic": {
@@ -571,12 +563,15 @@
       "call": "Ligue para marcar consulta"
     },
     {
-      "name": "Filipa ABREU",
+      "name": "Dr. Filipa ABREU",
       "image": "/assets/teams/Filipa.jpeg",
       "speciality": "Médico de Estética",
       "knowledge": [],
-      "diplome": [],
-      "doctena": ""
+      "diplome": [
+        "Diplôme de Médecine Générale et Familiale, Portugal",
+        "Diplôme de spécialisation en médecine esthétique, Madrid "
+      ],
+      "doctena": "63c15599-59a9-4855-b28e-c7fd2cbb2671"
     },
     {
       "name": "Gisela",

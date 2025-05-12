@@ -48,7 +48,7 @@ export default function Team({ dico, lang }: any) {
                     },
                   }}
                 >
-                  {profil.knowledge.length > 0 && profil.diplome.length > 0 ? (
+                  {profil.knowledge.length >= 0 && profil.diplome.length > 0 ? (
                     <a
                       className="w-60 mx-auto"
                       href={getUrlName(profil.name).toLowerCase()}

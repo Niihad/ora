@@ -129,7 +129,7 @@ export default function Aesthetic() {
                     <Link
                       target="_blank"
                       href={
-                        "https://www.doctena.lu/fr/cabinet/differdange/centre-dentaire-de-differdange-281260"
+                        "https://www.doctena.lu/fr/specialite/medecine-esthetique/dr-filipa-abreu-1897147#24370"
                       }
                     >
                       {aesthetic.doctena}

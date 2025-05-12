@@ -155,13 +155,6 @@
         "Facing jaw pain or clicking?",
         "Occlusodontics studies how upper and lower teeth fit when the mouth is closed. It aims to understand and correct temporomandibular joint issues in order to improved comfort, chewing function, and reduced jaw muscle tension."
       ]
-    },
-    {
-      "title": "HYALURONIC ACID INJECTIONS",
-      "image": "/assets/treatments/12.jpg",
-      "text": [
-        "Our dentists offer dermal fillers to enhance the appearance of areas around the mouth, addressing lips, wrinkles, or folds, for a more youthful and aesthetic look in harmony with your smile."
-      ]
     }
   ],
   "aesthetic": {
@@ -570,12 +563,15 @@
       "call": "Call to Book your appointment"
     },
     {
-      "name": "Filipa ABREU",
+      "name": "Dr. Filipa ABREU",
       "image": "/assets/teams/Filipa.jpeg",
       "speciality": "Aesthetic Doctor",
       "knowledge": [],
-      "diplome": [],
-      "doctena": ""
+      "diplome": [
+        "Diplôme de Médecine Générale et Familiale, Portugal",
+        "Diplôme de spécialisation en médecine esthétique, Madrid "
+      ],
+      "doctena": "63c15599-59a9-4855-b28e-c7fd2cbb2671"
     },
     {
       "name": "Gisela",
