@@ -18,8 +18,8 @@ export const metadata = {
   openGraph: {
     title: "Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange",
     type: "website",
-    siteName: 'Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange',
-    images: 'https://www.oradental.lu/assets/cabinet.png',
+    siteName: "Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange",
+    images: "https://www.oradental.lu/assets/cabinet.png",
   },
 };
 
@@ -38,6 +38,22 @@ export default async function RootLayout({
 
   return (
     <html lang={params.lang} className="scroll-auto">
+      <head>
+        <Script
+          id="schema-org"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Ora Dental",
+              url: "https://www.oradental.lu",
+              logo: "https://www.oradental.lu/assets/icon.png",
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${myFont.className} min-h-screen flex flex-col relative bg-white overflow-x-hidden`}
       >
