@@ -357,51 +357,51 @@
           "item": [
             {
               "title": "Diagnostic skincare sur-mesure",
-              "price": "50"
+              "price": "100"
             },
             {
               "title": "Botox",
-              "price": "350"
+              "price": "400"
             },
             {
               "title": "Acide hyaluronique lèvres",
-              "price": "350"
+              "price": "400"
             },
             {
               "title": "Acide hyaluronique pour les autres zones du visage (première seringue)",
-              "price": "300"
-            },
-            {
-              "title": "Acide hyaluronique pour les autres zones du visage (seringues suivantes)",
-              "price": "275"
-            },
-            {
-              "title": "Correction des Cernes",
-              "price": "400"
-            },
-            {
-              "title": "Rhinoplastie médicale",
-              "price": "400"
-            },
-            {
-              "title": "Biostimulateur de collagène visage ou cou (par seringue)",
-              "price": "600"
-            },
-            {
-              "title": "PRP (par séance)",
               "price": "350"
             },
             {
+              "title": "Acide hyaluronique pour les autres zones du visage (seringues suivantes)",
+              "price": "300"
+            },
+            {
+              "title": "Correction des Cernes",
+              "price": "450"
+            },
+            {
+              "title": "Rhinoplastie médicale",
+              "price": "450"
+            },
+            {
+              "title": "Biostimulateur de collagène visage ou cou (par seringue)",
+              "price": "650"
+            },
+            {
+              "title": "PRP (par séance)",
+              "price": "400"
+            },
+            {
               "title": "Skinbooster (par séance)",
-              "price": "275"
+              "price": "300"
             },
             {
               "title": "Microneedling avec PDRN (par séance)",
-              "price": "200"
+              "price": "250"
             },
             {
               "title": "Peeling (à partir de)",
-              "price": "175"
+              "price": "200"
             },
             {
               "title": "Réduction du double menton par lipolyse (à partir de)",
@@ -422,11 +422,11 @@
           "item": [
             {
               "title": "Acide Hyaluronique (par seringue)",
-              "price": "850"
+              "price": "900"
             },
             {
               "title": "Biostimulateurs de collagène fessiers, abdomen ou cuisses (par seringue)",
-              "price": "850"
+              "price": "900"
             },
             {
               "title": "Mésothérapie (à partir de)",
@@ -569,7 +569,11 @@
       "knowledge": [],
       "diplome": [
         "Diplôme de Médecine Générale et Familiale, Portugal",
-        "Diplôme de spécialisation en médecine esthétique, Madrid "
+        "Diplôme de spécialisation en médecine esthétique, Madrid",
+        "Cours avancé en Médecine Esthétique - Université de Los Andes (Caracas)",
+        "Formation peeling - Mediderma",
+        "Master en mésothérapie - The Skin Academy, Barcelone",
+        "Cours avancé en peelings chimiques - The Skin Academy, Barcelone"
       ],
       "doctena": "63c15599-59a9-4855-b28e-c7fd2cbb2671"
     },
