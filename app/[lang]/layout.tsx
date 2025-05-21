@@ -7,7 +7,7 @@ import Folder from "./components/Folder";
 import { getDictionary } from "@/i18n/dictionary";
 import DictionaryProvider from "@/i18n/dictionary-provider";
 import Script from "next/script";
-import { usePathname } from "next/navigation";
+import HreflangLinks from "./components/HreflangLinks";
 
 const myFont = localFont({ src: "../fonts/NexaBook.otf" });
 
@@ -37,22 +37,22 @@ export default async function RootLayout({
   params: { lang: Locale };
 }) {
   const dictionary = await getDictionary(params.lang);
-  const pathname = usePathname();
   const baseUrl = 'https://oradental.lu';
-  const locales = i18n.locales;
 
   return (
     <html lang={params.lang} className="scroll-auto">
       <Head>
-        {locales.map((locale) => (
-          <link
-            key={locale}
-            rel="alternate"
-            hrefLang={locale}
-            href={`${baseUrl}/${locale}${pathname === '/' ? '' : pathname}`}
-          />
-        ))}
+        <HreflangLinks baseUrl={baseUrl} locales={i18n.locales} />
         <link rel="alternate" hrefLang="x-default" href={baseUrl} />
+      </Head>
+      <body
+        className={`${myFont.className} min-h-screen flex flex-col relative bg-white overflow-x-hidden`}
+      >
+        <DictionaryProvider dictionary={dictionary}>
+          <Header lang={params.lang} />
+          {children}
+          <Folder lang={params.lang} />
+        </DictionaryProvider>
         <Script
           id="schema-org"
           type="application/ld+json"
@@ -67,15 +67,6 @@ export default async function RootLayout({
             }),
           }}
         />
-      </Head>
-      <body
-        className={`${myFont.className} min-h-screen flex flex-col relative bg-white overflow-x-hidden`}
-      >
-        <DictionaryProvider dictionary={dictionary}>
-          <Header lang={params.lang} />
-          {children}
-          <Folder lang={params.lang} />
-        </DictionaryProvider>
         <Script src="https://api.doctena.lu/js/widgetBooking/calendar/build.php"></Script>
       </body>
     </html>

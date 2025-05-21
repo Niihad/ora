@@ -1,83 +1,74 @@
 import { MetadataRoute } from 'next';
- 
-export default function sitemap(): MetadataRoute.Sitemap {
 
-    const url = "https://www.oradental.lu";
-    const members = ["dr-mathilde-ajdarpasic","dr-alvin-lesdel","dr-alain-zeidan","dr-agnès-hussein","dr-gorian-freminet","dr-david-narberger"];
-    const site = [{
-        url: url+'/fr',
-        lastModified: new Date(),
-        alternates: {
-           languages: {
-            en: url+'/en',
-            lu: url+'/lu',
-            pt: url+'/pt',
-          },
-        },
+const siteUrl = 'https://www.oradental.lu';
+const locales = ['fr', 'en', 'lu', 'pt'];
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const staticPaths = [
+    '/treatments',
+    '/aesthetic',
+    '/aesthetic/face',
+    '/aesthetic/body',
+    '/aesthetic/price',
+    '/teams',
+  ];
+
+  const members = [
+    "dr-mathilde-ajdarpasic",
+    "dr-alvin-lesdel",
+    "dr-alain-zeidan",
+    "dr-agnès-hussein",
+    "dr-gorian-freminet",
+    "dr-david-narberger"
+  ];
+
+  const now = new Date();
+
+  const pages: MetadataRoute.Sitemap = [];
+
+  // Homepage pour toutes les langues
+  for (const locale of locales) {
+    pages.push({
+      url: `${siteUrl}/${locale}`,
+      lastModified: now,
+      alternates: {
+        languages: Object.fromEntries(
+          locales.map(l => [l, `${siteUrl}/${l}`])
+        ),
       },
-      {
-        url: url+'/fr/treatments',
-        lastModified: new Date(),
+    });
+  }
+
+  // Pages statiques (autres que homepage)
+  for (const path of staticPaths) {
+    for (const locale of locales) {
+      pages.push({
+        url: `${siteUrl}/${locale}${path}`,
+        lastModified: now,
         alternates: {
-          languages: {
-            en: url+'/en/treatments',
-            lu: url+'/lu/treatments',
-            pt: url+'/pt/treatments',
-          },
+          languages: Object.fromEntries(
+            locales.map(l => [l, `${siteUrl}/${l}${path}`])
+          ),
         },
-      },{
-        url: url+'/fr/aesthetic',
-        lastModified: new Date(),
+      });
+    }
+  }
+
+  // Pages des membres de l'équipe
+  for (const member of members) {
+    for (const locale of locales) {
+      const path = `/teams/${member}`;
+      pages.push({
+        url: `${siteUrl}/${locale}${path}`,
+        lastModified: now,
         alternates: {
-          languages: {
-            en: url+'/en/aesthetic',
-            lu: url+'/lu/aesthetic',
-            pt: url+'/pt/aesthetic',
-          },
+          languages: Object.fromEntries(
+            locales.map(l => [l, `${siteUrl}/${l}${path}`])
+          ),
         },
-      },{
-        url: url+'/fr/aesthetic/face',
-        lastModified: new Date(),
-        alternates: {
-          languages: {
-            en: url+'/en/aesthetic/face',
-            lu: url+'/lu/aesthetic/face',
-            pt: url+'/pt/aesthetic/face',
-          },
-        },
-      },{
-        url: url+'/fr/aesthetic/body',
-        lastModified: new Date(),
-        alternates: {
-          languages: {
-            en: url+'/en/aesthetic/body',
-            lu: url+'/lu/aesthetic/body',
-            pt: url+'/pt/aesthetic/body',
-          },
-        },
-      },{
-        url: url+'/fr/aesthetic/price',
-        lastModified: new Date(),
-        alternates: {
-          languages: {
-            en: url+'/en/aesthetic/price',
-            lu: url+'/lu/aesthetic/price',
-            pt: url+'/pt/aesthetic/price',
-          },
-        },
-      }]
-      const listMenbers = members.map((menber) =>
-        ({
-            url: url+'/fr/teams/'+menber,
-            lastModified: new Date(),
-            alternates: {
-              languages: {
-                en: url+'/en/'+menber,
-                lu: url+'/lu/'+menber,
-                pt: url+'/pt/'+menber,
-              },
-            },
-          })
-      );
-    return [...site,...listMenbers]
+      });
+    }
+  }
+
+  return pages;
 }
