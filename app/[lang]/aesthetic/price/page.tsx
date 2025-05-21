@@ -20,12 +20,6 @@ export default function Price() {
     );
   };
 
-  /*prices.categories.map((category: Category, index: any) =>
-    console.log(category)
-  )*/
-
-  //prices.categories.map((category) => console.log(category))
-
   return (
     <>
       <div className="relative">
