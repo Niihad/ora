@@ -19,7 +19,7 @@ This document outlines specific, actionable Search Engine Optimization (SEO) imp
 **Example: `app/[lang]/treatments/page.tsx`**
 
 ```typescript
-// app/[lang]/treatments/page.tsx
+// app/[lang]/treatments/page.tsx 
 import { getDictionary } from '@/get-dictionary'; // Assuming this fetches localized content
 import { Locale } from '@/i18n-config';
 

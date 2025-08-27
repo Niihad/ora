@@ -12,7 +12,7 @@ interface Profil {
   teamId: string;
 }
 
-export default function Profil({
+export default async function Profil({
   params,
 }: {
   params: { lang: Locale; teamId: string };

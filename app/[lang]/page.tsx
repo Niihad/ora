@@ -39,7 +39,7 @@ export default function Home({
         <ScrollAnimationWrapper>
           <motion.div className="" variants={scrollAnimation}>
             <div className="bg-zinc-950/75 w-full absolute bottom-0 left-0 p-12 sm:w-[348px] uppercase text-white text-center">
-              <p className="text-3xl mb-4">{page.title}</p>
+              <h1 className="text-3xl mb-4">{page.title}</h1>
               <div className="p-2 border-2 text-md ">
                 <motion.div className="p-3" variants={scrollAnimation}>
                   {}

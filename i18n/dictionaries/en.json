@@ -471,6 +471,26 @@
       "doctena": "64ce6334-7efa-4c5a-accf-30cf237508eb"
     },
     {
+      "name": "Dr. Djamel DAF",
+      "image": "/assets/teams/Djamel.jpg",
+      "speciality": "Dentist",
+      "knowledge": [
+        "General Dentistry",
+        "Aesthetic Dentistry",
+        "Pediatric Dentistry",
+        "Implantology"
+      ],
+      "diplome": [
+        "Diplôme de Docteur en Chirurgie Dentaire, Lisbonne, Portugal",
+        "Certificat d'Études Supérieures en Parodontologie, Université Paris Diderot",
+        "Certificat d'Études Supérieures en Prothèse Maxillo-Faciale, Université Paris Diderot",
+        "Certificat d'Études Supérieures en Prothèse Fixée, Université Paris Diderot",
+        "Master en Management des Organisations Sanitaires et Sociales, Université de La Sorbonne Paris Nord"
+      ],
+      "doctena": "",
+      "call": "Appeler pour prendre rendez-vous"
+    },
+    {
       "name": "Dr. Alvin LESDEL",
       "image": "/assets/teams/Alvin.jpg",
       "speciality": "Dentist",

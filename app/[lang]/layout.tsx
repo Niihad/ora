@@ -7,7 +7,7 @@ import Folder from "./components/Folder";
 import { getDictionary } from "@/i18n/dictionary";
 import DictionaryProvider from "@/i18n/dictionary-provider";
 import Script from "next/script";
-import HreflangLinks from "./components/HreflangLinks";
+import HreflangLinks from "./components/HreflangLinks"; 
 
 const myFont = localFont({ src: "../fonts/NexaBook.otf" });
 
