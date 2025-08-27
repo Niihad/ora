@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const members = [
     "dr-mathilde-ajdarpasic",
+    "dr-djamel-daf",
     "dr-alvin-lesdel",
     "dr-alain-zeidan",
     "dr-agnès-hussein",
