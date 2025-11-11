@@ -4,7 +4,6 @@ import { i18n } from "@/i18n/i18n-config";
 import { match as matchLocale } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 
-// Détecte la locale depuis les headers
 function getLocale(request: NextRequest): string {
   const negotiatorHeaders: Record<string, string> = {};
   request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
@@ -23,7 +22,7 @@ export function middleware(request: NextRequest) {
 
   // Vérifie si l'URL commence déjà par une locale
   const hasLocale = i18n.locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`)
   );
 
   if (!hasLocale) {
