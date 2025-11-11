@@ -9,8 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/aesthetic',
     '/aesthetic/face',
     '/aesthetic/body',
-    '/aesthetic/price',
-    '/teams',
+    '/aesthetic/price'
   ];
 
   const members = [
