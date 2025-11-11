@@ -22,7 +22,7 @@ export function middleware(request: NextRequest) {
 
   // Vérifie si l'URL commence déjà par une locale
   const hasLocale = i18n.locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`)
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
   );
 
   if (!hasLocale) {
