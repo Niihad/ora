@@ -1,23 +1,27 @@
 import { ReactNode } from "react";
+import { i18n } from "@/i18n/i18n-config";
 
-export const metadata = {
-  title: "Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange",
-  description: "Ora dental practice website",
-  icons: {
-    icon: "https://www.oradental.lu/assets/icon.png",
-  },
-  openGraph: {
-    title: "Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange",
-    type: "website",
-    siteName: "Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange",
-    images: "https://www.oradental.lu/assets/cabinet.png",
-  },
-};
+const baseUrl = "https://www.oradental.lu";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="fr">
       <head>
+        <title>
+          Cabinet dentaire ORA : Dentiste et Orthodontiste à Differdange
+        </title>
+        <meta name="description" content="Ora dental practice website" />
+        <link rel="icon" href={`${baseUrl}/assets/icon.png`} />
+        <link rel="alternate" hrefLang="x-default" href={baseUrl} />
+        {i18n.locales.map((locale) => (
+          <link
+            key={`hreflang-root-${locale}`}
+            rel="alternate"
+            hrefLang={locale}
+            href={`${baseUrl}/${locale}`}
+          />
+        ))}
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -25,8 +29,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Ora Dental",
-              url: "https://www.oradental.lu",
-              logo: "https://www.oradental.lu/assets/icon.png",
+              url: baseUrl,
+              logo: `${baseUrl}/assets/icon.png`,
             }),
           }}
         />
