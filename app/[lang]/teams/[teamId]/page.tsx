@@ -12,17 +12,17 @@ interface Profil {
   teamId: string;
 }
 
-export default async function Profil({
+export default function Profil({
   params,
 }: {
   params: { lang: Locale; teamId: string };
 }) {
   const { lang, teamId } = params;
-  const info: string[] = teamId.split("-");
   const teams = useDictionary().teams;
 
   interface Team {
     name: string;
+    slug: string;
     image: string;
     speciality: string;
     knowledge: string[];
@@ -38,10 +38,7 @@ export default async function Profil({
   }
 
   const profil = teams.find(
-    (val: Team) =>
-      val.name.toLowerCase().split(" ").length > 1 &&
-      val.name.toLowerCase().split(" ").slice(1).join(" ") ===
-        decodeURI(info.slice(1).join(" "))
+    (val: Team) => val.slug === teamId
   );
 
   useEffect(() => {

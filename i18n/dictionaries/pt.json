@@ -454,6 +454,7 @@
   "teams": [
     {
       "name": "Dra. Mathilde AJDARPASIC",
+      "slug": "dr-mathilde-ajdarpasic",
       "image": "/assets/teams/Mathilde.jpg",
       "speciality": "Dentista",
       "knowledge": [
@@ -472,6 +473,7 @@
     },
     {
       "name": "Dr. Djamel DAF",
+      "slug": "dr-djamel-daf",
       "image": "/assets/teams/Djamel.jpg",
       "speciality": "Dentista",
       "knowledge": [
@@ -492,6 +494,7 @@
     },
     {
       "name": "Dr. Alvin LESDEL",
+      "slug": "dr-alvin-lesdel",
       "image": "/assets/teams/Alvin.jpg",
       "speciality": "Dentista",
       "knowledge": [
@@ -511,6 +514,7 @@
     },
     {
       "name": "Dr. Alain ZEIDAN",
+      "slug": "dr-alain-zeidan",
       "image": "/assets/teams/Alain.jpg",
       "speciality": "Ortodontista",
       "knowledge": [
@@ -527,6 +531,7 @@
     },
     {
       "name": "Dra. Agnès HUSSEIN",
+      "slug": "dr-agnès-hussein",
       "image": "/assets/teams/Agnes.jpg",
       "speciality": "Ortodontista",
       "knowledge": [
@@ -543,6 +548,7 @@
     },
     {
       "name": "Dr. Gorian FREMINET",
+      "slug": "dr-gorian-freminet",
       "image": "/assets/teams/Gorian.jpg",
       "speciality": "Estomatologista",
       "knowledge": [
@@ -572,6 +578,7 @@
     },
     {
       "name": "Dr. David NARBERGER",
+      "slug": "dr-david-narberger",
       "image": "/assets/teams/David.jpeg",
       "speciality": "Endodontista",
       "knowledge": ["Tratamentos de raiz com microscópio operatório"],
@@ -583,7 +590,8 @@
       "call": "Ligue para marcar consulta"
     },
     {
-      "name": "Dr. Filipa ABREU",
+      "name": "Dra. Filipa ABREU",
+      "slug": "dr-filipa-abreu",
       "image": "/assets/teams/Filipa.jpeg",
       "speciality": "Médico de Estética",
       "knowledge": [],
@@ -599,6 +607,7 @@
     },
     {
       "name": "Gisela",
+      "slug": "",
       "image": "/assets/teams/Gisela.jpg",
       "speciality": "Assistente Dentária",
       "knowledge": [],
@@ -607,6 +616,7 @@
     },
     {
       "name": "Marlene",
+      "slug": "",
       "image": "/assets/teams/Marlene.jpg",
       "speciality": "Assistente Dentária",
       "knowledge": [],
@@ -615,6 +625,7 @@
     },
     {
       "name": "Jessica",
+      "slug": "",
       "image": "/assets/teams/Jessica.jpg",
       "speciality": "Assistente Dentária",
       "knowledge": [],

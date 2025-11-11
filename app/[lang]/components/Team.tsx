@@ -9,11 +9,6 @@ import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
 export default function Team({ dico, lang }: any) {
   const scrollAnimation = useMemo(() => getScrollAnimation("bottom"), []);
 
-  const getUrlName = (name: string) => {
-    const res = name.split(" ");
-    return `/${lang}/teams/dr-${res[1]}-${res[2]}`;
-  };
-
   return (
     <div className="bg-white w-full py-10 lg:py-14 " id="team">
       <div className="max-w-screen-2xl px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
@@ -51,7 +46,7 @@ export default function Team({ dico, lang }: any) {
                   {profil.knowledge.length >= 0 && profil.diplome.length > 0 ? (
                     <a
                       className="w-60 mx-auto"
-                      href={getUrlName(profil.name).toLowerCase()}
+                      href={`/${lang}/teams/${profil.slug}`}
                     >
                       <div className="h-80 relative">
                         <Image
