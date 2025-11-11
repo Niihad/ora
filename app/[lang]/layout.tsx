@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Locale, i18n } from "@/i18n/i18n-config";
@@ -7,7 +7,7 @@ import Folder from "./components/Folder";
 import { getDictionary } from "@/i18n/dictionary";
 import DictionaryProvider from "@/i18n/dictionary-provider";
 import Script from "next/script";
-import HreflangLinks from "./components/HreflangLinks"; 
+import HreflangLinks from "./components/HreflangLinks";
 
 const myFont = localFont({ src: "../fonts/NexaBook.otf" });
 
@@ -37,13 +37,12 @@ export default async function RootLayout({
   params: { lang: Locale };
 }) {
   const dictionary = await getDictionary(params.lang);
-  const baseUrl = 'https://oradental.lu';
+  const baseUrl = "https://oradental.lu";
 
   return (
     <html lang={params.lang} className="scroll-auto">
       <Head>
-        <HreflangLinks baseUrl={baseUrl} locales={i18n.locales} />
-        <link rel="alternate" hrefLang="x-default" href={baseUrl} />
+        <HreflangLinks baseUrl={baseUrl} />
       </Head>
       <body
         className={`${myFont.className} min-h-screen flex flex-col relative bg-white overflow-x-hidden`}
