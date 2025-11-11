@@ -1,4 +1,3 @@
-// /app/layout.tsx
 import { ReactNode } from "react";
 
 export const metadata = {
@@ -19,7 +18,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="fr">
       <head>
-        {/* Si tu veux ajouter JSON-LD Schema pour Google */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
