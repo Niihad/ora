@@ -612,6 +612,14 @@
       "knowledge": [],
       "diplome": [],
       "doctena": ""
+    },
+    {
+      "name": "Jessica",
+      "image": "/assets/teams/Jessica.jpg",
+      "speciality": "Assistante dentaire",
+      "knowledge": [],
+      "diplome": [],
+      "doctena": ""
     }
   ],
   "notFound": "That page can't be found."
