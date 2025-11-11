@@ -1,43 +1,43 @@
-import { NextResponse } from 'next/server'
-import type { NextRequest } from 'next/server'
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+import { i18n } from "@/i18n/i18n-config";
+import { match as matchLocale } from "@formatjs/intl-localematcher";
+import Negotiator from "negotiator";
 
-import { i18n } from '@/i18n/i18n-config'
+// Détecte la locale à partir des headers Accept-Language
+function getLocale(request: NextRequest): string {
+  const negotiatorHeaders: Record<string, string> = {};
+  request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
 
-import { match as matchLocale } from '@formatjs/intl-localematcher'
-import Negotiator from 'negotiator'
-
-function getLocale(request: NextRequest): string | undefined {
-  const negotiatorHeaders: Record<string, string> = {}
-  request.headers.forEach((value, key) => (negotiatorHeaders[key] = value))
-
+  const languages = new Negotiator({ headers: negotiatorHeaders }).languages();
   // @ts-ignore locales are readonly
-  const locales: string[] = i18n.locales
-  const languages = new Negotiator({ headers: negotiatorHeaders }).languages()
-
-  const locale = matchLocale(languages, locales, i18n.defaultLocale)
-  return locale
+  const locale = matchLocale(languages, i18n.locales, i18n.defaultLocale);
+  return locale;
 }
 
 export function middleware(request: NextRequest) {
-  const pathname = request.nextUrl.pathname
-  const pathnameIsMissingLocale = i18n.locales.every(
-    locale => !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`
-  )
-  const exception = ["/robots.txt", "/sitemap.xml"]
-  const pathnameException = exception.some((except) => except === pathname);
+  const pathname = request.nextUrl.pathname;
 
-  // Redirect if there is no locale
-  if (pathnameIsMissingLocale && !pathnameException) {
-    const locale = getLocale(request)
-    return NextResponse.redirect(
-      new URL(
-        `/${locale}${pathname.startsWith('/') ? '' : '/'}${pathname}`,
-        request.url
-      )
-    )
+  // Exceptions qui ne doivent pas être redirigées
+  const exceptions = ["/robots.txt", "/sitemap.xml", "/favicon.ico"];
+  const isException = exceptions.includes(pathname);
+
+  // Vérifie si l'URL a déjà une locale
+  const hasLocale = i18n.locales.some(
+    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  );
+
+  // Redirection si locale manquante et pas d'exception
+  if (!hasLocale && !isException) {
+    const locale = getLocale(request);
+    const url = new URL(`/${locale}${pathname}`, request.url);
+    return NextResponse.redirect(url, 308); // <-- permanent redirect pour Googlebot
   }
+
+  return NextResponse.next();
 }
 
+// Matcher : ignore fichiers statiques et API
 export const config = {
-  matcher: "/((?!api|_next/static|_next/image|assets/|favicon.ico).*)",
+  matcher: "/((?!api|_next/static|_next/image|assets/).*)",
 };
