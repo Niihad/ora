@@ -9,7 +9,12 @@ export default function ModalPop() {
 
   useEffect(() => {
     const hasSeenPopup = sessionStorage.getItem("popupClosed");
-    if (!hasSeenPopup) setIsOpen(true);
+    if (!hasSeenPopup){
+      const timer = setTimeout(() => {
+        setIsOpen(true);
+      }, 2000)
+      return () => clearTimeout(timer);
+    } 
   }, []);
 
   const closePopup = () => {
@@ -31,7 +36,7 @@ export default function ModalPop() {
         </button>
 
         <div className="w-full md:w-1/2 p-8 px-6 flex flex-col justify-center text-center md:text-left">
-          <h2 className="text-xl font-semibold mb-4 text-center uppercase">
+          <h2 className="text-xl font-bold mb-4 text-center uppercase ">
             {modalPop.title}
           </h2>
 
