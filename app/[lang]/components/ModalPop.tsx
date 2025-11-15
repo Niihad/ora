@@ -9,12 +9,12 @@ export default function ModalPop() {
 
   useEffect(() => {
     const hasSeenPopup = sessionStorage.getItem("popupClosed");
-    if (!hasSeenPopup){
+    if (!hasSeenPopup) {
       const timer = setTimeout(() => {
         setIsOpen(true);
-      }, 2000)
+      }, 2000);
       return () => clearTimeout(timer);
-    } 
+    }
   }, []);
 
   const closePopup = () => {
@@ -57,13 +57,8 @@ export default function ModalPop() {
         "
             style={{ backgroundImage: `url('${modalPop.image}')` }}
           >
-            <div
-              className="
-            bg-gray-260 text-center
-            py-10 max-w-xs w-full
-          "
-            >
-              <h2 className="text-xl font-semibold mb-4 uppercase">
+            <div className="text-center py-10 max-w-xs w-full text-gray-500">
+              <h2 className="text-xl  mb-4 uppercase">
                 {modalPop.text[2]}
               </h2>
               <p className="text-xs md:mb-2 mb-4 italic">{modalPop.text[3]}</p>
