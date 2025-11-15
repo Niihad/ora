@@ -12,6 +12,7 @@ import ScrollAnimationWrapper from "./components/ScrollAnimationWrapper";
 import { useDictionary } from "@/i18n/dictionary-provider";
 import { Locale } from "@/i18n/i18n-config";
 import Aesthetic from "./components/Aesthetic";
+import ModalPop from "./components/ModalPop";
 
 export default function Home({
   params: { lang },
@@ -24,6 +25,7 @@ export default function Home({
 
   return (
     <>
+      <ModalPop/>
       <div className="relative sm:pt-0">
         <div className="h-[77vh] contrast-[.60] relative">
           <Image
@@ -50,9 +52,9 @@ export default function Home({
         </ScrollAnimationWrapper>
       </div>
       <About page={page.about} />
-      <Treatments page={page.treatments} lang={lang}/>
-      <Aesthetic page={page.aesthetic} lang={lang}/>
-      <Team dico={dico} lang={lang}/>
+      <Treatments page={page.treatments} lang={lang} />
+      <Aesthetic page={page.aesthetic} lang={lang} />
+      <Team dico={dico} lang={lang} />
       <Contact page={page} />
     </>
   );

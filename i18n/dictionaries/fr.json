@@ -494,8 +494,7 @@
         "Certificat d'Études Supérieures en Prothèse Fixée, Université Paris Diderot",
         "Master en Management des Organisations Sanitaires et Sociales, Université de La Sorbonne Paris Nord"
       ],
-      "doctena": "",
-      "call": "Appeler pour prendre rendez-vous"
+      "doctena": "c44d1b77-9838-468a-8b54-7bfe002e32d5"
     },
     {
       "name": "Dr Alvin LESDEL",
@@ -638,5 +637,15 @@
       "doctena": ""
     }
   ],
-  "notFound": "Cette page est introuvable."
+  "notFound": "Cette page est introuvable.",
+  "modelPop": {
+    "title": "Pour noël, offrez bien plus qu'un simple cadeau...",
+    "image": "/assets/modalPop.jpg",
+    "text": [
+      "Les chèques cadeaux sont disponibles pour tous les traitements esthétiques.",
+      "Rendez-vous directement dans votre cabinet",
+      "Chèque cadeau",
+      "Médecine esthétique"
+    ]
+  }
 }

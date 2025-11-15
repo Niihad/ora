@@ -11,7 +11,6 @@ export default async function TreatmentsPage() {
     image: string;
     text: string[];
   }
-  
 
   const buildParams = (params: Treatment, sens: string) => {
     const res = [
@@ -26,7 +25,7 @@ export default async function TreatmentsPage() {
 
   const style = [
     "bg-white py-12 md:py-14 lg:py-18 2xl:py-24 overflow-x-hidden ",
-    "bg-neutral-100 py-12 md:py-14 lg:py-18 2xl:py-24 overflow-x-hidden", 
+    "bg-neutral-100 py-12 md:py-14 lg:py-18 2xl:py-24 overflow-x-hidden",
   ];
 
   return (
