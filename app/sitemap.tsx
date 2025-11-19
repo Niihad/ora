@@ -22,58 +22,67 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "dr-david-narberger",
   ];
 
-  const now = new Date();
-
+  const now = new Date().toISOString();
   const pages: MetadataRoute.Sitemap = [];
 
-  // 1️⃣ Homepage pour toutes les langues + x-default
+  // Homepages
   for (const locale of locales) {
     pages.push({
       url: `${siteUrl}/${locale}`,
       lastModified: now,
+      priority: 1,
+      changeFrequency: "monthly",
       alternates: {
-        languages: Object.fromEntries(
-          locales.map((l) => [l, `${siteUrl}/${l}`])
-        ),
+        languages: {
+          fr: `${siteUrl}/fr`,
+          en: `${siteUrl}/en`,
+          lu: `${siteUrl}/lu`,
+          pt: `${siteUrl}/pt`,
+          "x-default": `${siteUrl}/fr`,
+        },
       },
     });
   }
 
-  // x-default (racine)
-  pages.push({
-    url: `${siteUrl}/`,
-    lastModified: now,
-    alternates: {
-      languages: Object.fromEntries(locales.map((l) => [l, `${siteUrl}/${l}`])),
-    },
-  });
-
-  // 2️⃣ Pages statiques (autres que homepage)
+  // Pages statiques
   for (const path of staticPaths) {
     for (const locale of locales) {
       pages.push({
         url: `${siteUrl}/${locale}${path}`,
         lastModified: now,
+        priority: 0.8,
+        changeFrequency: "monthly",
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${siteUrl}/${l}${path}`])
-          ),
+          languages: {
+            fr: `${siteUrl}/fr${path}`,
+            en: `${siteUrl}/en${path}`,
+            lu: `${siteUrl}/lu${path}`,
+            pt: `${siteUrl}/pt${path}`,
+            "x-default": `${siteUrl}/fr${path}`,
+          },
         },
       });
     }
   }
 
-  // 3️⃣ Pages des membres de l'équipe
+  // Pages membres
   for (const member of members) {
+    const path = `/teams/${member}`;
+
     for (const locale of locales) {
-      const path = `/teams/${member}`;
       pages.push({
         url: `${siteUrl}/${locale}${path}`,
         lastModified: now,
+        priority: 0.8,
+        changeFrequency: "monthly",
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${siteUrl}/${l}${path}`])
-          ),
+          languages: {
+            fr: `${siteUrl}/fr${path}`,
+            en: `${siteUrl}/en${path}`,
+            lu: `${siteUrl}/lu${path}`,
+            pt: `${siteUrl}/pt${path}`,
+            "x-default": `${siteUrl}/fr${path}`,
+          },
         },
       });
     }

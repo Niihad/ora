@@ -58,7 +58,7 @@ export default function ModalPop() {
             style={{ backgroundImage: `url('${modalPop.image}')` }}
           >
             <div className="text-center py-10 max-w-xs w-full text-gray-500">
-              <h2 className="text-xl  mb-4 uppercase">
+              <h2 className="text-xl mb-4 uppercase">
                 {modalPop.text[2]}
               </h2>
               <p className="text-xs md:mb-2 mb-4 italic">{modalPop.text[3]}</p>

@@ -5,36 +5,39 @@ import { match as matchLocale } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 
 function getLocale(request: NextRequest): string {
-  const negotiatorHeaders: Record<string, string> = {};
-  request.headers.forEach((value, key) => (negotiatorHeaders[key] = value));
-
-  const languages = new Negotiator({ headers: negotiatorHeaders }).languages();
-  // @ts-ignore locales are readonly
+  const headersObj: Record<string, string> = {};
+  request.headers.forEach((value, key) => (headersObj[key] = value));
+  const languages = new Negotiator({ headers: headersObj }).languages();
   return matchLocale(languages, i18n.locales, i18n.defaultLocale);
 }
 
 export function middleware(request: NextRequest) {
-  const pathname = request.nextUrl.pathname;
+  const { pathname } = request.nextUrl;
 
-  // Exceptions qui ne doivent pas être redirigées
-  const exceptions = ["/robots.txt", "/sitemap.xml", "/favicon.ico"];
-  if (exceptions.includes(pathname)) return NextResponse.next();
+  const rootExceptions = [
+    "/robots.txt",
+    "/sitemap.xml",
+    "/favicon.ico",
+    "/icon.png",
+    "/icon.jpg",
+    "/apple-touch-icon.png",
+  ];
 
-  // Vérifie si l'URL commence déjà par une locale
+  if (rootExceptions.includes(pathname)) return NextResponse.next();
+  if (pathname === "/") return NextResponse.next();
+
   const hasLocale = i18n.locales.some(
-    (locale) => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+    (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
   );
+  if (hasLocale) return NextResponse.next();
 
-  if (!hasLocale) {
-    const locale = getLocale(request);
-    const url = new URL(`/${locale}${pathname}`, request.url);
-    return NextResponse.redirect(url, 308); // permanent redirect pour Googlebot
-  }
-
-  return NextResponse.next();
+  const locale = getLocale(request);
+  const url = new URL(`/${locale}${pathname}`, request.url);
+  return NextResponse.redirect(url, 308);
 }
 
-// Matcher : ignore fichiers statiques et API
 export const config = {
-  matcher: "/((?!api|_next/static|_next/image|assets/).*)",
+  matcher: [
+    "/((?!api|_next/static|_next/image|favicon|assets|robots.txt|sitemap).*)",
+  ],
 };
