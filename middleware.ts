@@ -24,7 +24,11 @@ export function middleware(request: NextRequest) {
   ];
 
   if (rootExceptions.includes(pathname)) return NextResponse.next();
-  if (pathname === "/") return NextResponse.next();
+  if (pathname === "/") {
+    const url = request.nextUrl.clone();
+    url.pathname = "/fr";
+    return NextResponse.redirect(url, 308);
+  }
 
   const hasLocale = i18n.locales.some(
     (locale) => pathname === `/${locale}` || pathname.startsWith(`/${locale}/`)
