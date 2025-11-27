@@ -64,6 +64,7 @@ export default async function RootLayout({
         </DictionaryProvider>
         <Script src="https://api.doctena.lu/js/widgetBooking/calendar/build.php"></Script>
         <Script
+          id="schema-org"
           type="application/ld+json"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
