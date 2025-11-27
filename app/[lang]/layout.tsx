@@ -63,6 +63,18 @@ export default async function RootLayout({
           <Folder lang={params.lang} />
         </DictionaryProvider>
         <Script src="https://api.doctena.lu/js/widgetBooking/calendar/build.php"></Script>
+        <Script
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Ora Dental",
+              url: "https://www.oradental.lu",
+            }),
+          }}
+        />
       </body>
     </html>
   );
