@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import { Locale, i18n } from "@/i18n/i18n-config";
+import { Locale } from "@/i18n/i18n-config";
 import Header from "./components/Header";
 import Folder from "./components/Folder";
 import { getDictionary } from "@/i18n/dictionary";

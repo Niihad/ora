@@ -1,16 +1,36 @@
 {
   "header": {
     "navigation": [
-      { "id": "about", "name": "Gabinete", "offset": -62, "sub": [] },
-      { "id": "treatments", "name": "TRATAMENTOS", "offset": -62, "sub": [] },
       {
-        "id": "aesthetic",
-        "name": "medecine esthetique",
+        "id": "about",
+        "name": "Gabinete",
         "offset": -62,
         "sub": []
       },
-      { "id": "team", "name": "EQUIPA", "offset": -62, "sub": [] },
-      { "id": "contact", "name": "contacto", "offset": -62, "sub": [] }
+      {
+        "id": "treatments",
+        "name": "TRATAMENTOS",
+        "offset": -62,
+        "sub": []
+      },
+      {
+        "id": "aesthetic",
+        "name": "medicina estética",
+        "offset": -62,
+        "sub": []
+      },
+      {
+        "id": "team",
+        "name": "EQUIPA",
+        "offset": -62,
+        "sub": []
+      },
+      {
+        "id": "contact",
+        "name": "contacto",
+        "offset": -62,
+        "sub": []
+      }
     ],
     "title": "Gabinete Dentário ORA"
   },
@@ -37,14 +57,14 @@
       "link": "Veja os tratamentos oferecidos"
     },
     "aesthetic": {
-      "title": "Médecine Esthétique",
+      "title": "Medicina Estética",
       "image": "/assets/aesthetic/01.jpg",
       "text": [
-        "Nouveauté chez ORA Differdange ! La médecine esthétique s'invite dans votre cabinet dentaire. Sublimez votre sourire... et plus encore !",
-        "Retrouvez une peau lumineuse, un visage reposé et un corps tonique grâce à des traitements personnalisés et non invasifs.",
-        "Des soins sur-mesure pour sublimer votre beauté naturelle, en toute sécurité."
+        "Novidade na ORA Differdange! A medicina estética chega ao seu consultório dentário. Realce o seu sorriso… e muito mais!",
+        "Recupere uma pele radiante, um rosto descansado e um corpo tonificado com tratamentos personalizados e não invasivos.",
+        "Tratamentos personalizados para realçar a sua beleza natural, com total segurança."
       ],
-      "link": "en savoir plus"
+      "link": "Saiba mais"
     },
     "teams": {
       "title": "EQUIPA",
@@ -54,12 +74,24 @@
       "title": "contacto",
       "description": "Estacionamento privado reservado para pacientes",
       "time": [
-        { "day": "Segunda-feira 9:00 - 19:00" },
-        { "day": "Terça-feira 9:00 - 19:00" },
-        { "day": "Quarta-feira 9:00 - 18:00" },
-        { "day": "Quinta-feira 9:00 - 18:00" },
-        { "day": "Sexta-feira 9:00 - 19:00" },
-        { "day": "Sábado 9:00 - 14:00" }
+        {
+          "day": "Segunda-feira 9:00 - 19:00"
+        },
+        {
+          "day": "Terça-feira 9:00 - 19:00"
+        },
+        {
+          "day": "Quarta-feira 9:00 - 18:00"
+        },
+        {
+          "day": "Quinta-feira 9:00 - 18:00"
+        },
+        {
+          "day": "Sexta-feira 9:00 - 19:00"
+        },
+        {
+          "day": "Sábado 9:00 - 14:00"
+        }
       ],
       "more": "Em caso de emergência, ligue-nos diretamente. Faremos tudo ao nosso alcance para recebê-lo e aliviar o mais rápido possível durante o dia."
     }
@@ -158,25 +190,25 @@
     }
   ],
   "aesthetic": {
-    "title": "Chez ORA, nous allions expertise médicale et sens de l’esthétique pour proposer des traitements innovants et naturels, adaptés à chaque morphologie. ",
-    "description": "Que vous souhaitiez rafraîchir votre regard, lisser votre peau ou redéfinir votre silhouette, notre approche est toujours douce, précise et respectueuse de votre beauté.",
-    "more": "Pourquoi nous choisir ?",
+    "title": "Na ORA, unimos expertise médica e senso estético para oferecer tratamentos inovadores e naturais, adaptados a cada morfologia.",
+    "description": "Quer queira refrescar o olhar, suavizar a pele ou redefinir a silhueta, a nossa abordagem é sempre suave, precisa e respeitosa com a sua beleza.",
+    "more": "Por que escolher-nos?",
     "more2": [
-      "Médecin formée et expérimentée",
-      "Produits de haute qualité et certifiés",
-      "Résultats naturels, respect du visage",
-      "Consultations personnalisées"
+      "Médico formado e experiente",
+      "Produtos de alta qualidade e certificados",
+      "Resultados naturais, respeito pelo rosto",
+      "Consultas personalizadas"
     ],
-    "more3": "Prenez rendez-vous pour une consultation personnalisée et découvrez le soin qui vous correspond.",
-    "doctena": "Demander un rendez-vous",
+    "more3": "Marque uma consulta personalizada e descubra o tratamento que melhor se adapta a si.",
+    "doctena": "Marcar uma consulta",
     "categories": [
       {
-        "title": "visage",
+        "title": "rosto",
         "image": "/assets/aesthetic/23.jpg",
         "link": "face"
       },
       {
-        "title": "corps",
+        "title": "corpo",
         "image": "/assets/aesthetic/24.jpg",
         "link": "body"
       },
@@ -188,175 +220,175 @@
     ],
     "face": [
       {
-        "title": "Diagnostic Skincare Sur-Mesure",
+        "title": "Diagnóstico de Skincare Personalizado",
         "image": "/assets/aesthetic/22.jpg",
         "text": [
-          "Envie d'une peau éclatante et parfaitement adaptée à vos besoins ? Grâce à un diagnostic de peau précis et approfondi, nous identifions les besoins réels de votre épiderme : hydratation, éclat, anti-âge, correction d'imperfections… Chaque détail est pris en compte.",
-          "À partir de cette analyse, le Dr établit une routine skincare 100 % personnalisée, en sélectionnant des actifs ciblés et des soins adaptés à votre peau.",
-          "Offrez à votre visage ce qu'il mérite vraiment : une beauté sur-mesure, pour révéler l'éclat naturel de votre peau au quotidien. Une approche intelligente, sur-mesure et résolument moderne."
+          "Deseja uma pele radiante e perfeitamente adaptada às suas necessidades? Graças a um diagnóstico de pele preciso e detalhado, identificamos as reais necessidades da sua epiderme: hidratação, luminosidade, anti-idade, correção de imperfeições… Cada detalhe é considerado.",
+          "A partir desta análise, o Dr. estabelece uma rotina de skincare 100% personalizada, selecionando ativos direcionados e tratamentos adequados à sua pele.",
+          "Ofereça ao seu rosto o que ele realmente merece: uma beleza personalizada, para revelar o brilho natural da sua pele no dia a dia. Uma abordagem inteligente, personalizada e resolutamente moderna."
         ]
       },
       {
         "title": "BOTOX",
         "image": "/assets/aesthetic/03.jpg",
         "text": [
-          "Le Botox est l’un des traitements les plus efficaces pour lisser les rides d’expression, notamment au niveau du front, de la glabelle et du contour des yeux. Il détend les muscles responsables des contractions, tout en préservant la mobilité naturelle du visage",
-          "Il est aussi utilisé pour traiter le bruxisme (grincement des dents) en relaxant les muscles de la mâchoire, réduisant ainsi douleurs et tensions.",
-          "Une solution rapide, sécurisée et sans éviction sociale, pour un visage reposé et une qualité de vie améliorée."
+          "O Botox é um dos tratamentos mais eficazes para suavizar as rugas de expressão, especialmente na testa, glabela e contorno dos olhos. Relaxa os músculos responsáveis pelas contrações, preservando a mobilidade natural do rosto.",
+          "Também é utilizado para tratar o bruxismo (ranger de dentes), relaxando os músculos da mandíbula e reduzindo dores e tensões.",
+          "Uma solução rápida, segura e sem afastamento social, para um rosto descansado e uma melhor qualidade de vida."
         ]
       },
       {
-        "title": "ACIDE HYALURONIQUE",
+        "title": "ÁCIDO HIALURÓNICO",
         "image": "/assets/aesthetic/04.jpg",
         "text": [
-          "L’acide hyaluronique est une molécule naturellement présente dans la peau, utilisée pour restaurer les volumes, hydrater en profondeur et lisser les rides. Grâce à des injections ciblées, il redessine les contours du visage, repulpe les lèvres ou les pommettes, et apporte un éclat immédiat. Le résultat est naturel et harmonieux. ",
-          "Ce traitement s’adapte à chaque visage et à chaque besoin, pour sublimer sans figer les expressions."
+          "O ácido hialurônico é uma molécula naturalmente presente na pele, utilizada para restaurar volumes, hidratar profundamente e suavizar rugas. Com injeções direcionadas, redesenha os contornos do rosto, preenche os lábios ou as maçãs do rosto, e proporciona um brilho imediato. O resultado é natural e harmonioso.",
+          "Este tratamento adapta-se a cada rosto e necessidade, para realçar sem congelar as expressões."
         ]
       },
       {
-        "title": "CORRECTION DES CERNES",
+        "title": "CORREÇÃO DE OLHEIRAS",
         "image": "/assets/aesthetic/05.jpg",
         "text": [
-          "Les cernes creux ou colorés peuvent donner un air fatigué, même après une bonne nuit de sommeil. L’injection d’acide hyaluronique dans cette zone permet de combler les creux, d’atténuer les ombres et d’illuminer le regard.",
-          "Ce traitement, délicat et précis, redonne fraîcheur et vitalité au visage tout en respectant ses traits. Le résultat est immédiat, naturel et durable."
+          "Olheiras fundas ou coloridas podem dar um ar cansado, mesmo após uma boa noite de sono. A injeção de ácido hialurônico nesta zona permite preencher depressões, atenuar sombras e iluminar o olhar.",
+          "Este tratamento, delicado e preciso, devolve frescura e vitalidade ao rosto, respeitando os seus traços. O resultado é imediato, natural e duradouro."
         ]
       },
       {
-        "title": "RHINOPLASTIE MÉDICALE",
+        "title": "RINOPLASTIA MÉDICA",
         "image": "/assets/aesthetic/06.jpg",
         "text": [
-          "La rhinoplastie médicale est une alternative non invasive à la chirurgie du nez. Grâce à des injections d’acide hyaluronique, il est possible de corriger une bosse, relever la pointe ou harmoniser le profil sans anesthésie ni opération. ",
-          "Le traitement est rapide, quasi indolore, et le résultat visible immédiatement. Une solution idéale pour améliorer l’esthétique du nez de manière douce et réversible."
+          "A rinoplastia médica é uma alternativa não invasiva à cirurgia do nariz. Graças a injeções de ácido hialurônico, é possível corrigir uma protuberância, levantar a ponta ou harmonizar o perfil sem anestesia nem cirurgia.",
+          "O tratamento é rápido, quase indolor, e o resultado visível imediatamente. Uma solução ideal para melhorar a estética do nariz de forma suave e reversível."
         ]
       },
       {
-        "title": "BIOSTIMULATEURS DE COLLAGÈNE",
+        "title": "BIOESTIMULADORES DE COLÁGENO",
         "image": "/assets/aesthetic/07.jpg",
         "text": [
-          "À partir de 30 ans, la production de collagène diminue, entraînant un relâchement cutané. Les biostimulateurs agissent en profondeur pour relancer cette production naturelle. Injectés sous la peau, ils renforcent la structure cutanée, améliorent la fermeté et la qualité de la peau sur le long terme.",
-          "C’est un traitement qui offre des résultats progressifs et durables, tout en préservant un aspect totalement naturel."
+          "A partir dos 30 anos, a produção de colágeno diminui, levando ao relaxamento da pele. Os bioestimuladores atuam em profundidade para reativar esta produção natural. Injetados sob a pele, reforçam a estrutura cutânea, melhoram a firmeza e a qualidade da pele a longo prazo.",
+          "É um tratamento que oferece resultados progressivos e duradouros, preservando um aspeto totalmente natural."
         ]
       },
       {
-        "title": "FILS TENSEURS",
+        "title": "FIOS TENSORES",
         "image": "/assets/aesthetic/08.jpg",
         "text": [
-          "Les fils tenseurs en PDO (polydioxanone) permettent de lifter les traits du visage sans chirurgie. Ils sont insérés sous la peau pour redessiner l’ovale du visage, rehausser les pommettes ou lisser le cou. En plus de leur effet immédiat, ils stimulent la production de collagène pour un résultat progressif et durable. ",
-          "Un traitement sûr, efficace et discret, pour retrouver une peau plus ferme et un visage visiblement rajeuni."
+          "Os fios tensores em PDO (polidioxanona) permitem levantar os traços do rosto sem cirurgia. São inseridos sob a pele para redesenhar o oval do rosto, elevar as maçãs do rosto ou suavizar o pescoço. Além do efeito imediato, estimulam a produção de colágeno para um resultado progressivo e duradouro.",
+          "Um tratamento seguro, eficaz e discreto, para recuperar uma pele mais firme e um rosto visivelmente rejuvenescido."
         ]
       },
       {
-        "title": "TRAITEMENT DU DOUBLE MENTON",
+        "title": "TRATAMENTO DE PAPADA",
         "image": "/assets/aesthetic/09.jpg",
         "text": [
-          "Le double menton est souvent une zone difficile à affiner, même avec une bonne hygiène de vie. Grâce à des injections spécifiques (type acide désoxycholique), il est possible de réduire les cellules graisseuses localisées sous le menton. ",
-          "Ce traitement non chirurgical améliore nettement le profil et redéfinit l’ovale du visage, sans cicatrices ni éviction sociale. Idéal pour un résultat naturel et harmonieux."
+          "A papada é muitas vezes uma zona difícil de afinar, mesmo com uma boa higiene de vida. Graças a injeções específicas (tipo ácido desoxicólico), é possível reduzir as células adiposas localizadas sob o queixo.",
+          "Este tratamento não cirúrgico melhora significativamente o perfil e redefine o oval do rosto, sem cicatrizes nem afastamento social. Ideal para um resultado natural e harmonioso."
         ]
       },
       {
         "title": "PEELING",
         "image": "/assets/aesthetic/10.jpg",
         "text": [
-          "Le peeling consiste à appliquer une solution exfoliante pour éliminer les cellules mortes, stimuler le renouvellement cellulaire et uniformiser le teint. ",
-          "Il peut être doux ou plus profond selon les besoins : éclat, taches pigmentaires, acné, ridules… Il laisse la peau plus lisse, plus lumineuse et visiblement plus jeune. Une cure de jouvence pour la peau, adaptée à chaque type de peau."
+          "O peeling consiste em aplicar uma solução esfoliante para eliminar células mortas, estimular a renovação celular e uniformizar o tom da pele.",
+          "Pode ser suave ou mais profundo, conforme a necessidade: luminosidade, manchas, acne, linhas finas… Deixa a pele mais lisa, radiante e visivelmente mais jovem. Um tratamento rejuvenescedor para todos os tipos de pele."
         ]
       },
       {
-        "title": "MÉSOTHÉRAPIE ",
+        "title": "MESOTERAPIA",
         "image": "/assets/aesthetic/11.jpg",
         "text": [
-          "La mésothérapie est une technique de revitalisation cutanée qui consiste à injecter dans le derme un cocktail de vitamines, minéraux et acide hyaluronique. Elle améliore l’hydratation, la tonicité et l’éclat de la peau. ",
-          "C’est un soin préventif et correctif contre les signes de fatigue et de vieillissement. Parfait pour redonner vie aux peaux ternes, stressées ou déshydratées."
+          "A mesoterapia é uma técnica de revitalização cutânea que consiste em injetar no dérme um cocktail de vitaminas, minerais e ácido hialurônico. Melhora a hidratação, tonicidade e luminosidade da pele.",
+          "É um cuidado preventivo e corretivo contra os sinais de fadiga e envelhecimento. Perfeito para devolver vida a peles opacas, stressadas ou desidratadas."
         ]
       },
       {
         "title": "SKINBOOSTER",
         "image": "/assets/aesthetic/12.jpg",
         "text": [
-          "Les skinboosters sont des micro-injections d’acide hyaluronique très fluide, conçues pour hydrater la peau en profondeur sans créer de volume. Ils améliorent l’élasticité, la fermeté et la texture de la peau, tout en stimulant le collagène.",
-          "Ce traitement est idéal pour les zones fines comme le visage, le cou, le décolleté ou les mains. Résultat : une peau repulpée, lissée, éclatante de santé."
+          "Os skinboosters são microinjeções de ácido hialurônico muito fluido, concebidos para hidratar profundamente a pele sem criar volume. Melhoram a elasticidade, firmeza e textura da pele, estimulando o colágeno.",
+          "Este tratamento é ideal para áreas finas como rosto, pescoço, decote ou mãos. Resultado: pele preenchida, suavizada e radiante de saúde."
         ]
       },
       {
         "title": "PRP",
         "image": "/assets/aesthetic/13.jpg",
         "text": [
-          "Offrez à votre peau et à vos cheveux la puissance de votre propre corps.",
-          "Le PRP utilise votre plasma enrichi en facteurs de croissance pour stimuler naturellement la régénération cellulaire, booster la production de collagène et revitaliser les tissus en profondeur.",
-          "Pour la peau, il estompe rides, cernes et imperfections, révélant un teint plus lisse et lumineux.",
-          "Pour les cheveux, il freine la chute, densifie et renforce la fibre capillaire.",
-          "Un traitement 100 % naturel, innovant et sans risque, pour un coup d’éclat durable et une beauté authentique, de l’intérieur vers l’extérieur."
+          "Ofereça à sua pele e cabelo o poder do seu próprio corpo.",
+          "O PRP utiliza o seu plasma enriquecido com fatores de crescimento para estimular naturalmente a regeneração celular, aumentar a produção de colágeno e revitalizar os tecidos em profundidade.",
+          "Para a pele, suaviza rugas, olheiras e imperfeições, revelando um tom mais liso e luminoso.",
+          "Para o cabelo, retarda a queda, densifica e fortalece a fibra capilar.",
+          "Um tratamento 100% natural, inovador e sem riscos, para um efeito duradouro e beleza autêntica, de dentro para fora."
         ]
       },
       {
         "title": "MICRONEEDLING",
         "image": "/assets/aesthetic/14.jpg",
         "text": [
-          "Le microneedling utilise un stylo muni de micro-aiguilles pour créer des micro-perforations à la surface de la peau. Ce processus stimule la production de collagène et permet une meilleure pénétration des principes actifs. ",
-          "Il améliore l’aspect des cicatrices, des pores dilatés, des ridules et du teint irrégulier. Un soin efficace, naturel et peu invasif pour régénérer la peau en douceur."
+          "O microneedling utiliza uma caneta com microagulhas para criar microperfurações na superfície da pele. Este processo estimula a produção de colágeno e permite uma melhor penetração dos princípios ativos.",
+          "Melhora o aspeto de cicatrizes, poros dilatados, linhas finas e tom irregular. Um cuidado eficaz, natural e pouco invasivo para regenerar suavemente a pele."
         ]
       }
     ],
     "body": [
       {
-        "title": "ACIDE HYALURONIQUE",
+        "title": "ÁCIDO HIALURÓNICO",
         "image": "/assets/aesthetic/15.jpg",
         "text": [
-          "Sublimez votre silhouette grâce aux bienfaits de l’acide hyaluronique pour le corps. Il hydrate en profondeur, améliore la qualité de la peau et redonne du galbe aux zones fragilisées comme le cou, le décolleté, les mains… et même vos fesses et vos abdos",
-          "Utilisé en body contouring, il permet de redessiner subtilement les courbes, rehausser les fesses, combler les creux et mettre en valeur la définition naturelle des abdominaux.",
-          "Offrez à votre corps un raffermissement visible, une peau plus lisse et une silhouette élégamment sculptée, sans chirurgie lourde."
+          "Sublime a sua silhueta graças aos benefícios do ácido hialurônico para o corpo. Hidrata profundamente, melhora a qualidade da pele e devolve contorno a zonas fragilizadas como pescoço, decote, mãos… e até glúteos e abdominais.",
+          "Utilizado em body contouring, permite redesenhar subtilmente as curvas, levantar os glúteos, preencher depressões e realçar a definição natural dos abdominais.",
+          "Ofereça ao seu corpo firmeza visível, pele mais lisa e uma silhueta elegantemente esculpida, sem cirurgia pesada."
         ]
       },
       {
-        "title": "BIOSTIMULATEURS DE COLLAGÈNE",
+        "title": "BIOESTIMULADORES DE COLÁGENO",
         "image": "/assets/aesthetic/16.jpg",
         "text": [
-          "Les injections de collagène sont une solution efficace pour raffermir les zones du corps sujettes au relâchement cutané, comme les bras, l’intérieur des cuisses ou le ventre. En stimulant la production naturelle de collagène, ce traitement améliore la tonicité de la peau et prévient le vieillissement cutané.",
-          "Il est également utilisé en complément d’autres soins esthétiques pour renforcer la structure et la qualité des tissus, avec un résultat progressif, naturel et durable."
+          "As injeções de colágeno são uma solução eficaz para firmar zonas do corpo sujeitas ao relaxamento cutâneo, como braços, interior das coxas ou abdômen. Ao estimular a produção natural de colágeno, este tratamento melhora a tonicidade da pele e previne o envelhecimento cutâneo.",
+          "Também é usado em complemento de outros tratamentos estéticos para reforçar a estrutura e qualidade dos tecidos, com resultado progressivo, natural e duradouro."
         ]
       },
       {
-        "title": "FILS TENSEURS",
+        "title": "FIOS TENSORES",
         "image": "/assets/aesthetic/17.jpg",
         "text": [
-          "Les fils tenseurs peuvent être appliqués sur le corps pour redéfinir certaines zones comme les bras, les cuisses, l’abdomen ou les genoux. Ils offrent un effet liftant immédiat, tout en stimulant la production de collagène pour une amélioration continue dans les mois qui suivent.",
-          "Cette technique est idéale pour traiter un relâchement modéré sans passer par la chirurgie. Résultat : une peau visiblement plus ferme, plus tonique et un corps redessiné en douceur."
+          "Os fios tensores podem ser aplicados no corpo para redefinir zonas como braços, coxas, abdômen ou joelhos. Oferecem efeito lifting imediato, ao mesmo tempo que estimulam a produção de colágeno para melhoria contínua nos meses seguintes.",
+          "Esta técnica é ideal para tratar relaxamento moderado sem recorrer à cirurgia. Resultado: pele visivelmente mais firme, mais tonificada e corpo suavemente remodelado."
         ]
       },
       {
-        "title": "TRAITEMENT ANTI-CELLULITE",
+        "title": "TRATAMENTO ANTI-CELULITE",
         "image": "/assets/aesthetic/18.jpg",
         "text": [
-          "La cellulite concerne toutes les morphologies et peut être difficile à éliminer malgré une bonne hygiène de vie. Grâce à des techniques de médecine esthétique combinant mésothérapie, drainage et principes actifs lipolytiques, il est possible de lisser l’aspect peau d’orange et d’améliorer la texture cutanée.",
-          "Ce traitement cible la rétention d’eau, les amas graisseux et la microcirculation. Il redonne une peau plus lisse, plus ferme et plus homogène."
+          "A celulite afeta todas as morfologias e pode ser difícil de eliminar mesmo com boa higiene de vida. Com técnicas de medicina estética combinando mesoterapia, drenagem e ativos lipolíticos, é possível suavizar o aspeto casca de laranja e melhorar a textura da pele.",
+          "Este tratamento atua sobre retenção de líquidos, depósitos de gordura e microcirculação. Devolve à pele uma textura mais lisa, firme e homogénea."
         ]
       },
       {
-        "title": "INTRALIPOTHERAPIE",
+        "title": "INTRALIPOTERAPIA",
         "image": "/assets/aesthetic/19.jpg",
         "text": [
-          "L’intralipothérapie est une technique d’injections destinée à réduire les amas graisseux localisés, résistants au sport et aux régimes. Elle agit directement sur les cellules adipeuses pour les détruire progressivement.",
-          "Particulièrement efficace sur les hanches, l’abdomen, les bras ou les genou,  ce traitement non chirurgical permet de redessiner la silhouette de manière harmonieuse, sans anesthésie ni convalescence. Une solution ciblée pour affiner et sculpter."
+          "A intralipoterapia é uma técnica de injeção destinada a reduzir depósitos localizados de gordura, resistentes a exercício e dietas. Atua diretamente sobre as células adiposas para destruí-las progressivamente.",
+          "Particularmente eficaz em ancas, abdômen, braços ou joelhos, este tratamento não cirúrgico permite redesenhar a silhueta de forma harmoniosa, sem anestesia nem convalescença. Uma solução direcionada para afinar e esculpir."
         ]
       },
       {
-        "title": "MESOTHERAPIE",
+        "title": "MESOTERAPIA",
         "image": "/assets/aesthetic/20.jpg",
         "text": [
-          "La mésothérapie pour le corps consiste à injecter localement des actifs drainants, lipolytiques et raffermissants. Elle est particulièrement efficace pour traiter la cellulite, la rétention d’eau ou le relâchement cutané.",
-          "Cette technique améliore la microcirculation, stimule la peau en profondeur et redonne tonicité et élasticité aux tissus. Adaptée à différentes zones du corps, elle permet d’obtenir une peau plus lisse, plus souple et visiblement plus tonique."
+          "A mesoterapia corporal consiste em injetar localmente ativos drenantes, lipolíticos e firmadores. É particularmente eficaz para tratar celulite, retenção de líquidos ou flacidez cutânea.",
+          "Esta técnica melhora a microcirculação, estimula a pele em profundidade e devolve tonicidade e elasticidade aos tecidos. Adaptada a diferentes zonas do corpo, permite obter pele mais lisa, flexível e visivelmente mais tonificada."
         ]
       }
     ],
     "price": {
-      "title": "tarifs",
-      "info": "Consultation d'évaluation 50",
+      "title": "tarifas",
+      "info": "Consulta de avaliação 50",
       "categories": [
         {
-          "title": "visage",
+          "title": "rosto",
           "item": [
             {
-              "title": "Diagnostic skincare sur-mesure",
+              "title": "Diagnóstico de skincare personalizado",
               "price": "100"
             },
             {
@@ -364,91 +396,91 @@
               "price": "400"
             },
             {
-              "title": "Acide hyaluronique lèvres",
+              "title": "Ácido hialurónico lábios",
               "price": "400"
             },
             {
-              "title": "Acide hyaluronique pour les autres zones du visage (première seringue)",
+              "title": "Ácido hialurónico para outras áreas do rosto (primeira seringa)",
               "price": "350"
             },
             {
-              "title": "Acide hyaluronique pour les autres zones du visage (seringues suivantes)",
+              "title": "Ácido hialurónico para outras áreas do rosto (seringas seguintes)",
               "price": "300"
             },
             {
-              "title": "Correction des Cernes",
+              "title": "Correção de olheiras",
               "price": "450"
             },
             {
-              "title": "Rhinoplastie médicale",
+              "title": "Rinoplastia médica",
               "price": "450"
             },
             {
-              "title": "Biostimulateur de collagène visage ou cou (par seringue)",
+              "title": "Bioestimulador de colágeno rosto ou pescoço (por seringa)",
               "price": "650"
             },
             {
-              "title": "PRP (par séance)",
+              "title": "PRP (por sessão)",
               "price": "400"
             },
             {
-              "title": "Skinbooster (par séance)",
+              "title": "Skinbooster (por sessão)",
               "price": "300"
             },
             {
-              "title": "Microneedling avec PDRN (par séance)",
+              "title": "Microneedling com PDRN (por sessão)",
               "price": "250"
             },
             {
-              "title": "Peeling (à partir de)",
+              "title": "Peeling (a partir de)",
               "price": "200"
             },
             {
-              "title": "Réduction du double menton par lipolyse (à partir de)",
+              "title": "Redução de papada por lipólise (a partir de)",
               "price": "700"
             },
             {
-              "title": "Mésothérapie (à partir de)",
+              "title": "Mesoterapia (a partir de)",
               "price": "150"
             },
             {
-              "title": "Fils tenseurs (prix sur demande)",
+              "title": "Fios tensores (preço sob consulta)",
               "price": ""
             }
           ]
         },
         {
-          "title": "corps",
+          "title": "corpo",
           "item": [
             {
-              "title": "Acide Hyaluronique (par seringue)",
+              "title": "Ácido Hialurónico (por seringa)",
               "price": "900"
             },
             {
-              "title": "Biostimulateurs de collagène fessiers, abdomen ou cuisses (par seringue)",
+              "title": "Bioestimuladores de colágeno glúteos, abdômen ou coxas (por seringa)",
               "price": "900"
             },
             {
-              "title": "Mésothérapie (à partir de)",
+              "title": "Mesoterapia (a partir de)",
               "price": "150"
             },
             {
-              "title": "Traitement anti-cellulite (à partir de)",
+              "title": "Tratamento anti-celulite (a partir de)",
               "price": "150"
             },
             {
-              "title": "Intralipothérapie (à partir de)",
+              "title": "Intralipoterapia (a partir de)",
               "price": "200"
             },
             {
-              "title": "Fils tenseurs (prix sur demande)",
+              "title": "Fios tensores (preço sob consulta)",
               "price": ""
             }
           ]
         }
       ],
-      "info2": "Les actes à visée esthétique ne sont pas pris en charge par la CNS",
-      "doctena": "Demander un rendez-vous"
+      "info2": "Os atos com finalidade estética não são cobertos pela CNS",
+      "doctena": "Marcar uma consulta"
     }
   },
   "teams": [
@@ -580,7 +612,9 @@
       "slug": "dr-david-narberger",
       "image": "/assets/teams/David.jpeg",
       "speciality": "Endodontista",
-      "knowledge": ["Tratamentos de raiz com microscópio operatório"],
+      "knowledge": [
+        "Tratamentos de raiz com microscópio operatório"
+      ],
       "diplome": [
         "Diplôme de docteur en chirurgie dentaire, Nancy",
         "Diplôme universitaire d'endodontie clinique et microscopie opératoire, Nancy"
@@ -632,15 +666,15 @@
       "doctena": ""
     }
   ],
-  "notFound": "Cette page est introuvable.",
+  "notFound": "Essa página não foi encontrada.",
   "modelPop": {
-    "title": "Pour noël, offrez bien plus qu'un simple cadeau...",
+    "title": "No Natal, ofereça muito mais do que um simples presente...",
     "image": "/assets/modalPop.jpg",
     "text": [
-      "Les chèques cadeaux sont disponibles pour tous les traitements esthétiques.",
-      "Rendez-vous directement dans votre cabinet",
-      "Chèque cadeau",
-      "Médecine esthétique"
+      "Os vales-presente estão disponíveis para todos os tratamentos estéticos.",
+      "Vá diretamente ao seu consultório",
+      "Cheque-presente",
+      "Medicina estética"
     ]
   }
 }

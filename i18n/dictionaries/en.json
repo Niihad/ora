@@ -1,16 +1,36 @@
 {
   "header": {
     "navigation": [
-      { "id": "about", "name": "about us", "offset": 62, "sub": [] },
-      { "id": "treatments", "name": "treatments", "offset": -62, "sub": [] },
       {
-        "id": "aesthetic",
-        "name": "medecine esthetique",
+        "id": "about",
+        "name": "about us",
+        "offset": 62,
+        "sub": []
+      },
+      {
+        "id": "treatments",
+        "name": "treatments",
         "offset": -62,
         "sub": []
       },
-      { "id": "team", "name": "team", "offset": -62, "sub": [] },
-      { "id": "contact", "name": "contact", "offset": -62, "sub": [] }
+      {
+        "id": "aesthetic",
+        "name": "aesthetic medicine",
+        "offset": -62,
+        "sub": []
+      },
+      {
+        "id": "team",
+        "name": "team",
+        "offset": -62,
+        "sub": []
+      },
+      {
+        "id": "contact",
+        "name": "contact",
+        "offset": -62,
+        "sub": []
+      }
     ],
     "title": "ORA DENTAL PRACTICE"
   },
@@ -37,14 +57,14 @@
       "link": "See the treatments offered"
     },
     "aesthetic": {
-      "title": "Médecine Esthétique",
+      "title": "Aesthetic Medicine",
       "image": "/assets/aesthetic/01.jpg",
       "text": [
-        "Nouveauté chez ORA Differdange ! La médecine esthétique s'invite dans votre cabinet dentaire. Sublimez votre sourire... et plus encore !",
-        "Retrouvez une peau lumineuse, un visage reposé et un corps tonique grâce à des traitements personnalisés et non invasifs.",
-        "Des soins sur-mesure pour sublimer votre beauté naturelle, en toute sécurité."
+        "New at ORA Differdange! Aesthetic medicine is coming to your dental office. Enhance your smile… and much more!",
+        "Achieve radiant skin, a refreshed face, and a toned body with personalized, non-invasive treatments.",
+        "Tailor-made treatments to enhance your natural beauty, safely and effectively."
       ],
-      "link": "en savoir plus"
+      "link": "Learn more"
     },
     "teams": {
       "title": "Our team",
@@ -54,12 +74,24 @@
       "title": "contact",
       "description": "Private parking reserved for patients",
       "time": [
-        { "day": "Monday 9am - 7pm" },
-        { "day": "Tuesday 9am - 7pm" },
-        { "day": "Wednesday 9am - 6pm" },
-        { "day": "Thursday 9am - 6pm" },
-        { "day": "Friday 9am - 7pm" },
-        { "day": "Saturday 9am - 2pm" }
+        {
+          "day": "Monday 9am - 7pm"
+        },
+        {
+          "day": "Tuesday 9am - 7pm"
+        },
+        {
+          "day": "Wednesday 9am - 6pm"
+        },
+        {
+          "day": "Thursday 9am - 6pm"
+        },
+        {
+          "day": "Friday 9am - 7pm"
+        },
+        {
+          "day": "Saturday 9am - 2pm"
+        }
       ],
       "more": "In case of emergency, please call us directly. We will make every effort to accommodate you and provide relief as quickly as possible within the same day."
     }
@@ -158,205 +190,205 @@
     }
   ],
   "aesthetic": {
-    "title": "Chez ORA, nous allions expertise médicale et sens de l’esthétique pour proposer des traitements innovants et naturels, adaptés à chaque morphologie. ",
-    "description": "Que vous souhaitiez rafraîchir votre regard, lisser votre peau ou redéfinir votre silhouette, notre approche est toujours douce, précise et respectueuse de votre beauté.",
-    "more": "Pourquoi nous choisir ?",
+    "title": "At ORA, we combine medical expertise and a sense of aesthetics to offer innovative and natural treatments, adapted to every body type.",
+    "description": "Whether you want to refresh your gaze, smooth your skin, or redefine your silhouette, our approach is always gentle, precise, and respectful of your beauty.",
+    "more": "Why choose us?",
     "more2": [
-      "Médecin formée et expérimentée",
-      "Produits de haute qualité et certifiés",
-      "Résultats naturels, respect du visage",
-      "Consultations personnalisées"
+      "Trained and experienced doctor",
+      "High-quality and certified products",
+      "Natural results, respect for the face",
+      "Personalized consultations"
     ],
-    "more3": "Prenez rendez-vous pour une consultation personnalisée et découvrez le soin qui vous correspond.",
-    "doctena": "Demander un rendez-vous",
+    "more3": "Book an appointment for a personalized consultation and discover the treatment that suits you.",
+    "doctena": "Request an appointment",
     "categories": [
       {
-        "title": "visage",
+        "title": "face",
         "image": "/assets/aesthetic/23.jpg",
         "link": "face"
       },
       {
-        "title": "corps",
+        "title": "body",
         "image": "/assets/aesthetic/24.jpg",
         "link": "body"
       },
       {
-        "title": "tarifs",
+        "title": "prices",
         "image": "/assets/aesthetic/24.jpg",
         "link": "price"
       }
     ],
     "face": [
       {
-        "title": "Diagnostic Skincare Sur-Mesure",
+        "title": "Custom Skincare Diagnosis",
         "image": "/assets/aesthetic/22.jpg",
         "text": [
-          "Envie d'une peau éclatante et parfaitement adaptée à vos besoins ? Grâce à un diagnostic de peau précis et approfondi, nous identifions les besoins réels de votre épiderme : hydratation, éclat, anti-âge, correction d'imperfections… Chaque détail est pris en compte.",
-          "À partir de cette analyse, le Dr établit une routine skincare 100 % personnalisée, en sélectionnant des actifs ciblés et des soins adaptés à votre peau.",
-          "Offrez à votre visage ce qu'il mérite vraiment : une beauté sur-mesure, pour révéler l'éclat naturel de votre peau au quotidien. Une approche intelligente, sur-mesure et résolument moderne."
+          "Want radiant skin perfectly suited to your needs? Thanks to a precise and in-depth skin diagnosis, we identify the real needs of your epidermis: hydration, radiance, anti-aging, imperfection correction… Every detail is taken into account.",
+          "Based on this analysis, the doctor establishes a 100% personalized skincare routine, selecting targeted active ingredients and treatments adapted to your skin.",
+          "Give your face what it truly deserves: tailor-made beauty to reveal your skin's natural radiance every day. An intelligent, personalized, and decidedly modern approach."
         ]
       },
       {
         "title": "BOTOX",
         "image": "/assets/aesthetic/03.jpg",
         "text": [
-          "Le Botox est l’un des traitements les plus efficaces pour lisser les rides d’expression, notamment au niveau du front, de la glabelle et du contour des yeux. Il détend les muscles responsables des contractions, tout en préservant la mobilité naturelle du visage",
-          "Il est aussi utilisé pour traiter le bruxisme (grincement des dents) en relaxant les muscles de la mâchoire, réduisant ainsi douleurs et tensions.",
-          "Une solution rapide, sécurisée et sans éviction sociale, pour un visage reposé et une qualité de vie améliorée."
+          "Botox is one of the most effective treatments to smooth expression lines, particularly on the forehead, glabella, and around the eyes. It relaxes the muscles responsible for contractions while preserving the natural mobility of the face.",
+          "It is also used to treat bruxism (teeth grinding) by relaxing the jaw muscles, thus reducing pain and tension.",
+          "A quick, safe, and socially unobtrusive solution for a rested face and improved quality of life."
         ]
       },
       {
-        "title": "ACIDE HYALURONIQUE",
+        "title": "HYALURONIC ACID",
         "image": "/assets/aesthetic/04.jpg",
         "text": [
-          "L’acide hyaluronique est une molécule naturellement présente dans la peau, utilisée pour restaurer les volumes, hydrater en profondeur et lisser les rides. Grâce à des injections ciblées, il redessine les contours du visage, repulpe les lèvres ou les pommettes, et apporte un éclat immédiat. Le résultat est naturel et harmonieux. ",
-          "Ce traitement s’adapte à chaque visage et à chaque besoin, pour sublimer sans figer les expressions."
+          "Hyaluronic acid is a naturally occurring molecule in the skin, used to restore volume, deeply hydrate, and smooth wrinkles. With targeted injections, it reshapes the contours of the face, plumps the lips or cheekbones, and provides an immediate glow. The result is natural and harmonious.",
+          "This treatment adapts to every face and every need, enhancing beauty without freezing expressions."
         ]
       },
       {
-        "title": "CORRECTION DES CERNES",
+        "title": "UNDER-EYE CORRECTION",
         "image": "/assets/aesthetic/05.jpg",
         "text": [
-          "Les cernes creux ou colorés peuvent donner un air fatigué, même après une bonne nuit de sommeil. L’injection d’acide hyaluronique dans cette zone permet de combler les creux, d’atténuer les ombres et d’illuminer le regard.",
-          "Ce traitement, délicat et précis, redonne fraîcheur et vitalité au visage tout en respectant ses traits. Le résultat est immédiat, naturel et durable."
+          "Hollow or dark under-eyes can give a tired appearance, even after a good night's sleep. Injecting hyaluronic acid in this area helps fill hollows, reduce shadows, and brighten the gaze.",
+          "This delicate and precise treatment restores freshness and vitality to the face while respecting its features. The result is immediate, natural, and long-lasting."
         ]
       },
       {
-        "title": "RHINOPLASTIE MÉDICALE",
+        "title": "MEDICAL RHINOPLASTY",
         "image": "/assets/aesthetic/06.jpg",
         "text": [
-          "La rhinoplastie médicale est une alternative non invasive à la chirurgie du nez. Grâce à des injections d’acide hyaluronique, il est possible de corriger une bosse, relever la pointe ou harmoniser le profil sans anesthésie ni opération. ",
-          "Le traitement est rapide, quasi indolore, et le résultat visible immédiatement. Une solution idéale pour améliorer l’esthétique du nez de manière douce et réversible."
+          "Medical rhinoplasty is a non-invasive alternative to nose surgery. Thanks to hyaluronic acid injections, it is possible to correct a bump, lift the tip, or harmonize the profile without anesthesia or surgery.",
+          "The treatment is quick, almost painless, and the result is immediately visible. An ideal solution to gently and reversibly improve the aesthetics of the nose."
         ]
       },
       {
-        "title": "BIOSTIMULATEURS DE COLLAGÈNE",
+        "title": "COLLAGEN BIOSTIMULATORS",
         "image": "/assets/aesthetic/07.jpg",
         "text": [
-          "À partir de 30 ans, la production de collagène diminue, entraînant un relâchement cutané. Les biostimulateurs agissent en profondeur pour relancer cette production naturelle. Injectés sous la peau, ils renforcent la structure cutanée, améliorent la fermeté et la qualité de la peau sur le long terme.",
-          "C’est un traitement qui offre des résultats progressifs et durables, tout en préservant un aspect totalement naturel."
+          "From the age of 30, collagen production decreases, leading to skin sagging. Biostimulators act in depth to reactivate this natural production. Injected under the skin, they strengthen the skin structure, improve firmness, and enhance skin quality over the long term.",
+          "This treatment offers progressive and lasting results while preserving a completely natural appearance."
         ]
       },
       {
-        "title": "FILS TENSEURS",
+        "title": "THREAD LIFTS",
         "image": "/assets/aesthetic/08.jpg",
         "text": [
-          "Les fils tenseurs en PDO (polydioxanone) permettent de lifter les traits du visage sans chirurgie. Ils sont insérés sous la peau pour redessiner l’ovale du visage, rehausser les pommettes ou lisser le cou. En plus de leur effet immédiat, ils stimulent la production de collagène pour un résultat progressif et durable. ",
-          "Un traitement sûr, efficace et discret, pour retrouver une peau plus ferme et un visage visiblement rajeuni."
+          "PDO (polydioxanone) thread lifts allow you to lift facial features without surgery. They are inserted under the skin to reshape the facial oval, lift the cheekbones, or smooth the neck. In addition to their immediate effect, they stimulate collagen production for progressive and lasting results.",
+          "A safe, effective, and discreet treatment to restore firmer skin and a visibly rejuvenated face."
         ]
       },
       {
-        "title": "TRAITEMENT DU DOUBLE MENTON",
+        "title": "DOUBLE CHIN TREATMENT",
         "image": "/assets/aesthetic/09.jpg",
         "text": [
-          "Le double menton est souvent une zone difficile à affiner, même avec une bonne hygiène de vie. Grâce à des injections spécifiques (type acide désoxycholique), il est possible de réduire les cellules graisseuses localisées sous le menton. ",
-          "Ce traitement non chirurgical améliore nettement le profil et redéfinit l’ovale du visage, sans cicatrices ni éviction sociale. Idéal pour un résultat naturel et harmonieux."
+          "The double chin is often a difficult area to slim down, even with a healthy lifestyle. Specific injections (such as deoxycholic acid) can reduce localized fat cells under the chin.",
+          "This non-surgical treatment noticeably improves the profile and redefines the facial oval, without scars or social downtime. Ideal for a natural and harmonious result."
         ]
       },
       {
         "title": "PEELING",
         "image": "/assets/aesthetic/10.jpg",
         "text": [
-          "Le peeling consiste à appliquer une solution exfoliante pour éliminer les cellules mortes, stimuler le renouvellement cellulaire et uniformiser le teint. ",
-          "Il peut être doux ou plus profond selon les besoins : éclat, taches pigmentaires, acné, ridules… Il laisse la peau plus lisse, plus lumineuse et visiblement plus jeune. Une cure de jouvence pour la peau, adaptée à chaque type de peau."
+          "Peeling involves applying an exfoliating solution to remove dead cells, stimulate cell renewal, and even out the complexion.",
+          "It can be mild or deeper depending on the needs: radiance, pigmentation spots, acne, fine lines… It leaves the skin smoother, brighter, and visibly younger. A rejuvenating treatment for the skin, suitable for all skin types."
         ]
       },
       {
-        "title": "MÉSOTHÉRAPIE ",
+        "title": "MESOTHERAPY",
         "image": "/assets/aesthetic/11.jpg",
         "text": [
-          "La mésothérapie est une technique de revitalisation cutanée qui consiste à injecter dans le derme un cocktail de vitamines, minéraux et acide hyaluronique. Elle améliore l’hydratation, la tonicité et l’éclat de la peau. ",
-          "C’est un soin préventif et correctif contre les signes de fatigue et de vieillissement. Parfait pour redonner vie aux peaux ternes, stressées ou déshydratées."
+          "Mesotherapy is a skin revitalization technique that involves injecting a cocktail of vitamins, minerals, and hyaluronic acid into the dermis. It improves hydration, tone, and radiance of the skin.",
+          "It is a preventive and corrective treatment against signs of fatigue and aging. Perfect for revitalizing dull, stressed, or dehydrated skin."
         ]
       },
       {
         "title": "SKINBOOSTER",
         "image": "/assets/aesthetic/12.jpg",
         "text": [
-          "Les skinboosters sont des micro-injections d’acide hyaluronique très fluide, conçues pour hydrater la peau en profondeur sans créer de volume. Ils améliorent l’élasticité, la fermeté et la texture de la peau, tout en stimulant le collagène.",
-          "Ce traitement est idéal pour les zones fines comme le visage, le cou, le décolleté ou les mains. Résultat : une peau repulpée, lissée, éclatante de santé."
+          "Skinboosters are micro-injections of very fluid hyaluronic acid, designed to deeply hydrate the skin without creating volume. They improve skin elasticity, firmness, and texture while stimulating collagen.",
+          "This treatment is ideal for delicate areas such as the face, neck, décolleté, or hands. Result: plumped, smooth, and healthy-looking skin."
         ]
       },
       {
         "title": "PRP",
         "image": "/assets/aesthetic/13.jpg",
         "text": [
-          "Offrez à votre peau et à vos cheveux la puissance de votre propre corps.",
-          "Le PRP utilise votre plasma enrichi en facteurs de croissance pour stimuler naturellement la régénération cellulaire, booster la production de collagène et revitaliser les tissus en profondeur.",
-          "Pour la peau, il estompe rides, cernes et imperfections, révélant un teint plus lisse et lumineux.",
-          "Pour les cheveux, il freine la chute, densifie et renforce la fibre capillaire.",
-          "Un traitement 100 % naturel, innovant et sans risque, pour un coup d’éclat durable et une beauté authentique, de l’intérieur vers l’extérieur."
+          "Give your skin and hair the power of your own body.",
+          "PRP uses your plasma enriched with growth factors to naturally stimulate cell regeneration, boost collagen production, and revitalize tissues in depth.",
+          "For the skin, it reduces wrinkles, under-eye circles, and imperfections, revealing smoother and more radiant skin.",
+          "For the hair, it slows hair loss, densifies, and strengthens the hair fiber.",
+          "A 100% natural, innovative, and risk-free treatment for lasting radiance and authentic beauty, from the inside out."
         ]
       },
       {
         "title": "MICRONEEDLING",
         "image": "/assets/aesthetic/14.jpg",
         "text": [
-          "Le microneedling utilise un stylo muni de micro-aiguilles pour créer des micro-perforations à la surface de la peau. Ce processus stimule la production de collagène et permet une meilleure pénétration des principes actifs. ",
-          "Il améliore l’aspect des cicatrices, des pores dilatés, des ridules et du teint irrégulier. Un soin efficace, naturel et peu invasif pour régénérer la peau en douceur."
+          "Microneedling uses a pen with micro-needles to create micro-perforations on the skin surface. This process stimulates collagen production and allows better penetration of active ingredients.",
+          "It improves the appearance of scars, enlarged pores, fine lines, and uneven complexion. An effective, natural, and minimally invasive treatment to gently regenerate the skin."
         ]
       }
     ],
     "body": [
       {
-        "title": "ACIDE HYALURONIQUE",
+        "title": "HYALURONIC ACID",
         "image": "/assets/aesthetic/15.jpg",
         "text": [
-          "Sublimez votre silhouette grâce aux bienfaits de l’acide hyaluronique pour le corps. Il hydrate en profondeur, améliore la qualité de la peau et redonne du galbe aux zones fragilisées comme le cou, le décolleté, les mains… et même vos fesses et vos abdos",
-          "Utilisé en body contouring, il permet de redessiner subtilement les courbes, rehausser les fesses, combler les creux et mettre en valeur la définition naturelle des abdominaux.",
-          "Offrez à votre corps un raffermissement visible, une peau plus lisse et une silhouette élégamment sculptée, sans chirurgie lourde."
+          "Enhance your silhouette with the benefits of hyaluronic acid for the body. It deeply hydrates, improves skin quality, and restores curves to weakened areas such as the neck, décolleté, hands… and even your buttocks and abs.",
+          "Used in body contouring, it subtly reshapes curves, lifts the buttocks, fills hollows, and highlights the natural definition of the abdominals.",
+          "Give your body visible firmness, smoother skin, and an elegantly sculpted silhouette, without major surgery."
         ]
       },
       {
-        "title": "BIOSTIMULATEURS DE COLLAGÈNE",
+        "title": "COLLAGEN BIOSTIMULATORS",
         "image": "/assets/aesthetic/16.jpg",
         "text": [
-          "Les injections de collagène sont une solution efficace pour raffermir les zones du corps sujettes au relâchement cutané, comme les bras, l’intérieur des cuisses ou le ventre. En stimulant la production naturelle de collagène, ce traitement améliore la tonicité de la peau et prévient le vieillissement cutané.",
-          "Il est également utilisé en complément d’autres soins esthétiques pour renforcer la structure et la qualité des tissus, avec un résultat progressif, naturel et durable."
+          "Collagen injections are an effective solution to firm areas of the body prone to sagging, such as the arms, inner thighs, or abdomen. By stimulating natural collagen production, this treatment improves skin tone and prevents aging.",
+          "It is also used in combination with other aesthetic treatments to strengthen tissue structure and quality, with progressive, natural, and lasting results."
         ]
       },
       {
-        "title": "FILS TENSEURS",
+        "title": "THREAD LIFTS",
         "image": "/assets/aesthetic/17.jpg",
         "text": [
-          "Les fils tenseurs peuvent être appliqués sur le corps pour redéfinir certaines zones comme les bras, les cuisses, l’abdomen ou les genoux. Ils offrent un effet liftant immédiat, tout en stimulant la production de collagène pour une amélioration continue dans les mois qui suivent.",
-          "Cette technique est idéale pour traiter un relâchement modéré sans passer par la chirurgie. Résultat : une peau visiblement plus ferme, plus tonique et un corps redessiné en douceur."
+          "Thread lifts can be applied to the body to redefine areas such as arms, thighs, abdomen, or knees. They offer an immediate lifting effect while stimulating collagen production for continuous improvement over the following months.",
+          "This technique is ideal for treating moderate sagging without surgery. Result: visibly firmer, more toned skin and a gently reshaped body."
         ]
       },
       {
-        "title": "TRAITEMENT ANTI-CELLULITE",
+        "title": "ANTI-CELLULITE TREATMENT",
         "image": "/assets/aesthetic/18.jpg",
         "text": [
-          "La cellulite concerne toutes les morphologies et peut être difficile à éliminer malgré une bonne hygiène de vie. Grâce à des techniques de médecine esthétique combinant mésothérapie, drainage et principes actifs lipolytiques, il est possible de lisser l’aspect peau d’orange et d’améliorer la texture cutanée.",
-          "Ce traitement cible la rétention d’eau, les amas graisseux et la microcirculation. Il redonne une peau plus lisse, plus ferme et plus homogène."
+          "Cellulite affects all body types and can be difficult to eliminate despite a healthy lifestyle. Using aesthetic medicine techniques combining mesotherapy, drainage, and lipolytic active ingredients, it is possible to smooth the appearance of 'orange peel' skin and improve skin texture.",
+          "This treatment targets water retention, fat deposits, and microcirculation. It leaves the skin smoother, firmer, and more even."
         ]
       },
       {
-        "title": "INTRALIPOTHERAPIE",
+        "title": "INTRALIPOTHERAPY",
         "image": "/assets/aesthetic/19.jpg",
         "text": [
-          "L’intralipothérapie est une technique d’injections destinée à réduire les amas graisseux localisés, résistants au sport et aux régimes. Elle agit directement sur les cellules adipeuses pour les détruire progressivement.",
-          "Particulièrement efficace sur les hanches, l’abdomen, les bras ou les genou,  ce traitement non chirurgical permet de redessiner la silhouette de manière harmonieuse, sans anesthésie ni convalescence. Une solution ciblée pour affiner et sculpter."
+          "Intralipotherapy is an injection technique designed to reduce localized fat deposits resistant to exercise and diets. It acts directly on fat cells to gradually destroy them.",
+          "Particularly effective on hips, abdomen, arms, or knees, this non-surgical treatment allows the silhouette to be harmoniously reshaped, without anesthesia or recovery. A targeted solution to slim and sculpt."
         ]
       },
       {
-        "title": "MESOTHERAPIE",
+        "title": "MESOTHERAPY",
         "image": "/assets/aesthetic/20.jpg",
         "text": [
-          "La mésothérapie pour le corps consiste à injecter localement des actifs drainants, lipolytiques et raffermissants. Elle est particulièrement efficace pour traiter la cellulite, la rétention d’eau ou le relâchement cutané.",
-          "Cette technique améliore la microcirculation, stimule la peau en profondeur et redonne tonicité et élasticité aux tissus. Adaptée à différentes zones du corps, elle permet d’obtenir une peau plus lisse, plus souple et visiblement plus tonique."
+          "Mesotherapy for the body involves locally injecting draining, lipolytic, and firming active ingredients. It is particularly effective for treating cellulite, water retention, or sagging skin.",
+          "This technique improves microcirculation, stimulates the skin in depth, and restores tissue tone and elasticity. Suitable for different areas of the body, it achieves smoother, more supple, and visibly toned skin."
         ]
       }
     ],
     "price": {
-      "title": "tarifs",
-      "info": "Consultation d'évaluation 50",
+      "title": "prices",
+      "info": "Evaluation consultation 50",
       "categories": [
         {
-          "title": "visage",
+          "title": "face",
           "item": [
             {
-              "title": "Diagnostic skincare sur-mesure",
+              "title": "Custom skincare diagnosis",
               "price": "100"
             },
             {
@@ -364,91 +396,91 @@
               "price": "400"
             },
             {
-              "title": "Acide hyaluronique lèvres",
+              "title": "Hyaluronic acid lips",
               "price": "400"
             },
             {
-              "title": "Acide hyaluronique pour les autres zones du visage (première seringue)",
+              "title": "Hyaluronic acid for other facial areas (first syringe)",
               "price": "350"
             },
             {
-              "title": "Acide hyaluronique pour les autres zones du visage (seringues suivantes)",
+              "title": "Hyaluronic acid for other facial areas (following syringes)",
               "price": "300"
             },
             {
-              "title": "Correction des Cernes",
+              "title": "Under-eye correction",
               "price": "450"
             },
             {
-              "title": "Rhinoplastie médicale",
+              "title": "Medical rhinoplasty",
               "price": "450"
             },
             {
-              "title": "Biostimulateur de collagène visage ou cou (par seringue)",
+              "title": "Collagen biostimulator face or neck (per syringe)",
               "price": "650"
             },
             {
-              "title": "PRP (par séance)",
+              "title": "PRP (per session)",
               "price": "400"
             },
             {
-              "title": "Skinbooster (par séance)",
+              "title": "Skinbooster (per session)",
               "price": "300"
             },
             {
-              "title": "Microneedling avec PDRN (par séance)",
+              "title": "Microneedling with PDRN (per session)",
               "price": "250"
             },
             {
-              "title": "Peeling (à partir de)",
+              "title": "Peeling (starting from)",
               "price": "200"
             },
             {
-              "title": "Réduction du double menton par lipolyse (à partir de)",
+              "title": "Double chin reduction by lipolysis (starting from)",
               "price": "700"
             },
             {
-              "title": "Mésothérapie (à partir de)",
+              "title": "Mesotherapy (starting from)",
               "price": "150"
             },
             {
-              "title": "Fils tenseurs (prix sur demande)",
+              "title": "Thread lifts (price on request)",
               "price": ""
             }
           ]
         },
         {
-          "title": "corps",
+          "title": "body",
           "item": [
             {
-              "title": "Acide Hyaluronique (par seringue)",
+              "title": "Hyaluronic acid (per syringe)",
               "price": "900"
             },
             {
-              "title": "Biostimulateurs de collagène fessiers, abdomen ou cuisses (par seringue)",
+              "title": "Collagen biostimulators buttocks, abdomen or thighs (per syringe)",
               "price": "900"
             },
             {
-              "title": "Mésothérapie (à partir de)",
+              "title": "Mesotherapy (starting from)",
               "price": "150"
             },
             {
-              "title": "Traitement anti-cellulite (à partir de)",
+              "title": "Anti-cellulite treatment (starting from)",
               "price": "150"
             },
             {
-              "title": "Intralipothérapie (à partir de)",
+              "title": "Intralipotherapy (starting from)",
               "price": "200"
             },
             {
-              "title": "Fils tenseurs (prix sur demande)",
+              "title": "Thread lifts (price on request)",
               "price": ""
             }
           ]
         }
       ],
-      "info2": "Les actes à visée esthétique ne sont pas pris en charge par la CNS",
-      "doctena": "Demander un rendez-vous"
+      "info2": "Aesthetic procedures are not covered by the CNS",
+      "doctena": "Request an appointment"
     }
   },
   "teams": [
@@ -634,13 +666,13 @@
   ],
   "notFound": "That page can't be found.",
   "modelPop": {
-    "title": "Pour noël, offrez bien plus qu'un simple cadeau...",
+    "title": "This Christmas, give more than just a gift...",
     "image": "/assets/modalPop.jpg",
     "text": [
-      "Les chèques cadeaux sont disponibles pour tous les traitements esthétiques.",
-      "Rendez-vous directement dans votre cabinet",
-      "Chèque cadeau",
-      "Médecine esthétique"
+      "Gift vouchers are available for all beauty treatments.",
+      "Come directly to your office",
+      "Gift voucher",
+      "Aesthetic medicine"
     ]
   }
 }

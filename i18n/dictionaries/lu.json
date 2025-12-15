@@ -1,16 +1,36 @@
 {
   "header": {
     "navigation": [
-      { "id": "about", "name": "CABINET  ", "offset": -62, "sub": [] },
-      { "id": "treatments", "name": "BEHANDLUNGEN", "offset": -62, "sub": [] },
       {
-        "id": "aesthetic",
-        "name": "medecine esthetique",
+        "id": "about",
+        "name": "CABINET  ",
         "offset": -62,
         "sub": []
       },
-      { "id": "team", "name": "TEAM ", "offset": -62, "sub": [] },
-      { "id": "contact", "name": "KONTAKT", "offset": -62, "sub": [] }
+      {
+        "id": "treatments",
+        "name": "BEHANDLUNGEN",
+        "offset": -62,
+        "sub": []
+      },
+      {
+        "id": "aesthetic",
+        "name": "ästhetesch Medizin",
+        "offset": -62,
+        "sub": []
+      },
+      {
+        "id": "team",
+        "name": "TEAM ",
+        "offset": -62,
+        "sub": []
+      },
+      {
+        "id": "contact",
+        "name": "KONTAKT",
+        "offset": -62,
+        "sub": []
+      }
     ],
     "title": "Praxis Zänndokter ORA"
   },
@@ -40,11 +60,11 @@
       "title": "Médecine Esthétique",
       "image": "/assets/aesthetic/01.jpg",
       "text": [
-        "Nouveauté chez ORA Differdange ! La médecine esthétique s'invite dans votre cabinet dentaire. Sublimez votre sourire... et plus encore !",
-        "Retrouvez une peau lumineuse, un visage reposé et un corps tonique grâce à des traitements personnalisés et non invasifs.",
-        "Des soins sur-mesure pour sublimer votre beauté naturelle, en toute sécurité."
+        "Neiegkeet bei ORA Differdange! D’ästhetesch Medezin kënnt an Äre Zänndokterskabinet. Verschéinert Äert Laachen… an nach vill méi!",
+        "Fannt zréck eng stralend Haut, e rouege Gesiicht an en toniséierten Kierper dank personaliséierten an net-invasiven Behandlungen.",
+        "Maßgeschneidert Behandlungen fir Är natierlech Schéinheet sécher an effektiv ze betounen."
       ],
-      "link": "en savoir plus"
+      "link": "Méi dozou erauszefannen"
     },
     "teams": {
       "title": "TEAM",
@@ -54,19 +74,31 @@
       "title": "KONTAKT",
       "description": "Privat Parkplaze fir Patienten reservéiert",
       "time": [
-        { "day": "Méinden 9:00 - 19:00" },
-        { "day": "Dënschden 9:00 - 19:00" },
-        { "day": "Mëttwoch 9:00 - 18:00" },
-        { "day": "Donneschden 9:00 - 18:00" },
-        { "day": "Freiden 9:00 - 19:00" },
-        { "day": "Samschden 9:00 - 14:00" }
+        {
+          "day": "Méinden 9:00 - 19:00"
+        },
+        {
+          "day": "Dënschden 9:00 - 19:00"
+        },
+        {
+          "day": "Mëttwoch 9:00 - 18:00"
+        },
+        {
+          "day": "Donneschden 9:00 - 18:00"
+        },
+        {
+          "day": "Freiden 9:00 - 19:00"
+        },
+        {
+          "day": "Samschden 9:00 - 14:00"
+        }
       ],
       "more": "An engem Noutfall, rufft eis direkt un. Mir ginn eist Bescht, Iech esou séier wei méiglech am Laf vum Dag ze empfänken an ze hëllefen."
     }
   },
   "folder": {
     "title": "RENDEZ-VOUS MAACHEN",
-    "description": "tous droits reservés. cabinet dentaire ora"
+    "description": "All Rechter virbehalen. Cabinet dentaire ORA"
   },
   "treatments": [
     {
@@ -159,205 +191,205 @@
     }
   ],
   "aesthetic": {
-    "title": "Chez ORA, nous allions expertise médicale et sens de l’esthétique pour proposer des traitements innovants et naturels, adaptés à chaque morphologie. ",
-    "description": "Que vous souhaitiez rafraîchir votre regard, lisser votre peau ou redéfinir votre silhouette, notre approche est toujours douce, précise et respectueuse de votre beauté.",
-    "more": "Pourquoi nous choisir ?",
+    "title": "Bei ORA verbannen mir medezinesch Expertise mat engem Gefill fir Ästhetik, fir innovativ a natierlech Behandlungen unzebidden, déi op all Morphologie ugepasst sinn.",
+    "description": "Ob Dir äre Bléck erfrësche wëllt, Är Haut glat maachen oder Är Silhouette nei definéieren, eis Approche ass ëmmer sanft, präzis an respektvoll fir Är Schéinheet.",
+    "more": "Firwat eis wielen ?",
     "more2": [
-      "Médecin formée et expérimentée",
-      "Produits de haute qualité et certifiés",
-      "Résultats naturels, respect du visage",
-      "Consultations personnalisées"
+      "Ausgebilte a erfuerene Medezinerin",
+      "Produiten vun héijer Qualitéit a zertifizéiert",
+      " Natierlech Resultater, respektéiert d’Gesiicht",
+      "Personaléiert Consultatiounen"
     ],
-    "more3": "Prenez rendez-vous pour une consultation personnalisée et découvrez le soin qui vous correspond.",
-    "doctena": "Demander un rendez-vous",
+    "more3": "Maacht en Rendez-vous fir eng personaliséiert Consultatioun a entdeckt déi Behandlung, déi Iech passt.",
+    "doctena": "En Rendez-vous ufroen",
     "categories": [
       {
-        "title": "visage",
+        "title": "Gesiicht",
         "image": "/assets/aesthetic/23.jpg",
         "link": "face"
       },
       {
-        "title": "corps",
+        "title": "Kierper",
         "image": "/assets/aesthetic/24.jpg",
         "link": "body"
       },
       {
-        "title": "tarifs",
+        "title": "Präisser",
         "image": "/assets/aesthetic/24.jpg",
         "link": "price"
       }
     ],
     "face": [
       {
-        "title": "Diagnostic Skincare Sur-Mesure",
+        "title": "MAßGESCHNEIDERTEN HAUTDIAGNOSTIK",
         "image": "/assets/aesthetic/22.jpg",
         "text": [
-          "Envie d'une peau éclatante et parfaitement adaptée à vos besoins ? Grâce à un diagnostic de peau précis et approfondi, nous identifions les besoins réels de votre épiderme : hydratation, éclat, anti-âge, correction d'imperfections… Chaque détail est pris en compte.",
-          "À partir de cette analyse, le Dr établit une routine skincare 100 % personnalisée, en sélectionnant des actifs ciblés et des soins adaptés à votre peau.",
-          "Offrez à votre visage ce qu'il mérite vraiment : une beauté sur-mesure, pour révéler l'éclat naturel de votre peau au quotidien. Une approche intelligente, sur-mesure et résolument moderne."
+          "Lust op eng stralend Haut, déi perfekt op Är Besoinen ugepasst ass? Mat enger präziser an ëmfaassender Hautdiagnostik identifizéiere mir d’reele Besoinen vun Ärer Epidermis: Hydratatioun, Stralung, Anti-Age, Korrektur vun Imperfektiounen… All Detail gëtt berücksichtegt.",
+          " Aus dëser Analyse erstellt de Dr. eng 100 % personaliséiert Hautpflegroutine, andeems gezielt Wirkstoffer an op Är Haut ugepasste Behandlungen ausgewielt ginn.",
+          "Gëtt Ärem Gesiicht dat, wat et wierklech verdéngt: eng maßgeschneidert Schéinheet, fir déi natierlech Stralung vun Ärer Haut all Dag ervirzehiewen. Eng intelligent, personaliséiert an konsequent modern Approche."
         ]
       },
       {
         "title": "BOTOX",
         "image": "/assets/aesthetic/03.jpg",
         "text": [
-          "Le Botox est l’un des traitements les plus efficaces pour lisser les rides d’expression, notamment au niveau du front, de la glabelle et du contour des yeux. Il détend les muscles responsables des contractions, tout en préservant la mobilité naturelle du visage",
-          "Il est aussi utilisé pour traiter le bruxisme (grincement des dents) en relaxant les muscles de la mâchoire, réduisant ainsi douleurs et tensions.",
-          "Une solution rapide, sécurisée et sans éviction sociale, pour un visage reposé et une qualité de vie améliorée."
+          "Botox ass eng vun de effektivsten Behandlungen fir d’Falten vum Gesiicht ze glätten, besonnesch um Panzer, der Glabella an am Beräich ronderëm d’Aen. Et entspaant d’Muskele, déi fir d’Zeesummenziicht verantwortlech sinn, während d’natierlech Beweeglechkeet vum Gesiicht erhalen bleift.",
+          "Et gëtt och benotzt fir Bruxismus (Zännreien) ze behandelen, andeems d’Muskele vum Kiefer entspaant ginn, wat Péng a Spannungen reduzéiert.",
+          "Eng séier, sécher a sozial onkomplizéiert Léisung, fir e rouege Gesiicht an eng verbesserten Liewensqualitéit."
         ]
       },
       {
-        "title": "ACIDE HYALURONIQUE",
+        "title": "HYALURONSÄURE",
         "image": "/assets/aesthetic/04.jpg",
         "text": [
-          "L’acide hyaluronique est une molécule naturellement présente dans la peau, utilisée pour restaurer les volumes, hydrater en profondeur et lisser les rides. Grâce à des injections ciblées, il redessine les contours du visage, repulpe les lèvres ou les pommettes, et apporte un éclat immédiat. Le résultat est naturel et harmonieux. ",
-          "Ce traitement s’adapte à chaque visage et à chaque besoin, pour sublimer sans figer les expressions."
+          "Hyaluronsäure ass eng natierlech Molekül an der Haut, déi benotzt gëtt fir Volumen ze restauréieren, déif ze hydratéieren an Falten ze glätten. Mat gezielte Sprëtzen formt et d’Konturen vum Gesiicht nei, fëllt d'Lëpsen oder d’Bäckche mat Volumen a gëtt direkt Stralung. D’Resultat ass natierlech an harmonesch.",
+          "Dës Behandlung passt sech un all Gesiicht an all Besoin un, fir Schéinheet ze betounen ouni d’Ausdréck ze fixéieren."
         ]
       },
       {
-        "title": "CORRECTION DES CERNES",
+        "title": "KORREKTUR VUN DEN AENRÄNNER",
         "image": "/assets/aesthetic/05.jpg",
         "text": [
-          "Les cernes creux ou colorés peuvent donner un air fatigué, même après une bonne nuit de sommeil. L’injection d’acide hyaluronique dans cette zone permet de combler les creux, d’atténuer les ombres et d’illuminer le regard.",
-          "Ce traitement, délicat et précis, redonne fraîcheur et vitalité au visage tout en respectant ses traits. Le résultat est immédiat, naturel et durable."
+          "Huel Aenränner, déi agefall oder verfierft sinn, kënnen och no enger gudder Nuecht Schlof e middent Ausgesinn ginn. D’Injektioun vun Hyaluronsäure an dësem Beräich hëlleft, d’Vertiefungen auszefëllen, d’Schied ze reduzéieren an de Bléck méi frësch a méi hell ze maachen.",
+          "Dës Behandlung, delikat a präzis, gëtt dem Gesiicht nees Frëschheet a Vitalitéit zeréck, wärend d’natierlech Gesiichtszich respektéiert ginn. D’Resultat ass direkt, natierlech a laang unhalend."
         ]
       },
       {
-        "title": "RHINOPLASTIE MÉDICALE",
+        "title": "MEDIZINESCH RHINOPLASTIK",
         "image": "/assets/aesthetic/06.jpg",
         "text": [
-          "La rhinoplastie médicale est une alternative non invasive à la chirurgie du nez. Grâce à des injections d’acide hyaluronique, il est possible de corriger une bosse, relever la pointe ou harmoniser le profil sans anesthésie ni opération. ",
-          "Le traitement est rapide, quasi indolore, et le résultat visible immédiatement. Une solution idéale pour améliorer l’esthétique du nez de manière douce et réversible."
+          "D’medezinesch Rhinoplastik ass eng net-invasiv Alternativ zur Nues-Operatioun. Mat Injektioune vun Hyaluronsäure kann eng Hocker korrigéiert, d’Nuesspëtzt liicht ugehawe ginn oder de Profil harmoniséiert ginn – ganz ouni Narkos oder chirurgeschen Agrëff.",
+          "D’Behandlung ass séier, bal schmerzfräi, an d’Resultat ass direkt siichtbar. Eng ideal Léisung, fir d’Ästhetik vun der Nues op eng sanft a réversibel Aart ze verbesseren."
         ]
       },
       {
-        "title": "BIOSTIMULATEURS DE COLLAGÈNE",
+        "title": "KOLLAGEN-BIOSTIMULATOREN",
         "image": "/assets/aesthetic/07.jpg",
         "text": [
-          "À partir de 30 ans, la production de collagène diminue, entraînant un relâchement cutané. Les biostimulateurs agissent en profondeur pour relancer cette production naturelle. Injectés sous la peau, ils renforcent la structure cutanée, améliorent la fermeté et la qualité de la peau sur le long terme.",
-          "C’est un traitement qui offre des résultats progressifs et durables, tout en préservant un aspect totalement naturel."
+          "Ab dem Alter vu 30 Joer hëlt d’Produktioun vu Kollagen of, wat zu enger Erschlaffung vun der Haut féiert. Biostimulatoren wierken an der Déift, fir dës natierlech Produktioun nees unzereegen. Ënner d’Haut injizéiert, stäerken si d’Hautstruktur, verbesseren d’Festegkeet an d’Hautqualitéit op laang Siicht.",
+          "Et ass eng Behandlung, déi progressiv a laang unhalend Resultater bitt, wärend en absolut natierlecht Ausgesinn erhalen bleift."
         ]
       },
       {
-        "title": "FILS TENSEURS",
+        "title": "ZUCHFÄDEN",
         "image": "/assets/aesthetic/08.jpg",
         "text": [
-          "Les fils tenseurs en PDO (polydioxanone) permettent de lifter les traits du visage sans chirurgie. Ils sont insérés sous la peau pour redessiner l’ovale du visage, rehausser les pommettes ou lisser le cou. En plus de leur effet immédiat, ils stimulent la production de collagène pour un résultat progressif et durable. ",
-          "Un traitement sûr, efficace et discret, pour retrouver une peau plus ferme et un visage visiblement rajeuni."
+          "PDO-Zuchfäden (Polydioxanon) erlaben et, d’Gesiichtszich ouni Chirurgie ze liften. Si ginn ënner d’Haut ageluecht, fir d’Oval vum Gesiicht nei ze formen, d’Bäckeknochen eropzehiewen oder de Hals ze glätten. Nieft hirem direkt sichtbarem Effekt stimuléieren si d’Kollagenproduktioun fir e progressivt a laang unhalend Resultat.",
+          "Eng sécher, effizient a diskret Behandlung, fir d’Haut méi fest ze maachen a dem Gesiicht en sichtbar verjéngten Ausgesinn ze ginn."
         ]
       },
       {
-        "title": "TRAITEMENT DU DOUBLE MENTON",
+        "title": " BEHANDLUNG VUM DUEBELKINN",
         "image": "/assets/aesthetic/09.jpg",
         "text": [
-          "Le double menton est souvent une zone difficile à affiner, même avec une bonne hygiène de vie. Grâce à des injections spécifiques (type acide désoxycholique), il est possible de réduire les cellules graisseuses localisées sous le menton. ",
-          "Ce traitement non chirurgical améliore nettement le profil et redéfinit l’ovale du visage, sans cicatrices ni éviction sociale. Idéal pour un résultat naturel et harmonieux."
+          "D’Duebelkinn ass dacks eng schwiereg Zone, fir se ze verschlanken, och mat enger gudder Liewensweis. Mat spezifesche Injektiounen (zum Beispill Desoxycholsäure) ass et méiglech, lokal Fettzellen ënner dem Kinn ze reduzéieren.",
+          "Dës net-chirurgesch Behandlung verbessert de Profil markant an definéiert d’Oval vum Gesiicht nei, ouni Narben oder sozial Einschränkungen. Ideal fir e natierlecht an harmonescht Resultat."
         ]
       },
       {
         "title": "PEELING",
         "image": "/assets/aesthetic/10.jpg",
         "text": [
-          "Le peeling consiste à appliquer une solution exfoliante pour éliminer les cellules mortes, stimuler le renouvellement cellulaire et uniformiser le teint. ",
-          "Il peut être doux ou plus profond selon les besoins : éclat, taches pigmentaires, acné, ridules… Il laisse la peau plus lisse, plus lumineuse et visiblement plus jeune. Une cure de jouvence pour la peau, adaptée à chaque type de peau."
+          "Beim Peeling gëtt eng exfoliéierend Léisung ugewannt, fir dout Zellen ze entfernen, de Zellneistart ze stimuléieren an den Teint ze glätten.",
+          "Et kann liicht oder méi déif sinn, jee no Bedarf: Glanz, Pigmentflecken, Akne, feine Linnen … Et léisst d’Haut méi glat, méi hell an sichtbar méi jonk ausgesinn. Eng Hautverjéngungskur, ugepasst un all Hauttyp."
         ]
       },
       {
         "title": "MÉSOTHÉRAPIE ",
         "image": "/assets/aesthetic/11.jpg",
         "text": [
-          "La mésothérapie est une technique de revitalisation cutanée qui consiste à injecter dans le derme un cocktail de vitamines, minéraux et acide hyaluronique. Elle améliore l’hydratation, la tonicité et l’éclat de la peau. ",
-          "C’est un soin préventif et correctif contre les signes de fatigue et de vieillissement. Parfait pour redonner vie aux peaux ternes, stressées ou déshydratées."
+          "D’Mesotherapie ass eng Technik zur Hautrevitaliséierung, bei där en Cocktail aus Vitaminen, Mineralstoffer a Hyaluronsäure an d’Derm injizéiert gëtt. Si verbessert d’Hydratatioun, d’Tonicitéit an de Glanz vun der Haut.",
+          "Et ass eng präventiv an korrektiv Behandlung géint d’Zeeche vu Middegkeet a Hautalterung. Perfekt, fir liicht, gestresst oder dehydratiséiert Haut nees Liewen ze ginn."
         ]
       },
       {
         "title": "SKINBOOSTER",
         "image": "/assets/aesthetic/12.jpg",
         "text": [
-          "Les skinboosters sont des micro-injections d’acide hyaluronique très fluide, conçues pour hydrater la peau en profondeur sans créer de volume. Ils améliorent l’élasticité, la fermeté et la texture de la peau, tout en stimulant le collagène.",
-          "Ce traitement est idéal pour les zones fines comme le visage, le cou, le décolleté ou les mains. Résultat : une peau repulpée, lissée, éclatante de santé."
+          "Skinbooster sinn Mikro-Injektiounen mat ganz flësseger Hyaluronsäure, entwéckelt fir d’Haut an der Déift ze hydratéieren ouni Volumen ze schafen. Si verbesseren d’Elastizitéit, d’Festegkeet an d’Textur vun der Haut, wärend se och d’Kollagenproduktioun stimuléieren.",
+          "Dës Behandlung ass ideal fir fein Zonen wéi Gesiicht, Hals, Décolleté oder Hänn. Resultat: eng opgepolstert, geglättelt a gesond ausgesinn Haut."
         ]
       },
       {
         "title": "PRP",
         "image": "/assets/aesthetic/13.jpg",
         "text": [
-          "Offrez à votre peau et à vos cheveux la puissance de votre propre corps.",
-          "Le PRP utilise votre plasma enrichi en facteurs de croissance pour stimuler naturellement la régénération cellulaire, booster la production de collagène et revitaliser les tissus en profondeur.",
-          "Pour la peau, il estompe rides, cernes et imperfections, révélant un teint plus lisse et lumineux.",
-          "Pour les cheveux, il freine la chute, densifie et renforce la fibre capillaire.",
-          "Un traitement 100 % naturel, innovant et sans risque, pour un coup d’éclat durable et une beauté authentique, de l’intérieur vers l’extérieur."
+          "Gitt Ärer Haut a Ärem Hoer d’Kraaft vun Ärem eegene Kierper.",
+          "PRP benotzt Äre Plasma, räich un Wuesstumsfaktoren, fir d’Zellregeneratioun op natierlech Manéier ze stimuléieren, d’Kollagenproduktioun ze boosteren an d’Gwebe an der Déift ze revitaliséieren.",
+          "Fir d’Haut reduzéiert et Falten, Aenränner an Onvollkommenheeten, a léisst de Teint méi glat a glänzend ausgesinn.",
+          "Fir d’Hoer stoppt et d’Hoerverloscht, verdickt a stäerkt d’Hoerfaser.",
+          "Eng 100 % natierlech, innovativ a risikofräi Behandlung, fir e laang anhalen Glanz an eng authentesch Schéinheet, vum Bannenzegen no baussen."
         ]
       },
       {
         "title": "MICRONEEDLING",
         "image": "/assets/aesthetic/14.jpg",
         "text": [
-          "Le microneedling utilise un stylo muni de micro-aiguilles pour créer des micro-perforations à la surface de la peau. Ce processus stimule la production de collagène et permet une meilleure pénétration des principes actifs. ",
-          "Il améliore l’aspect des cicatrices, des pores dilatés, des ridules et du teint irrégulier. Un soin efficace, naturel et peu invasif pour régénérer la peau en douceur."
+          "Microneedling benotzt en Apparat mat Mikronadelen, fir kleng Mikroperforatiounen um Uewerfläch vun der Haut ze maachen. Dëse Prozess stimuléiert d’Kollagenproduktioun a verbessert d’Opnam vun aktive Substanzen.",
+          "Et verbessert d’Ausgesinn vun Narben, vergréisserte Poren, feine Linnen an onregelméissegem Teint. Eng effizient, natierlech a liicht invasiv Behandlung, fir d’Haut sanft ze regeneréieren."
         ]
       }
     ],
     "body": [
       {
-        "title": "ACIDE HYALURONIQUE",
+        "title": "HYALURONSÄURE",
         "image": "/assets/aesthetic/15.jpg",
         "text": [
-          "Sublimez votre silhouette grâce aux bienfaits de l’acide hyaluronique pour le corps. Il hydrate en profondeur, améliore la qualité de la peau et redonne du galbe aux zones fragilisées comme le cou, le décolleté, les mains… et même vos fesses et vos abdos",
-          "Utilisé en body contouring, il permet de redessiner subtilement les courbes, rehausser les fesses, combler les creux et mettre en valeur la définition naturelle des abdominaux.",
-          "Offrez à votre corps un raffermissement visible, une peau plus lisse et une silhouette élégamment sculptée, sans chirurgie lourde."
+          "Verféinert Är Silhouette mat den Virdeeler vun Hyaluronsäure fir de Kierper. Et hydratéiert an der Déift, verbessert d’Hautqualitéit a restauréiert d’Form an empfindleche Beräicher wéi Hals, Décolleté, Hänn … an och Är Poen an d’Bauchmuskelen.",
+          "Beim Body Contouring benotzt, erlaabt et, d’Kurven subtil nei ze formen, d’Poen eropzehiewen, Vertiefungen auszevilleten an d’natierlech Definitioun vun den Bauchmuskelen ze betounen.",
+          "Gitt Ärem Kierper eng sichtbar Festegkeet, méi glat Haut an eng elegant skulptéiert Silhouette, ouni schwéier Chirurgie."
         ]
       },
       {
-        "title": "BIOSTIMULATEURS DE COLLAGÈNE",
+        "title": "KOLLAGEN-BIOSTIMULATOREN",
         "image": "/assets/aesthetic/16.jpg",
         "text": [
-          "Les injections de collagène sont une solution efficace pour raffermir les zones du corps sujettes au relâchement cutané, comme les bras, l’intérieur des cuisses ou le ventre. En stimulant la production naturelle de collagène, ce traitement améliore la tonicité de la peau et prévient le vieillissement cutané.",
-          "Il est également utilisé en complément d’autres soins esthétiques pour renforcer la structure et la qualité des tissus, avec un résultat progressif, naturel et durable."
+          "Kollageninjektiounen sinn eng effizient Léisung, fir Beräicher vum Kierper mat Hauterschlaffung, wéi Ärm, bannen an den Oberschenkel oder de Bauch, ze festegen. Andeems se d’natierlech Kollagenproduktioun stimuléieren, verbessert dës Behandlung d’Tonicitéit vun der Haut a verhënnert Hautalterung.",
+          "Et gëtt och als Ergänzung zu anere ästhetesche Behandlungen benotzt, fir d’Struktur an d’Qualitéit vun de Geweben ze stäerken, mat engem progressiven, natierlechen a laang unhalenden Resultat."
         ]
       },
       {
-        "title": "FILS TENSEURS",
+        "title": "ZUCHFÄDEN",
         "image": "/assets/aesthetic/17.jpg",
         "text": [
-          "Les fils tenseurs peuvent être appliqués sur le corps pour redéfinir certaines zones comme les bras, les cuisses, l’abdomen ou les genoux. Ils offrent un effet liftant immédiat, tout en stimulant la production de collagène pour une amélioration continue dans les mois qui suivent.",
-          "Cette technique est idéale pour traiter un relâchement modéré sans passer par la chirurgie. Résultat : une peau visiblement plus ferme, plus tonique et un corps redessiné en douceur."
+          "Zuchfäden kënnen um Kierper ugewannt ginn, fir bestëmmte Beräicher wéi Ärm, Oberschenkel, Bauch oder Knéi nei ze definéieren. Si bidden e direkt Lift-Effekt, während se d’Kollagenproduktioun stimuléieren fir eng kontinuéierlech Verbesserung an deenen nächste Méint.",
+          "Dës Technik ass ideal, fir eng mëttelméisseg Hauterschlaffung ze behandelen ouni Chirurgie. Resultat: eng sichtbar festeg, méi tonesch Haut an e sanft nei geformten Kierper."
         ]
       },
       {
-        "title": "TRAITEMENT ANTI-CELLULITE",
+        "title": "ANTI-CELLULITE BEHANDLUNG",
         "image": "/assets/aesthetic/18.jpg",
         "text": [
-          "La cellulite concerne toutes les morphologies et peut être difficile à éliminer malgré une bonne hygiène de vie. Grâce à des techniques de médecine esthétique combinant mésothérapie, drainage et principes actifs lipolytiques, il est possible de lisser l’aspect peau d’orange et d’améliorer la texture cutanée.",
-          "Ce traitement cible la rétention d’eau, les amas graisseux et la microcirculation. Il redonne une peau plus lisse, plus ferme et plus homogène."
+          "Cellulite betrëfft all Morphologien a kann trotz gudder Liewensweis schwiereg ze eliminéieren sinn. Mat ästhetesche medezinesche Techniken, déi Mesotherapie, Drainage a lipolytesch aktiv Substanzen kombinéieren, ass et méiglech, d’Ausgesinn vun der „Orangenhaut“ ze glätten an d’Hauttextur ze verbesseren.",
+          "Dës Behandlung zielt op Waasserretentioun, Fettansammlungen a Mikrozirkulatioun. Si léisst d’Haut méi glat, méi fest a méi homogen ausgesinn."
         ]
       },
       {
         "title": "INTRALIPOTHERAPIE",
         "image": "/assets/aesthetic/19.jpg",
         "text": [
-          "L’intralipothérapie est une technique d’injections destinée à réduire les amas graisseux localisés, résistants au sport et aux régimes. Elle agit directement sur les cellules adipeuses pour les détruire progressivement.",
-          "Particulièrement efficace sur les hanches, l’abdomen, les bras ou les genou,  ce traitement non chirurgical permet de redessiner la silhouette de manière harmonieuse, sans anesthésie ni convalescence. Une solution ciblée pour affiner et sculpter."
+          "Intralipotherapie ass eng Injektiounstechnéck, déi dozou déngt, lokal Fettansammlungen, déi géint Sport a Diäten resistent sinn, ze reduzéieren. Si handelt direkt op d’Fettzellen, fir dës graduell ze zerstéieren.",
+          "Besonnesch effizient op Hüften, Bauch, Ärm oder Knéi, erlaabt dës net-chirurgesch Behandlung, d’Silhouette harmonesch nei ze formen, ouni Narkos oder Erhuelungszäit. Eng gezielte Léisung, fir ze verschlanken an ze skulptéieren."
         ]
       },
       {
         "title": "MESOTHERAPIE",
         "image": "/assets/aesthetic/20.jpg",
         "text": [
-          "La mésothérapie pour le corps consiste à injecter localement des actifs drainants, lipolytiques et raffermissants. Elle est particulièrement efficace pour traiter la cellulite, la rétention d’eau ou le relâchement cutané.",
-          "Cette technique améliore la microcirculation, stimule la peau en profondeur et redonne tonicité et élasticité aux tissus. Adaptée à différentes zones du corps, elle permet d’obtenir une peau plus lisse, plus souple et visiblement plus tonique."
+          "D’Mesotherapie fir de Kierper besteet doran, lokal aktiv Substanzen ze injizéieren, déi drainant, lipolytesch a festegend sinn. Si ass besonnesch effizient fir Cellulite, Waasserretentioun oder Hauterschlaffung ze behandelen.",
+          "Dës Technik verbessert d’Mikrozirkulatioun, stimuléiert d’Haut an der Déift a gëtt den Geweben nees Tonicitéit a Elastizitéit. Ugepasst op verschidde Beräicher vum Kierper, erlaabt si, d’Haut méi glat, méi flexibel a sichtbar méi tonesch ze maachen."
         ]
       }
     ],
     "price": {
-      "title": "tarifs",
+      "title": " Präisser",
       "info": "Consultation d'évaluation 50",
       "categories": [
         {
-          "title": "visage",
+          "title": "Gesiicht",
           "item": [
             {
-              "title": "Diagnostic skincare sur-mesure",
+              "title": "Personaliséiert Hautdiagnostik",
               "price": "100"
             },
             {
@@ -365,47 +397,47 @@
               "price": "400"
             },
             {
-              "title": "Acide hyaluronique lèvres",
+              "title": "Hyaluronsäure fir d'Lëpsen",
               "price": "400"
             },
             {
-              "title": "Acide hyaluronique pour les autres zones du visage (première seringue)",
+              "title": "Hyaluronsäure fir aner Beräicher vum Gesiicht (éischt Sprëtz)",
               "price": "350"
             },
             {
-              "title": "Acide hyaluronique pour les autres zones du visage (seringues suivantes)",
+              "title": "Hyaluronsäure fir aner Beräicher vum Gesiicht (weider Sprëtzen)",
               "price": "300"
             },
             {
-              "title": "Correction des Cernes",
+              "title": "Korrektur vun den Aenränner",
               "price": "450"
             },
             {
-              "title": "Rhinoplastie médicale",
+              "title": "Medizinesch Rhinoplastik",
               "price": "450"
             },
             {
-              "title": "Biostimulateur de collagène visage ou cou (par seringue)",
+              "title": "Kollagen-Biostimulator fir Gesiicht oder Hals (pro Sprëtz)",
               "price": "650"
             },
             {
-              "title": "PRP (par séance)",
+              "title": "PRP (pro Sessioun)",
               "price": "400"
             },
             {
-              "title": "Skinbooster (par séance)",
+              "title": "Skinbooster (pro Sessioun)",
               "price": "300"
             },
             {
-              "title": "Microneedling avec PDRN (par séance)",
+              "title": "Microneedling mat PDRN (pro Sessioun)",
               "price": "250"
             },
             {
-              "title": "Peeling (à partir de)",
+              "title": "Peeling (ab)",
               "price": "200"
             },
             {
-              "title": "Réduction du double menton par lipolyse (à partir de)",
+              "title": "Reduktioun vum Duebelkinn duerch Lipolyse (ab)",
               "price": "700"
             },
             {
@@ -413,43 +445,43 @@
               "price": "150"
             },
             {
-              "title": "Fils tenseurs (prix sur demande)",
+              "title": "Zuchfäden (Präis op Ufro)",
               "price": ""
             }
           ]
         },
         {
-          "title": "corps",
+          "title": "Kierper",
           "item": [
             {
-              "title": "Acide Hyaluronique (par seringue)",
+              "title": "Hyaluronsäure (pro Sprëtz)",
               "price": "900"
             },
             {
-              "title": "Biostimulateurs de collagène fessiers, abdomen ou cuisses (par seringue)",
+              "title": "Kollagen-Biostimulatoren fir Poen, Bauch oder Oberschenkel (pro Sprëtz)",
               "price": "900"
             },
             {
-              "title": "Mésothérapie (à partir de)",
+              "title": "Mesotherapie (ab)",
               "price": "150"
             },
             {
-              "title": "Traitement anti-cellulite (à partir de)",
+              "title": "Anti-Cellulite Behandlung (ab)",
               "price": "150"
             },
             {
-              "title": "Intralipothérapie (à partir de)",
+              "title": "Intralipotherapie (ab)",
               "price": "200"
             },
             {
-              "title": "Fils tenseurs (prix sur demande)",
+              "title": "Zuchfäden (Präis op Ufro)",
               "price": ""
             }
           ]
         }
       ],
-      "info2": "Les actes à visée esthétique ne sont pas pris en charge par la CNS",
-      "doctena": "Demander un rendez-vous"
+      "info2": "Ästhetesch Behandlungen ginn net vun der CNS iwwerholl.",
+      "doctena": "E Rendez-vous ufroen"
     }
   },
   "teams": [
@@ -635,15 +667,15 @@
       "doctena": ""
     }
   ],
-  "notFound": "Cette page est introuvable.",
+  "notFound": "Dës Säit kann net fonnt ginn.",
   "modelPop": {
-    "title": "Pour noël, offrez bien plus qu'un simple cadeau...",
+    "title": "Dëse Chrëschtdag, gitt méi wéi nëmmen e Kaddo...",
     "image": "/assets/modalPop.jpg",
     "text": [
-      "Les chèques cadeaux sont disponibles pour tous les traitements esthétiques.",
-      "Rendez-vous directement dans votre cabinet",
-      "Chèque cadeau",
-      "Médecine esthétique"
+      "Gutscheiner sinn fir all Schéinheetsbehandlungen verfügbar.",
+      "Kommt direkt an Äert Büro.",
+      "Kaddo-Gutschein",
+      "Ästhetesch Medizin"
     ]
   }
 }
