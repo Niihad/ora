@@ -38,7 +38,7 @@ export default function Profil({
   }
 
   const profil = teams.find(
-    (val: Team) => val.slug === teamId
+    (val: Team) => val.slug === decodeURIComponent(teamId)
   );
 
   useEffect(() => {

@@ -1,4 +1,3 @@
-// components/PageTransition.tsx
 import { motion } from 'framer-motion';
 
 const pageVariants = {

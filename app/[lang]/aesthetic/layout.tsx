@@ -5,12 +5,15 @@ import { usePathname } from "next/navigation";
 import { useDictionary } from "@/i18n/dictionary-provider";
 import Link from "next/link";
 import TransitionPage from "../components/TransitionPage";
+import { Locale } from "@/i18n/i18n-config";
 
-interface AestheticLayoutProps {
-  children: ReactNode;
-}
-
-export default function AestheticLayout({ children }: AestheticLayoutProps) {
+export default function AestheticLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: { lang: Locale };
+}) {
   const pathname = usePathname().replace(/^\/[a-z]{2}(?=\/)/, "");
   const aesthetic = useDictionary().aesthetic;
 
@@ -20,9 +23,9 @@ export default function AestheticLayout({ children }: AestheticLayoutProps) {
         {aesthetic.categories.map((category) => (
           <Link
             key={category.title}
-            href={`/aesthetic/${category.link}`}
+            href={`/${params.lang}/aesthetic/${category.link}`}
             className={`uppercase font-bold px-4 pt-0 ${
-              pathname === `/aesthetic/${category.link}`
+              pathname === `/${params.lang}/aesthetic/${category.link}`
                 ? "text-neutral-400"
                 : "text-black hover:text-neutral-400"
             }`}

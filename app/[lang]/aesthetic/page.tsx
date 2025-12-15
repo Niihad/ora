@@ -7,8 +7,13 @@ import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "../components/ScrollAnimationWrapper";
 import Link from "next/link";
 import Image from "next/image";
+import { Locale } from "@/i18n/i18n-config";
 
-export default function Aesthetic() {
+export default function Aesthetic({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
   const ScrollSens = (sens: string) => {
     return useMemo(() => getScrollAnimation(sens), [sens]);
   };
@@ -28,7 +33,7 @@ export default function Aesthetic() {
       >
         <ScrollAnimationWrapper>
           <motion.div variants={ScrollSens(sens)}>
-            <Link href={`/aesthetic/${link}`}>
+            <Link href={`/${lang}/aesthetic/${link}`}>
               <div className="peer">
                 <div
                   className={`${color} shadow-lg w-full transform duration-500 hover:translate-x-5 hover:-translate-y-5 cursor-pointer`}
@@ -53,6 +58,10 @@ export default function Aesthetic() {
         </ScrollAnimationWrapper>
       </div>
     );
+  };
+
+  const getLinkLang = () => {
+    return lang !== "lu" ? lang : "fr";
   };
 
   return (
@@ -128,9 +137,7 @@ export default function Aesthetic() {
                   >
                     <Link
                       target="_blank"
-                      href={
-                        "https://www.doctena.lu/fr/specialite/medecine-esthetique/dr-filipa-abreu-1897147#24370"
-                      }
+                      href={`https://www.doctena.lu/${getLinkLang()}/specialite/medecine-esthetique/dr-filipa-abreu-1897147#24370`}
                     >
                       {aesthetic.doctena}
                     </Link>
