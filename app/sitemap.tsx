@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "dr-agnès-hussein",
     "dr-gorian-freminet",
     "dr-david-narberger",
+    "dr-filipa-abreu"
   ];
 
   const now = new Date().toISOString();
