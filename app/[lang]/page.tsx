@@ -25,7 +25,7 @@ export default function Home({
 
   return (
     <>
-      <ModalPop/>
+      {/* <ModalPop/> */}
       <div className="relative sm:pt-0">
         <div className="h-[77vh] contrast-[.60] relative">
           <Image
